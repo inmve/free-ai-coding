@@ -1,0 +1,16 @@
+{
+  "githubUserId": 184829,
+  "githubUsername": "inmve",
+  "submission": {
+    "toolName": "Claude Code",
+    "tier": "paid",
+    "timeType": "monthly",
+    "monthlyTopTierDays": 23,
+    "monthlyAvgHoursPerDay": 2,
+    "proModels": [
+      "Qwen3-Coder-480B",
+      "GPT-5 mini"
+    ]
+  },
+  "submittedAt": "2025-08-16T13:37:01.175Z"
+}
