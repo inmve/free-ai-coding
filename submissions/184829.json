@@ -1,0 +1,15 @@
+{
+  "githubUserId": 184829,
+  "githubUsername": "inmve",
+  "submission": {
+    "toolName": "Gemini CLI",
+    "tier": "paid",
+    "timeType": "daily",
+    "dailyHours": 3,
+    "dailyTopTierHours": 4,
+    "proModels": [
+      "Gemini 2.5 Pro"
+    ]
+  },
+  "submittedAt": "2025-08-17T10:43:31.321Z"
+}
