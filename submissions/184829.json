@@ -1,0 +1,16 @@
+{
+  "githubUserId": 184829,
+  "githubUsername": "inmve",
+  "submission": {
+    "toolName": "Claude Code",
+    "tier": "free",
+    "timeType": "daily",
+    "dailyHours": 3,
+    "dailyTopTierHours": 20.5,
+    "proModels": [
+      "GPT-5 mini",
+      "Gemini 2.5 Pro"
+    ]
+  },
+  "submittedAt": "2025-08-17T10:13:05.226Z"
+}
