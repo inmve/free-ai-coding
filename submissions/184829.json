@@ -1,0 +1,17 @@
+{
+  "githubUserId": 184829,
+  "githubUsername": "inmve",
+  "submission": {
+    "toolName": "Gemini CLI",
+    "tier": "free",
+    "timeType": "daily",
+    "dailyHours": 3,
+    "dailyTopTierHours": 2,
+    "proModels": [
+      "GPT-5",
+      "Claude Sonnet 4",
+      "Other"
+    ]
+  },
+  "submittedAt": "2025-08-17T19:11:13.847Z"
+}
