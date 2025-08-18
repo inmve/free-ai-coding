@@ -1,0 +1,15 @@
+{
+  "githubUserId": 184829,
+  "githubUsername": "inmve",
+  "submission": {
+    "toolName": "Other",
+    "toolNameCustom": "qwe",
+    "tier": "free",
+    "timeType": "daily",
+    "dailyTopTierHours": 1,
+    "proModels": [
+      "Claude Opus"
+    ]
+  },
+  "submittedAt": "2025-08-18T12:25:25.885Z"
+}
