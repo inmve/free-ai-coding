@@ -1,4 +1,5 @@
 Last updated: August 19, 2025 • PRs/issues welcome • ⭐ Star to come back later
+**Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md)
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
