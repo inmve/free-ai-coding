@@ -1,4 +1,4 @@
-Last updated: August 19, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 20, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [日本語](README-ja.md)
 
