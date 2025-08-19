@@ -2,13 +2,13 @@
   "githubUserId": 184829,
   "githubUsername": "inmve",
   "submission": {
-    "toolName": "Claude Code",
-    "tier": "paid",
+    "toolName": "Cursor",
+    "tier": "free",
     "timeType": "daily",
+    "dailyTopTierHours": 0,
     "proModels": [
-      "Claude Opus 4.1",
-      "Claude Sonnet 4"
+      "Don't know"
     ]
   },
-  "submittedAt": "2025-08-18T16:12:45.452Z"
+  "submittedAt": "2025-08-19T07:00:47.881Z"
 }
