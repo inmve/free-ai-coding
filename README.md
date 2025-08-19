@@ -1,4 +1,4 @@
-Last updated: August 18, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 19, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
@@ -12,7 +12,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | ~33h/day (~1000h/month) | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | ~20h/day (~600h/month) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | ~1.7h/day (~50h/month) | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | ~3h total | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | ~3h total | Yes |
 | [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
@@ -94,7 +94,7 @@ _(ordered from most generous to least)_
 - $20 free credits on signup
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
-- No credit card required for initial credits
+- Credit card required to claim bonus credits
 - Supports bringing your own API keys
 
 **Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/)
