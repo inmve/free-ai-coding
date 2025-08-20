@@ -2,13 +2,12 @@
   "githubUserId": 184829,
   "githubUsername": "inmve",
   "submission": {
-    "toolName": "Claude Code",
+    "toolName": "Codex",
     "tier": "paid",
     "timeType": "daily",
     "proModels": [
-      "Claude Opus 4.1",
-      "Claude Sonnet 4"
+      "GPT-5"
     ]
   },
-  "submittedAt": "2025-08-18T16:12:45.452Z"
+  "submittedAt": "2025-08-18T19:19:05.828Z"
 }
