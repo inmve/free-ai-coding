@@ -4,11 +4,13 @@
   "submission": {
     "toolName": "Claude Code",
     "tier": "paid",
-    "timeType": "daily",
+    "timeType": "monthly",
+    "monthlyTopTierDays": 31,
+    "monthlyAvgHoursPerDay": 10,
     "proModels": [
       "Claude Opus 4.1",
       "Claude Sonnet 4"
     ]
   },
-  "submittedAt": "2025-08-18T16:12:45.452Z"
+  "submittedAt": "2025-08-20T10:46:00.489Z"
 }
