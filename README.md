@@ -1,4 +1,4 @@
-Last updated: August 19, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 21, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md)
 
@@ -14,7 +14,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | ~33h/day (~1000h/month) | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | ~20h/day (~600h/month) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | ~1.7h/day (~50h/month) | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | ~3h total | Yes |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | ~4h total | Yes |
 | [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
@@ -92,8 +92,8 @@ _(ordered from most generous to least)_
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **~3h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
-- $20 free credits on signup
+> **~4h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
+- $25 free credits ($5 on signup + $20 on first top-up)
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
 - Credit card required to claim bonus credits
@@ -274,7 +274,7 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Lovable](https://lovable.dev/)
 
-**Pro ($25/mo):** 100 messages/month
+**Pro ($25/mo):** 150 credits/month (5 daily credits)
 **Teams ($30/mo):** Higher limits (undisclosed)
 
 **Links:** [Messaging Limits](https://docs.lovable.dev/user-guides/messaging-limits)
@@ -388,7 +388,7 @@ __(unspecified/basic models)__
 ### [Lovable](https://lovable.dev/)
 
 **~0.5h/month with unspecified models**
-- 5 credits/day, 30/month cap
+- 5 daily credits, max 30 per month (free)
 - Models not publicly enumerated
 - Credit card required
 
