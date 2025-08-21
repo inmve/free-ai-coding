@@ -5,10 +5,11 @@
     "toolName": "Claude Code",
     "tier": "paid",
     "timeType": "daily",
+    "dailyTopTierHours": 8,
     "proModels": [
-      "Claude Opus 4.1",
-      "Claude Sonnet 4"
+      "Claude Sonnet 4",
+      "Claude Opus 4.1"
     ]
   },
-  "submittedAt": "2025-08-18T16:12:45.452Z"
+  "submittedAt": "2025-08-21T08:40:58.106Z"
 }
