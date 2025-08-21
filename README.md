@@ -5,7 +5,7 @@ Last updated: August 14, 2025 • PRs/issues welcome • ⭐ Star to come back l
 Many AI coding tools claim to be "free," but access to pro-grade models usually runs out fast, then you're downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
 
 ## TL;DR — Ranked Free Tiers for Pro‑Grade Coding
-_(ordered from most generous to least; time estimates use the [Methodology](#methodology--assumptions) below)_
+_(ordered from most generous to least; time estimates use the [Methodology](#methodology) below)_
 
 | Tool | Pro‑grade models | Free tier limit | Approx free coding time | Credit card |
 |------|------------------|------------------|--------------------------|-------------|
@@ -30,6 +30,15 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 | Qwen3-Coder-480B | 69.6% (interactive) / 67.0% (single) | Alibaba |
 | Gemini 2.5 Pro | 63.2% | Google |
 
+### Contributing Your Usage Data
+
+Help make this resource more accurate by sharing your actual coding hours → [Submit your usage data](https://free-ai-usage.vercel.app/)
+
+If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed!
+
+### Disclaimer
+
+No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
 
 ## Contents
 
@@ -38,6 +47,8 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 - [3. Tools with Paid Tiers with Pro-Grade Models](#3-tools-with-paid-tiers-with-pro-grade-models)
 - [4. Tools with Free Access to Basic Models](#4-tools-with-free-access-to-basic-models)
 - [5. Local Models](#5-local-models)
+- [Methodology](#methodology)
+- [Related Resources](#related-resources)
 
 
 ## 1. AI-coding Tools with Free Access to Pro-Grade Models
@@ -465,14 +476,13 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Methodology / Assumptions
+## Methodology
 
 - **Goal**: Compare agentic coding systems by their access to frontier models.
 - **What qualifies a model as "pro-grade"?** For this comparison, models must achieve ≥60% on SWE-bench Verified, demonstrating real-world software engineering capability. Current qualifying models: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), and Gemini 2.5 Pro (63.2%).
 - **[1] Requests to hours**: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
 - **[2] Tokens to hours**: ~250k tokens ≈ 1 coding hour (based on real-world AI agent usage data).
 - **[3] Chats/Credits to hours**: Multi-turn agentic chats and prompt credits are assumed equivalent to single requests for estimation purposes.
-- If you spot an error or missing source link, please open an issue or a pull request.
 
 ---
 
@@ -482,5 +492,3 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Disclaimer
-No affiliation with any vendor. All trademarks belong to their owners. Information is for research; accuracy not guaranteed; limits/pricing change frequently.
