@@ -4,29 +4,29 @@ Last updated: August 26, 2025 • PRs/issues welcome • ⭐ Star to come back l
 
 # AI Coding Tools: Where Pro-Grade Models Are Actually Free 
 
-Many AI coding tools claim to be "free," but access to pro-grade models usually runs out fast, then you're downgraded. Each tool uses different limits (credits, tokens, requests), so fair comparison is hard. This list puts them side by side and shows **how many hours of coding on pro-grade LLMs you actually get for free**.
+Many AI coding tools claim to be "free," but access to pro-grade models usually runs out fast, then you're downgraded. Each tool uses different limits (credits, tokens, requests), making comparison difficult. This list puts them side by side to show what you actually get for free.
 
-## TL;DR — Ranked Free Tiers for Pro‑Grade Coding
-_(ordered from most generous to least; time estimates use the [Methodology](#methodology) below)_
+## TL;DR — Free Tiers for Pro‑Grade AI Coding
+_(tools with higher limits listed first)_
 
-| Tool | Pro‑grade models | Free tier limit | Approx free coding time | Credit card |
-|------|------------------|------------------|--------------------------|-------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | ~33h/day (~1000h/month) | No |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | ~20h/day (~600h/month) | No |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | ~1.7h/day (~50h/month) | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | ~4h total | Yes |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
-| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | ~1h/month | No |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes | |
-| [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | ~0.25h/day (~7.5h/month) | No |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | ~0.8h/month | No |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | Unknown | No (preview) |
+| Tool | Pro‑grade models | Free tier limit | Credit card |
+|------|------------------|------------------|-------------|
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | No |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | No |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | Yes |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | No |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | No |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | Yes |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | No |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | No |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
 
-## How Accurate Are These Estimates?
+## Help Make This More Accurate
 
-These time estimates are based on calculations, but **real usage varies by coding style and task complexity**. Help make this resource more accurate by [sharing your actual coding hours →](https://free-ai-usage.vercel.app/)
+**Real usage varies widely by coding style, task complexity, and tool implementation**. Help improve this resource by [sharing your actual experience →](https://free-ai-usage.vercel.app/)
 
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
@@ -40,9 +40,9 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 | Qwen3-Coder-480B | 69.6% (interactive) / 67.0% (single) | Alibaba |
 | Gemini 2.5 Pro | 63.2% | Google |
 
-### Contributing Your Usage Data
+### Contributing
 
-Help make this resource more accurate by sharing your actual coding hours → [Submit your usage data](https://free-ai-usage.vercel.app/)
+Help improve this resource by sharing your actual usage experience → [Submit your feedback](https://free-ai-usage.vercel.app/)
 
 If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
@@ -57,7 +57,7 @@ No affiliation with any vendor. All trademarks belong to their owners. Informati
 - [3. Tools with Paid Tiers with Pro-Grade Models](#3-tools-with-paid-tiers-with-pro-grade-models)
 - [4. Tools with Free Access to Basic Models](#4-tools-with-free-access-to-basic-models)
 - [5. Local Models](#5-local-models)
-- [Methodology](#methodology)
+- [Comparison Notes](#comparison-notes)
 - [Related Resources](#related-resources)
 
 
@@ -66,7 +66,7 @@ _(ordered from most generous to least)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **~33h/day (~1000h/month) of Qwen3-Coder-480B coding**
+> **Qwen3-Coder-480B access**
 - 2,000 requests/day free tier via Qwen OAuth
 - 60 requests/minute rate limit
 - Command-line AI workflow tool (adapted from Gemini CLI)
@@ -79,10 +79,9 @@ _(ordered from most generous to least)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **~20h/day (~600h/month) of Claude Sonnet coding during beta**
-- GPT-5 access with generous daily quota during preview
+> **Claude Sonnet 4 access during beta**
 - 5M tokens/day free tier (20M on first day only)
-- Claude-based model (Anthropic provider)
+- Claude Sonnet 4 model (confirmed via testing)
 - No credit card required during beta
 - Token limits reset at midnight UTC
 - Note: Upgrade to Jira Standard/Premium/Enterprise for 20M tokens/day
@@ -93,9 +92,9 @@ _(ordered from most generous to least)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **~1.7h/day (~50h/month) of Gemini 2.5 Pro coding**
+> **Gemini 2.5 Pro access**
 - 100 requests/day limit
-- Fallback: ~4.2h/day with Gemini 2.5 Flash (250 requests/day)
+- Fallback: 250 requests/day with Gemini 2.5 Flash
 - No credit card required
 - Google models only
 - Switches to paid rates after free quota
@@ -106,7 +105,7 @@ _(ordered from most generous to least)_
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **~4h total of Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 coding**
+> **Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 access**
 - $25 free credits ($5 on signup + $20 on first top-up)
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
@@ -119,7 +118,7 @@ _(ordered from most generous to least)_
 
 ### [Warp](https://warp.dev/)
 
-> **~2.5h/month across Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
+> **Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro access**
 - 150 requests/month limit
 - Multiple providers (Claude, OpenAI, Gemini)
 - No credit card required for basic signup
@@ -131,7 +130,7 @@ _(ordered from most generous to least)_
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **~0.8h/month of Claude Sonnet 4 coding**
+> **Claude Sonnet 4 access**
 - 50 agentic chats/month limit (multi-turn conversations)
 - Latest Claude models (AWS-hosted)
 - Credit card required
@@ -144,7 +143,7 @@ _(ordered from most generous to least)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **~0.8h/month of agent interactions (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **Agent Mode with GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
 - 50 chats + 2,000 completions/month limit
 - Agent Mode with autonomous multi-step coding
 - Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
@@ -157,7 +156,7 @@ _(ordered from most generous to least)_
 
 ### [Trae](https://trae.ai/)
 
-> **~1h/month across Claude 4 Sonnet, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro**
+> **Claude 4 Sonnet, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro access**
 - 10 fast requests + 50 slow requests/month for premium models
 - 1,000 slow requests/month for advanced models
 - 5,000 auto-completions/month
@@ -171,7 +170,7 @@ _(ordered from most generous to least)_
 
 ### [Windsurf](https://windsurf.com/)
 
-> **~0.4h/month across OpenAI, Anthropic, Google, xAI models**
+> **OpenAI, Anthropic, Google, xAI model access**
 - 25 prompt credits/month limit
 - Multiple providers (OpenAI, Claude, Gemini, xAI)
 - Credit card required
@@ -183,7 +182,7 @@ _(ordered from most generous to least)_
 
 ### [Jules](https://jules.google/)
 
-> **~0.25h/day (~7.5h/month) of Gemini 2.5 Pro coding**
+> **Gemini 2.5 Pro access**
 - 15 tasks/day free tier
 - 3 concurrent tasks
 - Gemini 2.5 Pro model
@@ -197,7 +196,7 @@ _(ordered from most generous to least)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **~0.8h/month of Claude Sonnet 4 / 3.7 coding**
+> **Claude Sonnet 4 / 3.7 access**
 - 50 vibe requests/month (Free tier)
 - Claude models only (AWS-hosted)
 - No credit card required
@@ -210,7 +209,7 @@ _(ordered from most generous to least)_
 
 ### [Qoder](https://qoder.com/)
 
-> **Unknown duration with Qwen3-Coder-480B, Claude, GPT, Gemini models (free preview)**
+> **Qwen3-Coder-480B, Claude, GPT, Gemini models (free preview)**
 - Limited credits for chat and agent requests during preview
 - AI-powered IDE from Alibaba (public preview launched August 2025)
 - Available for Windows and macOS
@@ -235,7 +234,7 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **~33h/day (~1000h/month) of Qwen3-Coder coding**
+> **Qwen3-Coder-480B via OpenRouter**
 - 2,000 requests/day free tier for Qwen3-Coder-480B
 - Additional free models: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
 - OpenAI-compatible API for all major IDEs
@@ -249,7 +248,7 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **~1.7h/day (~50h/month) of Qwen3-Coder/Llama 3.1 coding**
+> **Qwen3-Coder-480B and Llama 3.1 access**
 - 100 requests/day free tier
 - Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
@@ -265,7 +264,7 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-**Jira Standard ($7.53/user/mo):** 20M tokens/day (~80h/day of Claude Sonnet coding)
+**Jira Standard ($7.53/user/mo):** 20M tokens/day
 **Jira Premium ($15.25/user/mo):** 20M tokens/day
 **Jira Enterprise (custom):** 20M tokens/day
 - 4x increase from free tier (5M → 20M tokens/day)
@@ -429,8 +428,8 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Jules](https://jules.google/)
 
-**Pro ($20/mo via Google AI Pro):** 100 tasks/day (~1.7h/day of Gemini 2.5 Pro coding)
-**Ultra ($30/mo via Google AI Ultra):** 300 tasks/day (~5h/day of Gemini 2.5 Pro coding)
+**Pro ($20/mo via Google AI Pro):** 100 tasks/day
+**Ultra ($30/mo via Google AI Ultra):** 300 tasks/day
 - Higher/priority access to latest models in paid tiers
 - 15-60 concurrent tasks depending on plan
 - Gmail account required (18+ years)
@@ -460,7 +459,7 @@ __(unspecified/basic models)__
 
 ### [Bolt.new](https://bolt.new/)
 
-**~100h/month with unspecified models**
+**Unspecified models**
 - 1M tokens/month limit
 - Specific model not publicly specified
 - Credit card required
@@ -471,7 +470,7 @@ __(unspecified/basic models)__
 
 ### [Lovable](https://lovable.dev/)
 
-**~0.5h/month with unspecified models**
+**Unspecified models**
 - 5 daily credits, max 30 per month (free)
 - Models not publicly enumerated
 - Credit card required
@@ -482,7 +481,7 @@ __(unspecified/basic models)__
 
 ### [v0.dev](https://v0.dev/)
 
-**Variable duration with proprietary models (not frontier)**
+**Proprietary models (not frontier)**
 - GPT-5 access requires v0 Premium subscription
 - $5 in credits/month limit
 - Uses proprietary models with varied routing
@@ -569,13 +568,12 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ---
 
-## Methodology
+## Comparison Notes
 
-- **Goal**: Compare agentic coding systems by their access to frontier models.
-- **What qualifies a model as "pro-grade"?** For this comparison, models must achieve ≥60% on SWE-bench Verified, demonstrating real-world software engineering capability. Current qualifying models: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), and Gemini 2.5 Pro (63.2%).
-- **[1] Requests to hours**: 60 requests ≈ 1 AI-assisted coding hour (based on real-world task simulation).
-- **[2] Tokens to hours**: ~250k tokens ≈ 1 coding hour (based on real-world AI agent usage data).
-- **[3] Chats/Credits to hours**: Multi-turn agentic chats and prompt credits are assumed equivalent to single requests for estimation purposes.
+- **Goal**: Compare AI coding tools by their access to pro-grade models and free tier limits.
+- **What qualifies a model as "pro-grade"?** Models must achieve ≥60% on SWE-bench Verified, demonstrating real-world software engineering capability. Current qualifying models: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), and Gemini 2.5 Pro (63.2%).
+- **Different limit types**: Tools use various quota systems - requests, tokens, credits, chats - making direct comparison challenging. Check documentation for specifics.
+- **Real-world usage**: Actual consumption varies dramatically based on coding style, task complexity, and tool implementation.
 
 ---
 
