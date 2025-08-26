@@ -2,30 +2,33 @@
 > Esta página fue traducida automáticamente del inglés usando Claude AI.
 > Para mayor precisión, consulte la [versión original en inglés](README.md).
 
-Última actualización: 19 de agosto, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
+Última actualización: 26 de agosto, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
 
 # Herramientas de Codificación con IA: Donde los Modelos de Grado Profesional Son Realmente Gratuitos
 
-Muchas herramientas de codificación con IA afirman ser "gratuitas", pero el acceso a modelos de grado profesional generalmente se agota rápido, luego te degradan. Cada herramienta usa diferentes límites (créditos, tokens, solicitudes), por lo que la comparación justa es difícil. Esta lista los pone lado a lado y muestra **cuántas horas de codificación en LLMs de grado profesional obtienes realmente gratis**.
+Muchas herramientas de codificación con IA afirman ser "gratuitas", pero el acceso a modelos de grado profesional generalmente se agota rápido, luego te degradan. Cada herramienta usa diferentes límites (créditos, tokens, solicitudes), haciendo que la comparación sea difícil. Esta lista los pone lado a lado para mostrar lo que realmente obtienes gratis.
 
-## TL;DR — Niveles Gratuitos Clasificados para Codificación de Grado Profesional
-_(ordenados de más generoso a menos generoso; las estimaciones de tiempo usan la [Metodología](#metodología--suposiciones) siguiente)_
+## TL;DR — Niveles Gratuitos para Codificación de IA de Grado Profesional
+_(herramientas con límites más altos listadas primero)_
 
-| Herramienta | Modelos de grado profesional | Límite de nivel gratuito | Tiempo de codificación gratuito aproximado | Tarjeta de crédito |
-|-------------|------------------------------|--------------------------|---------------------------------------------|-------------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 solicitudes/día | ~33h/día (~1000h/mes) | No |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/día (beta) | ~20h/día (~600h/mes) | No |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 solicitudes/día | ~1.7h/día (~50h/mes) | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 créditos de registro (una vez) | ~3h total | Sí |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 solicitudes/mes | ~2.5h/mes | No |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mes | ~0.8h/mes | Sí |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completados/mes | ~0.8h/mes (agente) | No |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mes | ~0.4h/mes | Sí |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Límites diarios (no divulgados) | Desconocido | No (vista previa) |
+| Herramienta | Modelos de grado profesional | Límite de nivel gratuito | Tarjeta de crédito |
+|-------------|------------------------------|--------------------------|-------------------|
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 solicitudes/día | No |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/día (beta) | No |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 solicitudes/día | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de registro (una vez) | Sí |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 solicitudes/mes | No |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 solicitudes/mes | No |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mes | Sí |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completados/mes | No |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mes | Sí |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tareas/día | No |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 solicitudes vibe/mes | No |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Créditos limitados (vista previa) | No (vista previa) |
 
-## ¿Qué Tan Precisas Son Estas Estimaciones?
+## Ayuda a Hacer Esto Más Preciso
 
-Estas estimaciones de tiempo se basan en cálculos, pero **el uso real varía según el estilo de codificación y la complejidad de la tarea**. Ayuda a hacer este recurso más preciso [compartiendo tus horas reales de codificación →](https://free-ai-usage.vercel.app/)
+**El uso real varía ampliamente según el estilo de codificación, la complejidad de la tarea y la implementación de la herramienta**. Ayuda a mejorar este recurso [compartiendo tu experiencia real →](https://free-ai-usage.vercel.app/)
 
 ### Modelos de Grado Profesional Calificados
 Solo los modelos que logran >60% en SWE-bench Verified califican como grado profesional para tareas de codificación del mundo real. A continuación está la lista actual
@@ -39,6 +42,15 @@ Solo los modelos que logran >60% en SWE-bench Verified califican como grado prof
 | Qwen3-Coder-480B | 69.6% (interactivo) / 67.0% (único) | Alibaba |
 | Gemini 2.5 Pro | 63.2% | Google |
 
+### Contribuir
+
+Ayuda a mejorar este recurso compartiendo tu experiencia de uso real → [Envía tus comentarios](https://free-ai-usage.vercel.app/)
+
+Si ves un error, enlace de fuente faltante, o tienes información actualizada de cuota/modelo, por favor abre un issue o pull request con una fuente. ¡Las contribuciones de nuevas herramientas son bienvenidas! Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para pautas detalladas.
+
+### Descargo de Responsabilidad
+
+Sin afiliación con ningún proveedor. Todas las marcas registradas pertenecen a sus propietarios. La información es para investigación; no se garantiza la precisión; los límites/precios cambian con frecuencia.
 
 ## Contenidos
 
@@ -47,6 +59,8 @@ Solo los modelos que logran >60% en SWE-bench Verified califican como grado prof
 - [3. Herramientas con Niveles Pagos con Modelos de Grado Profesional](#3-herramientas-con-niveles-pagos-con-modelos-de-grado-profesional)
 - [4. Herramientas con Acceso Gratuito a Modelos Básicos](#4-herramientas-con-acceso-gratuito-a-modelos-básicos)
 - [5. Modelos Locales](#5-modelos-locales)
+- [Notas de Comparación](#notas-de-comparación)
+- [Recursos Relacionados](#recursos-relacionados)
 
 
 ## 1. Herramientas de Codificación con IA con Acceso Gratuito a Modelos de Grado Profesional
@@ -54,7 +68,7 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **~33h/día (~1000h/mes) de codificación con Qwen3-Coder-480B**
+> **Acceso a Qwen3-Coder-480B**
 - Nivel gratuito de 2,000 solicitudes/día vía Qwen OAuth
 - Límite de velocidad de 60 solicitudes/minuto
 - Herramienta de flujo de trabajo de IA de línea de comandos (adaptada de Gemini CLI)
@@ -67,10 +81,9 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **~20h/día (~600h/mes) de codificación con Claude Sonnet durante beta**
-- Acceso GPT-5 con cuota diaria generosa durante vista previa
+> **Acceso a Claude Sonnet 4 durante beta**
 - Nivel gratuito de 5M tokens/día (20M solo el primer día)
-- Modelo basado en Claude (proveedor Anthropic)
+- Modelo Claude Sonnet 4 (confirmado mediante pruebas)
 - No se requiere tarjeta de crédito durante beta
 - Los límites de tokens se reinician a medianoche UTC
 - Nota: Actualiza a Jira Standard/Premium/Enterprise para 20M tokens/día
@@ -81,9 +94,9 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **~1.7h/día (~50h/mes) de codificación con Gemini 2.5 Pro**
+> **Acceso a Gemini 2.5 Pro**
 - Límite de 100 solicitudes/día
-- Respaldo: ~4.2h/día con Gemini 2.5 Flash (250 solicitudes/día)
+- Respaldo: 250 solicitudes/día con Gemini 2.5 Flash
 - No se requiere tarjeta de crédito
 - Solo modelos de Google
 - Cambia a tarifas pagadas después de la cuota gratuita
@@ -487,14 +500,12 @@ Ejecutar modelos de frontera de peso abierto localmente proporciona asistencia d
 
 ---
 
-## Metodología / Suposiciones
+## Notas de Comparación
 
-- **Objetivo**: Comparar sistemas de codificación agéntica por su acceso a modelos de frontera.
-- **¿Qué califica un modelo como "grado profesional"?** Para esta comparación, los modelos deben lograr ≥60% en SWE-bench Verified, demostrando capacidad de ingeniería de software del mundo real. Modelos actuales calificados: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), y Gemini 2.5 Pro (63.2%).
-- **[1] Solicitudes a horas**: 60 solicitudes ≈ 1 hora de codificación asistida por IA (basado en simulación de tarea del mundo real).
-- **[2] Tokens a horas**: ~250k tokens ≈ 1 hora de codificación (basado en datos de uso de agente de IA del mundo real).
-- **[3] Chats/Créditos a horas**: Los chats agénticos multi-turno y créditos de prompt se asumen equivalentes a solicitudes únicas para propósitos de estimación.
-- Si detectas un error o enlace fuente faltante, por favor abre un issue o pull request.
+- **Objetivo**: Comparar herramientas de codificación de IA por su acceso a modelos de grado profesional y límites de nivel gratuito.
+- **¿Qué califica un modelo como "grado profesional"?** Los modelos deben lograr ≥60% en SWE-bench Verified, demostrando capacidad de ingeniería de software del mundo real. Modelos actuales calificados: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), y Gemini 2.5 Pro (63.2%).
+- **Diferentes tipos de límites**: Las herramientas usan varios sistemas de cuotas - solicitudes, tokens, créditos, chats - haciendo la comparación directa desafiante. Consulta la documentación para especificaciones.
+- **Uso del mundo real**: El consumo real varía dramáticamente según el estilo de codificación, la complejidad de la tarea y la implementación de la herramienta.
 
 ---
 

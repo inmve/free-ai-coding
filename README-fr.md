@@ -2,30 +2,33 @@
 > Cette page a été traduite automatiquement de l'anglais en utilisant Claude AI.
 > Pour plus de précision, consultez la [version anglaise originale](README.md).
 
-Dernière mise à jour : 19 août 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
+Dernière mise à jour : 26 août 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
 
 # Outils de Codage IA : Où les Modèles de Niveau Professionnel Sont Vraiment Gratuits
 
-Beaucoup d'outils de codage IA prétendent être "gratuits", mais l'accès aux modèles de niveau professionnel s'épuise généralement rapidement, puis vous êtes rétrogradé. Chaque outil utilise différentes limites (crédits, tokens, requêtes), donc la comparaison équitable est difficile. Cette liste les met côte à côte et montre **combien d'heures de codage sur des LLMs de niveau professionnel vous obtenez réellement gratuitement**.
+Beaucoup d'outils de codage IA prétendent être "gratuits", mais l'accès aux modèles de niveau professionnel s'épuise généralement rapidement, puis vous êtes rétrogradé. Chaque outil utilise différentes limites (crédits, tokens, requêtes), donc la comparaison équitable est difficile. Cette liste les met côte à côte pour montrer ce que vous obtenez réellement gratuitement.
 
-## TL;DR — Niveaux Gratuits Classés pour le Codage de Niveau Professionnel
-_(ordonnés du plus généreux au moins généreux ; les estimations de temps utilisent la [Méthodologie](#méthodologie--hypothèses) ci-dessous)_
+## TL;DR — Niveaux Gratuits pour le Codage IA de Niveau Professionnel
+_(outils avec des limites plus élevées listés en premier)_
 
-| Outil | Modèles de niveau professionnel | Limite du niveau gratuit | Temps de codage gratuit approximatif | Carte de crédit |
-|-------|----------------------------------|---------------------------|---------------------------------------|------------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requêtes/jour | ~33h/jour (~1000h/mois) | Non |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/jour (bêta) | ~20h/jour (~600h/mois) | Non |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requêtes/jour | ~1.7h/jour (~50h/mois) | Non |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 crédits d'inscription (unique) | ~3h total | Oui |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requêtes/mois | ~2.5h/mois | Non |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats d'agent/mois | ~0.8h/mois | Oui |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 complétions/mois | ~0.8h/mois (agent) | Non |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 crédits/mois | ~0.4h/mois | Oui |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Limites quotidiennes (non divulguées) | Inconnu | Non (aperçu) |
+| Outil | Modèles de niveau professionnel | Limite du niveau gratuit | Carte de crédit |
+|-------|----------------------------------|---------------------------|-----------------|
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requêtes/jour | Non |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/jour (bêta) | Non |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requêtes/jour | Non |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 crédits d'inscription (unique) | Oui |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requêtes/mois | Non |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requêtes/mois | Non |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats d'agent/mois | Oui |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 complétions/mois | Non |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 crédits/mois | Oui |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tâches/jour | Non |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 requêtes vibe/mois | Non |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Crédits limités (aperçu) | Non (aperçu) |
 
-## À Quel Point Ces Estimations Sont-Elles Précises ?
+## Aidez à Rendre Ceci Plus Précis
 
-Ces estimations de temps sont basées sur des calculs, mais **l'utilisation réelle varie selon le style de codage et la complexité des tâches**. Aidez à rendre cette ressource plus précise en [partageant vos heures de codage réelles →](https://free-ai-usage.vercel.app/)
+**L'utilisation réelle varie largement selon le style de codage, la complexité des tâches et l'implémentation de l'outil**. Aidez à améliorer cette ressource [en partageant votre expérience réelle →](https://free-ai-usage.vercel.app/)
 
 ### Modèles de Niveau Professionnel Qualifiés
 Seuls les modèles atteignant >60% sur SWE-bench Verified se qualifient comme de niveau professionnel pour les tâches de codage du monde réel. Voici la liste actuelle
@@ -40,6 +43,16 @@ Seuls les modèles atteignant >60% sur SWE-bench Verified se qualifient comme de
 | Gemini 2.5 Pro | 63.2% | Google |
 
 
+### Contribuer
+
+Aidez à améliorer cette ressource en partageant votre expérience d'utilisation réelle → [Soumettez vos commentaires](https://free-ai-usage.vercel.app/)
+
+Si vous voyez une erreur, un lien source manquant, ou avez des informations de quota/modèle mises à jour, veuillez ouvrir un issue ou une pull request avec une source. Les contributions de nouveaux outils sont bienvenues ! Consultez [CONTRIBUTING.md](CONTRIBUTING.md) pour des directives détaillées.
+
+### Avertissement
+
+Aucune affiliation avec aucun fournisseur. Toutes les marques déposées appartiennent à leurs propriétaires. Les informations sont à des fins de recherche ; la précision n'est pas garantie ; les limites/prix changent fréquemment.
+
 ## Sommaire
 
 - [1. Outils de Codage IA avec Accès Gratuit aux Modèles de Niveau Professionnel](#1-outils-de-codage-ia-avec-accès-gratuit-aux-modèles-de-niveau-professionnel)
@@ -47,6 +60,8 @@ Seuls les modèles atteignant >60% sur SWE-bench Verified se qualifient comme de
 - [3. Outils avec Niveaux Payants avec Modèles de Niveau Professionnel](#3-outils-avec-niveaux-payants-avec-modèles-de-niveau-professionnel)
 - [4. Outils avec Accès Gratuit aux Modèles de Base](#4-outils-avec-accès-gratuit-aux-modèles-de-base)
 - [5. Modèles Locaux](#5-modèles-locaux)
+- [Notes de Comparaison](#notes-de-comparaison)
+- [Ressources Connexes](#ressources-connexes)
 
 
 ## 1. Outils de Codage IA avec Accès Gratuit aux Modèles de Niveau Professionnel
@@ -54,7 +69,7 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **~33h/jour (~1000h/mois) de codage Qwen3-Coder-480B**
+> **Accès à Qwen3-Coder-480B**
 - Niveau gratuit de 2,000 requêtes/jour via Qwen OAuth
 - Limite de taux de 60 requêtes/minute
 - Outil de workflow IA en ligne de commande (adapté de Gemini CLI)
@@ -67,10 +82,9 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **~20h/jour (~600h/mois) de codage Claude Sonnet pendant la bêta**
-- Accès GPT-5 avec quota quotidien généreux pendant l'aperçu
+> **Accès à Claude Sonnet 4 pendant la bêta**
 - Niveau gratuit de 5M tokens/jour (20M le premier jour seulement)
-- Modèle basé sur Claude (fournisseur Anthropic)
+- Modèle Claude Sonnet 4 (confirmé par tests)
 - Aucune carte de crédit requise pendant la bêta
 - Les limites de tokens se réinitialisent à minuit UTC
 - Note : Mise à niveau vers Jira Standard/Premium/Enterprise pour 20M tokens/jour
@@ -81,7 +95,7 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **~1.7h/jour (~50h/mois) de codage Gemini 2.5 Pro**
+> **Accès à Gemini 2.5 Pro**
 - Limite de 100 requêtes/jour
 - Solution de secours : ~4.2h/jour avec Gemini 2.5 Flash (250 requêtes/jour)
 - Aucune carte de crédit requise
@@ -94,8 +108,8 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **~3h total de codage Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1**
-- $20 crédits gratuits à l'inscription
+> **Accès à Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1**
+- $25 crédits gratuits ($5 à l'inscription + $20 au premier rechargement)
 - Extension VS Code open source
 - Paiement à l'utilisation sans majoration sur la tarification des modèles
 - Carte de crédit requise pour réclamer les crédits bonus
@@ -107,7 +121,7 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Warp](https://warp.dev/)
 
-> **~2.5h/mois à travers Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
+> **Accès à Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
 - Limite de 150 requêtes/mois
 - Multiples fournisseurs (Claude, OpenAI, Gemini)
 - Aucune carte de crédit requise pour l'inscription de base
@@ -117,9 +131,23 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ---
 
+### [Trae](https://trae.ai/)
+
+> **Accès à Claude 4 Sonnet, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro**
+- 10 requêtes rapides + 50 requêtes lentes/mois pour les modèles premium
+- 1,000 requêtes lentes/mois pour les modèles avancés
+- 5,000 auto-complétions/mois
+- IDE basé sur VS Code avec intégration IA
+- Multiples modèles premium incluant Claude 4 Sonnet (Bêta)
+- Aucune carte de crédit requise pour le niveau gratuit
+
+**Liens :** [Tarification](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
+
+---
+
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **~0.8h/mois de codage Claude Sonnet 4**
+> **Accès à Claude Sonnet 4**
 - Limite de 50 chats agentiques/mois (conversations multi-tours)
 - Derniers modèles Claude (hébergés AWS)
 - Carte de crédit requise
@@ -132,7 +160,7 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **~0.8h/mois d'interactions d'agent (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **Mode Agent avec GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
 - Limite de 50 chats + 2,000 complétions/mois
 - Mode Agent avec codage autonome multi-étapes
 - Multiples fournisseurs (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
@@ -145,7 +173,7 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ### [Windsurf](https://windsurf.com/)
 
-> **~0.4h/mois à travers les modèles OpenAI, Anthropic, Google, xAI**
+> **Accès aux modèles OpenAI, Anthropic, Google, xAI**
 - Limite de 25 crédits de prompt/mois
 - Multiples fournisseurs (OpenAI, Claude, Gemini, xAI)
 - Carte de crédit requise
@@ -155,15 +183,46 @@ _(ordonnés du plus généreux au moins généreux)_
 
 ---
 
+### [Jules](https://jules.google/)
+
+> **Accès à Gemini 2.5 Pro**
+- Niveau gratuit de 15 tâches/jour
+- 3 tâches simultanées
+- Modèle Gemini 2.5 Pro
+- Compte Gmail requis (18+ ans)
+- Les limites de tâches se réinitialisent sur une fenêtre glissante de 24 heures
+- Aucune carte de crédit requise
+
+**Liens :** [Limites d'Utilisation](https://jules.google/docs/usage-limits/) | [Documentation](https://jules.google/docs/)
+
+---
+
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Durée inconnue de codage Claude Sonnet 4 / 3.7**
-- Limites quotidiennes (non divulguées)
+> **Accès à Claude Sonnet 4 / 3.7**
+- 50 requêtes vibe/mois (Niveau gratuit)
 - Modèles Claude uniquement (hébergés AWS)
-- Aucune carte de crédit requise (période d'aperçu)
-- Épuisement du quota inconnu (période d'aperçu)
+- Aucune carte de crédit requise
+- Bonus de bienvenue 14 jours : 100 spec + 100 requêtes vibe
+- Niveaux payants : Pro ($20/mois - 225 vibe), Pro+ ($40/mois - 450 vibe), Power ($200/mois - 2,250 vibe)
 
-**Liens :** [Blog d'Introduction](https://kiro.dev/blog/introducing-kiro/)
+**Liens :** [Tarification](https://kiro.dev/pricing/) | [Blog d'Introduction](https://kiro.dev/blog/introducing-kiro/)
+
+---
+
+### [Qoder](https://qoder.com/)
+
+> **Modèles Qwen3-Coder-480B, Claude, GPT, Gemini (aperçu gratuit)**
+- Crédits limités pour les requêtes de chat et d'agent pendant l'aperçu
+- IDE alimenté par IA d'Alibaba (aperçu public lancé en août 2025)
+- Disponible pour Windows et macOS
+- Utilise principalement Qwen3-Coder-480B (modèle de codage phare d'Alibaba)
+- Prend également en charge les modèles Claude, GPT-4, Gemini
+- Mode Agent et Mode Quest pour le codage autonome
+- Aucune carte de crédit requise (période d'aperçu)
+- Tarification basée sur les crédits à venir bientôt
+
+**Liens :** [Page d'accueil](https://qoder.com/) | [Tarification](https://qoder.com/pricing)
 
 ---
 
@@ -487,14 +546,12 @@ Exécuter des modèles frontière à poids ouvert localement fournit une assista
 
 ---
 
-## Méthodologie / Hypothèses
+## Notes de Comparaison
 
-- **Objectif** : Comparer les systèmes de codage agentique par leur accès aux modèles frontière.
-- **Qu'est-ce qui qualifie un modèle comme "niveau professionnel" ?** Pour cette comparaison, les modèles doivent atteindre ≥60% sur SWE-bench Verified, démontrant une capacité d'ingénierie logicielle du monde réel. Modèles actuellement qualifiés : GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), et Gemini 2.5 Pro (63.2%).
-- **[1] Requêtes en heures** : 60 requêtes ≈ 1 heure de codage assisté par IA (basé sur une simulation de tâche du monde réel).
-- **[2] Tokens en heures** : ~250k tokens ≈ 1 heure de codage (basé sur des données d'utilisation d'agent IA du monde réel).
-- **[3] Chats/Crédits en heures** : Les chats agentiques multi-tours et crédits de prompt sont supposés équivalents aux requêtes uniques à des fins d'estimation.
-- Si vous repérez une erreur ou un lien source manquant, veuillez ouvrir un issue ou une pull request.
+- **Objectif** : Comparer les outils de codage IA par leur accès aux modèles de niveau professionnel et leurs limites de niveau gratuit.
+- **Qu'est-ce qui qualifie un modèle comme "niveau professionnel" ?** Les modèles doivent atteindre ≥60% sur SWE-bench Verified, démontrant une capacité d'ingénierie logicielle du monde réel. Modèles actuellement qualifiés : GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), et Gemini 2.5 Pro (63.2%).
+- **Différents types de limites** : Les outils utilisent divers systèmes de quotas - requêtes, tokens, crédits, chats - rendant la comparaison directe difficile. Consultez la documentation pour les spécifications.
+- **Utilisation du monde réel** : La consommation réelle varie considérablement selon le style de codage, la complexité des tâches et l'implémentation de l'outil.
 
 ---
 
