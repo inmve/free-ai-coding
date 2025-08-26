@@ -20,7 +20,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | ~0.25h/day (~7.5h/month) | No |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | ~0.8h/month | No |
 
 ## How Accurate Are These Estimates?
 
@@ -181,13 +181,14 @@ _(ordered from most generous to least)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Unknown duration of Claude Sonnet 4 / 3.7 coding**
-- Daily limits (undisclosed)
+> **~0.8h/month of Claude Sonnet 4 / 3.7 coding**
+- 50 vibe requests/month (Free tier)
 - Claude models only (AWS-hosted)
-- No credit card required (preview period)
-- Quota exhaustion unknown (preview period)
+- No credit card required
+- 14-day welcome bonus: 100 spec + 100 vibe requests
+- Paid tiers: Pro ($20/mo - 225 vibe), Pro+ ($40/mo - 450 vibe), Power ($200/mo - 2,250 vibe)
 
-**Links:** [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
+**Links:** [Pricing](https://kiro.dev/pricing/) | [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 
