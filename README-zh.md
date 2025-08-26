@@ -2,7 +2,7 @@
 > 此页面由Claude AI自动从英文翻译而来。
 > 为确保准确性，请参考[英文原版](README.md)。
 
-最后更新：2025年8月19日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
+最后更新：2025年8月26日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
 
 # AI编程工具：专业级模型真正免费的地方
 
@@ -67,10 +67,9 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **beta期间~20小时/天 (~600小时/月) 的Claude Sonnet编程**
-- 预览期间GPT-5访问，每日配额慷慨
+> **beta期间Claude Sonnet 4访问**
 - 5M令牌/天免费层（仅首日20M）
-- 基于Claude的模型（Anthropic提供商）
+- Claude Sonnet 4模型（通过测试确认）
 - beta期间无需信用卡
 - 令牌限制在UTC午夜重置
 - 注意：升级到Jira Standard/Premium/Enterprise可获得20M令牌/天

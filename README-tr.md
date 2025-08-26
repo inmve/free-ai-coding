@@ -1,4 +1,4 @@
-Son güncelleme: 21 Ağustos 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
+Son güncelleme: 26 Ağustos 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
 
 **Diller:** [English](README.md) • [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -80,9 +80,8 @@ _(en cömert olandan en az cömerte sıralı)_
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
 > **Beta sırasında Claude Sonnet 4 erişimi**
-- Önizleme sırasında cömert günlük kota ile GPT-5 erişimi
 - Günde 5M token ücretsiz katman (ilk gün sadece 20M)
-- Claude tabanlı model (Anthropic sağlayıcısı)
+- Claude Sonnet 4 modeli (test ile doğrulandı)
 - Beta sırasında kredi kartı gerekli değil
 - Token limitleri gece yarısı UTC'de sıfırlanır
 - Not: Günde 20M token için Jira Standard/Premium/Enterprise'a yükseltme

@@ -2,7 +2,7 @@
 > Esta página foi traduzida automaticamente do inglês usando Claude AI.
 > Para maior precisão, consulte a [versão original em inglês](README.md).
 
-Última atualização: 19 de agosto, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
+Última atualização: 26 de agosto, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
 
 # Ferramentas de Codificação com IA: Onde Modelos de Grau Profissional São Realmente Gratuitos
 
@@ -70,10 +70,9 @@ _(ordenadas da mais generosa para a menos generosa)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **~20h/dia (~600h/mês) de codificação com Claude Sonnet durante beta**
-- Acesso GPT-5 com cota diária generosa durante preview
+> **Acesso Claude Sonnet 4 durante beta**
 - Camada gratuita de 5M tokens/dia (20M apenas no primeiro dia)
-- Modelo baseado em Claude (provedor Anthropic)
+- Modelo Claude Sonnet 4 (confirmado via testes)
 - Cartão de crédito não necessário durante beta
 - Limites de tokens resetam à meia-noite UTC
 - Nota: Atualize para Jira Standard/Premium/Enterprise para 20M tokens/dia

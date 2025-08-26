@@ -2,7 +2,7 @@
 > このページはClaude AIを使用して英語から自動翻訳されました。
 > 正確性については[英語版オリジナル](README.md)をご参照ください。
 
-最終更新：2025年8月19日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
+最終更新：2025年8月26日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
 
 # AIコーディングツール：プロフェッショナルグレードモデルが本当に無料で使える場所
 
@@ -70,10 +70,9 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **ベータ期間中〜20時間/日（〜600時間/月）のClaude Sonnetコーディング**
-- プレビュー期間中、寛大な日次クォータでGPT-5アクセス
+> **ベータ期間中Claude Sonnet 4アクセス**
 - 5Mトークン/日無料ティア（初日のみ20M）
-- Claudeベースモデル（Anthropicプロバイダー）
+- Claude Sonnet 4モデル（テストで確認済み）
 - ベータ期間中クレジットカード不要
 - トークン制限はUTC午前0時にリセット
 - 注：20Mトークン/日にはJira Standard/Premium/Enterpriseへのアップグレードが必要
