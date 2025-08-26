@@ -314,6 +314,18 @@ These services provide API access to coding-optimized models that integrate with
 
 ---
 
+### [Qoder](https://qoder.com/)
+
+**Pricing not disclosed**
+- AI-powered IDE from Alibaba
+- Available for Windows and macOS
+- Agentic coding platform for software development
+- Multiple plan tiers available
+
+**Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
+
+---
+
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
 **Free with ChatGPT Plus ($20/mo):** GPT-5 access for coding tasks
