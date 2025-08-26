@@ -1,4 +1,4 @@
-Last updated: August 21, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 26, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -18,6 +18,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | ~1h/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
 | [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
 
@@ -152,6 +153,20 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Trae](https://trae.ai/)
+
+> **~1h/month across Claude 4 Sonnet, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro**
+- 10 fast requests + 50 slow requests/month for premium models
+- 1,000 slow requests/month for advanced models
+- 5,000 auto-completions/month
+- VS Code-based IDE with AI integration
+- Multiple premium models including Claude 4 Sonnet (Beta)
+- No credit card required for free tier
+
+**Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
+
+---
+
 ### [Windsurf](https://windsurf.com/)
 
 > **~0.4h/month across OpenAI, Anthropic, Google, xAI models**
@@ -270,6 +285,18 @@ These services provide API access to coding-optimized models that integrate with
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
+
+---
+
+### [Trae](https://trae.ai/)
+
+**Pro ($10/mo):** 600 fast requests + unlimited slow requests for premium models
+- Unlimited slow requests for advanced models
+- Extra packages available: $3-$12 for additional fast requests
+- Multiple premium models: Claude 4 Sonnet (Beta), Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT-4o
+- VS Code-based IDE with full AI integration
+
+**Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
 
 ---
 
