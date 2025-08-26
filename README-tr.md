@@ -4,26 +4,29 @@ Son güncelleme: 21 Ağustos 2025 • PR/issue'lar açık • ⭐ Daha sonra dö
 
 # AI Kodlama Araçları: Profesyonel Modellerin Gerçekten Ücretsiz Olduğu Yer
 
-Birçok AI kodlama aracı "ücretsiz" olduğunu iddia eder, ancak profesyonel sınıf modellere erişim genellikle hızla tükenir ve ardından düşük seviyeye indirilirsiniz. Her araç farklı limitler kullanır (kredi, token, istek), bu yüzden adil karşılaştırma zordur. Bu liste onları yan yana koyar ve **profesyonel sınıf LLM'lerle gerçekte kaç saat ücretsiz kodlama yapabileceğinizi** gösterir.
+Birçok AI kodlama aracı "ücretsiz" olduğunu iddia eder, ancak profesyonel sınıf modellere erişim genellikle hızla tükenir ve ardından düşük seviyeye indirilirsiniz. Her araç farklı limitler kullanır (kredi, token, istek), bu yüzden adil karşılaştırma zordur. Bu liste onları yan yana koyar ve **gerçekte ücretsiz olarak neler elde ettiğinizi** gösterir.
 
-## TL;DR — Profesyonel Sınıf Kodlama için Ücretsiz Katmanlar Sıralaması
-_(en cömert olandan en az cömerte; süre tahminleri aşağıdaki [Metodoloji](#metodoloji) kullanır)_
+## TL;DR — Profesyonel Sınıf AI Kodlama için Ücretsiz Katmanlar
+_(yüksek limitli araçlar önce listelenir)_
 
-| Araç | Profesyonel sınıf modeller | Ücretsiz katman limiti | Yaklaşık ücretsiz kodlama süresi | Kredi kartı |
+| Araç | Profesyonel sınıf modeller | Ücretsiz katman limiti | Kredi kartı |
 |------|---------------------------|------------------------|----------------------------------|-------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 istek/gün | ~33sa/gün (~1000sa/ay) | Hayır |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M token/gün (beta) | ~20sa/gün (~600sa/ay) | Hayır |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | ~1.7sa/gün (~50sa/ay) | Hayır |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 kayıt kredisi (tek seferlik) | ~4sa toplam | Evet |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 istek/ay | ~2.5sa/ay | Hayır |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajan sohbeti/ay | ~0.8sa/ay | Evet |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet + 2,000 tamamlama/ay | ~0.8sa/ay (ajan) | Hayır |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | ~0.4sa/ay | Evet |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Günlük limitler (açıklanmamış) | Bilinmiyor | Hayır (önizleme) |
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 istek/gün | Hayır |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M token/gün (beta) | Hayır |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | Hayır |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 kayıt kredisi (tek seferlik) | Evet |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 istek/ay | Hayır |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 istek/ay | Hayır |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajan sohbeti/ay | Evet |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet + 2,000 tamamlama/ay | Hayır |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe isteği/ay | Hayır |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Sınırlı kredi (önizleme) | Hayır (önizleme) |
 
-## Bu Tahminler Ne Kadar Doğru?
+## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
 
-Bu süre tahminleri hesaplamalara dayanır, ancak **gerçek kullanım kodlama stiline ve görev karmaşıklığına göre değişir**. [Gerçek kodlama saatlerinizi paylaşarak →](https://free-ai-usage.vercel.app/) bu kaynağın daha doğru olmasına yardımcı olun
+**Gerçek kullanım kodlama stiline, görev karmaşıklığına ve araç uygulamasına göre geniş ölçüde fark gösterir**. Bu kaynağı iyileştirmeye yardımcı olun [gerçek deneyiminizi paylaşarak →](https://free-ai-usage.vercel.app/)
 
 ### Uygun Profesyonel Sınıf Modeller
 Yalnızca SWE-bench Verified'da >%60 başarı gösteren modeller gerçek dünya kodlama görevleri için profesyonel sınıf olarak nitelendirilir. Mevcut liste aşağıdadır
@@ -37,11 +40,11 @@ Yalnızca SWE-bench Verified'da >%60 başarı gösteren modeller gerçek dünya 
 | Qwen3-Coder-480B | %69.6 (etkileşimli) / %67.0 (tekil) | Alibaba |
 | Gemini 2.5 Pro | %63.2 | Google |
 
-### Kullanım Verilerinizi Katkıda Bulunun
+### Katkıda Bulunma
 
-[Kullanım verilerinizi göndererek](https://free-ai-usage.vercel.app/) bu kaynağın daha doğru olmasına yardımcı olun → Gerçek kodlama saatlerinizi paylaşın
+Bu kaynağı iyileştirmeye yardımcı olun gerçek kullanım deneyiminizi paylaşarak → [Geri bildiriminizi gönderin](https://free-ai-usage.vercel.app/)
 
-Bir hata, eksik kaynak bağlantısı görürseniz veya güncellenmiş kota/model bilginiz varsa, lütfen bir kaynak ile issue veya pull request açın. Yeni araç katkıları hoş karşılanır!
+Eğer bir hata, eksik kaynak bağlantısı görüyorsanız, ya da güncellenmiş kota/model bilginiz varsa, lütfen bir kaynak ile issue veya pull request açın. Yeni araç katkıları hoş karşılanır! Ayrıntılı kılavuzlar için [CONTRIBUTING.md](CONTRIBUTING.md) bakın.
 
 ### Sorumluluk Reddi
 
@@ -54,7 +57,7 @@ Hiçbir satıcıyla bağlantı yoktur. Tüm ticari markalar sahiplerine aittir. 
 - [3. Profesyonel Sınıf Modellere Sahip Ücretli Katmanlı Araçlar](#3-profesyonel-sınıf-modellere-sahip-ücretli-katmanlı-araçlar)
 - [4. Temel Modellere Ücretsiz Erişimi Olan Araçlar](#4-temel-modellere-ücretsiz-erişimi-olan-araçlar)
 - [5. Yerel Modeller](#5-yerel-modeller)
-- [Metodoloji](#metodoloji)
+- [Karşılaştırma Notları](#karşılaştırma-notları)
 - [İlgili Kaynaklar](#ilgili-kaynaklar)
 
 
@@ -63,7 +66,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **Qwen3-Coder-480B kodlamasında ~33sa/gün (~1000sa/ay)**
+> **Qwen3-Coder-480B erişimi**
 - Qwen OAuth ile günde 2,000 istek ücretsiz katman
 - Dakikada 60 istek hız limiti
 - Komut satırı AI iş akışı aracı (Gemini CLI'dan uyarlanmış)
@@ -76,7 +79,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Beta sırasında Claude Sonnet kodlamasında ~20sa/gün (~600sa/ay)**
+> **Beta sırasında Claude Sonnet 4 erişimi**
 - Önizleme sırasında cömert günlük kota ile GPT-5 erişimi
 - Günde 5M token ücretsiz katman (ilk gün sadece 20M)
 - Claude tabanlı model (Anthropic sağlayıcısı)
@@ -90,7 +93,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **Gemini 2.5 Pro kodlamasında ~1.7sa/gün (~50sa/ay)**
+> **Gemini 2.5 Pro erişimi**
 - Günde 100 istek limiti
 - Yedek: Gemini 2.5 Flash ile ~4.2sa/gün (günde 250 istek)
 - Kredi kartı gerekli değil
@@ -103,7 +106,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 kodlamasında ~4sa toplam**
+> **Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 erişimi**
 - $25 ücretsiz kredi (kayıtta $5 + ilk doldurmada $20)
 - Açık kaynaklı VS Code uzantısı
 - Model fiyatlandırmasında markup olmayan kullandıkça öde
@@ -116,7 +119,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Warp](https://warp.dev/)
 
-> **Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro genelinde ~2.5sa/ay**
+> **Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro erişimi**
 - Ayda 150 istek limiti
 - Çoklu sağlayıcılar (Claude, OpenAI, Gemini)
 - Temel kayıt için kredi kartı gerekli değil
@@ -128,7 +131,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Claude Sonnet 4 kodlamasında ~0.8sa/ay**
+> **Claude Sonnet 4 erişimi**
 - Ayda 50 aracı sohbet limiti (çok turlu konuşmalar)
 - En son Claude modelleri (AWS barındırımlı)
 - Kredi kartı gerekli
@@ -141,7 +144,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Ajan etkileşimlerinde ~0.8sa/ay (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **Ajan etkileşimleri (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash) erişimi**
 - Ayda 50 sohbet + 2,000 tamamlama limiti
 - Özerk çok adımlı kodlama ile Ajan Modu
 - Çoklu sağlayıcılar (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
@@ -154,7 +157,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Windsurf](https://windsurf.com/)
 
-> **OpenAI, Anthropic, Google, xAI modelleri genelinde ~0.4sa/ay**
+> **OpenAI, Anthropic, Google, xAI modelleri erişimi**
 - Ayda 25 prompt kredisi limiti
 - Çoklu sağlayıcılar (OpenAI, Claude, Gemini, xAI)
 - Kredi kartı gerekli
@@ -166,7 +169,7 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude Sonnet 4 / 3.7 kodlamasında bilinmeyen süre**
+> **Claude Sonnet 4 / 3.7 bilinmeyen süre erişimi**
 - Günlük limitler (açıklanmamış)
 - Sadece Claude modelleri (AWS barındırımlı)
 - Kredi kartı gerekli değil (önizleme dönemi)
@@ -187,7 +190,7 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **Qwen3-Coder kodlamasında ~33sa/gün (~1000sa/ay)**
+> **Qwen3-Coder erişimi**
 - Qwen3-Coder-480B için günde 2,000 istek ücretsiz katman
 - Ek ücretsiz modeller: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
 - Tüm büyük IDE'ler için OpenAI-uyumlu API
@@ -201,7 +204,7 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **Qwen3-Coder/Llama 3.1 kodlamasında ~1.7sa/gün (~50sa/ay)**
+> **Qwen3-Coder/Llama 3.1 erişimi**
 - Günde 100 istek ücretsiz katman
 - Modeller: Qwen3-Coder-480B (Claude Sonnet 4 performansıyla eşleşir), Llama 3.1 70B
 - OpenAI-uyumlu API (Cursor, Continue.dev, Cline, RooCode, vb. ile çalışır)
@@ -496,13 +499,12 @@ Açık ağırlıklı frontier modelleri yerel olarak çalıştırmak API maliyet
 
 ---
 
-## Metodoloji
+## Karşılaştırma Notları
 
-- **Amaç**: Aracı kodlama sistemlerini frontier modellere erişimleriyle karşılaştırın.
-- **Bir modeli "profesyonel sınıf" olarak nitelendiren nedir?** Bu karşılaştırma için, modeller SWE-bench Verified'da ≥%60 başarı göstermeli, gerçek dünya yazılım mühendisliği yeteneğini göstermeli. Mevcut uygun modeller: GPT-5 (%74.9), Claude Opus 4.1 (%74.5), Claude Sonnet 4 (%72.7), GPT-5 mini (%71.0), Qwen3-Coder-480B (%69.6), ve Gemini 2.5 Pro (%63.2).
-- **[1] İstekten saate**: 60 istek ≈ 1 AI destekli kodlama saati (gerçek dünya görev simülasyonuna dayalı).
-- **[2] Tokenden saate**: ~250k token ≈ 1 kodlama saati (gerçek dünya AI ajanı kullanım verisine dayalı).
-- **[3] Sohbet/Krediden saate**: Çok turlu aracı sohbetler ve prompt kredileri tahmin amaçları için tekil isteklere eşdeğer kabul edilir.
+- **Amaç**: AI kodlama araçlarını profesyonel sınıf modellere erişim ve ücretsiz katman sınırlarına göre karşılaştırmak.
+- **Bir modeli "profesyonel sınıf" olarak nitelendiren nedir?** Modeller SWE-bench Verified'da ≥60% başarı göstermeli, gerçek dünya yazılım mühendisliği yeteneğini kanıtlamalı. Şu anda uygun modeller: GPT-5 (%74.9), Claude Opus 4.1 (%74.5), Claude Sonnet 4 (%72.7), GPT-5 mini (%71.0), Qwen3-Coder-480B (%69.6), ve Gemini 2.5 Pro (%63.2).
+- **Farklı tür sınırlar**: Araçlar çeşitli kota sistemleri kullanır - istek, token, kredi, sohbet - doğrudan karşılaştırmayı zorlaştırır. Özellikler için dokümantasyona bakın.
+- **Gerçek dünya kullanımı**: Gerçek tüketim kodlama stiline, görev karmaşıklığına ve araç uygulamasına göre dramatik şekilde değişir.
 
 ---
 
