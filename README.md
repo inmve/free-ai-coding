@@ -20,6 +20,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
 | [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
+| [Qoder](#qoder) | Claude, GPT, Gemini | Limited credits (preview) | Unknown | No (preview) |
 
 ## How Accurate Are These Estimates?
 
@@ -176,6 +177,20 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Qoder](https://qoder.com/)
+
+> **Unknown duration with Claude, GPT, Gemini models (free preview)**
+- Limited credits for chat and agent requests during preview
+- AI-powered IDE from Alibaba (public preview launched August 2025)
+- Available for Windows and macOS
+- Supports Claude, GPT-4, Gemini models
+- No credit card required (preview period)
+- Credit-based pricing coming soon
+
+**Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
+
+---
+
 > Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
 
 ---
@@ -314,17 +329,6 @@ These services provide API access to coding-optimized models that integrate with
 
 ---
 
-### [Qoder](https://qoder.com/)
-
-**Pricing not disclosed**
-- AI-powered IDE from Alibaba
-- Available for Windows and macOS
-- Agentic coding platform for software development
-- Multiple plan tiers available
-
-**Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
-
----
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
