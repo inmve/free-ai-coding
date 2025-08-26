@@ -1,4 +1,4 @@
-Last updated: August 21, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 26, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -18,8 +18,9 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes | |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | ~0.25h/day (~7.5h/month) | No |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | ~0.8h/month | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | Unknown | No (preview) |
 
 ## How Accurate Are These Estimates?
@@ -165,15 +166,30 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Jules](https://jules.google/)
+
+> **~0.25h/day (~7.5h/month) of Gemini 2.5 Pro coding**
+- 15 tasks/day free tier
+- 3 concurrent tasks
+- Gemini 2.5 Pro model
+- Gmail account required (18+ years)
+- Task limits reset on rolling 24-hour window
+- No credit card required
+
+**Links:** [Usage Limits](https://jules.google/docs/usage-limits/) | [Documentation](https://jules.google/docs/)
+
+---
+
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Unknown duration of Claude Sonnet 4 / 3.7 coding**
-- Daily limits (undisclosed)
+> **~0.8h/month of Claude Sonnet 4 / 3.7 coding**
+- 50 vibe requests/month (Free tier)
 - Claude models only (AWS-hosted)
-- No credit card required (preview period)
-- Quota exhaustion unknown (preview period)
+- No credit card required
+- 14-day welcome bonus: 100 spec + 100 vibe requests
+- Paid tiers: Pro ($20/mo - 225 vibe), Pro+ ($40/mo - 450 vibe), Power ($200/mo - 2,250 vibe)
 
-**Links:** [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
+**Links:** [Pricing](https://kiro.dev/pricing/) | [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 
@@ -381,6 +397,18 @@ These services provide API access to coding-optimized models that integrate with
 - Offline mode with local models via Ollama/LM Studio
 
 **Links:** [AI Pricing](https://www.jetbrains.com/ai-ides/buy/)
+
+---
+
+### [Jules](https://jules.google/)
+
+**Pro ($20/mo via Google AI Pro):** 100 tasks/day (~1.7h/day of Gemini 2.5 Pro coding)
+**Ultra ($30/mo via Google AI Ultra):** 300 tasks/day (~5h/day of Gemini 2.5 Pro coding)
+- Higher/priority access to latest models in paid tiers
+- 15-60 concurrent tasks depending on plan
+- Gmail account required (18+ years)
+
+**Links:** [Usage Limits](https://jules.google/docs/usage-limits/)
 
 ---
 
