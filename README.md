@@ -1,4 +1,4 @@
-Last updated: August 21, 2025 • PRs/issues welcome • ⭐ Star to come back later
+Last updated: August 26, 2025 • PRs/issues welcome • ⭐ Star to come back later
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -19,6 +19,7 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | ~0.25h/day (~7.5h/month) | No |
 | [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Daily limits (undisclosed) | Unknown | No (preview) |
 
 ## How Accurate Are These Estimates?
@@ -161,6 +162,20 @@ _(ordered from most generous to least)_
 - Can purchase add-on credits to continue
 
 **Links:** [Pricing](https://windsurf.com/pricing)
+
+---
+
+### [Jules](https://jules.google/)
+
+> **~0.25h/day (~7.5h/month) of Gemini 2.5 Pro coding**
+- 15 tasks/day free tier
+- 3 concurrent tasks
+- Gemini 2.5 Pro model
+- Gmail account required (18+ years)
+- Task limits reset on rolling 24-hour window
+- No credit card required
+
+**Links:** [Usage Limits](https://jules.google/docs/usage-limits/) | [Documentation](https://jules.google/docs/)
 
 ---
 
@@ -363,6 +378,18 @@ These services provide API access to coding-optimized models that integrate with
 - Offline mode with local models via Ollama/LM Studio
 
 **Links:** [AI Pricing](https://www.jetbrains.com/ai-ides/buy/)
+
+---
+
+### [Jules](https://jules.google/)
+
+**Pro ($20/mo via Google AI Pro):** 100 tasks/day (~1.7h/day of Gemini 2.5 Pro coding)
+**Ultra ($30/mo via Google AI Ultra):** 300 tasks/day (~5h/day of Gemini 2.5 Pro coding)
+- Higher/priority access to latest models in paid tiers
+- 15-60 concurrent tasks depending on plan
+- Gmail account required (18+ years)
+
+**Links:** [Usage Limits](https://jules.google/docs/usage-limits/)
 
 ---
 
