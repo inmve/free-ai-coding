@@ -18,9 +18,10 @@ _(ordered from most generous to least; time estimates use the [Methodology](#met
 | [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | ~2.5h/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | ~0.8h/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | ~0.8h/month (agent) | No |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | ~0.4h/month | Yes | |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | ~0.25h/day (~7.5h/month) | No |
 | [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | ~0.8h/month | No |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | Unknown | No (preview) |
 
 ## How Accurate Are These Estimates?
 
@@ -192,6 +193,22 @@ _(ordered from most generous to least)_
 
 ---
 
+### [Qoder](https://qoder.com/)
+
+> **Unknown duration with Qwen3-Coder-480B, Claude, GPT, Gemini models (free preview)**
+- Limited credits for chat and agent requests during preview
+- AI-powered IDE from Alibaba (public preview launched August 2025)
+- Available for Windows and macOS
+- Primarily uses Qwen3-Coder-480B (Alibaba's flagship coding model)
+- Also supports Claude, GPT-4, Gemini models
+- Agent Mode and Quest Mode for autonomous coding
+- No credit card required (preview period)
+- Credit-based pricing coming soon
+
+**Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
+
+---
+
 > Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
 
 ---
@@ -329,6 +346,7 @@ These services provide API access to coding-optimized models that integrate with
 **Links:** [Pricing](https://cursor.com/en/pricing)
 
 ---
+
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
