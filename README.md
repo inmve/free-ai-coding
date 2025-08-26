@@ -44,7 +44,7 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 
 Help make this resource more accurate by sharing your actual coding hours → [Submit your usage data](https://free-ai-usage.vercel.app/)
 
-If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed!
+If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### Disclaimer
 
@@ -224,7 +224,7 @@ _(ordered from most generous to least)_
 
 ---
 
-> Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. New tool contributions are welcomed!
+> Limits change fast. If you see a mistake, a newer quota/model, or want to add a new tool, open an issue or PR with a source. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
@@ -451,7 +451,7 @@ These services provide API access to coding-optimized models that integrate with
 
 ---
 
-> Know better pricing or limits? Share a link in an issue or PR to help keep this updated.
+> Know better pricing or limits? Share a link in an issue or PR to help keep this updated. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
@@ -557,7 +557,7 @@ __(unspecified/basic models)__
 
 ---
 
-> Know the official limits or models? Share a link in an issue or PR to update the information.
+> Know the official limits or models? Share a link in an issue or PR to update the information. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
