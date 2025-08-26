@@ -41,7 +41,7 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 
 Help make this resource more accurate by sharing your actual coding hours → [Submit your usage data](https://free-ai-usage.vercel.app/)
 
-If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed!
+If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### Disclaimer
 
