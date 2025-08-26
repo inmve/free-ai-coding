@@ -6,26 +6,29 @@
 
 # Ferramentas de Codificação com IA: Onde Modelos de Grau Profissional São Realmente Gratuitos
 
-Muitas ferramentas de codificação com IA afirmam ser "gratuitas", mas o acesso a modelos de grau profissional geralmente esgota rapidamente, então você é rebaixado. Cada ferramenta usa diferentes limites (créditos, tokens, requisições), então comparação justa é difícil. Esta lista os coloca lado a lado e mostra **quantas horas de codificação em LLMs de grau profissional você realmente obtém gratuitamente**.
+Muitas ferramentas de codificação com IA afirmam ser "gratuitas", mas o acesso a modelos de grau profissional geralmente esgota rapidamente, então você é rebaixado. Cada ferramenta usa diferentes limites (créditos, tokens, requisições), tornando a comparação difícil. Esta lista os coloca lado a lado para mostrar o que você realmente obtém de graça.
 
-## TL;DR — Camadas Gratuitas Classificadas para Codificação de Grau Profissional
-_(ordenadas da mais generosa para a menos generosa; estimativas de tempo usam a [Metodologia](#metodologia--suposições) abaixo)_
+## TL;DR — Camadas Gratuitas para Codificação de IA de Grau Profissional
+_(ferramentas com limites mais altos listadas primeiro)_
 
-| Ferramenta | Modelos de grau profissional | Limite da camada gratuita | Tempo de codificação gratuito aproximado | Cartão de crédito |
-|------------|------------------------------|---------------------------|------------------------------------------|-------------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requisições/dia | ~33h/dia (~1000h/mês) | Não |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/dia (beta) | ~20h/dia (~600h/mês) | Não |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requisições/dia | ~1.7h/dia (~50h/mês) | Não |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 créditos de cadastro (única vez) | ~3h total | Sim |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requisições/mês | ~2.5h/mês | Não |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mês | ~0.8h/mês | Sim |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 conclusões/mês | ~0.8h/mês (agente) | Não |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mês | ~0.4h/mês | Sim |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | Limites diários (não divulgados) | Desconhecido | Não (preview) |
+| Ferramenta | Modelos de grau profissional | Limite da camada gratuita | Cartão de crédito |
+|------------|------------------------------|---------------------------|-------------------|
+| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requisições/dia | Não |
+| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/dia (beta) | Não |
+| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requisições/dia | Não |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de cadastro (única vez) | Sim |
+| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requisições/mês | Não |
+| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requisições/mês | Não |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mês | Sim |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 conclusões/mês | Não |
+| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mês | Sim |
+| [Jules](#jules) | Gemini 2.5 Pro | 15 tarefas/dia | Não |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 solicitações vibe/mês | Não |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Créditos limitados (preview) | Não (preview) |
 
-## Quão Precisas São Essas Estimativas?
+## Ajude a Tornar Isso Mais Preciso
 
-Essas estimativas de tempo são baseadas em cálculos, mas **o uso real varia de acordo com o estilo de codificação e complexidade da tarefa**. Ajude a tornar este recurso mais preciso [compartilhando suas horas reais de codificação →](https://free-ai-usage.vercel.app/)
+**O uso real varia amplamente de acordo com o estilo de codificação, complexidade da tarefa e implementação da ferramenta**. Ajude a melhorar este recurso [compartilhando sua experiência real →](https://free-ai-usage.vercel.app/)
 
 ### Modelos de Grau Profissional Qualificados
 Apenas modelos que alcançam >60% no SWE-bench Verified se qualificam como grau profissional para tarefas de codificação do mundo real. Abaixo está a lista atual
@@ -487,7 +490,7 @@ Executar modelos de fronteira de peso aberto localmente fornece assistência de 
 
 ---
 
-## Metodologia / Suposições
+## Notas de Comparação
 
 - **Objetivo**: Comparar sistemas de codificação agêntica pelo seu acesso a modelos de fronteira.
 - **O que qualifica um modelo como "grau profissional"?** Para esta comparação, modelos devem alcançar ≥60% no SWE-bench Verified, demonstrando capacidade de engenharia de software do mundo real. Modelos atualmente qualificados: GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), e Gemini 2.5 Pro (63.2%).
