@@ -15,13 +15,13 @@ _(tools with higher limits listed first)_
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | No |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | Yes |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 requests/month | No |
-| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | No |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requests/month | No |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | Yes |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completions/month | No |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chat messages + 2,000 completions/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe requests/month | No |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe requests/month | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
 
 ## Help Make This More Accurate
@@ -93,8 +93,8 @@ _(ordered from most generous to least)_
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 > **Gemini 2.5 Pro access**
-- 100 requests/day limit
-- Fallback: 250 requests/day with Gemini 2.5 Flash
+- 100 requests/day limit for Gemini 2.5 Pro
+- 250 requests/day limit for Gemini 2.5 Flash
 - No credit card required
 - Google models only
 - Switches to paid rates after free quota
@@ -118,9 +118,9 @@ _(ordered from most generous to least)_
 
 ### [Warp](https://warp.dev/)
 
-> **Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro access**
+> **GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro access**
 - 150 requests/month limit
-- Multiple providers (Claude, OpenAI, Gemini)
+- Multiple providers (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)
 - No credit card required for basic signup
 - Pay-as-you-go overages available
 
@@ -143,8 +143,8 @@ _(ordered from most generous to least)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Agent Mode with GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
-- 50 chats + 2,000 completions/month limit
+> **Agent Mode with GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
+- 50 chat messages + 2,000 completions/month limit
 - Agent Mode with autonomous multi-step coding
 - Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - No credit card required
@@ -156,12 +156,12 @@ _(ordered from most generous to least)_
 
 ### [Trae](https://trae.ai/)
 
-> **Claude 4 Sonnet, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro access**
+> **Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro access**
 - 10 fast requests + 50 slow requests/month for premium models
 - 1,000 slow requests/month for advanced models
 - 5,000 auto-completions/month
 - VS Code-based IDE with AI integration
-- Multiple premium models including Claude 4 Sonnet (Beta)
+- Multiple premium models including Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1
 - No credit card required for free tier
 
 **Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
@@ -196,9 +196,9 @@ _(ordered from most generous to least)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude Sonnet 4 / 3.7 access**
+> **Claude 4 Sonnet, Claude 3.7 Sonnet access**
 - 50 vibe requests/month (Free tier)
-- Claude models only (AWS-hosted)
+- Claude 4 Sonnet and Claude 3.7 Sonnet models (AWS-hosted)
 - No credit card required
 - 14-day welcome bonus: 100 spec + 100 vibe requests
 - Paid tiers: Pro ($20/mo - 225 vibe), Pro+ ($40/mo - 450 vibe), Power ($200/mo - 2,250 vibe)
@@ -310,10 +310,10 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/mo):** 300 chats + unlimited completions/month
-**Pro+ ($39/mo):** 1,500 chats + unlimited completions/month
-**Business ($19/user/mo):** 300 chats + unlimited completions/user/month
-**Enterprise ($39/user/mo):** 1,000 chats + unlimited completions/user/month
+**Pro ($10/mo):** 300 premium requests + unlimited completions/month
+**Pro+ ($39/mo):** 1,500 premium requests + unlimited completions/month
+**Business ($19/user/mo):** 300 premium requests + unlimited completions/user/month
+**Enterprise ($39/user/mo):** 1,000 premium requests + unlimited completions/user/month
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -325,7 +325,7 @@ These services provide API access to coding-optimized models that integrate with
 **Pro ($10/mo):** 600 fast requests + unlimited slow requests for premium models
 - Unlimited slow requests for advanced models
 - Extra packages available: $3-$12 for additional fast requests
-- Multiple premium models: Claude 4 Sonnet (Beta), Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT-4o
+- Multiple premium models: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o
 - VS Code-based IDE with full AI integration
 
 **Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)

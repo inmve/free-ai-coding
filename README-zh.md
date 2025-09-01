@@ -17,11 +17,11 @@ _（限制更高的工具列在前面）_
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M 令牌/天 (beta) | ~20小时/天 (~600小时/月) | 否 |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 请求/天 | ~1.7小时/天 (~50小时/月) | 否 |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 注册积分 (一次性) | ~3小时总计 | 是 |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 请求/月 | ~2.5小时/月 | 否 |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 请求/月 | ~2.5小时/月 | 否 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体聊天/月 | ~0.8小时/月 | 是 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 聊天 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 聊天消息 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 积分/月 | ~0.4小时/月 | 是 |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 每日限制 (未公开) | 未知 | 否 (预览) |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 每日限制 (未公开) | 未知 | 否 (预览) |
 
 ## 这些估算有多准确？
 

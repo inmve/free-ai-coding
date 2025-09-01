@@ -15,13 +15,13 @@ _(yüksek limitli araçlar önce listelenir)_
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M token/gün (beta) | Hayır |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | Hayır |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 kayıt kredisi (tek seferlik) | Evet |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 istek/ay | Hayır |
-| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 istek/ay | Hayır |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 istek/ay | Hayır |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 istek/ay | Hayır |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajan sohbeti/ay | Evet |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet + 2,000 tamamlama/ay | Hayır |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet mesajı + 2,000 tamamlama/ay | Hayır |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibe isteği/ay | Hayır |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe isteği/ay | Hayır |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Sınırlı kredi (önizleme) | Hayır (önizleme) |
 
 ## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
