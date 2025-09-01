@@ -17,13 +17,13 @@ _(herramientas con límites más altos listadas primero)_
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/día (beta) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 solicitudes/día | No |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de registro (una vez) | Sí |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150 solicitudes/mes | No |
-| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60 solicitudes/mes | No |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 solicitudes/mes | No |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 solicitudes/mes | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mes | Sí |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chats + 2,000 completados/mes | No |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 mensajes de chat + 2,000 completados/mes | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mes | Sí |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tareas/día | No |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 solicitudes vibe/mes | No |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 solicitudes vibe/mes | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Créditos limitados (vista previa) | No (vista previa) |
 
 ## Ayuda a Hacer Esto Más Preciso
@@ -95,8 +95,8 @@ _(ordenadas de más generosas a menos generosas)_
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 > **Acceso a Gemini 2.5 Pro**
-- Límite de 100 solicitudes/día
-- Respaldo: 250 solicitudes/día con Gemini 2.5 Flash
+- Límite de 100 solicitudes/día para Gemini 2.5 Pro
+- Límite de 250 solicitudes/día para Gemini 2.5 Flash
 - No se requiere tarjeta de crédito
 - Solo modelos de Google
 - Cambia a tarifas pagadas después de la cuota gratuita
@@ -120,9 +120,9 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [Warp](https://warp.dev/)
 
-> **~2.5h/mes a través de Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro**
+> **~2.5h/mes a través de GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro**
 - Límite de 150 solicitudes/mes
-- Múltiples proveedores (Claude, OpenAI, Gemini)
+- Múltiples proveedores (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)
 - No se requiere tarjeta de crédito para registro básico
 - Excedentes de pago por uso disponibles
 
@@ -145,8 +145,8 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **~0.8h/mes de interacciones de agente (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
-- Límite de 50 chats + 2,000 completados/mes
+> **~0.8h/mes de interacciones de agente (GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+- Límite de 50 mensajes de chat + 2,000 completados/mes
 - Modo Agente con codificación autónoma multi-paso
 - Múltiples proveedores (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - No se requiere tarjeta de crédito
@@ -170,9 +170,9 @@ _(ordenadas de más generosas a menos generosas)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Duración desconocida de codificación con Claude Sonnet 4 / 3.7**
+> **Duración desconocida de codificación con Claude 4 Sonnet, Claude 3.7 Sonnet**
 - Límites diarios (no divulgados)
-- Solo modelos Claude (alojados en AWS)
+- Modelos Claude 4 Sonnet y Claude 3.7 Sonnet (alojados en AWS)
 - No se requiere tarjeta de crédito (período de vista previa)
 - Agotamiento de cuota desconocido (período de vista previa)
 
@@ -267,10 +267,10 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/mes):** 300 chats + completados ilimitados/mes
-**Pro+ ($39/mes):** 1,500 chats + completados ilimitados/mes
-**Business ($19/usuario/mes):** 300 chats + completados ilimitados/usuario/mes
-**Enterprise ($39/usuario/mes):** 1,000 chats + completados ilimitados/usuario/mes
+**Pro ($10/mes):** 300 solicitudes premium + completados ilimitados/mes
+**Pro+ ($39/mes):** 1,500 solicitudes premium + completados ilimitados/mes
+**Business ($19/usuario/mes):** 300 solicitudes premium + completados ilimitados/usuario/mes
+**Enterprise ($39/usuario/mes):** 1,000 solicitudes premium + completados ilimitados/usuario/mes
 - Facturación de excedentes disponible a $0.04/solicitud
 
 **Enlaces:** [Detalles de Planes](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)

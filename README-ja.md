@@ -17,13 +17,13 @@ _（より高い制限を持つツールを最初に掲載）_
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5Mトークン/日（ベータ） | 不要 |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100リクエスト/日 | 不要 |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25登録クレジット（一回限り） | 必要 |
-| [Warp](#warp) | Claude, OpenAI, Gemini | 150リクエスト/月 | 不要 |
-| [Trae](#trae) | Claude 4 Sonnet, Claude 3.5 Sonnet, GPT‑4o, Gemini 2.5 Pro | 60リクエスト/月 | 不要 |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150リクエスト/月 | 不要 |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60リクエスト/月 | 不要 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50エージェントチャット/月 | 必要 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50チャット + 2,000補完/月 | 不要 |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50チャットメッセージ + 2,000補完/月 | 不要 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25クレジット/月 | 必要 |
 | [Jules](#jules) | Gemini 2.5 Pro | 15タスク/日 | 不要 |
-| [AWS Kiro](#aws-kiro) | Claude Sonnet 4 / 3.7 | 50 vibeリクエスト/月 | 不要 |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibeリクエスト/月 | 不要 |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 限定クレジット（プレビュー） | 不要（プレビュー） |
 
 ## これをより正確にする手助け
