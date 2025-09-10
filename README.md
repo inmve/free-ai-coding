@@ -374,6 +374,7 @@ These services provide API access to coding-optimized models that integrate with
 **Teams ($40/user/mo):** Pro features + team management
 - Two-week Pro trial available
 - Credit card required for free tier
+- AI-powered code editor with autonomous coding capabilities
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
 
@@ -387,7 +388,7 @@ These services provide API access to coding-optimized models that integrate with
 **Free OSS mode:** Access to open-source models only (via --oss flag)
 - Lightweight coding agent running locally
 - Interactive terminal UI with sandbox mode
-- macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
+- Cross-platform support: macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
 - Experimental project under active development
 
 **Links:** [GitHub Repo](https://github.com/openai/codex)
