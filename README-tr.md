@@ -1,4 +1,4 @@
-Son güncelleme: 26 Ağustos 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
+Son güncelleme: 10 Eylül 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
 
 **Diller:** [English](README.md) • [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -16,9 +16,9 @@ _(yüksek limitli araçlar önce listelenir)_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | Hayır |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 kayıt kredisi (tek seferlik) | Evet |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 istek/ay | Hayır |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 istek/ay | Hayır |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 hızlı + 50 yavaş istek/ay | Hayır |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajan sohbeti/ay | Evet |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet mesajı + 2,000 tamamlama/ay | Hayır |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet isteği + 2,000 tamamlama/ay | Hayır |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe isteği/ay | Hayır |
@@ -144,7 +144,7 @@ _(en cömert olandan en az cömerte sıralı)_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **Ajan etkileşimleri (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash) erişimi**
-- Ayda 50 sohbet + 2,000 tamamlama limiti
+- Ayda 50 sohbet isteği + 2,000 tamamlama limiti
 - Özerk çok adımlı kodlama ile Ajan Modu
 - Çoklu sağlayıcılar (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - Kredi kartı gerekli değil
@@ -209,7 +209,7 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 - OpenAI-uyumlu API (Cursor, Continue.dev, Cline, RooCode, vb. ile çalışır)
 - Ultra hızlı çıkarım: 2,000 token/saniye (tipik sağlayıcılardan 40x daha hızlı)
 - Kredi kartı gerekli değil
-- **Ücretli katmanlar:** Code Pro ($50/ay), Code Max ($200/ay) - haftalık limit yok
+- **Ücretli katmanlar:** Code ($50/ay - 24M token günlük), Growth ($1,500/ay - 300+ RPM), Enterprise (özel)
 
 **Bağlantılar:** [Fiyatlandırma](https://www.cerebras.ai/pricing) | [API Dokümanları](https://inference-docs.cerebras.ai/) | [Entegrasyon Kılavuzları](https://inference-docs.cerebras.ai/integrations/)
 
@@ -233,11 +233,12 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/ay):** Sonnet 4 erişimi
-**Max ($100/ay):** Opus 4 + Sonnet 4 erişimi
-**Max ($200/ay):** Daha yüksek Opus 4 + Sonnet 4 limitleri
+**Pro ($17/ay yıllık ile):** Sonnet 4 erişimi
+**Max ($100/ay):** Opus 4.1 + Sonnet 4 erişimi (5x veya 20x daha fazla kullanım)
+**Max ($200/ay):** Daha yüksek Opus 4.1 + Sonnet 4 limitleri
 - Kullanım limitleri haftalık sıfırlanır
 - 5 saatlik dönen pencere limitleri uygulanır
+- Yüksek trafik sırasında öncelikli erişim (Max seviye)
 
 **Bağlantılar:** [Fiyatlandırma](https://www.anthropic.com/pricing)
 
@@ -254,10 +255,11 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/ay):** 2,500 istek/ay
-**Turbo ($40/ay):** 10,000 istek/ay  
-**Lightspeed ($200/ay):** 50,000 istek/ay
+**Pro ($15/ay yıllık, $18/ay aylık):** 2,500 istek/ay
+**Turbo ($40/ay yıllık, $50/ay aylık):** 10,000 istek/ay  
+**Lightspeed ($200/ay yıllık, $225/ay aylık):** 50,000 istek/ay
 - Aşım için kullandıkça öde mevcut
+- Enterprise katmanı: Özel fiyatlandırma
 
 **Bağlantılar:** [Fiyatlandırma](https://www.warp.dev/pricing)
 
@@ -265,10 +267,11 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/ay):** 300 sohbet + sınırsız tamamlama/ay
-**Pro+ ($39/ay):** 1,500 sohbet + sınırsız tamamlama/ay
-**Business ($19/kullanıcı/ay):** 300 sohbet + sınırsız tamamlama/kullanıcı/ay
-**Enterprise ($39/kullanıcı/ay):** 1,000 sohbet + sınırsız tamamlama/kullanıcı/ay
+**Pro ($10/ay):** 300 premium istek + sınırsız tamamlama/ay
+**Pro+ ($39/ay):** 1,500 premium istek + sınırsız tamamlama/ay
+**Business ($19/kullanıcı/ay):** 300 premium istek + sınırsız tamamlama/kullanıcı/ay
+**Enterprise ($39/kullanıcı/ay):** 1,000 premium istek + sınırsız tamamlama/kullanıcı/ay
+- Birden fazla modele erişim (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
 - $0.04/istek'te aşım faturalandırma mevcut
 
 **Bağlantılar:** [Plan Detayları](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -306,7 +309,7 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 ### [Cursor](https://cursor.com/)
 
 **Hobby (Ücretsiz):** Sadece temel modellerle sınırlı ajan istekleri
-**Pro ($20/ay):** Agent üzerinde genişletilmiş limitler, GPT-5, Claude Sonnet 4, Gemini 2.5 Pro erişimi
+**Pro ($20/ay):** Agent üzerinde genişletilmiş limitler, Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4 erişimi
 **Ultra ($200/ay):** Tüm OpenAI, Claude, Gemini modellerinde 20x kullanım
 **Teams ($40/kullanıcı/ay):** Pro özellikleri + takım yönetimi
 - İki hafta Pro deneme mevcut

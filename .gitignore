@@ -1,3 +1,5 @@
 CLAUDE.md
 .claude/
 settings.local.json
+scripts/claude_update_instructions.md
+scripts/update_data.py

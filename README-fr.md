@@ -2,7 +2,7 @@
 > Cette page a été traduite automatiquement de l'anglais en utilisant Claude AI.
 > Pour plus de précision, consultez la [version anglaise originale](README.md).
 
-Dernière mise à jour : 26 août 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
+Dernière mise à jour : 10 septembre 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
 
 # Outils de Codage IA : Où les Modèles de Niveau Professionnel Sont Vraiment Gratuits
 
@@ -18,9 +18,9 @@ _(outils avec des limites plus élevées listés en premier)_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requêtes/jour | Non |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 crédits d'inscription (unique) | Oui |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requêtes/mois | Non |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 requêtes/mois | Non |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rapides + 50 lentes requêtes/mois | Non |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats d'agent/mois | Oui |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 messages de chat + 2,000 complétions/mois | Non |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 requêtes de chat + 2,000 complétions/mois | Non |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 crédits/mois | Oui |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tâches/jour | Non |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 requêtes vibe/mois | Non |
@@ -161,7 +161,7 @@ _(ordonnés du plus généreux au moins généreux)_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **Mode Agent avec GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
-- Limite de 50 chats + 2,000 complétions/mois
+- Limite de 50 requêtes de chat + 2,000 complétions/mois
 - Mode Agent avec codage autonome multi-étapes
 - Multiples fournisseurs (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - Aucune carte de crédit requise
@@ -257,7 +257,7 @@ Ces services fournissent un accès API aux modèles optimisés pour le codage qu
 - API compatible OpenAI (fonctionne avec Cursor, Continue.dev, Cline, RooCode, etc.)
 - Inférence ultra-rapide : 2,000 tokens/seconde (40x plus rapide que les fournisseurs typiques)
 - Aucune carte de crédit requise
-- **Niveaux payants :** Code Pro ($50/mois), Code Max ($200/mois) - aucune limite hebdomadaire
+- **Niveaux payants :** Code ($50/mois - 24M tokens quotidiens), Growth ($1,500/mois - 300+ RPM), Enterprise (personnalisé)
 
 **Liens :** [Tarification](https://www.cerebras.ai/pricing) | [Documentation API](https://inference-docs.cerebras.ai/) | [Guides d'Intégration](https://inference-docs.cerebras.ai/integrations/)
 
@@ -281,11 +281,12 @@ Ces services fournissent un accès API aux modèles optimisés pour le codage qu
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mois) :** Accès Sonnet 4
-**Max ($100/mois) :** Accès Opus 4 + Sonnet 4
-**Max ($200/mois) :** Limites plus élevées Opus 4 + Sonnet 4
+**Pro ($17/mois avec abonnement annuel) :** Accès Sonnet 4
+**Max ($100/mois) :** Accès Opus 4.1 + Sonnet 4 (5x ou 20x plus d'utilisation)
+**Max ($200/mois) :** Limites plus élevées Opus 4.1 + Sonnet 4
 - Les limites d'utilisation se réinitialisent chaque semaine
 - Limites de fenêtre glissante de 5 heures appliquées
+- Accès prioritaire pendant le trafic élevé (niveau Max)
 
 **Liens :** [Tarification](https://www.anthropic.com/pricing)
 
@@ -302,10 +303,11 @@ Ces services fournissent un accès API aux modèles optimisés pour le codage qu
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mois) :** 2,500 requêtes/mois
-**Turbo ($40/mois) :** 10,000 requêtes/mois  
-**Lightspeed ($200/mois) :** 50,000 requêtes/mois
+**Pro ($15/mois annuel, $18/mois mensuel) :** 2,500 requêtes/mois
+**Turbo ($40/mois annuel, $50/mois mensuel) :** 10,000 requêtes/mois  
+**Lightspeed ($200/mois annuel, $225/mois mensuel) :** 50,000 requêtes/mois
 - Paiement à l'utilisation disponible pour les dépassements
+- Niveau Enterprise : Tarification personnalisée
 
 **Liens :** [Tarification](https://www.warp.dev/pricing)
 
@@ -313,10 +315,11 @@ Ces services fournissent un accès API aux modèles optimisés pour le codage qu
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/mois) :** 300 chats + complétions illimitées/mois
-**Pro+ ($39/mois) :** 1,500 chats + complétions illimitées/mois
-**Business ($19/utilisateur/mois) :** 300 chats + complétions illimitées/utilisateur/mois
-**Enterprise ($39/utilisateur/mois) :** 1,000 chats + complétions illimitées/utilisateur/mois
+**Pro ($10/mois) :** 300 requêtes premium + complétions illimitées/mois
+**Pro+ ($39/mois) :** 1,500 requêtes premium + complétions illimitées/mois
+**Business ($19/utilisateur/mois) :** 300 requêtes premium + complétions illimitées/utilisateur/mois
+**Enterprise ($39/utilisateur/mois) :** 1,000 requêtes premium + complétions illimitées/utilisateur/mois
+- Accès à plusieurs modèles (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
 - Facturation de dépassement disponible à $0.04/requête
 
 **Liens :** [Détails des Plans](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -354,7 +357,7 @@ Ces services fournissent un accès API aux modèles optimisés pour le codage qu
 ### [Cursor](https://cursor.com/)
 
 **Hobby (Gratuit) :** Requêtes d'agent limitées avec modèles de base uniquement
-**Pro ($20/mois) :** Limites étendues sur Agent, accès à GPT-5, Claude Sonnet 4, Gemini 2.5 Pro
+**Pro ($20/mois) :** Limites étendues sur Agent, accès à Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4
 **Ultra ($200/mois) :** 20x d'utilisation sur tous les modèles OpenAI, Claude, Gemini
 **Teams ($40/utilisateur/mois) :** Fonctionnalités Pro + gestion d'équipe
 - Essai Pro de deux semaines disponible

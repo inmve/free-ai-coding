@@ -1,4 +1,4 @@
-Last updated: August 26, 2025 • PRs/issues welcome
+Last updated: September 10, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -16,9 +16,9 @@ _(tools with higher limits listed first)_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | No |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | Yes |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requests/month | No |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 requests/month | No |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 fast + 50 slow requests/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | Yes |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chat messages + 2,000 completions/month | No |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chat requests + 2,000 completions/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe requests/month | No |
@@ -144,7 +144,7 @@ _(ordered from most generous to least)_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **Agent Mode with GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
-- 50 chat messages + 2,000 completions/month limit
+- 50 chat requests + 2,000 completions/month limit
 - Agent Mode with autonomous multi-step coding
 - Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - No credit card required
@@ -163,6 +163,7 @@ _(ordered from most generous to least)_
 - VS Code-based IDE with AI integration
 - Multiple premium models including Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1
 - No credit card required for free tier
+- Pro Plan: $10/mo (600 fast + unlimited slow requests)
 
 **Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
 
@@ -254,7 +255,7 @@ These services provide API access to coding-optimized models that integrate with
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
 - No credit card required
-- **Paid tiers:** Code Pro ($50/mo), Code Max ($200/mo) - no weekly limits
+- **Paid tiers:** Code ($50/mo - 24M daily tokens), Growth ($1,500/mo - 300+ RPM), Enterprise (custom)
 
 **Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Integration Guides](https://inference-docs.cerebras.ai/integrations/)
 
@@ -278,11 +279,12 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mo):** Sonnet 4 access
-**Max ($100/mo):** Opus 4 + Sonnet 4 access
-**Max ($200/mo):** Higher Opus 4 + Sonnet 4 limits
+**Pro ($17/mo with annual):** Sonnet 4 access
+**Max ($100/mo):** Opus 4.1 + Sonnet 4 access (5x or 20x more usage)
+**Max ($200/mo):** Higher Opus 4.1 + Sonnet 4 limits
 - Usage limits reset weekly
 - 5-hour rolling window limits apply
+- Priority access during high traffic (Max tier)
 
 **Links:** [Pricing](https://www.anthropic.com/pricing)
 
@@ -299,10 +301,11 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mo):** 2,500 requests/month
-**Turbo ($40/mo):** 10,000 requests/month  
-**Lightspeed ($200/mo):** 50,000 requests/month
+**Pro ($15/mo annually, $18/mo monthly):** 2,500 requests/month
+**Turbo ($40/mo annually, $50/mo monthly):** 10,000 requests/month  
+**Lightspeed ($200/mo annually, $225/mo monthly):** 50,000 requests/month
 - Pay-as-you-go available for overages
+- Enterprise tier: Custom pricing
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
 
@@ -314,6 +317,7 @@ These services provide API access to coding-optimized models that integrate with
 **Pro+ ($39/mo):** 1,500 premium requests + unlimited completions/month
 **Business ($19/user/mo):** 300 premium requests + unlimited completions/user/month
 **Enterprise ($39/user/mo):** 1,000 premium requests + unlimited completions/user/month
+- Access to multiple models (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -324,9 +328,11 @@ These services provide API access to coding-optimized models that integrate with
 
 **Pro ($10/mo):** 600 fast requests + unlimited slow requests for premium models
 - Unlimited slow requests for advanced models
+- Zero rate limits and faster access to premium models
 - Extra packages available: $3-$12 for additional fast requests
 - Multiple premium models: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o
 - VS Code-based IDE with full AI integration
+- First month available for $3
 
 **Links:** [Pricing](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
 
@@ -362,12 +368,13 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cursor](https://cursor.com/)
 
-**Hobby (Free):** Limited agent requests with basic models only
-**Pro ($20/mo):** Extended limits on Agent, access to GPT-5, Claude Sonnet 4, Gemini 2.5 Pro
+**Hobby (Free):** Limited agent requests with basic models only + 2-week Pro trial
+**Pro ($20/mo):** Extended limits on Agent, access to Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
 **Ultra ($200/mo):** 20x usage on all OpenAI, Claude, Gemini models
 **Teams ($40/user/mo):** Pro features + team management
 - Two-week Pro trial available
 - Credit card required for free tier
+- AI-powered code editor with autonomous coding capabilities
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
 
@@ -381,7 +388,7 @@ These services provide API access to coding-optimized models that integrate with
 **Free OSS mode:** Access to open-source models only (via --oss flag)
 - Lightweight coding agent running locally
 - Interactive terminal UI with sandbox mode
-- macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
+- Cross-platform support: macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
 - Experimental project under active development
 
 **Links:** [GitHub Repo](https://github.com/openai/codex)
