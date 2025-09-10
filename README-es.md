@@ -18,9 +18,9 @@ _(herramientas con límites más altos listadas primero)_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 solicitudes/día | No |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de registro (una vez) | Sí |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 solicitudes/mes | No |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 solicitudes/mes | No |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rápidas + 50 lentas solicitudes/mes | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mes | Sí |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 mensajes de chat + 2,000 completados/mes | No |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 solicitudes de chat + 2,000 completados/mes | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mes | Sí |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tareas/día | No |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 solicitudes vibe/mes | No |
@@ -211,7 +211,7 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 - API compatible con OpenAI (funciona con Cursor, Continue.dev, Cline, RooCode, etc.)
 - Inferencia ultra-rápida: 2,000 tokens/segundo (40x más rápido que proveedores típicos)
 - No se requiere tarjeta de crédito
-- **Niveles pagos:** Code Pro ($50/mes), Code Max ($200/mes) - sin límites semanales
+- **Niveles pagos:** Code ($50/mes - 24M tokens diarios), Growth ($1,500/mes - 300+ RPM), Enterprise (personalizado)
 
 **Enlaces:** [Precios](https://www.cerebras.ai/pricing) | [Documentación API](https://inference-docs.cerebras.ai/) | [Guías de Integración](https://inference-docs.cerebras.ai/integrations/)
 
@@ -235,11 +235,12 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mes):** Acceso a Sonnet 4
-**Max ($100/mes):** Acceso a Opus 4 + Sonnet 4
-**Max ($200/mes):** Límites más altos de Opus 4 + Sonnet 4
+**Pro ($17/mes con anual):** Acceso a Sonnet 4
+**Max ($100/mes):** Acceso a Opus 4.1 + Sonnet 4 (5x o 20x más uso)
+**Max ($200/mes):** Límites más altos de Opus 4.1 + Sonnet 4
 - Los límites de uso se reinician semanalmente
 - Se aplican límites de ventana móvil de 5 horas
+- Acceso prioritario durante alto tráfico (nivel Max)
 
 **Enlaces:** [Precios](https://www.anthropic.com/pricing)
 
@@ -256,10 +257,11 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mes):** 2,500 solicitudes/mes
-**Turbo ($40/mes):** 10,000 solicitudes/mes  
-**Lightspeed ($200/mes):** 50,000 solicitudes/mes
+**Pro ($15/mes anual, $18/mes mensual):** 2,500 solicitudes/mes
+**Turbo ($40/mes anual, $50/mes mensual):** 10,000 solicitudes/mes  
+**Lightspeed ($200/mes anual, $225/mes mensual):** 50,000 solicitudes/mes
 - Pago por uso disponible para excedentes
+- Nivel Enterprise: Precios personalizados
 
 **Enlaces:** [Precios](https://www.warp.dev/pricing)
 
@@ -271,6 +273,7 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 **Pro+ ($39/mes):** 1,500 solicitudes premium + completados ilimitados/mes
 **Business ($19/usuario/mes):** 300 solicitudes premium + completados ilimitados/usuario/mes
 **Enterprise ($39/usuario/mes):** 1,000 solicitudes premium + completados ilimitados/usuario/mes
+- Acceso a múltiples modelos (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
 - Facturación de excedentes disponible a $0.04/solicitud
 
 **Enlaces:** [Detalles de Planes](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -308,7 +311,7 @@ Estos servicios proporcionan acceso API a modelos optimizados para codificación
 ### [Cursor](https://cursor.com/)
 
 **Hobby (Gratuito):** Solicitudes de agente limitadas solo con modelos básicos
-**Pro ($20/mes):** Límites extendidos en Agente, acceso a GPT-5, Claude Sonnet 4, Gemini 2.5 Pro
+**Pro ($20/mes):** Límites extendidos en Agente, acceso a Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4
 **Ultra ($200/mes):** 20x uso en todos los modelos OpenAI, Claude, Gemini
 **Teams ($40/usuario/mes):** Características Pro + gestión de equipo
 - Prueba Pro de dos semanas disponible

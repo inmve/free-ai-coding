@@ -18,9 +18,9 @@ _（より高い制限を持つツールを最初に掲載）_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100リクエスト/日 | 不要 |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25登録クレジット（一回限り） | 必要 |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150リクエスト/月 | 不要 |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60リクエスト/月 | 不要 |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10高速 + 50低速リクエスト/月 | 不要 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50エージェントチャット/月 | 必要 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50チャットメッセージ + 2,000補完/月 | 不要 |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50チャットリクエスト + 2,000補完/月 | 不要 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25クレジット/月 | 必要 |
 | [Jules](#jules) | Gemini 2.5 Pro | 15タスク/日 | 不要 |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibeリクエスト/月 | 不要 |
@@ -135,7 +135,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **〜0.8時間/月のエージェントインタラクション（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）**
-- 50チャット + 2,000補完/月制限
+- 50チャットリクエスト + 2,000補完/月制限
 - 自律マルチステップコーディングを行うエージェントモード
 - 複数プロバイダー（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）
 - クレジットカード不要
@@ -200,7 +200,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 - OpenAI互換API（Cursor、Continue.dev、Cline、RooCodeなどで動作）
 - 超高速推論：2,000トークン/秒（典型的なプロバイダーより40倍速い）
 - クレジットカード不要
-- **有料ティア：** Code Pro（$50/月）、Code Max（$200/月） - 週制限なし
+- **有料ティア：** Code（$50/月 - 2,400万トークン/日）、Growth（$1,500/月 - 300+ RPM）、Enterprise（カスタム）
 
 **リンク：** [価格設定](https://www.cerebras.ai/pricing) | [APIドキュメント](https://inference-docs.cerebras.ai/) | [統合ガイド](https://inference-docs.cerebras.ai/integrations/)
 
@@ -224,11 +224,12 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/月)：** Sonnet 4アクセス
-**Max ($100/月)：** Opus 4 + Sonnet 4アクセス
-**Max ($200/月)：** より高いOpus 4 + Sonnet 4制限
+**Pro ($17/月、年払い)：** Sonnet 4アクセス
+**Max ($100/月)：** Opus 4.1 + Sonnet 4アクセス（5倍または20倍の使用量）
+**Max ($200/月)：** より高いOpus 4.1 + Sonnet 4制限
 - 使用制限は毎週リセット
 - 5時間ローリングウィンドウ制限適用
+- 高トラフィック時の優先アクセス（Maxレベル）
 
 **リンク：** [価格設定](https://www.anthropic.com/pricing)
 
@@ -245,10 +246,11 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/月)：** 2,500リクエスト/月
-**Turbo ($40/月)：** 10,000リクエスト/月  
-**Lightspeed ($200/月)：** 50,000リクエスト/月
+**Pro ($15/月年払い、$18/月月払い)：** 2,500リクエスト/月
+**Turbo ($40/月年払い、$50/月月払い)：** 10,000リクエスト/月  
+**Lightspeed ($200/月年払い、$225/月月払い)：** 50,000リクエスト/月
 - オーバーレージの従量課金制が利用可能
+- エンタープライズティア：カスタム価格
 
 **リンク：** [価格設定](https://www.warp.dev/pricing)
 
@@ -256,10 +258,11 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/月)：** 300チャット + 無制限補完/月
-**Pro+ ($39/月)：** 1,500チャット + 無制限補完/月
-**Business ($19/ユーザー/月)：** 300チャット + 無制限補完/ユーザー/月
-**Enterprise ($39/ユーザー/月)：** 1,000チャット + 無制限補完/ユーザー/月
+**Pro ($10/月)：** 300プレミアムリクエスト + 無制限補完/月
+**Pro+ ($39/月)：** 1,500プレミアムリクエスト + 無制限補完/月
+**Business ($19/ユーザー/月)：** 300プレミアムリクエスト + 無制限補完/ユーザー/月
+**Enterprise ($39/ユーザー/月)：** 1,000プレミアムリクエスト + 無制限補完/ユーザー/月
+- 複数モデルへのアクセス（Claude Sonnet 4、GPT-5、Gemini 2.5 Pro）
 - $0.04/リクエストでオーバーレージ請求が利用可能
 
 **リンク：** [プラン詳細](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -297,7 +300,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 ### [Cursor](https://cursor.com/)
 
 **Hobby（無料）：** 基本モデルのみでエージェントリクエスト制限
-**Pro ($20/月)：** エージェントの拡張制限、GPT-5、Claude Sonnet 4、Gemini 2.5 Proへのアクセス
+**Pro ($20/月)：** エージェントの拡張制限、Claude Sonnet 4、OpenAI o3-pro、GPT-4.1、Claude Opus 4へのアクセス
 **Ultra ($200/月)：** すべてのOpenAI、Claude、Geminiモデルで20倍使用量
 **Teams ($40/ユーザー/月)：** Pro機能 + チーム管理
 - 2週間Proトライアル利用可能

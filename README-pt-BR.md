@@ -18,9 +18,9 @@ _(ferramentas com limites mais altos listadas primeiro)_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requisições/dia | Não |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de cadastro (única vez) | Sim |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requisições/mês | Não |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 60 requisições/mês | Não |
+| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rápidas + 50 lentas requisições/mês | Não |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mês | Sim |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 mensagens de chat + 2,000 conclusões/mês | Não |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 solicitações de chat + 2,000 conclusões/mês | Não |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mês | Sim |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tarefas/dia | Não |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 solicitações vibe/mês | Não |
@@ -135,7 +135,7 @@ _(ordenadas da mais generosa para a menos generosa)_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **~0.8h/mês de interações de agente (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
-- Limite de 50 chats + 2,000 conclusões/mês
+- Limite de 50 solicitações de chat + 2,000 conclusões/mês
 - Modo Agente com codificação autônoma multi-etapas
 - Múltiplos provedores (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
 - Cartão de crédito não necessário
@@ -200,7 +200,7 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 - API compatível com OpenAI (funciona com Cursor, Continue.dev, Cline, RooCode, etc.)
 - Inferência ultra-rápida: 2,000 tokens/segundo (40x mais rápido que provedores típicos)
 - Cartão de crédito não necessário
-- **Camadas pagas:** Code Pro ($50/mês), Code Max ($200/mês) - sem limites semanais
+- **Camadas pagas:** Code ($50/mês - 24M tokens diários), Growth ($1,500/mês - 300+ RPM), Enterprise (personalizado)
 
 **Links:** [Preços](https://www.cerebras.ai/pricing) | [Documentação da API](https://inference-docs.cerebras.ai/) | [Guias de Integração](https://inference-docs.cerebras.ai/integrations/)
 
@@ -224,11 +224,12 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/mês):** Acesso ao Sonnet 4
-**Max ($100/mês):** Acesso ao Opus 4 + Sonnet 4
-**Max ($200/mês):** Limites mais altos do Opus 4 + Sonnet 4
+**Pro ($17/mês com anual):** Acesso ao Sonnet 4
+**Max ($100/mês):** Acesso ao Opus 4.1 + Sonnet 4 (5x ou 20x mais uso)
+**Max ($200/mês):** Limites mais altos do Opus 4.1 + Sonnet 4
 - Limites de uso resetam semanalmente
 - Limites de janela deslizante de 5 horas se aplicam
+- Acesso prioritário durante alto tráfego (nível Max)
 
 **Links:** [Preços](https://www.anthropic.com/pricing)
 
@@ -245,10 +246,11 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mês):** 2,500 requisições/mês
-**Turbo ($40/mês):** 10,000 requisições/mês  
-**Lightspeed ($200/mês):** 50,000 requisições/mês
+**Pro ($15/mês anual, $18/mês mensal):** 2,500 requisições/mês
+**Turbo ($40/mês anual, $50/mês mensal):** 10,000 requisições/mês  
+**Lightspeed ($200/mês anual, $225/mês mensal):** 50,000 requisições/mês
 - Pague conforme usar disponível para excessos
+- Nível Enterprise: Preços personalizados
 
 **Links:** [Preços](https://www.warp.dev/pricing)
 
@@ -256,10 +258,11 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/mês):** 300 chats + conclusões ilimitadas/mês
-**Pro+ ($39/mês):** 1,500 chats + conclusões ilimitadas/mês
-**Business ($19/usuário/mês):** 300 chats + conclusões ilimitadas/usuário/mês
-**Enterprise ($39/usuário/mês):** 1,000 chats + conclusões ilimitadas/usuário/mês
+**Pro ($10/mês):** 300 solicitações premium + conclusões ilimitadas/mês
+**Pro+ ($39/mês):** 1,500 solicitações premium + conclusões ilimitadas/mês
+**Business ($19/usuário/mês):** 300 solicitações premium + conclusões ilimitadas/usuário/mês
+**Enterprise ($39/usuário/mês):** 1,000 solicitações premium + conclusões ilimitadas/usuário/mês
+- Acesso a múltiplos modelos (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
 - Cobrança de excesso disponível a $0.04/requisição
 
 **Links:** [Detalhes dos Planos](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -297,7 +300,7 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 ### [Cursor](https://cursor.com/)
 
 **Hobby (Gratuito):** Requisições de agente limitadas apenas com modelos básicos
-**Pro ($20/mês):** Limites estendidos no Agente, acesso ao GPT-5, Claude Sonnet 4, Gemini 2.5 Pro
+**Pro ($20/mês):** Limites estendidos no Agente, acesso ao Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4
 **Ultra ($200/mês):** 20x uso em todos os modelos OpenAI, Claude, Gemini
 **Teams ($40/usuário/mês):** Recursos Pro + gerenciamento de equipe
 - Teste Pro de duas semanas disponível

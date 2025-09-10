@@ -19,7 +19,7 @@ _（限制更高的工具列在前面）_
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 注册积分 (一次性) | ~3小时总计 | 是 |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 请求/月 | ~2.5小时/月 | 否 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体聊天/月 | ~0.8小时/月 | 是 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 聊天消息 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
+| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 聊天请求 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 积分/月 | ~0.4小时/月 | 是 |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 每日限制 (未公开) | 未知 | 否 (预览) |
 
@@ -132,7 +132,7 @@ _（从最慷慨到最不慷慨排序）_
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
 > **~0.8小时/月的智能体交互 (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
-- 50聊天 + 2,000补全/月限制
+- 50聊天请求 + 2,000补全/月限制
 - 智能体模式具有自主多步编程
 - 多个提供商（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）
 - 无需信用卡
@@ -197,7 +197,7 @@ _（从最慷慨到最不慷慨排序）_
 - OpenAI兼容API（适用于Cursor、Continue.dev、Cline、RooCode等）
 - 超快推理：2,000令牌/秒（比典型提供商快40倍）
 - 无需信用卡
-- **付费层：** Code Pro（$50/月）、Code Max（$200/月）- 无周限制
+- **付费层：** Code（$50/月 - 2400万令牌/天）、Growth（$1,500/月 - 300+ RPM）、Enterprise（定制）
 
 **链接：** [定价](https://www.cerebras.ai/pricing) | [API文档](https://inference-docs.cerebras.ai/) | [集成指南](https://inference-docs.cerebras.ai/integrations/)
 
@@ -221,11 +221,12 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($20/月)：** Sonnet 4访问权限
-**Max ($100/月)：** Opus 4 + Sonnet 4访问权限
-**Max ($200/月)：** 更高的Opus 4 + Sonnet 4限制
+**Pro ($17/月，年付)：** Sonnet 4访问权限
+**Max ($100/月)：** Opus 4.1 + Sonnet 4访问权限（使用量增加5倍或20倍）
+**Max ($200/月)：** 更高的Opus 4.1 + Sonnet 4限制
 - 使用限制每周重置
 - 适用5小时滚动窗口限制
+- 高流量期间优先访问（Max级别）
 
 **链接：** [定价](https://www.anthropic.com/pricing)
 
@@ -242,10 +243,11 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/月)：** 2,500请求/月
-**Turbo ($40/月)：** 10,000请求/月  
-**Lightspeed ($200/月)：** 50,000请求/月
+**Pro ($15/月年付，$18/月月付)：** 2,500请求/月
+**Turbo ($40/月年付，$50/月月付)：** 10,000请求/月  
+**Lightspeed ($200/月年付，$225/月月付)：** 50,000请求/月
 - 超额可按使用付费
+- 企业级：定制定价
 
 **链接：** [定价](https://www.warp.dev/pricing)
 
@@ -253,10 +255,11 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-**Pro ($10/月)：** 300聊天 + 无限补全/月
-**Pro+ ($39/月)：** 1,500聊天 + 无限补全/月
-**Business ($19/用户/月)：** 300聊天 + 无限补全/用户/月
-**Enterprise ($39/用户/月)：** 1,000聊天 + 无限补全/用户/月
+**Pro ($10/月)：** 300高级请求 + 无限补全/月
+**Pro+ ($39/月)：** 1,500高级请求 + 无限补全/月
+**Business ($19/用户/月)：** 300高级请求 + 无限补全/用户/月
+**Enterprise ($39/用户/月)：** 1,000高级请求 + 无限补全/用户/月
+- 访问多个模型（Claude Sonnet 4、GPT-5、Gemini 2.5 Pro）
 - 可按$0.04/请求超额计费
 
 **链接：** [计划详情](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
@@ -294,7 +297,7 @@ _（从最慷慨到最不慷慨排序）_
 ### [Cursor](https://cursor.com/)
 
 **Hobby (免费)：** 仅基本模型的有限智能体请求
-**Pro ($20/月)：** 智能体的扩展限制，访问GPT-5、Claude Sonnet 4、Gemini 2.5 Pro
+**Pro ($20/月)：** 智能体的扩展限制，访问Claude Sonnet 4、OpenAI o3-pro、GPT-4.1、Claude Opus 4
 **Ultra ($200/月)：** 所有OpenAI、Claude、Gemini模型20x使用量
 **Teams ($40/用户/月)：** Pro功能 + 团队管理
 - 提供两周Pro试用
