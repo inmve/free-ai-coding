@@ -19,9 +19,9 @@ _（限制更高的工具列在前面）_
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 注册积分 (一次性) | ~3小时总计 | 是 |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 请求/月 | ~2.5小时/月 | 否 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体聊天/月 | ~0.8小时/月 | 是 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 聊天请求 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
+| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 聊天请求 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 积分/月 | ~0.4小时/月 | 是 |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 每日限制 (未公开) | 未知 | 否 (预览) |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 积分/月 | 未知 | 否 |
 
 ## 这些估算有多准确？
 
@@ -131,10 +131,10 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **~0.8小时/月的智能体交互 (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **~0.8小时/月的智能体交互 (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)**
 - 50聊天请求 + 2,000补全/月限制
 - 智能体模式具有自主多步编程
-- 多个提供商（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）
+- 多个提供商（GPT‑4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
 - 无需信用卡
 - 配额后限制为基本功能
 
@@ -156,13 +156,14 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **未知时长的Claude Sonnet 4 / 3.7编程**
-- 每日限制（未公开）
-- 仅Claude模型（AWS托管）
-- 无需信用卡（预览期）
-- 配额耗尽未知（预览期）
+> **Claude 4 Sonnet, Claude 3.7 Sonnet访问权限**
+- 50 积分/月（免费层）
+- Claude 4 Sonnet和Claude 3.7 Sonnet模型（AWS托管）
+- 无需信用卡
+- 14天欢迎奖励：500积分
+- 付费层：Pro（$20/月 - 1,000积分）、Pro+（$40/月 - 2,000积分）、Power（$200/月 - 10,000积分）
 
-**链接：** [介绍博客](https://kiro.dev/blog/introducing-kiro/)
+**链接：** [定价](https://kiro.dev/pricing/) | [介绍博客](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 
@@ -259,7 +260,7 @@ _（从最慷慨到最不慷慨排序）_
 **Pro+ ($39/月)：** 1,500高级请求 + 无限补全/月
 **Business ($19/用户/月)：** 300高级请求 + 无限补全/用户/月
 **Enterprise ($39/用户/月)：** 1,000高级请求 + 无限补全/用户/月
-- 访问多个模型（Claude Sonnet 4、GPT-5、Gemini 2.5 Pro）
+- 访问多个模型（GPT‑4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
 - 可按$0.04/请求超额计费
 
 **链接：** [计划详情](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
