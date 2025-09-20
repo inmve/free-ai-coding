@@ -20,10 +20,10 @@ _（より高い制限を持つツールを最初に掲載）_
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150リクエスト/月 | 不要 |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10高速 + 50低速リクエスト/月 | 不要 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50エージェントチャット/月 | 必要 |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50チャットリクエスト + 2,000補完/月 | 不要 |
+| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50チャットリクエスト + 2,000補完/月 | 不要 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25クレジット/月 | 必要 |
 | [Jules](#jules) | Gemini 2.5 Pro | 15タスク/日 | 不要 |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibeリクエスト/月 | 不要 |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50クレジット/月 | 不要 |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 限定クレジット（プレビュー） | 不要（プレビュー） |
 
 ## これをより正確にする手助け
@@ -134,10 +134,10 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **〜0.8時間/月のエージェントインタラクション（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）**
+> **〜0.8時間/月のエージェントインタラクション（GPT-4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）**
 - 50チャットリクエスト + 2,000補完/月制限
 - 自律マルチステップコーディングを行うエージェントモード
-- 複数プロバイダー（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash）
+- 複数プロバイダー（GPT-4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
 - クレジットカード不要
 - クォータ後は基本機能に制限
 
@@ -159,13 +159,14 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude Sonnet 4 / 3.7コーディングの不明な期間**
-- 日次制限（非公開）
-- Claudeモデルのみ（AWSホスト）
-- クレジットカード不要（プレビュー期間）
-- クォータ枯渇不明（プレビュー期間）
+> **Claude 4 Sonnet、Claude 3.7 Sonnetアクセス**
+- 50クレジット/月（無料ティア）
+- Claude 4 SonnetおよびClaude 3.7 Sonnetモデル（AWSホスト）
+- クレジットカード不要
+- 14日間ウェルカムボーナス：500クレジット
+- 有料ティア：Pro（$20/月 - 1,000クレジット）、Pro+（$40/月 - 2,000クレジット）、Power（$200/月 - 10,000クレジット）
 
-**リンク：** [紹介ブログ](https://kiro.dev/blog/introducing-kiro/)
+**リンク：** [価格設定](https://kiro.dev/pricing/) | [紹介ブログ](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 
@@ -262,7 +263,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 **Pro+ ($39/月)：** 1,500プレミアムリクエスト + 無制限補完/月
 **Business ($19/ユーザー/月)：** 300プレミアムリクエスト + 無制限補完/ユーザー/月
 **Enterprise ($39/ユーザー/月)：** 1,000プレミアムリクエスト + 無制限補完/ユーザー/月
-- 複数モデルへのアクセス（Claude Sonnet 4、GPT-5、Gemini 2.5 Pro）
+- 複数モデルへのアクセス（GPT-4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
 - $0.04/リクエストでオーバーレージ請求が利用可能
 
 **リンク：** [プラン詳細](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)

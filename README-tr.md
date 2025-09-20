@@ -18,10 +18,10 @@ _(yüksek limitli araçlar önce listelenir)_
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 istek/ay | Hayır |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 hızlı + 50 yavaş istek/ay | Hayır |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajan sohbeti/ay | Evet |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 sohbet isteği + 2,000 tamamlama/ay | Hayır |
+| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 sohbet isteği + 2,000 tamamlama/ay | Hayır |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe isteği/ay | Hayır |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 kredi/ay | Hayır |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Sınırlı kredi (önizleme) | Hayır (önizleme) |
 
 ## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
@@ -143,10 +143,10 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Ajan etkileşimleri (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash) erişimi**
+> **Ajan etkileşimleri (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1) erişimi**
 - Ayda 50 sohbet isteği + 2,000 tamamlama limiti
 - Özerk çok adımlı kodlama ile Ajan Modu
-- Çoklu sağlayıcılar (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
+- Çoklu sağlayıcılar (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
 - Kredi kartı gerekli değil
 - Kota sonrası temel özelliklere sınırlı
 
@@ -168,13 +168,14 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude Sonnet 4 / 3.7 bilinmeyen süre erişimi**
-- Günlük limitler (açıklanmamış)
-- Sadece Claude modelleri (AWS barındırımlı)
-- Kredi kartı gerekli değil (önizleme dönemi)
-- Kota tükenmesi bilinmiyor (önizleme dönemi)
+> **Claude 4 Sonnet, Claude 3.7 Sonnet erişimi**
+- Ayda 50 kredi (Ücretsiz katman)
+- Claude 4 Sonnet ve Claude 3.7 Sonnet modelleri (AWS barındırımlı)
+- Kredi kartı gerekli değil
+- 14 günlük hoş geldin bonusu: 500 kredi
+- Ücretli katmanlar: Pro (Ayda $20 - 1,000 kredi), Pro+ (Ayda $40 - 2,000 kredi), Power (Ayda $200 - 10,000 kredi)
 
-**Bağlantılar:** [Tanıtım Blog'u](https://kiro.dev/blog/introducing-kiro/)
+**Bağlantılar:** [Fiyatlandırma](https://kiro.dev/pricing/) | [Tanıtım Blog'u](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 

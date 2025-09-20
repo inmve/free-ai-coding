@@ -20,10 +20,10 @@ _(ferramentas com limites mais altos listadas primeiro)_
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requisições/mês | Não |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rápidas + 50 lentas requisições/mês | Não |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mês | Sim |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 solicitações de chat + 2,000 conclusões/mês | Não |
+| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 solicitações de chat + 2,000 conclusões/mês | Não |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mês | Sim |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tarefas/dia | Não |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 solicitações vibe/mês | Não |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 créditos/mês | Não |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Créditos limitados (preview) | Não (preview) |
 
 ## Ajude a Tornar Isso Mais Preciso
@@ -134,10 +134,10 @@ _(ordenadas da mais generosa para a menos generosa)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **~0.8h/mês de interações de agente (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)**
+> **~0.8h/mês de interações de agente (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)**
 - Limite de 50 solicitações de chat + 2,000 conclusões/mês
 - Modo Agente com codificação autônoma multi-etapas
-- Múltiplos provedores (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
+- Múltiplos provedores (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
 - Cartão de crédito não necessário
 - Limitado a recursos básicos após cota
 
@@ -159,13 +159,14 @@ _(ordenadas da mais generosa para a menos generosa)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Duração desconhecida de codificação com Claude Sonnet 4 / 3.7**
-- Limites diários (não divulgados)
-- Apenas modelos Claude (hospedados na AWS)
-- Cartão de crédito não necessário (período de preview)
-- Esgotamento de cota desconhecido (período de preview)
+> **Acesso Claude 4 Sonnet, Claude 3.7 Sonnet**
+- 50 créditos/mês (Camada gratuita)
+- Modelos Claude 4 Sonnet e Claude 3.7 Sonnet (hospedados na AWS)
+- Cartão de crédito não necessário
+- Bônus de boas-vindas de 14 dias: 500 créditos
+- Camadas pagas: Pro ($20/mês - 1,000 créditos), Pro+ ($40/mês - 2,000 créditos), Power ($200/mês - 10,000 créditos)
 
-**Links:** [Blog de Introdução](https://kiro.dev/blog/introducing-kiro/)
+**Links:** [Preços](https://kiro.dev/pricing/) | [Blog de Introdução](https://kiro.dev/blog/introducing-kiro/)
 
 ---
 

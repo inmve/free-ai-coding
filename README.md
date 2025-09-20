@@ -18,10 +18,10 @@ _(tools with higher limits listed first)_
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requests/month | No |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 fast + 50 slow requests/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | Yes |
-| [GitHub Copilot](#github-copilot) | GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash | 50 chat requests + 2,000 completions/month | No |
+| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 chat requests + 2,000 completions/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 vibe requests/month | No |
+| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 credits/month | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
 
 ## Help Make This More Accurate
@@ -106,7 +106,7 @@ _(ordered from most generous to least)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 access**
-- $25 free credits ($5 on signup + $20 on first top-up)
+- Up to $25 free credits
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
 - Credit card required to claim bonus credits
@@ -143,10 +143,10 @@ _(ordered from most generous to least)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Agent Mode with GPT‑4o, Claude 3.5 Sonnet, Gemini 2.0 Flash**
+> **Agent Mode with GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1**
 - 50 chat requests + 2,000 completions/month limit
 - Agent Mode with autonomous multi-step coding
-- Multiple providers (GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash)
+- Multiple providers (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
 - No credit card required
 - Limited to basic features after quota
 
@@ -198,11 +198,11 @@ _(ordered from most generous to least)_
 ### [AWS Kiro](https://kiro.dev/)
 
 > **Claude 4 Sonnet, Claude 3.7 Sonnet access**
-- 50 vibe requests/month (Free tier)
+- 50 credits/month (Free tier)
 - Claude 4 Sonnet and Claude 3.7 Sonnet models (AWS-hosted)
 - No credit card required
-- 14-day welcome bonus: 100 spec + 100 vibe requests
-- Paid tiers: Pro ($20/mo - 225 vibe), Pro+ ($40/mo - 450 vibe), Power ($200/mo - 2,250 vibe)
+- 14-day welcome bonus: 500 credits
+- Paid tiers: Pro ($20/mo - 1,000 credits), Pro+ ($40/mo - 2,000 credits), Power ($200/mo - 10,000 credits)
 
 **Links:** [Pricing](https://kiro.dev/pricing/) | [Introduction Blog](https://kiro.dev/blog/introducing-kiro/)
 
@@ -250,7 +250,7 @@ These services provide API access to coding-optimized models that integrate with
 ### [Cerebras](https://cloud.cerebras.ai/)
 
 > **Qwen3-Coder-480B and Llama 3.1 access**
-- 100 requests/day free tier
+- Pay-as-you-go exploration tier (no minimum commitment)
 - Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
@@ -279,9 +279,8 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($17/mo with annual):** Sonnet 4 access
-**Max ($100/mo):** Opus 4.1 + Sonnet 4 access (5x or 20x more usage)
-**Max ($200/mo):** Higher Opus 4.1 + Sonnet 4 limits
+**Pro ($17/mo with annual):** Sonnet 4 access with more usage than free tier
+**Max (From $100/mo):** Opus 4.1 + Sonnet 4 access (5x or 20x more usage than Pro)
 - Usage limits reset weekly
 - 5-hour rolling window limits apply
 - Priority access during high traffic (Max tier)
@@ -317,7 +316,7 @@ These services provide API access to coding-optimized models that integrate with
 **Pro+ ($39/mo):** 1,500 premium requests + unlimited completions/month
 **Business ($19/user/mo):** 300 premium requests + unlimited completions/user/month
 **Enterprise ($39/user/mo):** 1,000 premium requests + unlimited completions/user/month
-- Access to multiple models (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
+- Access to multiple models (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
 - Overage billing available at $0.04/request
 
 **Links:** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot)
