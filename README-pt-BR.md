@@ -2,7 +2,7 @@
 > Esta página foi traduzida automaticamente do inglês usando Claude AI.
 > Para maior precisão, consulte a [versão original em inglês](README.md).
 
-Última atualização: 10 de setembro, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
+Última atualização: 4 de outubro, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
 
 # Ferramentas de Codificação com IA: Onde Modelos de Grau Profissional São Realmente Gratuitos
 
@@ -16,10 +16,10 @@ _(ferramentas com limites mais altos listadas primeiro)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requisições/dia | Não |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/dia (beta) | Não |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requisições/dia | Não |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 créditos de cadastro (única vez) | Sim |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 créditos de cadastro (única vez) | Sim |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requisições/mês | Não |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rápidas + 50 lentas requisições/mês | Não |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 chats de agente/mês | Sim |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 solicitações agênticas/mês | Sim |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 solicitações de chat + 2,000 conclusões/mês | Não |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mês | Sim |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tarefas/dia | Não |
@@ -97,13 +97,13 @@ _(ordenadas da mais generosa para a menos generosa)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **~3h total de codificação com Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1**
-- $20 créditos gratuitos no cadastro
+- $20 créditos de cadastro (bônus único)
 - Extensão VS Code de código aberto
 - Pague conforme usar sem margem no preço dos modelos
 - Cartão de crédito necessário para reivindicar créditos de bônus
 - Suporta trazer suas próprias chaves API
 
-**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentação](https://kilocode.ai/docs/)
+**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentação](https://kilocode.ai/docs/) | [Preços](https://kilocode.ai/pricing)
 
 ---
 
@@ -122,7 +122,7 @@ _(ordenadas da mais generosa para a menos generosa)_
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
 > **~0.8h/mês de codificação com Claude Sonnet 4**
-- Limite de 50 chats agênticos/mês (conversas multi-turno)
+- Limite de 50 solicitações agênticas/mês (conversas multi-turno)
 - Modelos Claude mais recentes (hospedados na AWS)
 - Cartão de crédito necessário
 - Deve atualizar para Pro para acesso contínuo
@@ -196,12 +196,11 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
 > **~1.7h/dia (~50h/mês) de codificação com Qwen3-Coder/Llama 3.1**
-- Camada gratuita de 100 requisições/dia
+- Camada gratuita: 1M tokens/dia (cartão de crédito não necessário)
 - Modelos: Qwen3-Coder-480B (iguala performance do Claude Sonnet 4), Llama 3.1 70B
 - API compatível com OpenAI (funciona com Cursor, Continue.dev, Cline, RooCode, etc.)
 - Inferência ultra-rápida: 2,000 tokens/segundo (40x mais rápido que provedores típicos)
-- Cartão de crédito não necessário
-- **Camadas pagas:** Code ($50/mês - 24M tokens diários), Growth ($1,500/mês - 300+ RPM), Enterprise (personalizado)
+- **Camadas pagas:** Developer ($10+ autoatendimento), Code ($50/mês - 24M tokens diários), Enterprise (personalizado)
 
 **Links:** [Preços](https://www.cerebras.ai/pricing) | [Documentação da API](https://inference-docs.cerebras.ai/) | [Guias de Integração](https://inference-docs.cerebras.ai/integrations/)
 
@@ -300,12 +299,14 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 
 ### [Cursor](https://cursor.com/)
 
-**Hobby (Gratuito):** Requisições de agente limitadas apenas com modelos básicos
-**Pro ($20/mês):** Limites estendidos no Agente, acesso ao Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4
+**Hobby (Gratuito):** Requisições de agente limitadas apenas com modelos básicos + teste Pro de 2 semanas
+**Pro ($20/mês):** Limites estendidos no Agente, acesso ao Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
+**Pro+ ($60/mês):** 3x uso em todos os modelos OpenAI, Claude, Gemini
 **Ultra ($200/mês):** 20x uso em todos os modelos OpenAI, Claude, Gemini
 **Teams ($40/usuário/mês):** Recursos Pro + gerenciamento de equipe
 - Teste Pro de duas semanas disponível
 - Cartão de crédito necessário para camada gratuita
+- Editor de código com capacidades de codificação autônoma impulsionado por IA
 
 **Links:** [Preços](https://cursor.com/en/pricing)
 
