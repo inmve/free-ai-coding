@@ -2,7 +2,7 @@
 > 此页面由Claude AI自动从英文翻译而来。
 > 为确保准确性，请参考[英文原版](README.md)。
 
-最后更新：2025年9月10日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
+最后更新：2025年10月4日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
 
 # AI编程工具：专业级模型真正免费的地方
 
@@ -18,7 +18,7 @@ _（限制更高的工具列在前面）_
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 请求/天 | ~1.7小时/天 (~50小时/月) | 否 |
 | [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 注册积分 (一次性) | ~3小时总计 | 是 |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 请求/月 | ~2.5小时/月 | 否 |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体聊天/月 | ~0.8小时/月 | 是 |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体请求/月 | ~0.8小时/月 | 是 |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 聊天请求 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 积分/月 | ~0.4小时/月 | 是 |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 积分/月 | 未知 | 否 |
@@ -94,13 +94,13 @@ _（从最慷慨到最不慷慨排序）_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **~3小时总计的Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1编程**
-- 注册获得$20免费积分
+- $20注册积分（一次性奖励）
 - 开源VS Code扩展
 - 模型定价无加价的按使用付费
 - 需要信用卡来获得奖励积分
 - 支持使用自己的API密钥
 
-**链接：** [GitHub](https://github.com/Kilo-Org/kilocode) | [文档](https://kilocode.ai/docs/)
+**链接：** [GitHub](https://github.com/Kilo-Org/kilocode) | [文档](https://kilocode.ai/docs/) | [定价](https://kilocode.ai/pricing)
 
 ---
 
@@ -119,7 +119,7 @@ _（从最慷慨到最不慷慨排序）_
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
 > **~0.8小时/月的Claude Sonnet 4编程**
-- 50个智能体聊天/月限制（多轮对话）
+- 50个智能体请求/月限制（多轮对话）
 - 最新Claude模型（AWS托管）
 - 需要信用卡
 - 必须升级到Pro才能继续访问
@@ -193,12 +193,11 @@ _（从最慷慨到最不慷慨排序）_
 ### [Cerebras](https://cloud.cerebras.ai/)
 
 > **~1.7小时/天 (~50小时/月) 的Qwen3-Coder/Llama 3.1编程**
-- 每天100请求免费层
+- 免费层：每天100万令牌（无需信用卡）
 - 模型：Qwen3-Coder-480B（匹配Claude Sonnet 4性能）、Llama 3.1 70B
 - OpenAI兼容API（适用于Cursor、Continue.dev、Cline、RooCode等）
 - 超快推理：2,000令牌/秒（比典型提供商快40倍）
-- 无需信用卡
-- **付费层：** Code（$50/月 - 2400万令牌/天）、Growth（$1,500/月 - 300+ RPM）、Enterprise（定制）
+- **付费层：** Developer（$10+ 自助服务）、Code（$50/月 - 2400万令牌/天）、Enterprise（定制）
 
 **链接：** [定价](https://www.cerebras.ai/pricing) | [API文档](https://inference-docs.cerebras.ai/) | [集成指南](https://inference-docs.cerebras.ai/integrations/)
 
@@ -297,12 +296,14 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [Cursor](https://cursor.com/)
 
-**Hobby (免费)：** 仅基本模型的有限智能体请求
-**Pro ($20/月)：** 智能体的扩展限制，访问Claude Sonnet 4、OpenAI o3-pro、GPT-4.1、Claude Opus 4
+**Hobby (免费)：** 仅基本模型的有限智能体请求 + 2周Pro试用
+**Pro ($20/月)：** 智能体的扩展限制，访问Claude Sonnet 4、OpenAI o3-pro、GPT-4.1、Gemini 2.5 Pro、Claude Opus 4
+**Pro+ ($60/月)：** 所有OpenAI、Claude、Gemini模型3x使用量
 **Ultra ($200/月)：** 所有OpenAI、Claude、Gemini模型20x使用量
 **Teams ($40/用户/月)：** Pro功能 + 团队管理
 - 提供两周Pro试用
 - 免费层需要信用卡
+- AI驱动的代码编辑器，具有自主编程能力
 
 **链接：** [定价](https://cursor.com/en/pricing)
 

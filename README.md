@@ -1,4 +1,4 @@
-Last updated: September 10, 2025 • PRs/issues welcome
+Last updated: October 4, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -14,10 +14,10 @@ _(tools with higher limits listed first)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25 signup credits (one‑time) | Yes |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | Yes |
 | [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requests/month | No |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 fast + 50 slow requests/month | No |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agent chats/month | Yes |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agentic requests/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 chat requests + 2,000 completions/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
@@ -106,13 +106,13 @@ _(ordered from most generous to least)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 access**
-- Up to $25 free credits
+- $20 signup credits (one-time bonus)
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
 - Credit card required to claim bonus credits
 - Supports bringing your own API keys
 
-**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/)
+**Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/) | [Pricing](https://kilocode.ai/pricing)
 
 ---
 
@@ -131,7 +131,7 @@ _(ordered from most generous to least)_
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
 > **Claude Sonnet 4 access**
-- 50 agentic chats/month limit (multi-turn conversations)
+- 50 agentic requests/month limit (multi-turn conversations)
 - Latest Claude models (AWS-hosted)
 - Credit card required
 - Must upgrade to Pro for continued access
@@ -250,12 +250,11 @@ These services provide API access to coding-optimized models that integrate with
 ### [Cerebras](https://cloud.cerebras.ai/)
 
 > **Qwen3-Coder-480B and Llama 3.1 access**
-- Pay-as-you-go exploration tier (no minimum commitment)
+- Free tier: 1M tokens/day (no credit card required)
 - Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
-- No credit card required
-- **Paid tiers:** Code ($50/mo - 24M daily tokens), Growth ($1,500/mo - 300+ RPM), Enterprise (custom)
+- **Paid tiers:** Developer ($10+ self-serve), Code ($50/mo - 24M daily tokens), Enterprise (custom)
 
 **Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Integration Guides](https://inference-docs.cerebras.ai/integrations/)
 
@@ -369,6 +368,7 @@ These services provide API access to coding-optimized models that integrate with
 
 **Hobby (Free):** Limited agent requests with basic models only + 2-week Pro trial
 **Pro ($20/mo):** Extended limits on Agent, access to Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
+**Pro+ ($60/mo):** 3x usage on all OpenAI, Claude, Gemini models
 **Ultra ($200/mo):** 20x usage on all OpenAI, Claude, Gemini models
 **Teams ($40/user/mo):** Pro features + team management
 - Two-week Pro trial available
@@ -434,13 +434,12 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Jules](https://jules.google/)
 
-**Pro ($20/mo via Google AI Pro):** 100 tasks/day
-**Ultra ($30/mo via Google AI Ultra):** 300 tasks/day
-- Higher/priority access to latest models in paid tiers
-- 15-60 concurrent tasks depending on plan
+**Pro ($19.99/mo via Google AI Pro):** 100 tasks/day
+- 5x higher limits than free tier (15 concurrent tasks)
+- Higher access to latest models
 - Gmail account required (18+ years)
 
-**Links:** [Usage Limits](https://jules.google/docs/usage-limits/)
+**Links:** [Usage Limits](https://jules.google/docs/usage-limits/) | [Google AI Plans](https://one.google.com/about/google-ai-plans/)
 
 ---
 
