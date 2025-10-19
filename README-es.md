@@ -2,7 +2,7 @@
 > Esta página fue traducida automáticamente del inglés usando Claude AI.
 > Para mayor precisión, consulte la [versión original en inglés](README.md).
 
-Última actualización: 4 de octubre, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
+Última actualización: 19 de octubre, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
 
 # Herramientas de Codificación con IA: Donde los Modelos de Grado Profesional Son Realmente Gratuitos
 
