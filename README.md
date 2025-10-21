@@ -584,7 +584,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ## Related Resources
 
-- [Coding with LLMs: We can talk to computers now](https://coding-with-ai.dev/posts/talking-to-computers/) - Thoughtful exploration of the paradigm shift in AI-assisted development, covering productivity gains, quality through iteration, and the ~50-hour learning curve to proficiency
+- [Coding with AI](https://coding-with-ai.dev/) - Practical techniques and resources for coding with LLMs
 - [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) - Comprehensive list of free LLM APIs for building custom integrations
 
 ---
