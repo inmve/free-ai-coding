@@ -1,4 +1,4 @@
-Last updated: October 19, 2025 • PRs/issues welcome
+Last updated: October 21, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -24,15 +24,12 @@ _(tools with higher limits listed first)_
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 credits/month | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
 
-## Help Make This More Accurate
-
-**Real usage varies widely by coding style, task complexity, and tool implementation**. Help improve this resource by [sharing your actual experience →](https://free-ai-usage.vercel.app/)
-
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
 
 | Model | SWE-bench Verified | Provider |
 |-------|-------------------|----------|
+| Claude Sonnet 4.5 | 77.2% (82.0% w/ parallel) | Anthropic |
 | GPT-5 | 74.9% | OpenAI |
 | Claude Opus 4.1 | 74.5% | Anthropic |
 | Claude Sonnet 4 | 72.7% (80.2% w/ parallel) | Anthropic |
@@ -41,8 +38,6 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 | Gemini 2.5 Pro | 63.2% | Google |
 
 ### Contributing
-
-Help improve this resource by sharing your actual usage experience → [Submit your feedback](https://free-ai-usage.vercel.app/)
 
 If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
@@ -589,6 +584,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ## Related Resources
 
+- [Coding with LLMs: We can talk to computers now](https://coding-with-ai.dev/posts/talking-to-computers/) - Thoughtful exploration of the paradigm shift in AI-assisted development, covering productivity gains, quality through iteration, and the ~50-hour learning curve to proficiency
 - [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) - Comprehensive list of free LLM APIs for building custom integrations
 
 ---
