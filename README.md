@@ -1,4 +1,4 @@
-Last updated: October 4, 2025 • PRs/issues welcome
+Last updated: October 21, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -24,15 +24,12 @@ _(tools with higher limits listed first)_
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 credits/month | No |
 | [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
 
-## Help Make This More Accurate
-
-**Real usage varies widely by coding style, task complexity, and tool implementation**. Help improve this resource by [sharing your actual experience →](https://free-ai-usage.vercel.app/)
-
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
 
 | Model | SWE-bench Verified | Provider |
 |-------|-------------------|----------|
+| Claude Sonnet 4.5 | 77.2% (82.0% w/ parallel) | Anthropic |
 | GPT-5 | 74.9% | OpenAI |
 | Claude Opus 4.1 | 74.5% | Anthropic |
 | Claude Sonnet 4 | 72.7% (80.2% w/ parallel) | Anthropic |
@@ -41,8 +38,6 @@ Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-w
 | Gemini 2.5 Pro | 63.2% | Google |
 
 ### Contributing
-
-Help improve this resource by sharing your actual usage experience → [Submit your feedback](https://free-ai-usage.vercel.app/)
 
 If you spot an error, missing source link, or have updated quota/model information, please open an issue or pull request with a source. New tool contributions are welcomed! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
@@ -190,6 +185,7 @@ _(ordered from most generous to least)_
 - Gmail account required (18+ years)
 - Task limits reset on rolling 24-hour window
 - No credit card required
+- Pro tier ($19.99/mo): 100 tasks/day (5x limits)
 
 **Links:** [Usage Limits](https://jules.google/docs/usage-limits/) | [Documentation](https://jules.google/docs/)
 
@@ -211,14 +207,15 @@ _(ordered from most generous to least)_
 ### [Qoder](https://qoder.com/)
 
 > **Qwen3-Coder-480B, Claude, GPT, Gemini models (free preview)**
-- Limited credits for chat and agent requests during preview
-- AI-powered IDE from Alibaba (public preview launched August 2025)
+- Free during preview period (launched August 2025)
+- 14-day Pro trial with 1,000 credits for new users
+- AI-powered IDE from Alibaba
 - Available for Windows and macOS
 - Primarily uses Qwen3-Coder-480B (Alibaba's flagship coding model)
 - Also supports Claude, GPT-4, Gemini models
 - Agent Mode and Quest Mode for autonomous coding
 - No credit card required (preview period)
-- Credit-based pricing coming soon
+- Planned pricing: Free ($0), Pro ($20/mo - 2,000 credits), Pro+ ($60/mo - 6,000 credits)
 
 **Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
 
@@ -250,11 +247,13 @@ These services provide API access to coding-optimized models that integrate with
 ### [Cerebras](https://cloud.cerebras.ai/)
 
 > **Qwen3-Coder-480B and Llama 3.1 access**
-- Free tier: 1M tokens/day (no credit card required)
+- Free tier: 1M tokens/day
+- No credit card required
+- Rate limit: 30 requests/minute, 8,192 token context
 - Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
-- **Paid tiers:** Developer ($10+ self-serve), Code ($50/mo - 24M daily tokens), Enterprise (custom)
+- **Paid tiers:** Developer ($10+ self-serve), Enterprise (custom pricing)
 
 **Links:** [Pricing](https://www.cerebras.ai/pricing) | [API Docs](https://inference-docs.cerebras.ai/) | [Integration Guides](https://inference-docs.cerebras.ai/integrations/)
 
@@ -366,13 +365,13 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cursor](https://cursor.com/)
 
-**Hobby (Free):** Limited agent requests with basic models only + 2-week Pro trial
-**Pro ($20/mo):** Extended limits on Agent, access to Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
+**Hobby (Free):** 2,000 completions + 50 slow requests + 2-week Pro trial
+**Pro ($20/mo or $16/mo annually):** Unlimited usage of Tab and models in Auto, $20 of frontier model usage/month at API pricing
 **Pro+ ($60/mo):** 3x usage on all OpenAI, Claude, Gemini models
 **Ultra ($200/mo):** 20x usage on all OpenAI, Claude, Gemini models
 **Teams ($40/user/mo):** Pro features + team management
 - Two-week Pro trial available
-- Credit card required for free tier
+- Models: Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
 - AI-powered code editor with autonomous coding capabilities
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
@@ -435,7 +434,8 @@ These services provide API access to coding-optimized models that integrate with
 ### [Jules](https://jules.google/)
 
 **Pro ($19.99/mo via Google AI Pro):** 100 tasks/day
-- 5x higher limits than free tier (15 concurrent tasks)
+- 5x higher limits than free tier (15 tasks/day → 100 tasks/day)
+- 5x concurrent tasks (3 → 15 concurrent)
 - Higher access to latest models
 - Gmail account required (18+ years)
 
@@ -584,6 +584,7 @@ Running open-weight frontier models locally provides unlimited coding assistance
 
 ## Related Resources
 
+- [Coding with AI](https://coding-with-ai.dev/) - Practical techniques and resources for coding with LLMs
 - [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) - Comprehensive list of free LLM APIs for building custom integrations
 
 ---
