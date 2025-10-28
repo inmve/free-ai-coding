@@ -2,7 +2,7 @@
 > 此页面由Claude AI自动从英文翻译而来。
 > 为确保准确性，请参考[英文原版](README.md)。
 
-最后更新：2025年10月19日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
+最后更新：2025年10月28日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
 
 # AI编程工具：专业级模型真正免费的地方
 
@@ -178,12 +178,12 @@ _（从最慷慨到最不慷慨排序）_
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **~33小时/天 (~1000小时/月) 的Qwen3-Coder编程**
-- Qwen3-Coder-480B每天2,000请求免费层
+> **通过OpenRouter访问Qwen3-Coder-480B**
+- 每天50请求免费层（购买$10+积分后为1,000/天）
 - 额外免费模型：Qwen3-30B-A3B、Qwen3-235B-A22B、Gemini Flash
 - 所有主要IDE的OpenAI兼容API
 - 免费模型无需信用卡
-- 免费层在高流量时速率限制
+- 免费层每分钟20请求限制
 - 适用于Continue.dev、Cline、Cursor等
 
 **链接：** [免费模型](https://openrouter.ai/models/?q=free) | [Qwen3-Coder API](https://openrouter.ai/qwen/qwen3-coder:free/api)

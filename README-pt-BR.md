@@ -2,7 +2,7 @@
 > Esta página foi traduzida automaticamente do inglês usando Claude AI.
 > Para maior precisão, consulte a [versão original em inglês](README.md).
 
-Última atualização: 19 de outubro, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
+Última atualização: 28 de outubro, 2025 • PRs/issues bem-vindos • ⭐ Favorite para voltar mais tarde
 
 # Ferramentas de Codificação com IA: Onde Modelos de Grau Profissional São Realmente Gratuitos
 
@@ -181,12 +181,12 @@ Esses serviços fornecem acesso API a modelos otimizados para codificação que 
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **~33h/dia (~1000h/mês) de codificação com Qwen3-Coder**
-- Camada gratuita de 2,000 requisições/dia para Qwen3-Coder-480B
+> **Qwen3-Coder-480B via OpenRouter**
+- 50 requisições/dia camada gratuita (1,000/dia se comprou $10+ créditos)
 - Modelos gratuitos adicionais: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
 - API compatível com OpenAI para todos os principais IDEs
 - Cartão de crédito não necessário para modelos gratuitos
-- Limitação de taxa durante alto tráfego para camada gratuita
+- Limite de 20 requisições/minuto para camada gratuita
 - Funciona com Continue.dev, Cline, Cursor, etc.
 
 **Links:** [Modelos Gratuitos](https://openrouter.ai/models/?q=free) | [API Qwen3-Coder](https://openrouter.ai/qwen/qwen3-coder:free/api)

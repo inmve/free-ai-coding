@@ -1,4 +1,4 @@
-Last updated: October 21, 2025 • PRs/issues welcome
+Last updated: October 28, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -233,11 +233,11 @@ These services provide API access to coding-optimized models that integrate with
 ### [OpenRouter](https://openrouter.ai/)
 
 > **Qwen3-Coder-480B via OpenRouter**
-- 2,000 requests/day free tier for Qwen3-Coder-480B
+- 50 requests/day free tier (1,000/day if purchased $10+ credits)
 - Additional free models: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
 - OpenAI-compatible API for all major IDEs
 - No credit card required for free models
-- Rate limiting during high traffic for free tier
+- 20 requests/minute rate limit for free tier
 - Works with Continue.dev, Cline, Cursor, etc.
 
 **Links:** [Free Models](https://openrouter.ai/models/?q=free) | [Qwen3-Coder API](https://openrouter.ai/qwen/qwen3-coder:free/api)

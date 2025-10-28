@@ -1,4 +1,4 @@
-Son güncelleme: 19 Ekim 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
+Son güncelleme: 28 Ekim 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
 
 **Diller:** [English](README.md) • [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -190,12 +190,12 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **Qwen3-Coder erişimi**
-- Qwen3-Coder-480B için günde 2,000 istek ücretsiz katman
+> **OpenRouter üzerinden Qwen3-Coder-480B**
+- Günde 50 istek ücretsiz katman ($10+ kredi satın alınırsa 1,000/gün)
 - Ek ücretsiz modeller: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash
 - Tüm büyük IDE'ler için OpenAI-uyumlu API
 - Ücretsiz modeller için kredi kartı gerekli değil
-- Ücretsiz katman için yoğun trafik sırasında hız sınırlaması
+- Ücretsiz katman için dakikada 20 istek limiti
 - Continue.dev, Cline, Cursor, vb. ile çalışır
 
 **Bağlantılar:** [Ücretsiz Modeller](https://openrouter.ai/models/?q=free) | [Qwen3-Coder API](https://openrouter.ai/qwen/qwen3-coder:free/api)
