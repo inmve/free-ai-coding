@@ -2,7 +2,7 @@
 > このページはClaude AIを使用して英語から自動翻訳されました。
 > 正確性については[英語版オリジナル](README.md)をご参照ください。
 
-最終更新：2025年10月19日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
+最終更新：2025年10月28日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
 
 # AIコーディングツール：プロフェッショナルグレードモデルが本当に無料で使える場所
 
@@ -181,12 +181,12 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 
 ### [OpenRouter](https://openrouter.ai/)
 
-> **〜33時間/日（〜1000時間/月）のQwen3-Coderコーディング**
-- Qwen3-Coder-480Bで1日2,000リクエストの無料ティア
+> **OpenRouter経由でQwen3-Coder-480B**
+- 1日50リクエストの無料ティア（$10以上のクレジット購入で1,000/日）
 - 追加無料モデル：Qwen3-30B-A3B、Qwen3-235B-A22B、Gemini Flash
 - すべての主要IDEでOpenAI互換API
 - 無料モデルにクレジットカード不要
-- 無料ティアでのトラフィック高時のレート制限
+- 無料ティアで1分間20リクエストの制限
 - Continue.dev、Cline、Cursorなどで動作
 
 **リンク：** [無料モデル](https://openrouter.ai/models/?q=free) | [Qwen3-Coder API](https://openrouter.ai/qwen/qwen3-coder:free/api)
