@@ -24,7 +24,7 @@ _（より高い制限を持つツールを最初に掲載）_
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25クレジット/月 | 必要 |
 | [Jules](#jules) | Gemini 2.5 Pro | 15タスク/日 | 不要 |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50クレジット/月 | 不要 |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 限定クレジット（プレビュー） | 不要（プレビュー） |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 無料ティア + 2週間Proトライアル（1,000クレジット） | 不要 |
 
 ## これをより正確にする手助け
 
@@ -97,7 +97,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **〜3時間合計のClaude 4 Sonnet/Opus、Gemini 2.5 Pro、GPT-4.1コーディング**
-- $20登録クレジット（1回限りのボーナス）
+- 最大$25登録クレジット（1回限りのボーナス）
 - オープンソースVS Code拡張
 - モデル価格にマークアップなしの従量課金制
 - ボーナスクレジット取得にはクレジットカードが必要

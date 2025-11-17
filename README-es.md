@@ -24,7 +24,7 @@ _(herramientas con límites más altos listadas primero)_
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 créditos/mes | Sí |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tareas/día | No |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 créditos/mes | No |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Créditos limitados (vista previa) | No (vista previa) |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Nivel gratuito + prueba Pro de 2 semanas (1,000 créditos) | No |
 
 ## Ayuda a Hacer Esto Más Preciso
 
@@ -108,7 +108,7 @@ _(ordenadas de más generosas a menos generosas)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **~3h total de codificación con Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1**
-- $20 créditos de registro (bonificación única)
+- Hasta $25 créditos de registro (bonificación única)
 - Extensión de VS Code de código abierto
 - Pago por uso sin margen en precios de modelos
 - Se requiere tarjeta de crédito para reclamar créditos de bonificación

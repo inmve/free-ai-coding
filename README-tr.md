@@ -22,7 +22,7 @@ _(yüksek limitli araçlar önce listelenir)_
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 kredi/ay | Hayır |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Sınırlı kredi (önizleme) | Hayır (önizleme) |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Ücretsiz katman + 2 haftalık Pro deneme (1.000 kredi) | Hayır |
 
 ## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
 
@@ -106,7 +106,7 @@ _(en cömert olandan en az cömerte sıralı)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 erişimi**
-- $25 ücretsiz kredi (kayıtta $5 + ilk doldurmada $20)
+- Kayıtta $25'e kadar ücretsiz kredi (tek seferlik bonus)
 - Açık kaynaklı VS Code uzantısı
 - Model fiyatlandırmasında markup olmayan kullandıkça öde
 - Bonus kredileri almak için kredi kartı gerekli
