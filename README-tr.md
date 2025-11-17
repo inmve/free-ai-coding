@@ -1,4 +1,4 @@
-Son güncelleme: 28 Ekim 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
+Son güncelleme: 17 Kasım 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
 
 **Diller:** [English](README.md) • [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -14,15 +14,15 @@ _(yüksek limitli araçlar önce listelenir)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 istek/gün | Hayır |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M token/gün (beta) | Hayır |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | Hayır |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 kayıt kredisi (tek seferlik) | Evet |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 istek/ay | Hayır |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25'e kadar kayıt kredisi (tek seferlik) | Evet |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 kredi/ay (ilk 2 ay), sonra 75/ay | Hayır |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 hızlı + 50 yavaş istek/ay | Hayır |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajantik istek/ay | Evet |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 sohbet isteği + 2,000 tamamlama/ay | Hayır |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 kredi/ay | Hayır |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Sınırlı kredi (önizleme) | Hayır (önizleme) |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Ücretsiz katman + 2 haftalık Pro deneme (1.000 kredi) | Hayır |
 
 ## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
 
@@ -106,7 +106,7 @@ _(en cömert olandan en az cömerte sıralı)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 erişimi**
-- $25 ücretsiz kredi (kayıtta $5 + ilk doldurmada $20)
+- Kayıtta $25'e kadar ücretsiz kredi (tek seferlik bonus)
 - Açık kaynaklı VS Code uzantısı
 - Model fiyatlandırmasında markup olmayan kullandıkça öde
 - Bonus kredileri almak için kredi kartı gerekli

@@ -1,4 +1,4 @@
-Last updated: October 28, 2025 • PRs/issues welcome
+Last updated: November 17, 2025 • PRs/issues welcome
 
 **Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -14,15 +14,15 @@ _(tools with higher limits listed first)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requests/day | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/day (beta) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requests/day | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 signup credits (one‑time) | Yes |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requests/month | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | Up to $25 signup credits (one‑time) | Yes |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 credits/month (first 2 months), then 75/month | No |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 fast + 50 slow requests/month | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agentic requests/month | Yes |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 chat requests + 2,000 completions/month | No |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 credits/month | Yes |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 credits/month | No |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Limited credits (preview) | No (preview) |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Free tier + 2-week Pro trial (1,000 credits) | No |
 
 ### Qualifying Pro‑Grade Models
 Only models achieving >60% on SWE-bench Verified qualify as pro-grade for real-world coding tasks. Below is the current list
@@ -101,10 +101,10 @@ _(ordered from most generous to least)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 access**
-- $20 signup credits (one-time bonus)
+- Up to $25 signup credits (one-time bonus)
 - Open source VS Code extension
 - Pay-as-you-go with no markup on model pricing
-- Credit card required to claim bonus credits
+- Credit card required to claim full bonus credits
 - Supports bringing your own API keys
 
 **Links:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/) | [Pricing](https://kilocode.ai/pricing)
@@ -114,10 +114,10 @@ _(ordered from most generous to least)_
 ### [Warp](https://warp.dev/)
 
 > **GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro access**
-- 150 requests/month limit
+- 150 AI credits/month (first 2 months), then 75 AI credits/month
 - Multiple providers (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)
 - No credit card required for basic signup
-- Pay-as-you-go overages available
+- New pricing structure announced Oct 30, 2025: Single Build plan ($20/mo) with 1,500 credits
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
 
@@ -206,16 +206,15 @@ _(ordered from most generous to least)_
 
 ### [Qoder](https://qoder.com/)
 
-> **Qwen3-Coder-480B, Claude, GPT, Gemini models (free preview)**
-- Free during preview period (launched August 2025)
-- 14-day Pro trial with 1,000 credits for new users
+> **Qwen3-Coder-480B, Claude, GPT, Gemini models**
+- Free tier: Unlimited completions/edits + limited chat/agent requests + 2-week Pro trial (1,000 credits)
 - AI-powered IDE from Alibaba
 - Available for Windows and macOS
 - Primarily uses Qwen3-Coder-480B (Alibaba's flagship coding model)
 - Also supports Claude, GPT-4, Gemini models
 - Agent Mode and Quest Mode for autonomous coding
-- No credit card required (preview period)
-- Planned pricing: Free ($0), Pro ($20/mo - 2,000 credits), Pro+ ($60/mo - 6,000 credits)
+- No credit card required (free tier)
+- Paid tiers: Pro ($20/mo - 2,000 credits), Pro+ ($60/mo - 6,000 credits)
 
 **Links:** [Homepage](https://qoder.com/) | [Pricing](https://qoder.com/pricing)
 
@@ -246,11 +245,11 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **Qwen3-Coder-480B and Llama 3.1 access**
+> **Qwen3-235B and Llama 3.1 access**
 - Free tier: 1M tokens/day
 - No credit card required
 - Rate limit: 30 requests/minute, 8,192 token context
-- Models: Qwen3-Coder-480B (matches Claude Sonnet 4 performance), Llama 3.1 70B
+- Models: Qwen3-235B, Llama 3.1 70B (Note: Qwen3-Coder-480B deprecated Nov 5, 2025)
 - OpenAI-compatible API (works with Cursor, Continue.dev, Cline, RooCode, etc.)
 - Ultra-fast inference: 2,000 tokens/second (40x faster than typical providers)
 - **Paid tiers:** Developer ($10+ self-serve), Enterprise (custom pricing)
@@ -298,10 +297,11 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/mo annually, $18/mo monthly):** 2,500 requests/month
-**Turbo ($40/mo annually, $50/mo monthly):** 10,000 requests/month  
-**Lightspeed ($200/mo annually, $225/mo monthly):** 50,000 requests/month
-- Pay-as-you-go available for overages
+**Build ($20/mo):** 1,500 AI credits/month
+- Reload Credits available (up to 50% cheaper than old overage rates, roll over for 12 months)
+- Bring Your Own API Key (BYOK) option available
+- New pricing effective immediately for new customers (Oct 30, 2025)
+- Existing monthly subscribers transition on first renewal after Dec 1, 2025
 - Enterprise tier: Custom pricing
 
 **Links:** [Pricing](https://www.warp.dev/pricing)
@@ -365,13 +365,15 @@ These services provide API access to coding-optimized models that integrate with
 
 ### [Cursor](https://cursor.com/)
 
-**Hobby (Free):** 2,000 completions + 50 slow requests + 2-week Pro trial
-**Pro ($20/mo or $16/mo annually):** Unlimited usage of Tab and models in Auto, $20 of frontier model usage/month at API pricing
+**Hobby (Free):** Limited Agent requests + Limited Tab completions + 1-week Pro trial
+**Pro ($20/mo or $16/mo annually):** Extended Agent limits + Unlimited Tab completions + Background Agents + Maximum context windows
 **Pro+ ($60/mo):** 3x usage on all OpenAI, Claude, Gemini models
 **Ultra ($200/mo):** 20x usage on all OpenAI, Claude, Gemini models
 **Teams ($40/user/mo):** Pro features + team management
-- Two-week Pro trial available
-- Models: Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Gemini 2.5 Pro, Claude Opus 4
+- One-week Pro trial available (free tier)
+- Free tier: GPT-4.1 only (50 requests/month premium), plus free models (Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini, Grok 3 Mini Beta)
+- Paid tiers: Access to OpenAI, Claude, Gemini models
+- Note: Claude models removed from free tier ~June 2025
 - AI-powered code editor with autonomous coding capabilities
 
 **Links:** [Pricing](https://cursor.com/en/pricing)
@@ -437,6 +439,11 @@ These services provide API access to coding-optimized models that integrate with
 - 5x higher limits than free tier (15 tasks/day → 100 tasks/day)
 - 5x concurrent tasks (3 → 15 concurrent)
 - Higher access to latest models
+
+**Ultra (via Google AI Ultra):** 300 tasks/day
+- 20x higher limits than free tier
+- 60 concurrent tasks
+- Priority access to latest models
 - Gmail account required (18+ years)
 
 **Links:** [Usage Limits](https://jules.google/docs/usage-limits/) | [Google AI Plans](https://one.google.com/about/google-ai-plans/)

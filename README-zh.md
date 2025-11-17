@@ -2,7 +2,7 @@
 > 此页面由Claude AI自动从英文翻译而来。
 > 为确保准确性，请参考[英文原版](README.md)。
 
-最后更新：2025年10月28日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
+最后更新：2025年11月17日 • 欢迎PR/issues • ⭐ 收藏以便稍后查看
 
 # AI编程工具：专业级模型真正免费的地方
 
@@ -16,8 +16,8 @@ _（限制更高的工具列在前面）_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 请求/天 | ~33小时/天 (~1000小时/月) | 否 |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M 令牌/天 (beta) | ~20小时/天 (~600小时/月) | 否 |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 请求/天 | ~1.7小时/天 (~50小时/月) | 否 |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 注册积分 (一次性) | ~3小时总计 | 是 |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 请求/月 | ~2.5小时/月 | 否 |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 最多$25 注册积分 (一次性) | ~3小时总计 | 是 |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 积分/月（前2个月），之后75/月 | ~2.5小时/月 | 否 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 智能体请求/月 | ~0.8小时/月 | 是 |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 聊天请求 + 2,000 补全/月 | ~0.8小时/月 (智能体) | 否 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 积分/月 | ~0.4小时/月 | 是 |
@@ -94,7 +94,7 @@ _（从最慷慨到最不慷慨排序）_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **~3小时总计的Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1编程**
-- $20注册积分（一次性奖励）
+- 最多$25注册积分（一次性奖励）
 - 开源VS Code扩展
 - 模型定价无加价的按使用付费
 - 需要信用卡来获得奖励积分

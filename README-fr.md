@@ -2,7 +2,7 @@
 > Cette page a été traduite automatiquement de l'anglais en utilisant Claude AI.
 > Pour plus de précision, consultez la [version anglaise originale](README.md).
 
-Dernière mise à jour : 28 octobre 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
+Dernière mise à jour : 17 novembre 2025 • PRs/issues bienvenus • ⭐ Mettre en favori pour revenir plus tard
 
 # Outils de Codage IA : Où les Modèles de Niveau Professionnel Sont Vraiment Gratuits
 
@@ -16,15 +16,15 @@ _(outils avec des limites plus élevées listés en premier)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 requêtes/jour | Non |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/jour (bêta) | Non |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 requêtes/jour | Non |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 crédits d'inscription (unique) | Oui |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 requêtes/mois | Non |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | Jusqu'à $25 crédits d'inscription (unique) | Oui |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 crédits/mois (2 premiers mois), puis 75/mois | Non |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rapides + 50 lentes requêtes/mois | Non |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 requêtes agentiques/mois | Oui |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 requêtes de chat + 2,000 complétions/mois | Non |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 crédits/mois | Oui |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tâches/jour | Non |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 crédits/mois | Non |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Crédits limités (aperçu) | Non (aperçu) |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Niveau gratuit + essai Pro de 2 semaines (1 000 crédits) | Non |
 
 ## Aidez à Rendre Ceci Plus Précis
 
@@ -109,7 +109,7 @@ _(ordonnés du plus généreux au moins généreux)_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **Accès à Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1**
-- $20 crédits d'inscription (bonus unique)
+- Jusqu'à $25 crédits d'inscription (bonus unique)
 - Extension VS Code open source
 - Paiement à l'utilisation sans majoration sur la tarification des modèles
 - Carte de crédit requise pour réclamer les crédits bonus

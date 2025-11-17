@@ -2,7 +2,7 @@
 > このページはClaude AIを使用して英語から自動翻訳されました。
 > 正確性については[英語版オリジナル](README.md)をご参照ください。
 
-最終更新：2025年10月28日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
+最終更新：2025年11月17日 • PR/issue歓迎 • ⭐ スターで後で戻ってくる
 
 # AIコーディングツール：プロフェッショナルグレードモデルが本当に無料で使える場所
 
@@ -16,15 +16,15 @@ _（より高い制限を持つツールを最初に掲載）_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000リクエスト/日 | 不要 |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5Mトークン/日（ベータ） | 不要 |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100リクエスト/日 | 不要 |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20登録クレジット（一回限り） | 必要 |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150リクエスト/月 | 不要 |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 最大$25登録クレジット（一回限り） | 必要 |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150クレジット/月（最初の2ヶ月）、その後75/月 | 不要 |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10高速 + 50低速リクエスト/月 | 不要 |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50エージェンティックリクエスト/月 | 必要 |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50チャットリクエスト + 2,000補完/月 | 不要 |
 | [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25クレジット/月 | 必要 |
 | [Jules](#jules) | Gemini 2.5 Pro | 15タスク/日 | 不要 |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50クレジット/月 | 不要 |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 限定クレジット（プレビュー） | 不要（プレビュー） |
+| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | 無料ティア + 2週間Proトライアル（1,000クレジット） | 不要 |
 
 ## これをより正確にする手助け
 
@@ -97,7 +97,7 @@ _（最も寛大なものから最も制限的なものまで順位付け）_
 ### [Kilo Code](https://kilocode.ai/)
 
 > **〜3時間合計のClaude 4 Sonnet/Opus、Gemini 2.5 Pro、GPT-4.1コーディング**
-- $20登録クレジット（1回限りのボーナス）
+- 最大$25登録クレジット（1回限りのボーナス）
 - オープンソースVS Code拡張
 - モデル価格にマークアップなしの従量課金制
 - ボーナスクレジット取得にはクレジットカードが必要
