@@ -2,7 +2,7 @@
 > Esta página fue traducida automáticamente del inglés usando Claude AI.
 > Para mayor precisión, consulte la [versión original en inglés](README.md).
 
-Última actualización: 28 de octubre, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
+Última actualización: 17 de noviembre, 2025 • PRs/issues bienvenidos • ⭐ Dale estrella para volver más tarde
 
 # Herramientas de Codificación con IA: Donde los Modelos de Grado Profesional Son Realmente Gratuitos
 
@@ -16,8 +16,8 @@ _(herramientas con límites más altos listadas primero)_
 | [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 solicitudes/día | No |
 | [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M tokens/día (beta) | No |
 | [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 solicitudes/día | No |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $20 créditos de registro (una vez) | Sí |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 solicitudes/mes | No |
+| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | Hasta $25 créditos de registro (una vez) | Sí |
+| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 créditos/mes (primeros 2 meses), luego 75/mes | No |
 | [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rápidas + 50 lentas solicitudes/mes | No |
 | [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 solicitudes agénticas/mes | Sí |
 | [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 solicitudes de chat + 2,000 completados/mes | No |
