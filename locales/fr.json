@@ -1,0 +1,778 @@
+{
+  "code": "fr",
+  "meta": {
+    "lastUpdated": "5 décembre 2025",
+    "prsWelcome": "PRs/issues bienvenus"
+  },
+  "labels": {
+    "lastUpdated": "Dernière mise à jour",
+    "languages": "Langues :",
+    "links": "Liens :"
+  },
+  "hero": {
+    "title": "Outils de Codage IA : Où les Modèles de Niveau Professionnel Sont Vraiment Gratuits",
+    "subtitle": "Beaucoup d'outils de codage IA prétendent être « gratuits », mais l'accès aux modèles de niveau professionnel s'épuise généralement rapidement, puis vous êtes rétrogradé. Chaque outil utilise différentes limites (crédits, tokens, requêtes), donc la comparaison est difficile. Cette liste les met côte à côte pour montrer ce que vous obtenez réellement gratuitement."
+  },
+  "tldr": {
+    "heading": "TL;DR — Niveaux Gratuits pour le Codage IA de Niveau Professionnel",
+    "subheading": "(outils avec des limites plus élevées listés en premier)",
+    "headers": {
+      "tool": "Outil",
+      "models": "Modèles de niveau professionnel",
+      "freeLimit": "Limite du niveau gratuit",
+      "creditCard": "Carte de crédit"
+    },
+    "rows": [
+      { "id": "qwen-code", "name": "Qwen Code", "url": "https://github.com/QwenLM/qwen-code", "models": "Qwen3-Coder-480B", "freeLimit": "2 000 requêtes/jour", "creditCard": "Non" },
+      { "id": "rovo-dev-cli", "name": "Rovo Dev CLI", "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface", "models": "Claude Sonnet 4", "freeLimit": "5M tokens/jour (beta)", "creditCard": "Non" },
+      { "id": "gemini-cli", "name": "Gemini CLI", "url": "https://github.com/google-gemini/gemini-cli", "models": "Gemini 3 Pro, Gemini 2.5 Pro", "freeLimit": "Gemini 3 Pro (liste d’attente/payant), 100 req/jour Gemini 2.5 Pro", "creditCard": "Non" },
+      { "id": "cursor", "name": "Cursor", "url": "https://cursor.com/", "models": "GPT-5.1-Codex-Max", "freeLimit": "Gratuit jusqu'au 11 déc. 2025 (77,9% SWE-bench)", "creditCard": "Non" },
+      { "id": "kilo-code", "name": "Kilo Code", "url": "https://kilocode.ai/", "models": "Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1", "freeLimit": "Jusqu'à $25 de crédits d'inscription (unique)", "creditCard": "Oui" },
+      { "id": "warp", "name": "Warp", "url": "https://warp.dev/", "models": "GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro", "freeLimit": "150 crédits/mois (2 premiers mois), puis 75/mois", "creditCard": "Non" },
+      { "id": "trae", "name": "Trae", "url": "https://trae.ai/", "models": "Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro", "freeLimit": "10 rapides + 50 lentes requêtes/mois", "creditCard": "Non" },
+      { "id": "amazon-q-developer", "name": "Amazon Q Developer", "url": "https://aws.amazon.com/q/developer/", "models": "Claude Sonnet 4", "freeLimit": "50 requêtes agentiques/mois", "creditCard": "Oui" },
+      { "id": "github-copilot", "name": "GitHub Copilot", "url": "https://github.com/features/copilot/plans", "models": "GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1", "freeLimit": "50 requêtes de chat + 2 000 complétions/mois", "creditCard": "Non" },
+      { "id": "windsurf", "name": "Windsurf", "url": "https://windsurf.com/", "models": "OpenAI, Anthropic, Google, xAI", "freeLimit": "25 crédits/mois", "creditCard": "Oui" },
+      { "id": "jules", "name": "Jules", "url": "https://jules.google/", "models": "Gemini 2.5 Pro", "freeLimit": "15 tâches/jour", "creditCard": "Non" },
+      { "id": "aws-kiro", "name": "AWS Kiro", "url": "https://kiro.dev/", "models": "Claude 4 Sonnet, Claude 3.7 Sonnet", "freeLimit": "50 crédits/mois", "creditCard": "Non" },
+      { "id": "qoder", "name": "Qoder", "url": "https://qoder.com/", "models": "Qwen3-Coder-480B, Claude, GPT, Gemini", "freeLimit": "Niveau gratuit + essai Pro de 2 semaines (1 000 crédits)", "creditCard": "Non" }
+    ]
+  },
+  "qualifyingModels": {
+    "title": "Modèles de Niveau Professionnel Qualifiés",
+    "subtitle": "Seuls les modèles atteignant >60% sur SWE-bench Verified se qualifient pour des tâches de codage réelles. Voici la liste actuelle",
+    "headers": {
+      "model": "Modèle",
+      "score": "SWE-bench Verified",
+      "provider": "Fournisseur"
+    },
+    "rows": [
+      { "model": "Claude Opus 4.5", "score": "80,9%", "provider": "Anthropic" },
+      { "model": "GPT-5.1-Codex-Max", "score": "77,9%", "provider": "OpenAI" },
+      { "model": "Claude Sonnet 4.5", "score": "77,2% (82,0% avec parallèle)", "provider": "Anthropic" },
+      { "model": "Gemini 3 Pro", "score": "76,2%", "provider": "Google" },
+      { "model": "GPT-5", "score": "74,9%", "provider": "OpenAI" },
+      { "model": "Claude Opus 4.1", "score": "74,5%", "provider": "Anthropic" },
+      { "model": "Claude Sonnet 4", "score": "72,7% (80,2% avec parallèle)", "provider": "Anthropic" },
+      { "model": "GPT-5 mini", "score": "71,0%", "provider": "OpenAI" },
+      { "model": "Qwen3-Coder-480B", "score": "69,6% (interactif) / 67,0% (single)", "provider": "Alibaba" },
+      { "model": "Gemini 2.5 Pro", "score": "63,2%", "provider": "Google" }
+    ]
+  },
+  "contributing": {
+    "title": "Contribuer",
+    "body": "Si vous voyez une erreur, un lien source manquant ou des informations de quota/modèle à jour, ouvrez un issue ou PR avec une source. Les nouvelles contributions d'outils sont bienvenues ! Voir CONTRIBUTING.md pour les directives détaillées."
+  },
+  "disclaimer": {
+    "title": "Avertissement",
+    "body": "Aucune affiliation avec un fournisseur. Toutes les marques appartiennent à leurs propriétaires. Informations fournies à titre de recherche; exactitude non garantie; limites/prix changent fréquemment."
+  },
+  "contents": {
+    "title": "Contenus",
+    "items": [
+      { "title": "1. Outils de Codage IA avec Accès Gratuit à des Modèles de Niveau Professionnel", "anchor": "#1-outils-de-codage-ia-avec-acces-gratuit-a-des-modeles-de-niveau-professionnel" },
+      { "title": "2. Fournisseurs d’API pour Outils de Codage IA", "anchor": "#2-fournisseurs-dapi-pour-outils-de-codage-ia" },
+      { "title": "3. Outils avec Niveaux Payants et Modèles de Niveau Professionnel", "anchor": "#3-outils-avec-niveaux-payants-et-modeles-de-niveau-professionnel" },
+      { "title": "4. Outils avec Accès Gratuit à des Modèles de Base", "anchor": "#4-outils-avec-acces-gratuit-a-des-modeles-de-base" },
+      { "title": "5. Modèles Locaux", "anchor": "#5-modeles-locaux" },
+      { "title": "Notes de Comparaison", "anchor": "#notes-de-comparaison" },
+      { "title": "Ressources Liées", "anchor": "#ressources-liees" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "free-pro",
+      "title": "1. Outils de Codage IA avec Accès Gratuit à des Modèles de Niveau Professionnel",
+      "note": "_(classés du plus généreux au moins généreux)_",
+      "tools": [
+        {
+          "id": "qwen-code",
+          "name": "Qwen Code",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "description": "**Accès Qwen3-Coder-480B**",
+          "bullets": [
+            "Niveau gratuit de 2 000 requêtes/jour via Qwen OAuth",
+            "Limite de 60 requêtes/minute",
+            "Outil de flux de travail IA en ligne de commande (adapté de Gemini CLI)",
+            "Authentification navigateur en un clic",
+            "Carte de crédit non requise"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/QwenLM/qwen-code" },
+            { "label": "Documentation", "url": "https://github.com/QwenLM/qwen-code#readme" }
+          ]
+        },
+        {
+          "id": "rovo-dev-cli",
+          "name": "Rovo Dev CLI",
+          "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
+          "description": "**Accès Claude Sonnet 4 pendant la beta**",
+          "bullets": [
+            "Niveau gratuit 5M tokens/jour (20M uniquement le premier jour)",
+            "Modèle Claude Sonnet 4 (confirmé par tests)",
+            "Pas de carte de crédit requise pendant la beta",
+            "Réinitialisation des limites à minuit UTC",
+            "Note : passer à Jira Standard/Premium/Enterprise pour 20M tokens/jour"
+          ],
+          "links": [
+            { "label": "Documentation", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
+            { "label": "Limites de Tokens", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" }
+          ]
+        },
+        {
+          "id": "gemini-cli",
+          "name": "Gemini CLI",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "description": "**Accès Gemini 3 Pro et Gemini 2.5 Pro**",
+          "bullets": [
+            "Gemini 3 Pro disponible (4 déc 2025) pour abonnés Google AI Ultra et API payants",
+            "Gemini 3 Pro : 76,2% SWE-bench Verified — meilleur modèle de codage Google",
+            "Limite 100 requêtes/jour pour Gemini 2.5 Pro (fallback gratuit)",
+            "Limite 250 requêtes/jour pour Gemini 2.5 Flash",
+            "Pas de carte de crédit requise pour le niveau gratuit",
+            "Liste d'attente pour Gemini 3 Pro pour Google AI Pro, Gemini Code Assist standard et utilisateurs gratuits",
+            "Activer via `/settings` → Preview features → true"
+          ],
+          "links": [
+            { "label": "Limites de Débit", "url": "https://ai.google.dev/gemini-api/docs/rate-limits" },
+            { "label": "Tarifs", "url": "https://ai.google.dev/gemini-api/docs/pricing" },
+            { "label": "Annonce Gemini 3 Pro", "url": "https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/" }
+          ]
+        },
+        {
+          "id": "kilo-code",
+          "name": "Kilo Code",
+          "url": "https://kilocode.ai/",
+          "description": "**Accès Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1**",
+          "bullets": [
+            "Jusqu'à $25 crédits d'inscription (bonus unique)",
+            "Extension VS Code open source",
+            "Paiement à l'usage sans marge sur les prix des modèles",
+            "Carte de crédit requise pour réclamer le bonus complet",
+            "Support des clés API personnelles"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/Kilo-Org/kilocode" },
+            { "label": "Documentation", "url": "https://kilocode.ai/docs/" },
+            { "label": "Tarifs", "url": "https://kilocode.ai/pricing" }
+          ]
+        },
+        {
+          "id": "warp",
+          "name": "Warp",
+          "url": "https://warp.dev/",
+          "description": "**Accès GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro**",
+          "bullets": [
+            "150 crédits IA/mois (2 premiers mois), puis 75 crédits/mois",
+            "Multiples fournisseurs (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)",
+            "Pas de carte de crédit requise pour l'inscription de base",
+            "Nouvelle tarification annoncée 30 oct 2025 : plan Build unique ($20/mois) avec 1 500 crédits"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.warp.dev/pricing" }
+          ]
+        },
+        {
+          "id": "amazon-q-developer",
+          "name": "Amazon Q Developer",
+          "url": "https://aws.amazon.com/q/developer/",
+          "description": "**Accès Claude Sonnet 4**",
+          "bullets": [
+            "Limite 50 requêtes agentiques/mois (conversations multi-tours)",
+            "Derniers modèles Claude (hébergés AWS)",
+            "Carte de crédit requise",
+            "Mise à niveau Pro nécessaire pour un accès continu",
+            "Niveau gratuit perpétuel"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://aws.amazon.com/q/developer/pricing/" }
+          ]
+        },
+        {
+          "id": "github-copilot",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot/plans",
+          "description": "**Mode Agent avec GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1**",
+          "bullets": [
+            "50 requêtes de chat + 2 000 complétions/mois",
+            "Mode Agent avec codage autonome multi-étapes",
+            "Multiples fournisseurs (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)",
+            "Pas de carte de crédit requise",
+            "Fonctionnalités basiques après quota"
+          ],
+          "links": [
+            { "label": "Détails des Plans", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
+            { "label": "Mode Agent", "url": "https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode" }
+          ]
+        },
+        {
+          "id": "trae",
+          "name": "Trae",
+          "url": "https://trae.ai/",
+          "description": "**Accès Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro**",
+          "bullets": [
+            "10 requêtes rapides + 50 requêtes lentes/mois pour modèles premium",
+            "1 000 requêtes lentes/mois pour modèles avancés",
+            "5 000 auto-complétions/mois",
+            "IDE basé VS Code avec intégration IA",
+            "Multiples modèles premium dont Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1",
+            "Pas de carte de crédit requise pour le niveau gratuit",
+            "Plan Pro : $10/mois (600 rapides + lentes illimitées)"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://trae.ai/pricing" },
+            { "label": "Documentation", "url": "https://docs.trae.ai/ide/billing" }
+          ]
+        },
+        {
+          "id": "windsurf",
+          "name": "Windsurf",
+          "url": "https://windsurf.com/",
+          "description": "**Accès modèles OpenAI, Anthropic, Google, xAI**",
+          "bullets": [
+            "Limite de 25 crédits de prompt/mois",
+            "Multiples fournisseurs (OpenAI, Claude, Gemini, xAI)",
+            "Carte de crédit requise",
+            "Crédits additionnels disponibles"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://windsurf.com/pricing" }
+          ]
+        },
+        {
+          "id": "jules",
+          "name": "Jules",
+          "url": "https://jules.google/",
+          "description": "**Accès Gemini 2.5 Pro**",
+          "bullets": [
+            "15 tâches/jour niveau gratuit",
+            "3 tâches concurrentes",
+            "Modèle Gemini 2.5 Pro",
+            "Compte Gmail requis (18+)",
+            "Réinitialisation des tâches sur fenêtre glissante 24h",
+            "Pas de carte de crédit requise",
+            "Niveau Pro ($19.99/mois) : 100 tâches/jour (x5)"
+          ],
+          "links": [
+            { "label": "Limites d'Usage", "url": "https://jules.google/docs/usage-limits/" },
+            { "label": "Documentation", "url": "https://jules.google/docs/" }
+          ]
+        },
+        {
+          "id": "aws-kiro",
+          "name": "AWS Kiro",
+          "url": "https://kiro.dev/",
+          "description": "**Accès Claude 4 Sonnet, Claude 3.7 Sonnet**",
+          "bullets": [
+            "50 crédits/mois (niveau gratuit)",
+            "Modèles Claude 4 Sonnet et Claude 3.7 Sonnet (hébergés AWS)",
+            "Pas de carte de crédit requise",
+            "Bonus de bienvenue 14 jours : 500 crédits",
+            "Niveaux payants : Pro ($20/mois - 1 000 crédits), Pro+ ($40/mois - 2 000 crédits), Power ($200/mois - 10 000 crédits)"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://kiro.dev/pricing/" },
+            { "label": "Blog d'Introduction", "url": "https://kiro.dev/blog/introducing-kiro/" }
+          ]
+        },
+        {
+          "id": "qoder",
+          "name": "Qoder",
+          "url": "https://qoder.com/",
+          "description": "**Modèles Qwen3-Coder-480B, Claude, GPT, Gemini**",
+          "bullets": [
+            "Niveau gratuit : complétions/éditions illimitées + chat/agent limités + essai Pro 2 semaines (1 000 crédits)",
+            "IDE IA d'Alibaba",
+            "Disponible pour Windows et macOS",
+            "Utilise principalement Qwen3-Coder-480B (modèle phare Alibaba)",
+            "Supporte aussi Claude, GPT-4, Gemini",
+            "Mode Agent et Mode Quest pour codage autonome",
+            "Pas de carte de crédit requise (niveau gratuit)",
+            "Niveaux payants : Pro ($20/mois - 2 000 crédits), Pro+ ($60/mois - 6 000 crédits)"
+          ],
+          "links": [
+            { "label": "Site", "url": "https://qoder.com/" },
+            { "label": "Tarifs", "url": "https://qoder.com/pricing" }
+          ]
+        }
+      ],
+      "afterNote": "Les limites changent vite. Si vous voyez une erreur, une nouvelle quota/modèle, ou souhaitez ajouter un outil, ouvrez un issue ou PR avec une source. Voir CONTRIBUTING.md pour les directives."
+    },
+    {
+      "id": "api-providers",
+      "title": "2. Fournisseurs d’API pour Outils de Codage IA",
+      "note": "_(classés du plus généreux au moins généreux)_",
+      "description": "Ces services fournissent une API vers des modèles optimisés pour le codage qui s'intègrent avec des outils populaires comme Cursor, Continue.dev, Cline, etc. Ils ne sont pas des outils de codage autonomes mais l'IA backend pour les outils existants.",
+      "tools": [
+        {
+          "id": "openrouter",
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "description": "**Qwen3-Coder-480B via OpenRouter**",
+          "bullets": [
+            "50 requêtes/jour en gratuit (1 000/jour si $10+ crédits achetés)",
+            "Modèles gratuits additionnels : Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash",
+            "API compatible OpenAI pour les IDE majeurs",
+            "Pas de carte de crédit pour les modèles gratuits",
+            "Limite 20 requêtes/minute en gratuit",
+            "Fonctionne avec Continue.dev, Cline, Cursor, etc."
+          ],
+          "links": [
+            { "label": "Modèles Gratuits", "url": "https://openrouter.ai/models/?q=free" },
+            { "label": "API Qwen3-Coder", "url": "https://openrouter.ai/qwen/qwen3-coder:free/api" }
+          ]
+        },
+        {
+          "id": "cerebras",
+          "name": "Cerebras",
+          "url": "https://cloud.cerebras.ai/",
+          "description": "**Accès Qwen3-235B et Llama 3.1**",
+          "bullets": [
+            "Niveau gratuit : 1M tokens/jour",
+            "Pas de carte de crédit requise",
+            "Limite 30 requêtes/minute, contexte 8 192 tokens",
+            "Modèles : Qwen3-235B, Llama 3.1 70B (Note : Qwen3-Coder-480B déprécié 5 nov 2025)",
+            "API compatible OpenAI (fonctionne avec Cursor, Continue.dev, Cline, RooCode, etc.)",
+            "Inférence ultra-rapide : 2 000 tokens/seconde (40x plus rapide que typique)",
+            "**Niveaux payants :** Developer ($10+ self-serve), Enterprise (personnalisé)"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.cerebras.ai/pricing" },
+            { "label": "Docs API", "url": "https://inference-docs.cerebras.ai/" },
+            { "label": "Guides d’Intégration", "url": "https://inference-docs.cerebras.ai/integrations/" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paid-pro",
+      "title": "3. Outils avec Niveaux Payants et Modèles de Niveau Professionnel",
+      "tools": [
+        {
+          "id": "rovo-dev-cli-paid",
+          "name": "Rovo Dev CLI",
+          "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
+          "description": "**Jira Standard ($7.53/utilisateur/mois) :** 20M tokens/jour",
+          "bullets": [
+            "**Jira Premium ($15.25/utilisateur/mois) :** 20M tokens/jour",
+            "**Jira Enterprise (custom) :** 20M tokens/jour",
+            "Augmentation x4 vs gratuit (5M → 20M tokens/jour)",
+            "Même modèle Claude que le niveau gratuit",
+            "Réinitialisation à minuit UTC"
+          ],
+          "links": [
+            { "label": "Documentation", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
+            { "label": "Limites de Tokens", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" },
+            { "label": "Tarifs Jira", "url": "https://www.atlassian.com/software/jira/pricing" }
+          ]
+        },
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "url": "https://www.anthropic.com/claude-code",
+          "description": "**Pro ($20/mois ou $17/mois annuel) :** Accès Sonnet 4 avec plus d'usage que le gratuit",
+          "bullets": [
+            "**Max 5x ($100/mois) :** ~225 messages/5h — 140–280h Sonnet 4 + 15–35h Opus 4.5 hebdo",
+            "**Max 20x ($200/mois) :** ~900 messages/5h — 240–480h Sonnet 4 + 24–40h Opus 4.5 hebdo",
+            "Modes « think » (~4K tokens), « megathink » (~10K), « ultrathink » (~32K)",
+            "Ultrathink pour refactors complexes, architecture, débogage profond",
+            "Opus 4.5 consomme ~5x plus que Sonnet 4",
+            "Limites réinitialisées chaque semaine avec fenêtres glissantes de 5h",
+            "Fonctionne avec Opus 4.5, Sonnet 4.5 et Haiku 4.5"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.anthropic.com/pricing" },
+            { "label": "Guide Claude Code", "url": "https://docs.anthropic.com/en/docs/claude-code" }
+          ]
+        },
+        {
+          "id": "amazon-q-developer-paid",
+          "name": "Amazon Q Developer",
+          "url": "https://aws.amazon.com/q/developer/",
+          "description": "**Pro ($19/mois) :** Limites augmentées pour requêtes agentiques",
+          "bullets": [
+            "Usage ajusté selon région et modèle d'utilisation"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://aws.amazon.com/q/developer/pricing/" }
+          ]
+        },
+        {
+          "id": "warp-paid",
+          "name": "Warp",
+          "url": "https://warp.dev/",
+          "description": "**Build ($20/mois) :** 1 500 crédits IA/mois",
+          "bullets": [
+            "Crédits rechargeables (jusqu'à 50% moins chers, cumul 12 mois)",
+            "Option BYOK (clé API perso)",
+            "Nouvelle tarification effective pour nouveaux clients (30 oct 2025)",
+            "Transition des abonnés mensuels à partir du 1 déc 2025",
+            "Niveau Enterprise : prix personnalisés"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.warp.dev/pricing" }
+          ]
+        },
+        {
+          "id": "github-copilot-paid",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot/plans",
+          "description": "**Pro ($10/mois) :** 300 requêtes premium + complétions illimitées/mois",
+          "bullets": [
+            "**Pro+ ($39/mois) :** 1 500 requêtes premium + complétions illimitées/mois",
+            "**Business ($19/utilisateur/mois) :** 300 requêtes premium + complétions illimitées/utilisateur/mois",
+            "**Enterprise ($39/utilisateur/mois) :** 1 000 requêtes premium + complétions illimitées/utilisateur/mois",
+            "**GPT-5.1-Codex-Max** en preview publique (4 déc 2025) pour Pro, Pro+, Business, Enterprise",
+            "Accès à plusieurs modèles (GPT-5.1-Codex-Max, GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)",
+            "Facturation des dépassements à $0.04/requête"
+          ],
+          "links": [
+            { "label": "Détails des Plans", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
+            { "label": "Preview GPT-5.1-Codex-Max", "url": "https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/" }
+          ]
+        },
+        {
+          "id": "trae-paid",
+          "name": "Trae",
+          "url": "https://trae.ai/",
+          "description": "**Pro ($10/mois) :** 600 requêtes rapides + requêtes lentes illimitées (modèles premium)",
+          "bullets": [
+            "Requêtes lentes illimitées pour modèles avancés",
+            "Pas de limites de débit, accès plus rapide aux modèles premium",
+            "Packages additionnels : $3-$12 pour plus de requêtes rapides",
+            "Modèles premium : Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o",
+            "IDE VS Code avec intégration IA complète",
+            "Premier mois à $3"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://trae.ai/pricing" },
+            { "label": "Documentation", "url": "https://docs.trae.ai/ide/billing" }
+          ]
+        },
+        {
+          "id": "windsurf-paid",
+          "name": "Windsurf",
+          "url": "https://windsurf.com/",
+          "description": "**Pro ($15/mois) :** 500 crédits de prompt/mois",
+          "bullets": [
+            "**Teams ($30/utilisateur/mois) :** 500 crédits de prompt/utilisateur/mois",
+            "**Enterprise ($60+/utilisateur/mois) :** 1 000 crédits de prompt/utilisateur/mois"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://windsurf.com/pricing" }
+          ]
+        },
+        {
+          "id": "lovable",
+          "name": "Lovable",
+          "url": "https://lovable.dev/",
+          "description": "**Pro ($25/mois) :** 150 crédits/mois (5 crédits quotidiens)",
+          "bullets": [
+            "**Teams ($30/mois) :** Limites plus élevées (non divulguées)"
+          ],
+          "links": [
+            { "label": "Limites de Messages", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+          ]
+        },
+        {
+          "id": "bolt-new-paid",
+          "name": "Bolt.new",
+          "url": "https://bolt.new/",
+          "description": "**$20/mois :** 10M tokens/mois",
+          "bullets": [
+            "**$200/mois :** 120M tokens/mois"
+          ],
+          "links": [
+            { "label": "Documentation Tokens", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+          ]
+        },
+        {
+          "id": "cursor-paid",
+          "name": "Cursor",
+          "url": "https://cursor.com/",
+          "description": "**Hobby (Gratuit) :** Requêtes Agent limitées + Tab limitées + essai Pro 1 semaine",
+          "bullets": [
+            "**Pro ($20/mois ou $16/mois annuel) :** Limites Agent étendues + Tab illimitées + Agents en arrière-plan + fenêtres de contexte max",
+            "**Pro+ ($60/mois) :** Usage x3 sur tous les modèles OpenAI, Claude, Gemini",
+            "**Ultra ($200/mois) :** Usage x20 sur tous les modèles OpenAI, Claude, Gemini + accès prioritaire aux nouveautés",
+            "**Teams ($40/utilisateur/mois) :** Fonctions Pro + facturation centralisée + analytics d'usage + SAML/OIDC SSO",
+            "**Enterprise (Custom) :** Tout Teams + usage mutualisé + SCIM + API suivi de code IA + journaux d'audit",
+            "**GPT-5.1-Codex-Max gratuit pour tous jusqu'au 11 déc 2025** (77,9% SWE-bench Verified)",
+            "Essai Pro d'une semaine disponible (niveau gratuit)",
+            "Niveau gratuit suit maintenant l'usage en tokens (pas en requêtes)",
+            "Modèles gratuits : Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini (limite 500/jour), Grok 3 Mini Beta",
+            "Niveaux payants : accès aux modèles OpenAI, Claude, Gemini dont GPT-5.1-Codex-Max",
+            "Note : modèles Claude retirés du niveau gratuit ~juin 2025",
+            "Éditeur de code IA avec capacités de codage autonome"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://cursor.com/en/pricing" },
+            { "label": "Annonce GPT-5.1-Codex-Max", "url": "https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277" }
+          ]
+        },
+        {
+          "id": "openai-codex-cli",
+          "name": "OpenAI Codex CLI",
+          "url": "https://github.com/openai/codex",
+          "description": "**Gratuit avec ChatGPT Plus ($20/mois) :** 30–150 messages/5h pour tâches de codage",
+          "bullets": [
+            "**ChatGPT Pro ($200/mois) :** 300–1 500 messages/5h — limites les plus élevées",
+            "**API pay-as-you-go :** GPT-5.1-Codex-Max à $1.25/$10 par million de tokens (entrée/sortie)",
+            "**Mode OSS gratuit :** Accès aux modèles open source uniquement (flag --oss)",
+            "**GPT-5.1-Codex-Max** (19 nov 2025) : 77,9% SWE-bench Verified — modèle par défaut",
+            "Premier modèle avec « compaction » pour sessions multi-million de tokens (tâches 24+ h)",
+            "30% moins de tokens de raisonnement que le précédent GPT-5.1-Codex",
+            "Disponible aussi dans GitHub Copilot (Pro, Pro+, Business, Enterprise)",
+            "Support Windows inclus",
+            "Multi-plateforme : macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2"
+          ],
+          "links": [
+            { "label": "Repo GitHub", "url": "https://github.com/openai/codex" },
+            { "label": "Annonce GPT-5.1-Codex-Max", "url": "https://openai.com/index/gpt-5-1-codex-max/" }
+          ]
+        },
+        {
+          "id": "codeium-paid",
+          "name": "Codeium",
+          "url": "https://codeium.com/",
+          "description": "**Pro ($10/mois) :** Usage illimité avec conscience de contexte avancée",
+          "bullets": [
+            "Accès Claude 3.5 Sonnet, GPT-4o",
+            "Fenêtre de contexte améliorée et personnalisation",
+            "**Teams ($12/utilisateur/mois) :** Fonctions Pro + gestion d'équipe",
+            "**Enterprise (Custom) :** Déploiement on-prem, modèles personnalisés"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://codeium.com/pricing" }
+          ]
+        },
+        {
+          "id": "tabnine-paid",
+          "name": "Tabnine",
+          "url": "https://www.tabnine.com/",
+          "description": "**Pro ($12/mois) :** Complétions et chat IA améliorés",
+          "bullets": [
+            "**Enterprise ($39/utilisateur/mois) :** Multiples LLMs, déploiement privé",
+            "Modèles : Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, modèles propriétaires",
+            "600+ langages pris en charge",
+            "Options on-prem et isolées",
+            "Apportez vos modèles fine-tunés"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.tabnine.com/pricing/" }
+          ]
+        },
+        {
+          "id": "jetbrains-ai-paid",
+          "name": "JetBrains AI Assistant",
+          "url": "https://www.jetbrains.com/ai/",
+          "description": "**AI Pro ($15/mois) :** Quota cloud augmenté + modèles locaux illimités",
+          "bullets": [
+            "**AI Ultimate ($25/mois) :** Quota cloud maximum + fonctions avancées",
+            "Niveau gratuit : complétion illimitée + modèles locaux + quota cloud limité",
+            "Essai Pro 30 jours inclus",
+            "All Products Pack inclut AI Pro",
+            "Mode hors-ligne avec modèles locaux via Ollama/LM Studio"
+          ],
+          "links": [
+            { "label": "Tarifs AI", "url": "https://www.jetbrains.com/ai-ides/buy/" }
+          ]
+        },
+        {
+          "id": "jules-paid",
+          "name": "Jules",
+          "url": "https://jules.google/",
+          "description": "**Pro ($19.99/mois via Google AI Pro) :** 100 tâches/jour",
+          "bullets": [
+            "Limites x5 vs gratuit (15 → 100 tâches/jour)",
+            "5x tâches concurrentes (3 → 15)",
+            "Accès accru aux derniers modèles",
+            "**Ultra (via Google AI Ultra) :** 300 tâches/jour",
+            "Limites x20 vs gratuit",
+            "60 tâches concurrentes",
+            "Accès prioritaire aux nouveaux modèles",
+            "Compte Gmail requis (18+)"
+          ],
+          "links": [
+            { "label": "Limites d'Usage", "url": "https://jules.google/docs/usage-limits/" },
+            { "label": "Plans Google AI", "url": "https://one.google.com/about/google-ai-plans/" }
+          ]
+        },
+        {
+          "id": "supermaven-paid",
+          "name": "SuperMaven",
+          "url": "https://supermaven.com/",
+          "description": "**Pro ($10/mois) :** Fenêtre de contexte 1M tokens + crédits de chat",
+          "bullets": [
+            "Alternative : $99/an",
+            "Interface chat avec GPT-4o, Claude 3.5 Sonnet, GPT-4",
+            "**Team ($10/utilisateur/mois) :** Fonctions Pro + gestion d'équipe",
+            "Note : Fusionné avec Cursor IDE en novembre 2024"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://supermaven.com/pricing" }
+          ]
+        }
+      ],
+      "afterNote": "Vous connaissez de meilleurs tarifs ou limites ? Partagez un lien dans un issue ou PR pour aider à tenir à jour. Voir CONTRIBUTING.md pour les directives."
+    },
+    {
+      "id": "basic",
+      "title": "4. Outils avec Accès Gratuit à des Modèles de Base",
+      "note": "__(modèles non spécifiés/basiques)__",
+      "tools": [
+        {
+          "id": "bolt-new-basic",
+          "name": "Bolt.new",
+          "url": "https://bolt.new/",
+          "description": "**Modèles non spécifiés**",
+          "bullets": [
+            "Limite 1M tokens/mois",
+            "Modèle spécifique non indiqué publiquement",
+            "Carte de crédit requise"
+          ],
+          "links": [
+            { "label": "Documentation Tokens", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+          ]
+        },
+        {
+          "id": "lovable-basic",
+          "name": "Lovable",
+          "url": "https://lovable.dev/",
+          "description": "**Modèles non spécifiés**",
+          "bullets": [
+            "5 crédits/jour, max 30 par mois (gratuit)",
+            "Modèles non listés publiquement",
+            "Carte de crédit requise"
+          ],
+          "links": [
+            { "label": "Limites de Messages", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+          ]
+        },
+        {
+          "id": "v0",
+          "name": "v0.dev",
+          "url": "https://v0.dev/",
+          "description": "**Modèles propriétaires (non frontier)**",
+          "bullets": [
+            "Accès GPT-5 nécessite v0 Premium",
+            "$5 de crédits/mois",
+            "Utilise des modèles propriétaires avec routage variable",
+            "Carte de crédit requise"
+          ],
+          "links": [
+            { "label": "Blog Tarifs Mis à Jour", "url": "https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh" }
+          ]
+        },
+        {
+          "id": "codeium-basic",
+          "name": "Codeium",
+          "url": "https://codeium.com/",
+          "description": "**Usage gratuit illimité de l'assistance IA basique**",
+          "bullets": [
+            "Plan individuel : gratuit à vie avec complétions, chat IA, commandes illimités",
+            "Plus de 70 langages supportés",
+            "Intégrations IDE : VS Code, JetBrains, Vim/Neovim, Jupyter",
+            "Pas de carte de crédit requise",
+            "Conscience de contexte limitée (étendue en payant)",
+            "Modèle de base (Llama 3.1 70B), modèles pro nécessitent un abonnement"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://codeium.com/pricing" },
+            { "label": "Documentation", "url": "https://codeium.com/docs" }
+          ]
+        },
+        {
+          "id": "tabnine-basic",
+          "name": "Tabnine",
+          "url": "https://www.tabnine.com/",
+          "description": "**Niveau gratuit avec fonctionnalités limitées**",
+          "bullets": [
+            "Complétions et chat IA basiques (limités)",
+            "Traitement local disponible",
+            "Contexte fortement limité en gratuit",
+            "Performances réduites pour économiser les ressources",
+            "600+ langages supportés"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://www.tabnine.com/pricing/" }
+          ]
+        },
+        {
+          "id": "jetbrains-ai-basic",
+          "name": "JetBrains AI Assistant",
+          "url": "https://www.jetbrains.com/ai/",
+          "description": "**Niveau AI gratuit inclus avec les IDE**",
+          "bullets": [
+            "Complétion de code illimitée et support de modèles locaux",
+            "Quota limité pour fonctionnalités cloud",
+            "Essai AI Pro 30 jours",
+            "Chat, génération de code, messages de commit avec modèles locaux"
+          ],
+          "links": [
+            { "label": "Fonctionnalités AI", "url": "https://www.jetbrains.com/ai-assistant/" }
+          ]
+        },
+        {
+          "id": "supermaven-basic",
+          "name": "SuperMaven",
+          "url": "https://supermaven.com/",
+          "description": "**Niveau gratuit avec fonctions basiques**",
+          "bullets": [
+            "Suggestions de code basiques",
+            "Rétention des données 7 jours",
+            "Carte de crédit requise pour l'inscription",
+            "Fenêtre de contexte 1M tokens (remarquable pour un niveau gratuit)"
+          ],
+          "links": [
+            { "label": "Tarifs", "url": "https://supermaven.com/pricing" }
+          ]
+        },
+        {
+          "id": "continue-dev",
+          "name": "Continue.dev",
+          "url": "https://www.continue.dev/",
+          "description": "**Extension open-source gratuite avec support flexible des modèles**",
+          "bullets": [
+            "Extension gratuite VS Code et JetBrains",
+            "Support complet des modèles locaux via Ollama, LM Studio",
+            "Niveau Solo : options privé/équipe/public",
+            "Supporte 200+ modèles (requiert vos clés API pour le cloud)",
+            "Hub communauté pour assistants IA personnalisés",
+            "Pas de verrou fournisseur ni de limites pour les modèles locaux"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/continuedev/continue" },
+            { "label": "Model Hub", "url": "https://hub.continue.dev/explore/models" }
+          ]
+        }
+      ],
+      "afterNote": "Vous connaissez les limites officielles ou modèles ? Partagez un lien dans un issue ou PR pour mettre à jour. Voir CONTRIBUTING.md pour les directives."
+    },
+    {
+      "id": "local-models",
+      "title": "5. Modèles Locaux",
+      "type": "text",
+      "body": [
+        "Exécuter des modèles open-weight de pointe en local offre une assistance illimitée sans coûts d’API ni quotas. Outils populaires : **[Cline](https://cline.bot/)** (extension VS Code avec modes Plan/Act et support MCP), **[Aider](https://aider.chat/)** (assistant CLI avec intégration Git), et **[Continue.dev](https://www.continue.dev/)** (extension VS Code open source supportant 200+ modèles). Tous fonctionnent avec **[Ollama](https://ollama.com/)** pour exécuter Devstral (24B, optimisé pour codage agentique), Qwen3-Coder, DeepSeek Coder V2, Codestral, GLM-4.5.",
+        "**Note** : Les modèles frontier nécessitent beaucoup de RAM/VRAM. Pour Qwen3‑Coder‑480B, le GGUF Ollama ~150GB et l'inférence pratique peut demander ~150GB de mémoire unifiée (RAM+VRAM), difficile sur laptop ; le quant 30B demande ~18GB. Voir le guide local Unsloth Qwen3‑Coder ([docs](https://docs.unsloth.ai/basics/qwen3-coder-how-to-run-locally)) et l'article de Simon Willison sur [GLM‑4.5 AIR sur son laptop pour Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/) pour un exemple."
+      ]
+    }
+  ],
+  "comparisonNotes": {
+    "title": "Notes de Comparaison",
+    "items": [
+      "**Objectif** : Comparer les outils IA par accès aux modèles pro et limites gratuites.",
+      "**Qu'est-ce qui qualifie un modèle « pro » ?** ≥60% sur SWE-bench Verified. Modèles actuels : Claude Opus 4.5 (80,9%), GPT-5.1-Codex-Max (77,9%), Claude Sonnet 4.5 (77,2%), Gemini 3 Pro (76,2%), GPT-5 (74,9%), Claude Opus 4.1 (74,5%), Claude Sonnet 4 (72,7%), GPT-5 mini (71,0%), Qwen3-Coder-480B (69,6%), Gemini 2.5 Pro (63,2%).",
+      "**Types de limites** : Requêtes, tokens, crédits, chats — comparer directement est difficile. Vérifiez la doc.",
+      "**Usage réel** : Varie fortement selon style de code, complexité et implémentation."
+    ]
+  },
+  "relatedResources": {
+    "title": "Ressources Liées",
+    "items": [
+      { "label": "Coding with AI", "url": "https://coding-with-ai.dev/", "description": "Techniques pratiques et ressources pour coder avec des LLMs" },
+      { "label": "Free LLM API Resources", "url": "https://github.com/cheahjs/free-llm-api-resources", "description": "Liste d'APIs LLM gratuites pour construire des intégrations" }
+    ]
+  }
+}

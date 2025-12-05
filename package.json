@@ -1,0 +1,12 @@
+{
+  "name": "free-ai-coding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:readmes": "node scripts/build-readmes.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
