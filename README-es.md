@@ -1,6 +1,6 @@
 Última actualización: 5 de diciembre de 2025 • PRs/issues bienvenidos
 
-**Idiomas:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
+**Idiomas:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md) • [Türkçe](README-tr.md)
 
 # Herramientas de Codificación con IA: Donde los Modelos de Grado Profesional Son Realmente Gratuitos 
 

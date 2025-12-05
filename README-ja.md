@@ -1,6 +1,6 @@
 最終更新: 2025年12月5日 • PRs/issues 歓迎
 
-**言語：** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
+**言語：** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md) • [Türkçe](README-tr.md)
 
 # AIコーディングツール：プロ級モデルが本当に無料で使える場所 
 

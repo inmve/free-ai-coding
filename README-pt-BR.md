@@ -1,6 +1,6 @@
 Última atualização: 5 de dezembro de 2025 • PRs/issues bem-vindos
 
-**Idiomas:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
+**Idiomas:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md) • [Türkçe](README-tr.md)
 
 # Ferramentas de Codificação com IA: Onde Modelos de Nível Profissional São Realmente Grátis 
 

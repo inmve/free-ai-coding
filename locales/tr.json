@@ -1,0 +1,778 @@
+{
+  "code": "tr",
+  "meta": {
+    "lastUpdated": "5 Aralık 2025",
+    "prsWelcome": "PR/issue'lar açık"
+  },
+  "labels": {
+    "lastUpdated": "Son güncelleme",
+    "languages": "Diller:",
+    "links": "Bağlantılar:"
+  },
+  "hero": {
+    "title": "AI Kodlama Araçları: Profesyonel Modellerin Gerçekten Ücretsiz Olduğu Yer",
+    "subtitle": "Birçok AI kodlama aracı \"ücretsiz\" olduğunu iddia eder, ancak profesyonel modellere erişim genellikle hızla tükenir ve ardından düşürülürsünüz. Her araç farklı limitler (kredi, token, istek) kullanır; bu yüzden karşılaştırma zordur. Bu liste, gerçekten ücretsiz ne elde ettiğinizi yan yana gösterir."
+  },
+  "tldr": {
+    "heading": "TL;DR — Profesyonel AI Kodlama için Ücretsiz Katmanlar",
+    "subheading": "(daha yüksek limitli araçlar önce)",
+    "headers": {
+      "tool": "Araç",
+      "models": "Profesyonel modeller",
+      "freeLimit": "Ücretsiz limit",
+      "creditCard": "Kredi kartı"
+    },
+    "rows": [
+      { "id": "qwen-code", "name": "Qwen Code", "url": "https://github.com/QwenLM/qwen-code", "models": "Qwen3-Coder-480B", "freeLimit": "2.000 istek/gün", "creditCard": "Hayır" },
+      { "id": "rovo-dev-cli", "name": "Rovo Dev CLI", "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface", "models": "Claude Sonnet 4", "freeLimit": "5M token/gün (beta)", "creditCard": "Hayır" },
+      { "id": "gemini-cli", "name": "Gemini CLI", "url": "https://github.com/google-gemini/gemini-cli", "models": "Gemini 3 Pro, Gemini 2.5 Pro", "freeLimit": "Gemini 3 Pro (bekleme/ücretli), 100 istek/gün Gemini 2.5 Pro", "creditCard": "Hayır" },
+      { "id": "cursor", "name": "Cursor", "url": "https://cursor.com/", "models": "GPT-5.1-Codex-Max", "freeLimit": "11 Aralık 2025'e kadar ücretsiz (77.9% SWE-bench)", "creditCard": "Hayır" },
+      { "id": "kilo-code", "name": "Kilo Code", "url": "https://kilocode.ai/", "models": "Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1", "freeLimit": "$25'e kadar kayıt kredisi (tek seferlik)", "creditCard": "Evet" },
+      { "id": "warp", "name": "Warp", "url": "https://warp.dev/", "models": "GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro", "freeLimit": "150 kredi/ay (ilk 2 ay), sonra 75/ay", "creditCard": "Hayır" },
+      { "id": "trae", "name": "Trae", "url": "https://trae.ai/", "models": "Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro", "freeLimit": "Ayda 10 hızlı + 50 yavaş istek", "creditCard": "Hayır" },
+      { "id": "amazon-q-developer", "name": "Amazon Q Developer", "url": "https://aws.amazon.com/q/developer/", "models": "Claude Sonnet 4", "freeLimit": "Ayda 50 ajantik istek", "creditCard": "Evet" },
+      { "id": "github-copilot", "name": "GitHub Copilot", "url": "https://github.com/features/copilot/plans", "models": "GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1", "freeLimit": "Ayda 50 sohbet + 2.000 tamamlama", "creditCard": "Hayır" },
+      { "id": "windsurf", "name": "Windsurf", "url": "https://windsurf.com/", "models": "OpenAI, Anthropic, Google, xAI", "freeLimit": "Ayda 25 kredi", "creditCard": "Evet" },
+      { "id": "jules", "name": "Jules", "url": "https://jules.google/", "models": "Gemini 2.5 Pro", "freeLimit": "Günde 15 görev", "creditCard": "Hayır" },
+      { "id": "aws-kiro", "name": "AWS Kiro", "url": "https://kiro.dev/", "models": "Claude 4 Sonnet, Claude 3.7 Sonnet", "freeLimit": "Ayda 50 kredi", "creditCard": "Hayır" },
+      { "id": "qoder", "name": "Qoder", "url": "https://qoder.com/", "models": "Qwen3-Coder-480B, Claude, GPT, Gemini", "freeLimit": "Ücretsiz + 2 haftalık Pro deneme (1.000 kredi)", "creditCard": "Hayır" }
+    ]
+  },
+  "qualifyingModels": {
+    "title": "Uygun profesyonel modeller",
+    "subtitle": "SWE-bench Verified'da >%60 alan modeller profesyonel kabul edilir. Mevcut liste:",
+    "headers": {
+      "model": "Model",
+      "score": "SWE-bench Verified",
+      "provider": "Sağlayıcı"
+    },
+    "rows": [
+      { "model": "Claude Opus 4.5", "score": "%80.9", "provider": "Anthropic" },
+      { "model": "GPT-5.1-Codex-Max", "score": "%77.9", "provider": "OpenAI" },
+      { "model": "Claude Sonnet 4.5", "score": "%77.2 (paralel %82.0)", "provider": "Anthropic" },
+      { "model": "Gemini 3 Pro", "score": "%76.2", "provider": "Google" },
+      { "model": "GPT-5", "score": "%74.9", "provider": "OpenAI" },
+      { "model": "Claude Opus 4.1", "score": "%74.5", "provider": "Anthropic" },
+      { "model": "Claude Sonnet 4", "score": "%72.7 (paralel %80.2)", "provider": "Anthropic" },
+      { "model": "GPT-5 mini", "score": "%71.0", "provider": "OpenAI" },
+      { "model": "Qwen3-Coder-480B", "score": "%69.6 (etkileşimli) / %67.0 (tekil)", "provider": "Alibaba" },
+      { "model": "Gemini 2.5 Pro", "score": "%63.2", "provider": "Google" }
+    ]
+  },
+  "contributing": {
+    "title": "Katkı",
+    "body": "Hata, kaynak eksiği veya güncel kota/model bilgisi görürseniz, kaynakla birlikte issue ya da PR açın. Yeni araç katkıları memnuniyetle karşılanır! Ayrıntılar için CONTRIBUTING.md."
+  },
+  "disclaimer": {
+    "title": "Sorumluluk Reddi",
+    "body": "Herhangi bir sağlayıcıyla bağlantı yoktur. Tüm markalar sahiplerine aittir. Bilgiler araştırma içindir; doğruluk garanti edilmez; limitler/fiyatlar sık değişir."
+  },
+  "contents": {
+    "title": "İçindekiler",
+    "items": [
+      { "title": "1. Profesyonel modellere ücretsiz erişim sunan AI kodlama araçları", "anchor": "#1-profesyonel-modellere-ucretsiz-erisimi-sunan-ai-kodlama-araclari" },
+      { "title": "2. AI kodlama araçları için API sağlayıcıları", "anchor": "#2-ai-kodlama-araclari-icin-api-saglayicilari" },
+      { "title": "3. Profesyonel modelleri içeren ücretli katmanlı araçlar", "anchor": "#3-profesyonel-modelleri-iceren-ucretli-katmanli-araclar" },
+      { "title": "4. Temel modellere ücretsiz erişim sunan araçlar", "anchor": "#4-temel-modellere-ucretsiz-erisim-sunan-araclar" },
+      { "title": "5. Yerel modeller", "anchor": "#5-yerel-modeller" },
+      { "title": "Karşılaştırma notları", "anchor": "#karsilastirma-notlari" },
+      { "title": "İlgili kaynaklar", "anchor": "#ilgili-kaynaklar" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "free-pro",
+      "title": "1. Profesyonel modellere ücretsiz erişim sunan AI kodlama araçları",
+      "note": "(en cömertten en aza doğru)",
+      "tools": [
+        {
+          "id": "qwen-code",
+          "name": "Qwen Code",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "description": "**Qwen3-Coder-480B erişimi**",
+          "bullets": [
+            "Qwen OAuth ile günde 2.000 istek",
+            "Dakikada 60 istek sınırı",
+            "Gemini CLI'den uyarlanan komut satırı AI iş akışı",
+            "Tek tıkla tarayıcı doğrulaması",
+            "Kredi kartı gerekmez"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/QwenLM/qwen-code" },
+            { "label": "Dokümantasyon", "url": "https://github.com/QwenLM/qwen-code#readme" }
+          ]
+        },
+        {
+          "id": "rovo-dev-cli",
+          "name": "Rovo Dev CLI",
+          "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
+          "description": "**Beta sırasında Claude Sonnet 4 erişimi**",
+          "bullets": [
+            "Günde 5M token (ilk gün 20M)",
+            "Claude Sonnet 4 modeli (testlerle doğrulandı)",
+            "Beta'da kredi kartı gerekmez",
+            "Token limitleri UTC gece yarısı sıfırlanır",
+            "20M/gün için Jira Standard/Premium/Enterprise'a yükseltin"
+          ],
+          "links": [
+            { "label": "Dokümantasyon", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
+            { "label": "Token limitleri", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" }
+          ]
+        },
+        {
+          "id": "gemini-cli",
+          "name": "Gemini CLI",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "description": "**Gemini 3 Pro ve Gemini 2.5 Pro erişimi**",
+          "bullets": [
+            "Gemini 3 Pro 4 Aralık 2025'te Google AI Ultra aboneleri ve ücretli API kullanıcılarına açıldı",
+            "Gemini 3 Pro: %76.2 SWE-bench — Google'ın en iyi kodlama modeli",
+            "Gemini 2.5 Pro için ücretsiz geri dönüş: 100 istek/gün",
+            "Gemini 2.5 Flash: 250 istek/gün",
+            "Ücretsiz katmanda kredi kartı gerekmez",
+            "Google AI Pro, Gemini Code Assist standard ve ücretsiz kullanıcılar için bekleme listesi",
+            "`/settings` → Preview features → true ile etkinleştir"
+          ],
+          "links": [
+            { "label": "Oran limitleri", "url": "https://ai.google.dev/gemini-api/docs/rate-limits" },
+            { "label": "Fiyatlandırma", "url": "https://ai.google.dev/gemini-api/docs/pricing" },
+            { "label": "Gemini 3 Pro duyurusu", "url": "https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/" }
+          ]
+        },
+        {
+          "id": "kilo-code",
+          "name": "Kilo Code",
+          "url": "https://kilocode.ai/",
+          "description": "**Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 erişimi**",
+          "bullets": [
+            "Tek seferlik $25'e kadar kayıt kredisi",
+            "Açık kaynak VS Code uzantısı",
+            "Model fiyatına ek ücret yok, kullanıma göre ödeme",
+            "Bonus krediler için kredi kartı gerekli",
+            "Kendi API anahtarınızı getirebilirsiniz"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/Kilo-Org/kilocode" },
+            { "label": "Dokümantasyon", "url": "https://kilocode.ai/docs/" },
+            { "label": "Fiyatlandırma", "url": "https://kilocode.ai/pricing" }
+          ]
+        },
+        {
+          "id": "warp",
+          "name": "Warp",
+          "url": "https://warp.dev/",
+          "description": "**GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro erişimi**",
+          "bullets": [
+            "Ayda 150 AI kredisi (ilk 2 ay), ardından 75/ay",
+            "Birden çok sağlayıcı (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)",
+            "Temel kayıt için kredi kartı gerekmez",
+            "30 Ekim 2025'te açıklanan yeni fiyat: tek Build planı ($20/ay) 1.500 kredi ile"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://www.warp.dev/pricing" }
+          ]
+        },
+        {
+          "id": "amazon-q-developer",
+          "name": "Amazon Q Developer",
+          "url": "https://aws.amazon.com/q/developer/",
+          "description": "**Claude Sonnet 4 erişimi**",
+          "bullets": [
+            "Ayda 50 ajantik istek (çok turlu konuşma)",
+            "En güncel Claude modelleri (AWS barındırmalı)",
+            "Kredi kartı gerekli",
+            "Devam için Pro'ya yükseltme gerekir",
+            "Sürekli ücretsiz katman"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://aws.amazon.com/q/developer/pricing/" }
+          ]
+        },
+        {
+          "id": "github-copilot",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot/plans",
+          "description": "**Agent Mode (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)**",
+          "bullets": [
+            "Ayda 50 sohbet + 2.000 tamamlama",
+            "Otonom çok adımlı kodlama",
+            "Birden çok sağlayıcı (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)",
+            "Kredi kartı gerekmez",
+            "Kotadan sonra temel özellikler"
+          ],
+          "links": [
+            { "label": "Plan detayları", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
+            { "label": "Agent Mode", "url": "https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode" }
+          ]
+        },
+        {
+          "id": "trae",
+          "name": "Trae",
+          "url": "https://trae.ai/",
+          "description": "**Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro erişimi**",
+          "bullets": [
+            "Premium modeller için ayda 10 hızlı + 50 yavaş istek",
+            "Gelişmiş modeller için ayda 1.000 yavaş istek",
+            "Ayda 5.000 otomatik tamamlama",
+            "VS Code tabanlı, AI entegre IDE",
+            "Premium modeller: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1",
+            "Ücretsiz katmanda kredi kartı gerekmez",
+            "Pro plan: $10/ay (600 hızlı + sınırsız yavaş)"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://trae.ai/pricing" },
+            { "label": "Dokümantasyon", "url": "https://docs.trae.ai/ide/billing" }
+          ]
+        },
+        {
+          "id": "windsurf",
+          "name": "Windsurf",
+          "url": "https://windsurf.com/",
+          "description": "**OpenAI, Anthropic, Google, xAI modelleri**",
+          "bullets": [
+            "Ayda 25 prompt kredisi",
+            "Birden çok sağlayıcı (OpenAI, Claude, Gemini, xAI)",
+            "Kredi kartı gerekli",
+            "Ek kredi satın alınabilir"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://windsurf.com/pricing" }
+          ]
+        },
+        {
+          "id": "jules",
+          "name": "Jules",
+          "url": "https://jules.google/",
+          "description": "**Gemini 2.5 Pro erişimi**",
+          "bullets": [
+            "Günlük 15 görev (ücretsiz)",
+            "Aynı anda 3 görev",
+            "Gemini 2.5 Pro modeli",
+            "Gmail hesabı gerekir (18+)",
+            "24 saatlik kayan pencerede reset",
+            "Kredi kartı gerekmez",
+            "Pro ($19.99/ay): Günde 100 görev (5x)"
+          ],
+          "links": [
+            { "label": "Kullanım limitleri", "url": "https://jules.google/docs/usage-limits/" },
+            { "label": "Dokümantasyon", "url": "https://jules.google/docs/" }
+          ]
+        },
+        {
+          "id": "aws-kiro",
+          "name": "AWS Kiro",
+          "url": "https://kiro.dev/",
+          "description": "**Claude 4 Sonnet, Claude 3.7 Sonnet erişimi**",
+          "bullets": [
+            "Ayda 50 kredi (ücretsiz katman)",
+            "Claude 4 Sonnet ve Claude 3.7 Sonnet (AWS barındırmalı)",
+            "Kredi kartı gerekmez",
+            "14 günlük hoş geldin bonusu: 500 kredi",
+            "Ücretli: Pro ($20/ay - 1.000), Pro+ ($40/ay - 2.000), Power ($200/ay - 10.000)"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://kiro.dev/pricing/" },
+            { "label": "Giriş blogu", "url": "https://kiro.dev/blog/introducing-kiro/" }
+          ]
+        },
+        {
+          "id": "qoder",
+          "name": "Qoder",
+          "url": "https://qoder.com/",
+          "description": "**Qwen3-Coder-480B, Claude, GPT, Gemini modelleri**",
+          "bullets": [
+            "Ücretsiz: sınırsız tamamlama/düzenleme + sınırlı sohbet/agent + 2 haftalık Pro deneme (1.000 kredi)",
+            "Alibaba'nın AI IDE'si",
+            "Windows ve macOS için",
+            "Ana model: Qwen3-Coder-480B",
+            "Claude, GPT-4, Gemini desteği",
+            "Agent ve Quest modlarıyla otonom kodlama",
+            "Ücretsiz katmanda kredi kartı yok",
+            "Ücretli: Pro ($20/ay - 2.000), Pro+ ($60/ay - 6.000)"
+          ],
+          "links": [
+            { "label": "Site", "url": "https://qoder.com/" },
+            { "label": "Fiyatlandırma", "url": "https://qoder.com/pricing" }
+          ]
+        }
+      ],
+      "afterNote": "Limitler hızla değişir. Hata, yeni kota/model veya eklemek istediğiniz araç varsa kaynakla issue/PR açın. CONTRIBUTING.md'ye bakın."
+    },
+    {
+      "id": "api-providers",
+      "title": "2. AI kodlama araçları için API sağlayıcıları",
+      "note": "(en cömertten en aza)",
+      "description": "Bu servisler Cursor, Continue.dev, Cline gibi araçlara entegre edilen kod odaklı modellere API erişimi sunar. Kendi başına araç değil, mevcut araçların AI arka ucu olarak çalışırlar.",
+      "tools": [
+        {
+          "id": "openrouter",
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "description": "**OpenRouter ile Qwen3-Coder-480B**",
+          "bullets": [
+            "Ücretsiz 50 istek/gün (10$+ kredi alınca 1.000/gün)",
+            "Ek ücretsiz modeller: Qwen3-30B-A3B, Qwen3-235B-A22B, Gemini Flash",
+            "Başlıca IDE'ler için OpenAI uyumlu API",
+            "Ücretsiz modellerde kredi kartı yok",
+            "Ücretsizte 20 istek/dak",
+            "Continue.dev, Cline, Cursor vb. ile çalışır"
+          ],
+          "links": [
+            { "label": "Ücretsiz modeller", "url": "https://openrouter.ai/models/?q=free" },
+            { "label": "Qwen3-Coder API", "url": "https://openrouter.ai/qwen/qwen3-coder:free/api" }
+          ]
+        },
+        {
+          "id": "cerebras",
+          "name": "Cerebras",
+          "url": "https://cloud.cerebras.ai/",
+          "description": "**Qwen3-235B ve Llama 3.1 erişimi**",
+          "bullets": [
+            "Ücretsiz: günde 1M token",
+            "Kredi kartı gerekmez",
+            "Dakikada 30 istek, 8.192 token bağlam",
+            "Modeller: Qwen3-235B, Llama 3.1 70B (Not: Qwen3-Coder-480B 5 Kas 2025'te kaldırıldı)",
+            "OpenAI uyumlu (Cursor, Continue.dev, Cline, RooCode, vb.)",
+            "Çok hızlı çıkarım: 2.000 token/sn (tipik sağlayıcılardan 40x hızlı)",
+            "**Ücretli:** Developer ($10+ self-serve), Enterprise (özel)"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://www.cerebras.ai/pricing" },
+            { "label": "API Doküman", "url": "https://inference-docs.cerebras.ai/" },
+            { "label": "Entegrasyon rehberleri", "url": "https://inference-docs.cerebras.ai/integrations/" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paid-pro",
+      "title": "3. Profesyonel modelleri içeren ücretli katmanlı araçlar",
+      "tools": [
+        {
+          "id": "rovo-dev-cli-paid",
+          "name": "Rovo Dev CLI",
+          "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
+          "description": "**Jira Standard ($7.53/kullanıcı/ay):** 20M token/gün",
+          "bullets": [
+            "**Jira Premium ($15.25/kullanıcı/ay):** 20M token/gün",
+            "**Jira Enterprise (özel):** 20M token/gün",
+            "Ücretsiz katmana göre 4x artış (5M → 20M)",
+            "Ücretsizle aynı Claude tabanlı model",
+            "UTC gece yarısı sıfırlanır"
+          ],
+          "links": [
+            { "label": "Dokümantasyon", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
+            { "label": "Token limitleri", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" },
+            { "label": "Jira fiyatları", "url": "https://www.atlassian.com/software/jira/pricing" }
+          ]
+        },
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "url": "https://www.anthropic.com/claude-code",
+          "description": "**Pro ($20/ay veya $17/ay yıllık):** Ücretsiz katmandan fazla Sonnet 4 kullanımı",
+          "bullets": [
+            "**Max 5x ($100/ay):** ~225 mesaj/5 saat — haftada 140–280 saat Sonnet 4 + 15–35 saat Opus 4.5",
+            "**Max 20x ($200/ay):** ~900 mesaj/5 saat — haftada 240–480 saat Sonnet 4 + 24–40 saat Opus 4.5",
+            "think (~4K), megathink (~10K), ultrathink (~32K) modları",
+            "Ultrathink karmaşık refaktör, mimari, derin debug için",
+            "Opus 4.5, Sonnet 4'ten ~5x daha maliyetli",
+            "5 saatlik kayan pencereyle haftalık reset",
+            "Opus 4.5, Sonnet 4.5, Haiku 4.5 destekler"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://www.anthropic.com/pricing" },
+            { "label": "Claude Code Rehberi", "url": "https://docs.anthropic.com/en/docs/claude-code" }
+          ]
+        },
+        {
+          "id": "amazon-q-developer-paid",
+          "name": "Amazon Q Developer",
+          "url": "https://aws.amazon.com/q/developer/",
+          "description": "**Pro ($19/ay):** Agent istek limitleri artar",
+          "bullets": [
+            "Kullanım bölge ve desenlere göre ayarlanabilir"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://aws.amazon.com/q/developer/pricing/" }
+          ]
+        },
+        {
+          "id": "warp-paid",
+          "name": "Warp",
+          "url": "https://warp.dev/",
+          "description": "**Build ($20/ay):** Ayda 1.500 AI kredisi",
+          "bullets": [
+            "Yenileme kredileri (%50'ye kadar ucuz, 12 ay geçerli)",
+            "BYOK seçeneği",
+            "Yeni fiyatlar 30 Ekim 2025'ten itibaren yeni müşterilere",
+            "Mevcut aboneler 1 Aralık 2025'ten sonraki yenilemede geçer",
+            "Enterprise: özel fiyat"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://www.warp.dev/pricing" }
+          ]
+        },
+        {
+          "id": "github-copilot-paid",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot/plans",
+          "description": "**Pro ($10/ay):** 300 premium istek + sınırsız tamamlama/ay",
+          "bullets": [
+            "**Pro+ ($39/ay):** 1.500 premium + sınırsız/ay",
+            "**Business ($19/kullanıcı/ay):** 300 premium + sınırsız/kullanıcı/ay",
+            "**Enterprise ($39/kullanıcı/ay):** 1.000 premium + sınırsız/kullanıcı/ay",
+            "**GPT-5.1-Codex-Max** 4 Aralık 2025'ten public preview (Pro/Pro+/Business/Enterprise)",
+            "Çoklu modeller: GPT-5.1-Codex-Max, GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1",
+            "Aşım $0.04/istek"
+          ],
+          "links": [
+            { "label": "Plan detayları", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
+            { "label": "GPT-5.1-Codex-Max duyurusu", "url": "https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/" }
+          ]
+        },
+        {
+          "id": "trae-paid",
+          "name": "Trae",
+          "url": "https://trae.ai/",
+          "description": "**Pro ($10/ay):** Premium modeller için 600 hızlı + sınırsız yavaş",
+          "bullets": [
+            "Gelişmiş modellerde yavaş sınırsız",
+            "Oran kısıtı yok, daha hızlı erişim",
+            "Ek hızlı paketler: $3-$12",
+            "Premium modeller: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o",
+            "VS Code tabanlı, tam AI entegrasyonlu",
+            "İlk ay $3"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://trae.ai/pricing" },
+            { "label": "Dokümantasyon", "url": "https://docs.trae.ai/ide/billing" }
+          ]
+        },
+        {
+          "id": "windsurf-paid",
+          "name": "Windsurf",
+          "url": "https://windsurf.com/",
+          "description": "**Pro ($15/ay):** Ayda 500 prompt kredisi",
+          "bullets": [
+            "**Teams ($30/kullanıcı/ay):** 500 prompt/kullanıcı/ay",
+            "**Enterprise ($60+/kullanıcı/ay):** 1.000 prompt/kullanıcı/ay"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://windsurf.com/pricing" }
+          ]
+        },
+        {
+          "id": "lovable",
+          "name": "Lovable",
+          "url": "https://lovable.dev/",
+          "description": "**Pro ($25/ay):** Ayda 150 kredi (günde 5)",
+          "bullets": [
+            "**Teams ($30/ay):** Daha yüksek limitler (açıklanmadı)"
+          ],
+          "links": [
+            { "label": "Mesaj limitleri", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+          ]
+        },
+        {
+          "id": "bolt-new-paid",
+          "name": "Bolt.new",
+          "url": "https://bolt.new/",
+          "description": "**$20/ay:** Ayda 10M token",
+          "bullets": [
+            "**$200/ay:** Ayda 120M token"
+          ],
+          "links": [
+            { "label": "Token dokümanı", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+          ]
+        },
+        {
+          "id": "cursor-paid",
+          "name": "Cursor",
+          "url": "https://cursor.com/",
+          "description": "**Hobby (Ücretsiz):** Sınırlı Agent + sınırlı Tab + 1 haftalık Pro deneme",
+          "bullets": [
+            "**Pro ($20/ay veya $16/ay yıllık):** Geniş Agent limitleri + sınırsız Tab tamamlama + Arka plan Agent + maksimum bağlam",
+            "**Pro+ ($60/ay):** Tüm OpenAI, Claude, Gemini modellerinde 3x kullanım",
+            "**Ultra ($200/ay):** 20x kullanım + yeni özelliklerde öncelik",
+            "**Teams ($40/kullanıcı/ay):** Pro özellikleri + merkezi faturalama + kullanım analizi + SAML/OIDC SSO",
+            "**Enterprise (Özel):** Teams + paylaşımlı kullanım + SCIM + AI kod takip API'si + denetim kayıtları",
+            "**GPT-5.1-Codex-Max 11 Aralık 2025'e kadar herkese ücretsiz** (77.9% SWE-bench)",
+            "Ücretsiz katmanda 1 haftalık Pro denemesi",
+            "Ücretsiz katman artık istek değil token takibi kullanır",
+            "Ücretsiz modeller: Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini (500/gün), Grok 3 Mini Beta",
+            "Ücretli katman: OpenAI, Claude, Gemini modelleri (GPT-5.1-Codex-Max dahil)",
+            "Not: Claude modelleri ~2025 Haziran'da ücretsizten çıkarıldı",
+            "Otonom kodlama yetenekli AI destekli editör"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://cursor.com/en/pricing" },
+            { "label": "GPT-5.1-Codex-Max duyurusu", "url": "https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277" }
+          ]
+        },
+        {
+          "id": "openai-codex-cli",
+          "name": "OpenAI Codex CLI",
+          "url": "https://github.com/openai/codex",
+          "description": "**ChatGPT Plus ($20/ay) ile ücretsiz:** Kodlama için 5 saatte 30–150 mesaj",
+          "bullets": [
+            "**ChatGPT Pro ($200/ay):** 5 saatte 300–1.500 mesaj — en yüksek limitler",
+            "**Kullandığın kadar öde API:** GPT-5.1-Codex-Max $1.25/$10 her 1M token (girdi/çıktı)",
+            "**Ücretsiz OSS modu:** Sadece açık kaynak modeller (--oss bayrağı)",
+            "**GPT-5.1-Codex-Max** (19 Kas 2025): 77.9% SWE-bench — varsayılan model",
+            "Çok milyon token oturumları için ilk \"compaction\" destekli model",
+            "Önceki GPT-5.1-Codex'e göre %30 daha az düşünme token'ı",
+            "GitHub Copilot (Pro, Pro+, Business, Enterprise) ile de mevcut",
+            "Windows desteği eklendi",
+            "Çapraz platform: macOS 12+, Ubuntu 20.04+, Windows 11 (WSL2)"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/openai/codex" },
+            { "label": "GPT-5.1-Codex-Max duyurusu", "url": "https://openai.com/index/gpt-5-1-codex-max/" }
+          ]
+        },
+        {
+          "id": "codeium-paid",
+          "name": "Codeium",
+          "url": "https://codeium.com/",
+          "description": "**Pro ($10/ay):** Gelişmiş bağlamla sınırsız kullanım",
+          "bullets": [
+            "Claude 3.5 Sonnet, GPT-4o erişimi",
+            "Geniş bağlam penceresi ve kişiselleştirme",
+            "**Teams ($12/kullanıcı/ay):** Pro özellikleri + takım yönetimi",
+            "**Enterprise (Özel):** On-prem dağıtım, özel modeller"
+          ],
+          "links": [
+            { "label": "Fiyatlandırma", "url": "https://codeium.com/pricing" }
+          ]
+        },
+        {
+          "id": "tabnine-paid",
+          "name": "Tabnine",
+          "url": "https://www.tabnine.com/",
+          "description": "**Pro ($12/ay):** Gelişmiş AI tamamlama ve sohbet",
+          "bullets": [
+            "**Enterprise ($39/kullanıcı/ay):** Birden fazla LLM, özel dağıtım",
+            "Modeller: Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, özel",
+            "600+ programlama dili",
+            "On-prem ve izole dağıtım seçenekleri",
+            "Kendi fine-tune modellerini getirme"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://www.tabnine.com/pricing/" }
+          ]
+        },
+        {
+          "id": "jetbrains-ai-paid",
+          "name": "JetBrains AI Assistant",
+          "url": "https://www.jetbrains.com/ai/",
+          "description": "**AI Pro ($15/ay):** Daha yüksek bulut kota + sınırsız yerel model",
+          "bullets": [
+            "**AI Ultimate ($25/ay):** Maksimum bulut kota + gelişmiş özellikler",
+            "Ücretsiz katman: sınırsız kod tamamlama + yerel model + sınırlı bulut kota",
+            "30 günlük Pro deneme dahil",
+            "All Products Pack AI Pro içerir",
+            "Ollama/LM Studio ile yerel model offline"
+          ],
+          "links": [
+            { "label": "AI fiyat", "url": "https://www.jetbrains.com/ai-ides/buy/" }
+          ]
+        },
+        {
+          "id": "jules-paid",
+          "name": "Jules",
+          "url": "https://jules.google/",
+          "description": "**Pro ($19.99/ay, Google AI Pro):** 100 görev/gün",
+          "bullets": [
+            "Ücretsiz katmandan 5x (15 → 100 görev/gün)",
+            "5x eşzamanlı görev (3 → 15)",
+            "En yeni modellere daha yüksek erişim",
+            "**Ultra (Google AI Ultra):** 300 görev/gün",
+            "Ücretsiz katmandan 20x",
+            "60 eşzamanlı görev",
+            "Yeni modellere öncelik",
+            "Gmail hesabı gerekir (18+)"
+          ],
+          "links": [
+            { "label": "Kullanım limitleri", "url": "https://jules.google/docs/usage-limits/" },
+            { "label": "Google AI planları", "url": "https://one.google.com/about/google-ai-plans/" }
+          ]
+        },
+        {
+          "id": "supermaven-paid",
+          "name": "SuperMaven",
+          "url": "https://supermaven.com/",
+          "description": "**Pro ($10/ay):** 1M token bağlam penceresi + sohbet kredileri",
+          "bullets": [
+            "Alternatif: $99/yıl",
+            "Sohbet: GPT-4o, Claude 3.5 Sonnet, GPT-4",
+            "**Team ($10/kullanıcı/ay):** Pro özellikleri + takım yönetimi",
+            "Not: Kasım 2024'te Cursor IDE ile birleşti"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://supermaven.com/pricing" }
+          ]
+        }
+      ],
+      "afterNote": "Daha iyi fiyat/limit biliyorsanız, güncellemek için issue/PR'da kaynak paylaşın. CONTRIBUTING.md'ye bakın."
+    },
+    {
+      "id": "basic",
+      "title": "4. Temel modellere ücretsiz erişim sunan araçlar",
+      "note": "(belirtilmemiş/temel modeller)",
+      "tools": [
+        {
+          "id": "bolt-new-basic",
+          "name": "Bolt.new",
+          "url": "https://bolt.new/",
+          "description": "**Belirtilmemiş modeller**",
+          "bullets": [
+            "Aylık 1M token limiti",
+            "Spesifik model kamuya açık değil",
+            "Kredi kartı gerekir"
+          ],
+          "links": [
+            { "label": "Token dokümantasyonu", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+          ]
+        },
+        {
+          "id": "lovable-basic",
+          "name": "Lovable",
+          "url": "https://lovable.dev/",
+          "description": "**Belirtilmemiş modeller**",
+          "bullets": [
+            "Günde 5 kredi, ayda 30 (ücretsiz)",
+            "Modeller kamuya açık listelenmiyor",
+            "Kredi kartı gerekir"
+          ],
+          "links": [
+            { "label": "Mesaj limitleri", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+          ]
+        },
+        {
+          "id": "v0",
+          "name": "v0.dev",
+          "url": "https://v0.dev/",
+          "description": "**Özel (frontier olmayan) modeller**",
+          "bullets": [
+            "GPT-5 erişimi için v0 Premium gerekir",
+            "$5/ay kredi limiti",
+            "Çeşitli yönlendirmeyle özel modeller",
+            "Kredi kartı gerekir"
+          ],
+          "links": [
+            { "label": "Güncellenmiş fiyat blogu", "url": "https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh" }
+          ]
+        },
+        {
+          "id": "codeium-basic",
+          "name": "Codeium",
+          "url": "https://codeium.com/",
+          "description": "**Temel AI kodlama desteği ücretsiz ve sınırsız**",
+          "bullets": [
+            "Bireysel plan: sınırsız tamamlama/AI sohbet/komut ile sonsuza dek ücretsiz",
+            "70+ programlama dili",
+            "IDE entegrasyonları: VS Code, JetBrains, Vim/Neovim, Jupyter",
+            "Kredi kartı gerekmez",
+            "Bağlam farkındalığı sınırlı (ücretli katmanlarda genişler)",
+            "Sadece temel model (Llama 3.1 70B); profesyonel modeller abonelik gerektirir"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://codeium.com/pricing" },
+            { "label": "Dokümantasyon", "url": "https://codeium.com/docs" }
+          ]
+        },
+        {
+          "id": "tabnine-basic",
+          "name": "Tabnine",
+          "url": "https://www.tabnine.com/",
+          "description": "**Sınırlı özellikli ücretsiz katman**",
+          "bullets": [
+            "Temel AI kod tamamlama ve sohbet",
+            "Yerel işlem seçeneği",
+            "Ücretsiz katmanda bağlam çok sınırlı",
+            "Kaynak tasarrufu için performans kısılmış",
+            "600+ dil desteği"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://www.tabnine.com/pricing/" }
+          ]
+        },
+        {
+          "id": "jetbrains-ai-basic",
+          "name": "JetBrains AI Assistant",
+          "url": "https://www.jetbrains.com/ai/",
+          "description": "**IDE'lerle gelen ücretsiz AI katmanı**",
+          "bullets": [
+            "Sınırsız kod tamamlama ve yerel model desteği",
+            "Bulut özellikleri için sınırlı kota",
+            "30 günlük AI Pro denemesi",
+            "Yerel modellerle sohbet/kod üretimi/commit mesajları"
+          ],
+          "links": [
+            { "label": "AI özellikleri", "url": "https://www.jetbrains.com/ai-assistant/" }
+          ]
+        },
+        {
+          "id": "supermaven-basic",
+          "name": "SuperMaven",
+          "url": "https://supermaven.com/",
+          "description": "**Temel özellikli ücretsiz katman**",
+          "bullets": [
+            "Basit kod önerileri",
+            "7 günlük veri saklama",
+            "Kayıt için kredi kartı gerekir",
+            "1M token bağlam penceresi (ücretsiz için dikkat çekici)"
+          ],
+          "links": [
+            { "label": "Fiyat", "url": "https://supermaven.com/pricing" }
+          ]
+        },
+        {
+          "id": "continue-dev",
+          "name": "Continue.dev",
+          "url": "https://www.continue.dev/",
+          "description": "**Esnek model desteği olan ücretsiz açık kaynak uzantı**",
+          "bullets": [
+            "VS Code ve JetBrains için ücretsiz uzantı",
+            "Ollama, LM Studio aracılığıyla yerel modelleri tam destekler",
+            "Solo katman: özel/ekip/genel seçenekleri",
+            "200+ model (bulut için kendi API anahtarınız gerekir)",
+            "Özel AI asistanları için topluluk hub'ı",
+            "Yerel modellerde satıcı bağımlılığı veya kullanım limiti yok"
+          ],
+          "links": [
+            { "label": "GitHub", "url": "https://github.com/continuedev/continue" },
+            { "label": "Model Hub", "url": "https://hub.continue.dev/explore/models" }
+          ]
+        }
+      ],
+      "afterNote": "Resmi limit veya modeli biliyor musunuz? Güncellemek için issue/PR'de link paylaşın. CONTRIBUTING.md'ye bakın."
+    },
+    {
+      "id": "local-models",
+      "title": "5. Yerel modeller",
+      "type": "text",
+      "body": [
+        "Açık ağırlıklı frontier modellerini yerelde çalıştırmak, API maliyeti olmadan sınırsız kod yardımı sağlar. Popüler araçlar: **[Cline](https://cline.bot/)** (VS Code eklentisi, Plan/Act, MCP), **[Aider](https://aider.chat/)** (CLI + Git entegrasyonu), **[Continue.dev](https://www.continue.dev/)** (VS Code eklentisi, 200+ model). Hepsi **[Ollama](https://ollama.com/)** ile Devstral (24B, agent odaklı), Qwen3-Coder, DeepSeek Coder V2, Codestral, GLM-4.5 gibi modelleri çalıştırır.",
+        "**Not**: Frontier modeller yüksek RAM/VRAM ister. Qwen3‑Coder‑480B'nin Ollama GGUF'u ~150GB, pratik çıkarım ~150GB birleşik bellek (RAM+VRAM) gerektirebilir; 30B quant genelde ~18GB ister. Detaylar için Unsloth Qwen3‑Coder yerel rehberi ([docs](https://docs.unsloth.ai/basics/qwen3-coder-how-to-run-locally)) ve Simon Willison'ın [GLM‑4.5 AIR'i laptopta çalıştırıp Space Invaders yaptığı yazı](https://simonwillison.net/2025/Jul/29/space-invaders/)na bakın."
+      ]
+    }
+  ],
+  "comparisonNotes": {
+    "title": "Karşılaştırma notları",
+    "items": [
+      "**Hedef**: AI kodlama araçlarını profesyonel model erişimi ve ücretsiz limitlere göre karşılaştırmak.",
+      "**Profesyonel kriteri**: SWE-bench Verified ≥%60. Mevcut: Claude Opus 4.5 (80.9%), GPT-5.1-Codex-Max (77.9%), Claude Sonnet 4.5 (77.2%), Gemini 3 Pro (76.2%), GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), Gemini 2.5 Pro (63.2%).",
+      "**Limit türleri**: İstek, token, kredi, sohbet vs. doğrudan karşılaştırmak zor; belgeleri kontrol edin.",
+      "**Gerçek kullanım**: Kodlama stiline, görev karmaşıklığına ve araç uygulamasına göre büyük değişkenlik gösterir."
+    ]
+  },
+  "relatedResources": {
+    "title": "İlgili kaynaklar",
+    "items": [
+      { "label": "Coding with AI", "url": "https://coding-with-ai.dev/", "description": "LLM ile kodlamaya dair pratik teknikler" },
+      { "label": "Free LLM API Resources", "url": "https://github.com/cheahjs/free-llm-api-resources", "description": "Kendi entegrasyonlarınız için ücretsiz LLM API listesi" }
+    ]
+  }
+}

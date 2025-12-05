@@ -1,6 +1,6 @@
 Zuletzt aktualisiert: 5. Dezember 2025 • PRs/Issues willkommen
 
-**Sprachen:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
+**Sprachen:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md) • [Türkçe](README-tr.md)
 
 # KI-Coding-Tools: Wo Pro-Grade-Modelle wirklich gratis sind 
 

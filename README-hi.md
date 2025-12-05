@@ -1,6 +1,6 @@
 अंतिम अपडेट: 5 दिसंबर 2025 • PRs/issues आमंत्रित हैं
 
-**भाषाएँ:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
+**भाषाएँ:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md) • [Türkçe](README-tr.md)
 
 # AI कोडिंग टूल्स: जहाँ प्रो-ग्रेड मॉडल वाकई मुफ्त हैं 
 
