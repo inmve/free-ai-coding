@@ -1,0 +1,9 @@
+[
+  { "code": "es", "label": "Español", "path": "README-es.md" },
+  { "code": "pt-BR", "label": "Português", "path": "README-pt-BR.md" },
+  { "code": "zh", "label": "中文", "path": "README-zh.md" },
+  { "code": "fr", "label": "Français", "path": "README-fr.md" },
+  { "code": "ja", "label": "日本語", "path": "README-ja.md" },
+  { "code": "hi", "label": "हिन्दी", "path": "README-hi.md" },
+  { "code": "de", "label": "Deutsch", "path": "README-de.md" }
+]
