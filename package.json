@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:readmes": "node scripts/build-readmes.js"
+    "build:readmes": "node scripts/build-readmes.js",
+    "start": "npx --yes http-server . -p 3000 -a 127.0.0.1"
   },
   "dependencies": {
     "handlebars": "^4.7.8"
