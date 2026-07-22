@@ -232,6 +232,18 @@ _(do mais generoso ao menos)_
 
 Serviços que fornecem API para modelos otimizados para código, integrando com Cursor, Continue.dev, Cline e outros. Não são ferramentas de código standalone; são o backend de IA para ferramentas existentes.
 
+### [AI Router](https://ai-router.dev/pt)
+
+> **API compatível com OpenAI para fluxos de agentes de programação**
+- Compatível com ferramentas que aceitam URL base OpenAI personalizada e chave de API
+- Chaves pessoais, visibilidade de uso e descoberta autenticada de modelos via `/v1/models`
+- Novas contas elegíveis recebem até 5U disponíveis; outros 15U ficam congelados e são liberados gradualmente conforme o uso real da API
+- Recompensa diária: $1 + 2% do uso do dia anterior, limitada a $10 por check-in
+
+**** [Termos das recompensas](https://ai-router.dev/pt/docs/billing-quota/rewards-and-affiliate-commissions/) | [Exemplos compatíveis com OpenAI](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **Qwen3-Coder-480B via OpenRouter**

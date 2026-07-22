@@ -188,6 +188,18 @@ _(en cömert olandan en az cömerte sıralı)_
 
 Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama araçları ile entegre olan kodlama için optimize edilmiş modellere API erişimi sağlar. Bağımsız kodlama araçları sunmazlar ancak mevcut araçlar için AI backend'i sağlarlar.
 
+### [AI Router](https://ai-router.dev/tr)
+
+> **Kodlama ajanı iş akışları için OpenAI uyumlu API**
+- Özel OpenAI temel URL'si ve API anahtarı kabul eden araçlarla uyumlu
+- Kişisel API anahtarları, kullanım görünürlüğü ve `/v1/models` üzerinden kimlik doğrulamalı model keşfi
+- Uygun yeni hesaplara en fazla 5U kullanılabilir ödül verilir; ek 15U dondurulmuş kalır ve gerçek API kullanımına göre kademeli olarak serbest bırakılır
+- Günlük giriş ödülü: $1 + önceki günün kullanımının %2'si, giriş başına en fazla $10
+
+**Bağlantılar:** [Ödül koşulları](https://ai-router.dev/tr/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI uyumlu örnekler](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **OpenRouter üzerinden Qwen3-Coder-480B**

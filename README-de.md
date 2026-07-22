@@ -232,6 +232,18 @@ _(vom großzügigsten zum kleinsten geordnet)_
 
 Diese Services bieten API-Zugriff auf coding-optimierte Modelle, die mit Tools wie Cursor, Continue.dev, Cline usw. arbeiten. Sie sind keine Standalone-Coding-Tools, sondern das AI-Backend für bestehende Tools.
 
+### [AI Router](https://ai-router.dev/de)
+
+> **OpenAI-kompatible API für Coding-Agent-Workflows**
+- Kompatibel mit Tools, die eine eigene OpenAI-Basis-URL und einen API-Key akzeptieren
+- Persönliche API-Keys, Nutzungsübersicht und authentifizierte Modellerkennung über `/v1/models`
+- Berechtigte neue Konten erhalten bis zu 5U verfügbares Guthaben; weitere 15U bleiben eingefroren und werden schrittweise durch tatsächliche API-Nutzung freigegeben
+- Täglicher Check-in: $1 + 2 % der Nutzung des Vortags, maximal $10 pro Check-in
+
+**** [Prämienbedingungen](https://ai-router.dev/de/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI-kompatible Beispiele](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **Qwen3-Coder-480B via OpenRouter**

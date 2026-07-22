@@ -232,6 +232,18 @@
 
 カーソル、Continue.dev、Cline などと統合されるコード特化モデルのAPIを提供。単体ツールではなく既存ツールのAIバックエンド。
 
+### [AI Router](https://ai-router.dev/hi)
+
+> **कोडिंग एजेंट वर्कफ़्लो के लिए OpenAI-संगत API**
+- कस्टम OpenAI बेस URL और API कुंजी स्वीकार करने वाले टूल्स के साथ संगत
+- व्यक्तिगत API कुंजियां, उपयोग की जानकारी और `/v1/models` के जरिए प्रमाणित मॉडल खोज
+- पात्र नए खातों को अधिकतम 5U उपलब्ध रिवार्ड मिलता है; अतिरिक्त 15U फ्रीज़ रहता है और वास्तविक API उपयोग के अनुसार धीरे-धीरे जारी होता है
+- दैनिक चेक-इन रिवार्ड: $1 + पिछले दिन के उपयोग का 2%, प्रति चेक-इन अधिकतम $10
+
+**** [रिवार्ड की शर्तें](https://ai-router.dev/hi/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI-संगत उदाहरण](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **OpenRouter経由の Qwen3-Coder-480B**

@@ -232,6 +232,18 @@
 
 Cursor, Continue.dev, Cline などと連携するコーディング特化モデルの API を提供。単体のコーディングツールではなく既存ツールのバックエンド。
 
+### [AI Router](https://ai-router.dev/ja)
+
+> **コーディングエージェント向け OpenAI 互換 API**
+- カスタム OpenAI ベース URL と API キーを設定できるツールに対応
+- 個人 API キー、使用量の確認、`/v1/models` による認証付きモデル取得
+- 対象となる新規アカウントには最大 5U の利用可能報酬が付与され、追加の 15U は凍結されたまま実際の API 利用に応じて段階的に解除
+- 毎日のチェックイン報酬：$1 + 前日の利用額の 2%、1 回あたり最大 $10
+
+**** [報酬規約](https://ai-router.dev/ja/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI 互換サンプル](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **OpenRouter 経由で Qwen3-Coder-480B**

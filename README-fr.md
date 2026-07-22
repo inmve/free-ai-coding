@@ -232,6 +232,18 @@ _(classés du plus généreux au moins généreux)_
 
 Ces services fournissent une API vers des modèles optimisés pour le codage qui s'intègrent avec des outils populaires comme Cursor, Continue.dev, Cline, etc. Ils ne sont pas des outils de codage autonomes mais l'IA backend pour les outils existants.
 
+### [AI Router](https://ai-router.dev/fr)
+
+> **API compatible OpenAI pour les workflows d'agents de codage**
+- Compatible avec les outils acceptant une URL de base OpenAI personnalisée et une clé API
+- Clés API personnelles, suivi de l'utilisation et découverte authentifiée des modèles via `/v1/models`
+- Les nouveaux comptes éligibles reçoivent jusqu'à 5U disponibles ; 15U supplémentaires restent gelés et sont libérés progressivement selon l'utilisation réelle de l'API
+- Récompense quotidienne : $1 + 2 % de l'utilisation de la veille, plafonnée à $10 par pointage
+
+**** [Conditions des récompenses](https://ai-router.dev/fr/docs/billing-quota/rewards-and-affiliate-commissions/) | [Exemples compatibles OpenAI](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **Qwen3-Coder-480B via OpenRouter**

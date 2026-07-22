@@ -232,6 +232,18 @@ _(ordered from most generous to least)_
 
 These services provide API access to coding-optimized models that integrate with popular AI coding tools like Cursor, Continue.dev, Cline, and others. They don't provide standalone coding tools but offer the AI backend for existing tools.
 
+### [AI Router](https://ai-router.dev/)
+
+> **OpenAI-compatible API for coding-agent workflows**
+- Compatible with tools that accept a custom OpenAI base URL and API key
+- Personal API keys, usage visibility, and authenticated `/v1/models` discovery
+- Eligible new accounts receive up to 5U available reward; an additional 15U remains frozen and is released gradually from actual API usage
+- Daily check-in reward: $1 + 2% of the previous day's usage, capped at $10 per check-in
+
+**** [Reward terms](https://ai-router.dev/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI-compatible examples](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **Qwen3-Coder-480B via OpenRouter**

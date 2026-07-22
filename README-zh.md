@@ -232,6 +232,18 @@
 
 这些服务提供编程优化模型的API访问，集成于Cursor、Continue.dev、Cline等流行AI编程工具中。它们不是独立工具，而是现有工具的AI后端。
 
+### [AI Router](https://ai-router.dev/cn)
+
+> **面向 Coding Agent 工作流的 OpenAI 兼容 API**
+- 适用于可配置自定义 OpenAI Base URL 和 API Key 的工具
+- 支持个人 API Key、用量查询及通过 `/v1/models` 鉴权获取模型列表
+- 符合条件的新账号最多可获得 5U 可用奖励；另有 15U 保持冻结，并随实际 API 使用逐步释放
+- 每日签到奖励：$1 + 昨日消费的 2%，单次签到封顶 $10
+
+**** [奖励条款](https://ai-router.dev/cn/docs/billing-quota/rewards-and-affiliate-commissions/) | [OpenAI 兼容示例](https://github.com/airouter-dev/ai-router-openai-compatible-examples)
+
+---
+
 ### [OpenRouter](https://openrouter.ai/)
 
 > **通过 OpenRouter 访问 Qwen3-Coder-480B**
