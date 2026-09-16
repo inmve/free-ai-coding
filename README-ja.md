@@ -1,4 +1,4 @@
-最終更新: 2025年12月5日 • PRs/issues 歓迎
+最終更新: 2026年9月15日 • PRs/issues 歓迎
 
 **言語：** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
 
@@ -7,39 +7,32 @@
 多くのAIコーディングツールは「無料」を謳いますが、プロ級モデルへのアクセスはすぐ尽きてダウングレードされがちです。各ツールで上限（クレジット、トークン、リクエスト）が異なり、比較が難しい。このリストで並べて、実際に無料で得られるものを示します。
 
 ## TL;DR — プロ級AIコーディングの無料枠
-（上限が高いツールから）
+_(上限の単位は異なるため、順序は目安であり同等容量のランキングではありません)_
 
 | ツール | プロ級モデル | 無料枠 | クレカ |
 |------|------------------|------------------|-------------|
-| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen3-Coder-480B | 1日2,000リクエスト | 不要 |
-| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | Claude Sonnet 4 | 1日5Mトークン（ベータ） | 不要 |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini 3 Pro, Gemini 2.5 Pro | Gemini 3 Pro（ウェイト/有料）、Gemini 2.5 Pro 100req/日 | 不要 |
-| [Cursor](https://cursor.com/) | GPT-5.1-Codex-Max | 2025/12/11まで無料（77.9% SWE-bench） | 不要 |
-| [Kilo Code](https://kilocode.ai/) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 登録クレジット最大$25（1回のみ） | 要 |
-| [Warp](https://warp.dev/) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 月150クレジット（最初の2か月）、以降75/月 | 不要 |
-| [Trae](https://trae.ai/) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 月10高速 + 50低速リクエスト | 不要 |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Claude Sonnet 4 | 月50エージェントリクエスト | 要 |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 月50チャット + 2,000補完 | 不要 |
-| [Windsurf](https://windsurf.com/) | OpenAI, Anthropic, Google, xAI | 月25クレジット | 要 |
-| [Jules](https://jules.google/) | Gemini 2.5 Pro | 1日15タスク | 不要 |
-| [AWS Kiro](https://kiro.dev/) | Claude 4 Sonnet, Claude 3.7 Sonnet | 月50クレジット | 不要 |
-| [Qoder](https://qoder.com/) | Qwen3-Coder-480B, Claude, GPT, Gemini | 無料 + 2週間のProトライアル（1,000クレジット） | 不要 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen とその他プロバイダ | Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用 | 不要 |
+| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | プランにより異なる Rovo Dev モデル | 有料 Jira と連携してユーザー月350クレジット/サイト | 不要 |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Enterprise/有料APIアクセスは継続；個人ユーザーはAntigravity CLIへ移行 | 個人向け無料/Google AI は2026年6月18日に終了；Antigravity CLIへ移行 | 不要 |
+| [Cursor](https://cursor.com/) | Composer、Agent 制限あり | Agent 制限、期間限定キャンペーンなし | 不要 |
+| [Kilo Code](https://kilocode.ai/) | 未掲載 | 現在値は未検証 | 未確認 |
+| [Warp](https://warp.dev/) | Warp Agent、BYOK | Free はクラウドAgent限定；10人以下の個人・企業のBYOKはWarpクレジット不要 | 未確認 |
+| [Trae](https://trae.ai/) | 未掲載 | 現在値は未検証 | 未確認 |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | 最新 Claude モデル（AWS） | 月50エージェントリクエスト + Java 1,000 LOC | 不要 |
+| [GitHub Copilot](https://github.com/features/copilot/plans) | Haiku 4.5、GPT-5 mini など | 月2,000補完 + 50チャット；Agent/CLI限定 | 不要 |
+| [Windsurf](https://windsurf.com/) | 未掲載 | 現在値は未検証 | 未確認 |
+| [Jules](https://jules.google/) | Gemini 2.5 Pro | 直近24時間で15タスク；同時3件 | 不要 |
+| [AWS Kiro](https://kiro.dev/) | Claude Sonnet 4.5 と open weight | 月50クレジット | 不要 |
+| [Qoder](https://qoder.com/) | 未掲載 | 現在値は未検証 | 未確認 |
 
-### プロ級モデル（SWE-bench Verified >60%）
-実務向けと認める基準。現在のリスト：
+### プロ級モデル（選択した過去の値）
+一次情報へのリンクを付けた選択済みの過去の値です。テスト条件が異なるため、現在の網羅的なランキングではありません。
 
 | モデル | SWE-bench Verified | 提供 |
 |-------|-------------------|----------|
-| Claude Opus 4.5 | 80.9% | Anthropic |
-| GPT-5.1-Codex-Max | 77.9% | OpenAI |
-| Claude Sonnet 4.5 | 77.2%（並列で82.0%） | Anthropic |
-| Gemini 3 Pro | 76.2% | Google |
-| GPT-5 | 74.9% | OpenAI |
-| Claude Opus 4.1 | 74.5% | Anthropic |
-| Claude Sonnet 4 | 72.7%（並列で80.2%） | Anthropic |
-| GPT-5 mini | 71.0% | OpenAI |
-| Qwen3-Coder-480B | 69.6%（対話）/ 67.0%（単発） | Alibaba |
-| Gemini 2.5 Pro | 63.2% | Google |
+| [Claude Opus 4.5](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) | 80.9% | Anthropic |
+| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) | 77.2% | Anthropic |
+| [Qwen3-Coder-480B](https://qwenlm.github.io/blog/qwen3-coder/) | 69.6% | Alibaba |
 
 ### コントリビュート
 
@@ -60,29 +53,26 @@
 - [関連リソース](#関連リソース)
 
 ## 1. プロ級モデルに無料アクセスできるAIコーディングツール
-（最も太っ腹→控えめの順）
+_(上限の単位は異なるため、順序は目安であり同等容量のランキングではありません)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **Qwen3-Coder-480B へのアクセス**
-- 無料枠：1日2,000リクエスト（Qwen OAuth）
-- 60リクエスト/分のレートリミット
-- Gemini CLIベースのCLIワークフローツール
-- ワンクリックのブラウザ認証
-- クレカ不要
+> **Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用**
+- Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用
+- 認証設定から Qwen など複数プロバイダを利用できる
+- ターミナル、IDE、デスクトップ、Web 対応のオープンソースエージェント
 
-**** [GitHub](https://github.com/QwenLM/qwen-code) | [ドキュメント](https://github.com/QwenLM/qwen-code#readme)
+**** [GitHub](https://github.com/QwenLM/qwen-code) | [Authentication](https://github.com/QwenLM/qwen-code/blob/main/docs/users/configuration/auth.md)
 
 ---
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **ベータ期間の Claude Sonnet 4 アクセス**
-- 無料枠：5Mトークン/日（初日20M）
-- Claude Sonnet 4 モデル（テスト確認）
-- ベータ中クレカ不要
-- UTC真夜中にリセット
-- 20Mトークン/日には Jira Standard/Premium/Enterprise へアップグレード
+> **Rovo Dev Free**
+- 有料 Jira プランで無料：サイトごとにユーザー月350 Rovo Dev クレジット
+- 月間クレジットを使い切ると停止
+- 現在の請求ページは CLI の固定モデルを明記していない
+- 無料アドオンにクレジットカードは不要
 
 **** [ドキュメント](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [トークン上限](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/)
 
@@ -90,27 +80,22 @@
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **Gemini 3 Pro と Gemini 2.5 Pro へのアクセス**
-- Gemini 3 Pro が 2025/12/4 に提供開始（Google AI Ultra 有料/API 有料）
-- Gemini 3 Pro: 76.2% SWE-bench Verified — Google の最上位コーディングモデル
-- 無料 fallback: Gemini 2.5 Pro 100 req/日
-- Gemini 2.5 Flash 250 req/日
-- 無料枠はクレカ不要
-- Gemini 3 Pro は Google AI Pro / Gemini Code Assist Standard / 無料ユーザーはウェイト
-- `/settings` → Preview features → true で有効化
+> **個人向けGemini CLIはAntigravity CLIへ移行**
+- 2026年6月18日、Gemini CLIは個人およびGoogle AI Pro/Ultra向けの提供を終了
+- Antigravity CLIは全員に提供され、移行先となる
+- Standard/Enterprise組織のアクセスは変更なし；有料Gemini APIキーは利用可能
+- 従来の個人Googleログインの1,000/日・60/分制限は終了
 
-**** [レート制限](https://ai.google.dev/gemini-api/docs/rate-limits) | [価格](https://ai.google.dev/gemini-api/docs/pricing) | [Gemini 3 Pro 発表](https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/)
+**** [Transition announcement](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) | [Documentation](https://ai.google.dev/gemini-api/docs/rate-limits)
 
 ---
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 アクセス**
-- 最大 $25 の登録ボーナス（1回限り）
-- オープンソースの VS Code 拡張
-- モデル価格に上乗せなしの従量課金
-- ボーナス取得にクレカ必要
-- 自前の API キー持ち込み可
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [GitHub](https://github.com/Kilo-Org/kilocode) | [ドキュメント](https://kilocode.ai/docs/) | [価格](https://kilocode.ai/pricing)
 
@@ -118,11 +103,11 @@
 
 ### [Warp](https://warp.dev/)
 
-> **GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro アクセス**
-- 月150 AIクレジット（最初の2か月）、以降75/月
-- 複数プロバイダ（OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro）
-- 基本登録はクレカ不要
-- 2025/10/30 に単一 Build プラン ($20/月, 1,500 クレジット) を発表
+> **Warp Agent と BYOK**
+- Free：クラウドエージェントは限定利用で、上限到達後は停止
+- Build は月$20から、1,500クレジット（$20相当の利用）
+- 10人以下の個人・企業ではBYOK/カスタム推論にWarpクレジットを使わない
+- 消費量はモデル、コンテキスト、タスクで変わる
 
 **** [価格](https://www.warp.dev/pricing)
 
@@ -130,12 +115,11 @@
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Claude Sonnet 4 アクセス**
-- 月50件のエージェントリクエスト（マルチターン）
-- 最新の Claude モデル（AWS ホスト）
-- クレカ必須
-- 継続利用には Pro へアップグレード
-- 恒久的な無料枠
+> **Amazon Q Developer Free**
+- 恒久無料：月50エージェントリクエスト、月1,000 Java LOC
+- IDE の無料枠は Builder ID、IAM はアカウント単位
+- Builder ID 無料利用にカード不要；Pro は AWS 請求が必要
+- Pro は月$19/ユーザーで上限が増える
 
 **** [価格](https://aws.amazon.com/q/developer/pricing/)
 
@@ -143,12 +127,11 @@
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **エージェントモード（GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）**
-- 月50チャット + 2,000補完
-- 自律的なマルチステップコーディング
-- 複数プロバイダ（GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）
-- クレカ不要
-- 枠超過後は基本機能のみ
+> **GitHub Copilot Free**
+- 月2,000補完と月50チャットリクエスト
+- Copilot CLI と限定的な Agent；Free のモデル選択は制限される
+- 現在のプランページは Haiku 4.5、GPT-5 mini などを掲載
+- クレジットカード不要
 
 **** [プラン詳細](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [エージェントモード](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 
@@ -156,14 +139,10 @@
 
 ### [Trae](https://trae.ai/)
 
-> **Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro アクセス**
-- プレミアムモデルに高速10 + 低速50/月
-- アドバンスドモデルに低速1,000/月
-- オートコンプリート5,000/月
-- VS CodeベースのIDE + AI
-- Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1 など複数プレミアムモデル
-- 無料枠はクレカ不要
-- Pro: $10/月（高速600 + 低速無制限）
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://trae.ai/pricing) | [ドキュメント](https://docs.trae.ai/ide/billing)
 
@@ -171,11 +150,10 @@
 
 ### [Windsurf](https://windsurf.com/)
 
-> **OpenAI, Anthropic, Google, xAI モデル**
-- 月25プロンプトクレジット
-- OpenAI/Claude/Gemini/xAI を含む
-- クレカ必須
-- 追加クレジット購入可
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://windsurf.com/pricing)
 
@@ -184,7 +162,7 @@
 ### [Jules](https://jules.google/)
 
 > **Gemini 2.5 Pro アクセス**
-- 無料枠：1日15タスク
+- 無料：直近24時間で15タスク、同時3タスク
 - 同時3タスク
 - モデル：Gemini 2.5 Pro
 - Gmail アカウント必須（18+）
@@ -198,12 +176,11 @@
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude 4 Sonnet, Claude 3.7 Sonnet へのアクセス**
-- 月50クレジット（無料枠）
-- Claude 4 Sonnet / Claude 3.7 Sonnet（AWSホスト）
-- クレカ不要
-- 14日ウェルカムボーナス：500クレジット
-- 有料: Pro ($20/月 - 1,000), Pro+ ($40/月 - 2,000), Power ($200/月 - 10,000)
+> **AWS Kiro Free**
+- 恒久無料：月50クレジット
+- ソーシャルログインまたは Builder ID で Claude Sonnet 4.5 と open-weight モデル（制限あり）
+- Pro 月$20: 1,000、Pro+ $40: 2,000、Pro Max $100: 5,000、Power $200: 10,000
+- 有料プランにはカードが必要
 
 **** [価格](https://kiro.dev/pricing/) | [紹介ブログ](https://kiro.dev/blog/introducing-kiro/)
 
@@ -211,15 +188,10 @@
 
 ### [Qoder](https://qoder.com/)
 
-> **Qwen3-Coder-480B, Claude, GPT, Gemini モデル**
-- 無料: 無制限コンプ/編集 + 限定チャット/エージェント + 2週間 Pro トライアル (1,000)
-- Alibaba の AI IDE
-- Windows / macOS 対応
-- 主に Qwen3-Coder-480B（旗艦コーディングモデル）
-- Claude, GPT-4, Gemini もサポート
-- Agent モード & Quest モードで自律コーディング
-- 無料枠クレカ不要
-- 有料: Pro ($20/月 - 2,000), Pro+ ($60/月 - 6,000)
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [サイト](https://qoder.com/) | [価格](https://qoder.com/pricing)
 
@@ -248,14 +220,10 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **Qwen3-235B / Llama 3.1 へのアクセス**
-- 無料: 1M tokens/日
-- クレカ不要
-- 30 req/分, コンテキスト 8,192 トークン
-- モデル: Qwen3-235B, Llama 3.1 70B（注: Qwen3-Coder-480B は 2025/11/5 廃止）
-- OpenAI 互換（Cursor, Continue.dev, Cline, RooCode などで使用可）
-- 超高速推論: 2,000 tokens/秒（一般より40倍速）
-- **有料:** Developer ($10+ self-serve), Enterprise (カスタム)
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://www.cerebras.ai/pricing) | [APIドキュメント](https://inference-docs.cerebras.ai/) | [統合ガイド](https://inference-docs.cerebras.ai/integrations/)
 
@@ -266,12 +234,12 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Jira Standard ($7.53/ユーザー/月):** 1日20Mトークン
-- **Jira Premium ($15.25/ユーザー/月):** 20M/日
-- **Jira Enterprise (カスタム):** 20M/日
-- 無料枠の4倍（5M→20M/日）
-- 無料枠と同じClaude系モデル
-- UTC真夜中リセット
+> **Rovo Dev Free**
+- 有料 Jira プランで無料：サイトごとにユーザー月350 Rovo Dev クレジット
+- 月間クレジットを使い切ると停止
+- 現在の請求ページは CLI の固定モデルを明記していない
+- 無料アドオンにクレジットカードは不要
+- Standard：月$20、ユーザー月2,000クレジット
 
 **** [ドキュメント](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [トークン上限](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/) | [Jira価格](https://www.atlassian.com/software/jira/pricing)
 
@@ -294,8 +262,11 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Pro ($19/月):** エージェントリクエストの上限アップ
-- 地域・利用状況に応じ調整の可能性
+> **Amazon Q Developer Free**
+- 恒久無料：月50エージェントリクエスト、月1,000 Java LOC
+- IDE の無料枠は Builder ID、IAM はアカウント単位
+- Builder ID 無料利用にカード不要；Pro は AWS 請求が必要
+- Pro は月$19/ユーザーで上限が増える
 
 **** [価格](https://aws.amazon.com/q/developer/pricing/)
 
@@ -303,12 +274,11 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Warp](https://warp.dev/)
 
-> **Build ($20/月):** 1,500 AIクレジット/月
-- リロードクレジット（旧オーバーレートより最大50%安、12ヶ月繰越）
-- BYOKオプションあり
-- 新価格は2025/10/30 新規顧客から有効
-- 既存月額は2025/12/1以降の更新時に移行
-- エンタープライズ：カスタム
+> **Warp Agent と BYOK**
+- Free：クラウドエージェントは限定利用で、上限到達後は停止
+- Build は月$20から、1,500クレジット（$20相当の利用）
+- 10人以下の個人・企業ではBYOK/カスタム推論にWarpクレジットを使わない
+- 消費量はモデル、コンテキスト、タスクで変わる
 
 **** [価格](https://www.warp.dev/pricing)
 
@@ -316,13 +286,11 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Pro ($10/月):** 高度リクエスト300 + 無制限補完/月
-- **Pro+ ($39/月):** 高度1,500 + 無制限補完/月
-- **Business ($19/ユーザー/月):** 高度300 + 無制限補完/ユーザー/月
-- **Enterprise ($39/ユーザー/月):** 高度1,000 + 無制限補完/ユーザー/月
-- **GPT-5.1-Codex-Max** 公開プレビュー（2025/12/4）Pro/Pro+/Business/Enterpriseで利用可
-- 複数モデル（GPT-5.1-Codex-Max, GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）
-- 超過は $0.04/リクエスト
+> **GitHub Copilot Free**
+- 月2,000補完と月50チャットリクエスト
+- Copilot CLI と限定的な Agent；Free のモデル選択は制限される
+- 現在のプランページは Haiku 4.5、GPT-5 mini などを掲載
+- クレジットカード不要
 
 **** [プラン詳細](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [GPT-5.1-Codex-Maxプレビュー](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/)
 
@@ -330,13 +298,10 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Trae](https://trae.ai/)
 
-> **Pro ($10/月):** 高速600 + 低速無制限（プレミアムモデル）
-- 進階モデルの低速は無制限
-- レート制限なしで高速アクセス
-- 追加パック $3-$12 で高速枠を追加
-- プレミアム: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o
-- VS Code ベースの IDE、フルAI統合
-- 初月 $3
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://trae.ai/pricing) | [ドキュメント](https://docs.trae.ai/ide/billing)
 
@@ -344,9 +309,10 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Windsurf](https://windsurf.com/)
 
-> **Pro ($15/月):** プロンプト500/月
-- **Teams ($30/ユーザー/月):** 500 プロンプト/ユーザー/月
-- **Enterprise ($60+/ユーザー/月):** 1,000 プロンプト/ユーザー/月
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://windsurf.com/pricing)
 
@@ -354,37 +320,31 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Lovable](https://lovable.dev/)
 
-> **Pro ($25/月):** 月150クレジット（1日5）
-- **Teams ($30/月):** 上限拡大（非公開）
+> **Lovableは現在クレジット制**
+- Freeは毎日5ビルドクレジット（月30まで）、月20 Cloudクレジット、月4 AIクレジットを含む
+- クレジットとgrantの有効期限は異なるため公式料金ページを確認
 
-**** [メッセージ上限](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [Bolt.new](https://bolt.new/)
 
-> **$20/月:** 月1,000万トークン
-- **$200/月:** 月1億2,000万トークン
+> **Freeは1日300K、月1Mトークンまで**
+- Proは月25ドルから10Mトークン/月、Teamsは月30ドル/メンバーから
+- 有料トークンは契約継続中なら1か月繰り越し
 
-**** [トークンドキュメント](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Cursor](https://cursor.com/)
 
-> **Hobby（無料）:** 限定エージェント + 限定Tab補完 + 1週間Proトライアル
-- **Pro ($20/月 または $16/月 年払い):** エージェント上限拡大 + 無制限Tab補完 + バックグラウンドAgent + 最大コンテキスト
-- **Pro+ ($60/月):** OpenAI/Claude/Gemini すべて 3倍使用
-- **Ultra ($200/月):** すべて20倍 + 新機能優先
-- **Teams ($40/ユーザー/月):** Pro機能 + 集中課金 + 利用分析 + SAML/OIDC SSO
-- **Enterprise (カスタム):** Teams + 共同プール + SCIM + AIコード追跡API + 監査ログ
-- **GPT-5.1-Codex-Max が 2025/12/11 まで全ユーザー無料**（77.9% SWE-bench）
-- 1週間のProトライアル（無料枠）
-- 無料枠はリクエスト単位でなくトークン課金へ移行
-- 無料モデル: Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini (500/日), Grok 3 Mini Beta
-- 有料枠: OpenAI, Claude, Gemini など GPT-5.1-Codex-Max を含む
-- 注: 2025年6月頃に無料枠から Claude モデルが除外
-- 自律型コーディング対応のAIコードエディタ
+> **Cursor Free と有料プラン**
+- Hobby は無料・カード不要、Agent 制限と Composer アクセス
+- Pro $20/月、Pro+ $60、Ultra $200、Teams Standard $40/ユーザー/月
+- GPT-5.1-Codex-Max の2025年12月11日まで無料のキャンペーンは終了・削除
+- 使用量とモデルはプランに依存
 
 **** [価格](https://cursor.com/en/pricing) | [GPT-5.1-Codex-Max アナウンス](https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277)
 
@@ -392,28 +352,21 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
-> **ChatGPT Plus ($20/月) で無料:** コーディング用 5時間あたり 30–150 メッセージ
-- **ChatGPT Pro ($200/月):** 5時間あたり 300–1,500 メッセージ — 最高枠
-- **従量課金 API:** GPT-5.1-Codex-Max $1.25/$10 per 1M tokens (入/出力)
-- **無料 OSS モード:** オープンソースモデルのみ (--oss)
-- **GPT-5.1-Codex-Max** (2025/11/19): 77.9% SWE-bench — デフォルトモデル
-- マルチミリオン・トークンのセッション向け初の “compaction” 対応
-- 前世代より思考トークンを30%削減
-- GitHub Copilot (Pro/Pro+/Business/Enterprise) でも利用可
-- Windows サポートあり
-- マルチプラットフォーム：macOS 12+, Ubuntu 20.04+, Windows 11 (WSL2)
+> **Codex のプランと API 課金**
+- Codex は Free（$0）、Go（月$8）、Plus（月$20）、Pro（月$100から）、Business（年払い月$20/ユーザーまたは月払い$25）、Edu、Enterprise に含まれる
+- APIキーはモデル別に課金；ローカルとクラウドはプラン枠を共有する
+- 上限はタスクの複雑さで変わるため公式料金を確認
 
-**** [GitHub リポジトリ](https://github.com/openai/codex) | [GPT-5.1-Codex-Max アナウンス](https://openai.com/index/gpt-5-1-codex-max/)
+**** [Pricing](https://developers.openai.com/codex/pricing/) | [GitHub](https://github.com/openai/codex)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **Pro ($10/月):** 高度なコンテキスト認識で無制限利用
-- Claude 3.5 Sonnet, GPT-4o にアクセス
-- 拡張コンテキストウィンドウとパーソナライズ
-- **Teams ($12/ユーザー/月):** Pro機能 + チーム管理
-- **Enterprise (カスタム):** オンプレ展開・カスタムモデル
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://codeium.com/pricing)
 
@@ -421,14 +374,12 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **Pro ($12/月):** 高度なAI補完とチャット
-- **Enterprise ($39/ユーザー/月):** 複数LLM、プライベート展開
-- モデル: Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, 自社モデル
-- 600+言語サポート
-- オンプレ/エアギャップ展開オプション
-- 独自のファインチューニングモデル持ち込み可
+> **Tabnine の現行有料プラン**
+- Code Assistant：年払い月$39/ユーザー；Agentic Platform：年払い月$59/ユーザー
+- 現行料金ページに無料枠の案内はない
+- 自社 LLM の on-prem/cloud 利用は Tabnine 側では無制限；Tabnine LLM はプロバイダ料金＋5%
 
-**** [価格](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -448,7 +399,7 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 ### [Jules](https://jules.google/)
 
 > **Pro ($19.99/月, Google AI Pro):** 1日100タスク
-- 無料枠の5倍（15→100タスク/日）
+- Google AI Pro の Jules Pro：直近24時間で100タスク、同時15タスク
 - 同時5倍（3→15）
 - 最新モデルへのアクセス増
 - **Ultra (Google AI Ultra):** 1日300タスク
@@ -480,47 +431,40 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Bolt.new](https://bolt.new/)
 
-> **未特定のモデル**
-- 月100万トークン上限
-- 具体的モデルは非公開
-- クレカ必須
+> **Freeは1日300K、月1Mトークンまで**
+- Proは月25ドルから10Mトークン/月、Teamsは月30ドル/メンバーから
+- 有料トークンは契約継続中なら1か月繰り越し
 
-**** [トークンドキュメント](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Lovable](https://lovable.dev/)
 
-> **未特定のモデル**
-- 1日5クレジット、月最大30（無料）
-- モデルの公開リストなし
-- クレカ必須
+> **Lovableは現在クレジット制**
+- Freeは毎日5ビルドクレジット（月30まで）、月20 Cloudクレジット、月4 AIクレジットを含む
+- クレジットとgrantの有効期限は異なるため公式料金ページを確認
 
-**** [メッセージ上限](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [v0.dev](https://v0.dev/)
 
-> **プロプライエタリ（非フロンティア）モデル**
-- GPT-5 利用は v0 Premium が必要
-- $5/月 のクレジット上限
-- プロプライエタリモデルでルーティング多様
-- クレカ必須
+> **Freeは月5ドル分のクレジットと1日7メッセージ**
+- Plusは月30ドル/ユーザーで30ドル分、Businessは月100ドル/ユーザー
+- 入出力トークンをクレジットに換算して使用量を計測
 
-**** [価格改定ブログ](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh)
+**** [Pricing](https://api2.v0.dev/pricing)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **基本AIコーディング支援の無料無制限利用**
-- 個人プラン: コード補完/AIチャット/コマンド無制限で永年無料
-- 70+ 言語サポート
-- IDE: VS Code, JetBrains, Vim/Neovim, Jupyter
-- クレカ不要
-- コンテキスト理解は限定（有料で拡張）
-- ベースモデルのみ（Llama 3.1 70B）、プロ級はサブスク必要
+> **現在の価格・上限は未検証**
+- 確認できる公式ページに安定した上限・価格表がない
+- 過去の正確な数値を現在の情報として掲載しない
+- 利用前にリンク先の公式ページを確認
 
 **** [価格](https://codeium.com/pricing) | [ドキュメント](https://codeium.com/docs)
 
@@ -528,14 +472,12 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **無料層（機能限定）**
-- 基本的なAI補完とチャット（制限あり）
-- ローカル処理対応
-- 無料層はコンテキストが大幅制限
-- リソース節約のため性能低め
-- 600+ 言語に対応
+> **Tabnine の現行有料プラン**
+- Code Assistant：年払い月$39/ユーザー；Agentic Platform：年払い月$59/ユーザー
+- 現行料金ページに無料枠の案内はない
+- 自社 LLM の on-prem/cloud 利用は Tabnine 側では無制限；Tabnine LLM はプロバイダ料金＋5%
 
-**** [価格](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -591,9 +533,11 @@ Cursor, Continue.dev, Cline などと連携するコーディング特化モデ�
 ## 比較ノート
 
 - **目的**: プロ級モデルへのアクセスと無料枠でツールを比較。
-- **プロ級の基準**: SWE-bench Verified ≥60%。現行: Claude Opus 4.5 (80.9%), GPT-5.1-Codex-Max (77.9%), Claude Sonnet 4.5 (77.2%), Gemini 3 Pro (76.2%), GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), Gemini 2.5 Pro (63.2%)。
 - **上限タイプの違い**: リクエスト/トークン/クレジット/チャットで異なり直接比較は困難。ドキュメント確認を。
 - **実利用**: コーディングスタイル・タスク複雑度・ツール実装で大きく変動。
+- 確認できる公式ページに安定した上限・価格表がない
+- 確認できる公式ページに安定した上限・価格表がない
+- **比較可能性:** SWE-bench の値は異なる条件で報告されています。並列・インタラクティブ・単一実行は直接比較できません。クレジット、トークン、リクエスト、チャット、タスクを一つの優劣ランキングに換算しないでください。
 
 ---
 

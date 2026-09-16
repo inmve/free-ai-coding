@@ -1,4 +1,4 @@
-最后更新: 2025年12月5日 • 欢迎 PR/issues
+最后更新: 2026年9月15日 • 欢迎 PR/issues
 
 **语言：** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
 
@@ -7,39 +7,32 @@
 许多AI编程工具声称"免费"，但专业级模型的访问权限通常很快用完，然后会被降级。每个工具的限制（积分、令牌、请求）不同，难以比较。本列表将它们并列展示，告诉你实际能免费获得什么。
 
 ## TL;DR — 专业级AI编程免费层
-（限制更高的工具排在前面）
+（配额单位不同；顺序仅供参考，不代表等效容量排名）
 
 | 工具 | 专业级模型 | 免费层限制 | 信用卡 |
 |------|------------------|------------------|-------------|
-| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen3-Coder-480B | 每天2,000次请求 | 否 |
-| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | Claude Sonnet 4 | 每天5M令牌（beta） | 否 |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini 3 Pro, Gemini 2.5 Pro | Gemini 3 Pro（候补/付费），每天100次请求 Gemini 2.5 Pro | 否 |
-| [Cursor](https://cursor.com/) | GPT-5.1-Codex-Max | 免费至2025年12月11日（77.9% SWE-bench） | 否 |
-| [Kilo Code](https://kilocode.ai/) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | 最多$25注册积分（一次性） | 是 |
-| [Warp](https://warp.dev/) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 每月150积分（前2个月），之后75/月 | 否 |
-| [Trae](https://trae.ai/) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 每月10次快速 + 50次慢速请求 | 否 |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Claude Sonnet 4 | 每月50次agent请求 | 是 |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 每月50次聊天 + 2,000次补全 | 否 |
-| [Windsurf](https://windsurf.com/) | OpenAI, Anthropic, Google, xAI | 每月25积分 | 是 |
-| [Jules](https://jules.google/) | Gemini 2.5 Pro | 每天15个任务 | 否 |
-| [AWS Kiro](https://kiro.dev/) | Claude 4 Sonnet, Claude 3.7 Sonnet | 每月50积分 | 否 |
-| [Qoder](https://qoder.com/) | Qwen3-Coder-480B, Claude, GPT, Gemini | 免费层 + 2周Pro试用（1,000积分） | 否 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen 及其他提供商 | Qwen OAuth 免费层已于 2026 年 4 月 15 日停止；请使用 Alibaba ModelStudio 或其他提供商 | 无需 |
+| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | Rovo Dev 模型取决于方案 | 付费 Jira 每用户每月每站点 350 积分 | 无需 |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Enterprise/付费 API 访问继续；个人用户迁移到 Antigravity CLI | 个人免费/Google AI 访问已于 2026 年 6 月 18 日停止；请迁移到 Antigravity CLI | 无需 |
+| [Cursor](https://cursor.com/) | Composer；Agent 受限 | Agent 受限；无限时促销 | 无需 |
+| [Kilo Code](https://kilocode.ai/) | 未公布 | 当前值未验证 | 未确认 |
+| [Warp](https://warp.dev/) | Warp Agent；BYOK | Free 云端 Agent 有限；10 人以下个人和企业 BYOK 不消耗 Warp 积分 | 未确认 |
+| [Trae](https://trae.ai/) | 未公布 | 当前值未验证 | 未确认 |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | 最新 Claude 模型（AWS） | 每月 50 次 Agent 请求 + 1,000 行 Java 代码 | 无需 |
+| [GitHub Copilot](https://github.com/features/copilot/plans) | Haiku 4.5、GPT-5 mini 等 | 每月 2,000 次补全 + 50 次聊天；Agent/CLI 有限 | 无需 |
+| [Windsurf](https://windsurf.com/) | 未公布 | 当前值未验证 | 未确认 |
+| [Jules](https://jules.google/) | Gemini 2.5 Pro | 滚动 24 小时内 15 个任务；同时 3 个 | 否 |
+| [AWS Kiro](https://kiro.dev/) | Claude Sonnet 4.5 和开源权重 | 每月 50 积分 | 无需 |
+| [Qoder](https://qoder.com/) | 未公布 | 当前值未验证 | 未确认 |
 
 ### 合格的专业级模型
-只有在 SWE-bench Verified 上得分 >60% 的模型才算专业级。当前列表：
+附有一手来源链接的历史选定数据。测试条件不同，因此这不是当前完整排名。
 
 | 模型 | SWE-bench Verified | 提供商 |
 |-------|-------------------|----------|
-| Claude Opus 4.5 | 80.9% | Anthropic |
-| GPT-5.1-Codex-Max | 77.9% | OpenAI |
-| Claude Sonnet 4.5 | 77.2%（并行 82.0%） | Anthropic |
-| Gemini 3 Pro | 76.2% | Google |
-| GPT-5 | 74.9% | OpenAI |
-| Claude Opus 4.1 | 74.5% | Anthropic |
-| Claude Sonnet 4 | 72.7%（并行 80.2%） | Anthropic |
-| GPT-5 mini | 71.0% | OpenAI |
-| Qwen3-Coder-480B | 69.6%（交互）/ 67.0%（单次） | Alibaba |
-| Gemini 2.5 Pro | 63.2% | Google |
+| [Claude Opus 4.5](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) | 80.9% | Anthropic |
+| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) | 77.2% | Anthropic |
+| [Qwen3-Coder-480B](https://qwenlm.github.io/blog/qwen3-coder/) | 69.6% | 阿里巴巴 |
 
 ### 贡献
 
@@ -60,29 +53,26 @@
 - [相关资源](#相关资源)
 
 ## 1. 提供专业级模型免费访问的AI编程工具
-（从最慷慨到最不慷慨排序）
+_（配额单位不同；顺序仅供参考，不代表等效容量排名）_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **Qwen3-Coder-480B 访问**
-- 每天2,000请求免费层（Qwen OAuth）
-- 60请求/分钟速率限制
-- 命令行AI工作流工具（改编自Gemini CLI）
-- 一键浏览器认证
-- 无需信用卡
+> **Qwen OAuth 免费层已于 2026 年 4 月 15 日停止；请使用 Alibaba ModelStudio 或其他提供商**
+- Qwen OAuth 免费层已于 2026 年 4 月 15 日停止；请使用 Alibaba ModelStudio 或其他提供商
+- 通过身份验证设置支持 Qwen 和其他提供商
+- 支持终端、IDE、桌面和 Web 的开源编码 Agent
 
-**** [GitHub](https://github.com/QwenLM/qwen-code) | [文档](https://github.com/QwenLM/qwen-code#readme)
+**** [GitHub](https://github.com/QwenLM/qwen-code) | [Authentication](https://github.com/QwenLM/qwen-code/blob/main/docs/users/configuration/auth.md)
 
 ---
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Beta 期间的 Claude Sonnet 4 访问**
-- 免费层 5M 令牌/天（首日20M）
-- Claude Sonnet 4 模型（测试确认）
-- Beta 期间无需信用卡
-- 令牌限制在 UTC 午夜重置
-- 注意：升级 Jira Standard/Premium/Enterprise 可得 20M 令牌/天
+> **Rovo Dev Free**
+- 与付费 Jira 方案一起免费：每用户每月每站点 350 个 Rovo Dev 积分
+- 达到月度积分上限后会停止使用
+- 当前计费页面没有说明固定的 CLI 模型
+- 免费附加服务无需信用卡
 
 **** [文档](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [令牌限制](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/)
 
@@ -90,27 +80,22 @@
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **Gemini 3 Pro 和 Gemini 2.5 Pro 访问**
-- Gemini 3 Pro 于 2025/12/4 向 Google AI Ultra 订阅和付费 API 用户开放
-- Gemini 3 Pro：76.2% SWE-bench Verified——Google 最佳编码模型
-- Gemini 2.5 Pro 免费层备用：100 请求/天
-- Gemini 2.5 Flash：250 请求/天
-- 免费层无需信用卡
-- Google AI Pro、Gemini Code Assist 标准和免费用户需候补
-- 在 `/settings` → Preview features → true 启用
+> **Gemini CLI 面向个人用户迁移到 Antigravity CLI**
+- 2026 年 6 月 18 日起 Gemini CLI 停止为个人用户和 Google AI Pro/Ultra 层提供服务
+- Antigravity CLI 面向所有人开放，是迁移路径
+- Standard/Enterprise 组织访问不变；付费 Gemini API 密钥仍可用
+- 原个人 Google 登录每天 1,000 次、每分钟 60 次的额度已停止
 
-**** [速率限制](https://ai.google.dev/gemini-api/docs/rate-limits) | [定价](https://ai.google.dev/gemini-api/docs/pricing) | [Gemini 3 Pro 公告](https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/)
+**** [Transition announcement](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) | [Documentation](https://ai.google.dev/gemini-api/docs/rate-limits)
 
 ---
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **Claude Opus/Sonnet、Gemini 2.5 Pro、GPT-4.1 访问**
-- 最多 $25 注册奖励（一次性）
-- 开源 VS Code 扩展
-- 按用量付费，无额外加价
-- 领取奖励需信用卡
-- 支持自有 API Key
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [GitHub](https://github.com/Kilo-Org/kilocode) | [文档](https://kilocode.ai/docs/) | [定价](https://kilocode.ai/pricing)
 
@@ -118,11 +103,11 @@
 
 ### [Warp](https://warp.dev/)
 
-> **GPT‑5、Claude Opus 4.1、Claude Sonnet 4、Gemini 2.5 Pro 访问**
-- 每月 150 AI 积分（前 2 个月），之后 75 积分/月
-- 多家供应商（OpenAI GPT‑5、Claude Opus 4.1、Claude Sonnet 4、Gemini 2.5 Pro）
-- 基础注册无需信用卡
-- 2025/10/30 公布新价格：单一 Build 方案 ($20/月) 含 1,500 积分
+> **Warp Agent 与 BYOK**
+- Free 方案：云端 Agent 访问有限，达到上限后 AI 会暂停
+- Build 起价 $20/月，含 1,500 积分（$20 的 Agent 用量）
+- 10 人以下的个人和企业使用 BYOK/自定义推理不消耗 Warp 积分
+- 消耗量取决于模型、上下文和任务复杂度
 
 **** [定价](https://www.warp.dev/pricing)
 
@@ -130,12 +115,11 @@
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Claude Sonnet 4 访问**
-- 每月 50 次 agent 请求（多轮）
-- 最新 Claude 模型（AWS 托管）
-- 需要信用卡
-- 需升级 Pro 才能继续
-- 永久免费层
+> **Amazon Q Developer Free**
+- 永久免费：每月 50 次 Agent 请求和 1,000 行 Java 代码
+- IDE 免费限额适用于 Builder ID；IAM 按账号计算
+- Builder ID 免费路径无需信用卡；Pro 需要 AWS 计费
+- Pro 为 $19/用户/月，提供更高限额
 
 **** [定价](https://aws.amazon.com/q/developer/pricing/)
 
@@ -143,12 +127,11 @@
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Agent 模式（GPT‑4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）**
-- 每月 50 次聊天 + 2,000 次补全
-- Agent 模式支持自主多步编码
-- 多家供应商（GPT-4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
+> **GitHub Copilot Free**
+- 每月 2,000 次补全和 50 次聊天请求
+- 包含 Copilot CLI 和有限 Agent 使用；Free 的模型选择受限
+- 当前方案页列出 Haiku 4.5、GPT-5 mini 等模型
 - 无需信用卡
-- 配额后仅基本功能
 
 **** [计划详情](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Agent 模式](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 
@@ -156,14 +139,10 @@
 
 ### [Trae](https://trae.ai/)
 
-> **Claude 4 Sonnet (Beta)、Claude 3.7 Sonnet、Claude 3.5 Sonnet、GPT‑4.1、GPT‑4o、Gemini 2.5 Pro 访问**
-- 每月 10 次快速 + 50 次慢速（高级模型）
-- 每月 1,000 次慢速（进阶模型）
-- 每月 5,000 次自动补全
-- 基于 VS Code 的 IDE，内置 AI
-- 多种高级模型，包括 Claude 4 Sonnet (Beta)、Claude 3.7 Sonnet、GPT‑4.1
-- 免费层无需信用卡
-- Pro 方案：$10/月（600 快速 + 慢速不限）
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://trae.ai/pricing) | [文档](https://docs.trae.ai/ide/billing)
 
@@ -171,11 +150,10 @@
 
 ### [Windsurf](https://windsurf.com/)
 
-> **OpenAI、Anthropic、Google、xAI 模型访问**
-- 每月 25 个提示积分
-- 多个提供商（OpenAI、Claude、Gemini、xAI）
-- 需要信用卡
-- 可购买额外积分
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://windsurf.com/pricing)
 
@@ -184,7 +162,7 @@
 ### [Jules](https://jules.google/)
 
 > **Gemini 2.5 Pro 访问**
-- 免费层每天 15 个任务
+- 免费：滚动 24 小时内 15 个任务，同时 3 个
 - 3 个并发任务
 - Gemini 2.5 Pro 模型
 - 需要 Gmail 账户（18+）
@@ -198,12 +176,11 @@
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude 4 Sonnet, Claude 3.7 Sonnet 访问**
-- 每月 50 积分（免费层）
-- Claude 4 Sonnet 和 Claude 3.7 Sonnet（AWS 托管）
-- 无需信用卡
-- 14 天欢迎奖励：500 积分
-- 付费层：Pro ($20/月 - 1,000 积分)、Pro+ ($40/月 - 2,000 积分)、Power ($200/月 - 10,000 积分)
+> **AWS Kiro Free**
+- 永久免费：每月 50 个积分
+- 使用社交登录或 Builder ID 可访问 Claude Sonnet 4.5 和开源权重模型（有上限）
+- Pro $20/月：1,000；Pro+ $40：2,000；Pro Max $100：5,000；Power $200：10,000 积分
+- 付费方案需要信用卡
 
 **** [定价](https://kiro.dev/pricing/) | [介绍博客](https://kiro.dev/blog/introducing-kiro/)
 
@@ -211,15 +188,10 @@
 
 ### [Qoder](https://qoder.com/)
 
-> **Qwen3-Coder-480B、Claude、GPT、Gemini 模型**
-- 免费层：无限补全/编辑 + 有限聊天/agent 请求 + 2 周 Pro 试用（1,000 积分）
-- 阿里巴巴出品的 AI IDE
-- 适用于 Windows 和 macOS
-- 主要使用 Qwen3-Coder-480B（阿里旗舰编码模型）
-- 也支持 Claude、GPT-4、Gemini
-- Agent 模式和 Quest 模式用于自主编码
-- 免费层无需信用卡
-- 付费层：Pro ($20/月 - 2,000 积分), Pro+ ($60/月 - 6,000 积分)
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [官网](https://qoder.com/) | [定价](https://qoder.com/pricing)
 
@@ -248,14 +220,10 @@
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **Qwen3-235B 和 Llama 3.1 访问**
-- 免费层：每天 100 万令牌
-- 无需信用卡
-- 限速：30 请求/分钟，8,192 token 上下文
-- 模型：Qwen3-235B、Llama 3.1 70B（注意：Qwen3-Coder-480B 于 2025/11/5 下线）
-- OpenAI 兼容（可用于 Cursor、Continue.dev、Cline、RooCode 等）
-- 超快推理：2,000 token/秒（约 40 倍于常规）
-- **付费层：** Developer ($10+ 自助)，Enterprise（定制）
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://www.cerebras.ai/pricing) | [API 文档](https://inference-docs.cerebras.ai/) | [集成指南](https://inference-docs.cerebras.ai/integrations/)
 
@@ -266,12 +234,12 @@
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Jira Standard ($7.53/用户/月)：** 20M 令牌/天
-- **Jira Premium ($15.25/用户/月)：** 20M 令牌/天
-- **Jira Enterprise（定制）：** 20M 令牌/天
-- 相比免费层提升 4 倍（5M → 20M 令牌/天）
-- 与免费层同款 Claude 模型
-- 令牌上限在 UTC 午夜重置
+> **Rovo Dev Free**
+- 与付费 Jira 方案一起免费：每用户每月每站点 350 个 Rovo Dev 积分
+- 达到月度积分上限后会停止使用
+- 当前计费页面没有说明固定的 CLI 模型
+- 免费附加服务无需信用卡
+- Standard：$20/用户/月，每用户每月 2,000 积分
 
 **** [文档](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [令牌限制](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/) | [Jira 定价](https://www.atlassian.com/software/jira/pricing)
 
@@ -294,8 +262,11 @@
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Pro ($19/月)：** 提升 agent 请求配额
-- 使用可能因地区/模式调整
+> **Amazon Q Developer Free**
+- 永久免费：每月 50 次 Agent 请求和 1,000 行 Java 代码
+- IDE 免费限额适用于 Builder ID；IAM 按账号计算
+- Builder ID 免费路径无需信用卡；Pro 需要 AWS 计费
+- Pro 为 $19/用户/月，提供更高限额
 
 **** [定价](https://aws.amazon.com/q/developer/pricing/)
 
@@ -303,12 +274,11 @@
 
 ### [Warp](https://warp.dev/)
 
-> **Build ($20/月)：** 每月 1,500 AI 积分
-- 可充值积分（最高便宜 50%，有效期 12 个月）
-- 支持 BYOK（自带 API Key）
-- 2025/10/30 起新客生效
-- 现有订阅 2025/12/1 后续约转入
-- 企业版：定制定价
+> **Warp Agent 与 BYOK**
+- Free 方案：云端 Agent 访问有限，达到上限后 AI 会暂停
+- Build 起价 $20/月，含 1,500 积分（$20 的 Agent 用量）
+- 10 人以下的个人和企业使用 BYOK/自定义推理不消耗 Warp 积分
+- 消耗量取决于模型、上下文和任务复杂度
 
 **** [定价](https://www.warp.dev/pricing)
 
@@ -316,13 +286,11 @@
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Pro ($10/月)：** 300 次高级请求 + 无限补全/月
-- **Pro+ ($39/月)：** 1,500 次高级请求 + 无限补全/月
-- **Business ($19/用户/月)：** 300 次高级请求 + 无限补全/用户/月
-- **Enterprise ($39/用户/月)：** 1,000 次高级请求 + 无限补全/用户/月
-- **GPT-5.1-Codex-Max** 2025/12/4 公测：Pro、Pro+、Business、Enterprise 可用
-- 支持多个模型（GPT-5.1-Codex-Max、GPT-4.1、Claude Opus 3.5、Gemini 2.0 Flash、Grok Code Fast 1）
-- 超额计费 $0.04/请求
+> **GitHub Copilot Free**
+- 每月 2,000 次补全和 50 次聊天请求
+- 包含 Copilot CLI 和有限 Agent 使用；Free 的模型选择受限
+- 当前方案页列出 Haiku 4.5、GPT-5 mini 等模型
+- 无需信用卡
 
 **** [计划详情](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [GPT-5.1-Codex-Max 预览](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/)
 
@@ -330,13 +298,10 @@
 
 ### [Trae](https://trae.ai/)
 
-> **Pro ($10/月)：** 600 次快速 + 无限慢速（高级模型）
-- 进阶模型慢速不限
-- 无速率限制，访问更快
-- 额外包：$3-$12 购买更多快速请求
-- 高级模型：Claude 4 Sonnet (Beta)、Claude 3.7 Sonnet、Claude 3.5 Sonnet、Gemini 2.5 Pro、GPT‑4.1、GPT‑4o
-- 基于 VS Code 的 IDE，完整 AI 集成
-- 首月 $3
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://trae.ai/pricing) | [文档](https://docs.trae.ai/ide/billing)
 
@@ -344,9 +309,10 @@
 
 ### [Windsurf](https://windsurf.com/)
 
-> **Pro ($15/月)：** 每月 500 个提示积分
-- **Teams ($30/用户/月)：** 500 积分/用户/月
-- **Enterprise ($60+/用户/月)：** 1,000 积分/用户/月
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://windsurf.com/pricing)
 
@@ -354,37 +320,31 @@
 
 ### [Lovable](https://lovable.dev/)
 
-> **Pro ($25/月)：** 每月 150 积分（每日 5 积分）
-- **Teams ($30/月)：** 更高限额（未公布）
+> **Lovable 现在采用积分制**
+- Free 每日含 5 个构建积分（每月最多 30 个）、每月 20 个 Cloud 积分和 4 个 AI 积分
+- 积分和赠送额度的过期规则不同；请查看官方定价页
 
-**** [消息限额](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [Bolt.new](https://bolt.new/)
 
-> **$20/月：** 每月 10M 令牌
-- **$200/月：** 每月 120M 令牌
+> **Free 每天限 300K 令牌、每月限 1M 令牌**
+- Pro 起价 $25/月，含每月 10M 令牌；Teams 起价 $30/成员/月
+- 付费令牌在订阅有效时可顺延一个月
 
-**** [令牌文档](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Cursor](https://cursor.com/)
 
-> **Hobby（免费）：** 限量 Agent 请求 + 限量 Tab 补全 + 1 周 Pro 试用
-- **Pro ($20/月 或 $16/月 年付)：** 扩展 Agent 限额 + Tab 补全无限 + 后台 Agents + 最大上下文窗口
-- **Pro+ ($60/月)：** 所有 OpenAI、Claude、Gemini 模型使用量 3 倍
-- **Ultra ($200/月)：** 所有模型使用量 20 倍 + 新功能优先
-- **Teams ($40/用户/月)：** Pro 功能 + 集中计费 + 使用分析 + SAML/OIDC SSO
-- **Enterprise（定制）：** Teams 全部 + 共享额度 + SCIM + AI 代码跟踪 API + 审计日志
-- **GPT-5.1-Codex-Max 对所有用户免费至 2025/12/11**（77.9% SWE-bench）
-- 一周 Pro 试用（免费层）
-- 免费层改为按令牌计量（不按请求）
-- 免费模型：Cursor Small、Deepseek v3、Gemini 2.5 Flash、GPT-4o mini（500/天）、Grok 3 Mini Beta
-- 付费层：访问 OpenAI、Claude、Gemini 模型，包括 GPT-5.1-Codex-Max
-- 注意：Claude 模型于 ~2025/06 从免费层移除
-- AI 驱动的自主编码编辑器
+> **Cursor Free 与付费方案**
+- Hobby 免费且无需信用卡，Agent 请求有限并可使用 Composer
+- Pro $20/月；Pro+ $60；Ultra $200；Teams Standard $40/用户/月
+- GPT-5.1-Codex-Max 截至 2025/12/11 免费的促销已结束并删除
+- 用量和模型取决于方案
 
 **** [定价](https://cursor.com/en/pricing) | [GPT-5.1-Codex-Max 公告](https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277)
 
@@ -392,28 +352,21 @@
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
-> **ChatGPT Plus ($20/月) 免费使用：** 30–150 条/5 小时编码消息
-- **ChatGPT Pro ($200/月)：** 300–1,500 条/5 小时——最高额度
-- **按量计费 API：** GPT-5.1-Codex-Max $1.25/$10 每百万 Token（输入/输出）
-- **免费 OSS 模式：** 仅开源模型（--oss）
-- **GPT-5.1-Codex-Max**（2025/11/19）：77.9% SWE-bench——默认模型
-- 首个支持“compaction”的模型，可多百万 Token 会话（24h+任务）
-- 比之前 GPT-5.1-Codex 少 30% 思考 Token
-- 也可在 GitHub Copilot（Pro、Pro+、Business、Enterprise）使用
-- 支持 Windows
-- 跨平台：macOS 12+，Ubuntu 20.04+，Windows 11 (WSL2)
+> **Codex 方案与 API 计费**
+- Codex 包含在 Free（$0）、Go（$8/月）、Plus（$20/月）、Pro（$100/月起）、Business（年付 $20/用户/月或月付 $25）、Edu 和 Enterprise 中
+- API 密钥按模型另行计费；本地和云端使用共享方案额度
+- 限额随任务复杂度变化；请查看官方定价页
 
-**** [GitHub 仓库](https://github.com/openai/codex) | [GPT-5.1-Codex-Max 公告](https://openai.com/index/gpt-5-1-codex-max/)
+**** [Pricing](https://developers.openai.com/codex/pricing/) | [GitHub](https://github.com/openai/codex)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **Pro ($10/月)：** 高级上下文的无限使用
-- 访问 Claude 3.5 Sonnet、GPT-4o
-- 增强上下文窗口与个性化
-- **Teams ($12/用户/月)：** Pro 功能 + 团队管理
-- **Enterprise（定制）：** 本地部署，自定义模型
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://codeium.com/pricing)
 
@@ -421,14 +374,12 @@
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **Pro ($12/月)：** 增强的 AI 补全和聊天
-- **Enterprise ($39/用户/月)：** 多 LLM，本地部署
-- 模型：Claude 3.5 Sonnet、GPT-4o、Llama 3.3 70B、自研
-- 支持 600+ 编程语言
-- 本地/隔离部署
-- 支持自有微调模型
+> **Tabnine 当前付费方案**
+- Code Assistant：年付 $39/用户/月；Agentic Platform：年付 $59/用户/月
+- 当前定价页未宣传免费层
+- 自有 LLM 的本地/云端使用由 Tabnine 不限量；Tabnine LLM 另收提供商价格加 5% 手续费
 
-**** [定价](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -448,7 +399,7 @@
 ### [Jules](https://jules.google/)
 
 > **Pro ($19.99/月, Google AI Pro)：** 每日 100 个任务
-- 比免费层高 5 倍（15 → 100 任务/天）
+- Google AI Pro 的 Jules Pro：滚动 24 小时内 100 个任务，同时 15 个
 - 并发 5 倍（3 → 15）
 - 更高访问最新模型
 - **Ultra (Google AI Ultra)：** 每日 300 个任务
@@ -480,47 +431,40 @@
 
 ### [Bolt.new](https://bolt.new/)
 
-> **未指明的模型**
-- 每月 100 万令牌上限
-- 具体模型未公开
-- 需要信用卡
+> **Free 每天限 300K 令牌、每月限 1M 令牌**
+- Pro 起价 $25/月，含每月 10M 令牌；Teams 起价 $30/成员/月
+- 付费令牌在订阅有效时可顺延一个月
 
-**** [令牌文档](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Lovable](https://lovable.dev/)
 
-> **未指明的模型**
-- 每天 5 积分，最多 30/月（免费）
-- 模型未公开列出
-- 需要信用卡
+> **Lovable 现在采用积分制**
+- Free 每日含 5 个构建积分（每月最多 30 个）、每月 20 个 Cloud 积分和 4 个 AI 积分
+- 积分和赠送额度的过期规则不同；请查看官方定价页
 
-**** [消息限额](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [v0.dev](https://v0.dev/)
 
-> **专有（非前沿）模型**
-- GPT-5 访问需 v0 Premium
-- $5 信用/月上限
-- 使用专有模型，路由可变
-- 需要信用卡
+> **Free 每月含 $5 额度和每天 7 条消息**
+- Plus 为 $30/用户/月，含 $30 额度；Business 为 $100/用户/月
+- 使用量按输入/输出令牌计量并转换为积分
 
-**** [定价更新博客](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh)
+**** [Pricing](https://api2.v0.dev/pricing)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **基础 AI 编程辅助无限免费**
-- 个人版：永久免费，代码补全/AI聊天/命令不限
-- 支持 70+ 语言
-- IDE 集成：VS Code、JetBrains、Vim/Neovim、Jupyter
-- 无需信用卡
-- 上下文感知有限（付费层扩展）
-- 仅基础模型（Llama 3.1 70B），专业模型需订阅
+> **当前价格和限额未验证**
+- 可访问的官方页面没有稳定的配额或价格表
+- 旧的精确数值不再作为当前信息展示
+- 依赖某个限额前请查看链接的官方页面
 
 **** [定价](https://codeium.com/pricing) | [文档](https://codeium.com/docs)
 
@@ -528,14 +472,12 @@
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **免费层，功能有限**
-- 基础 AI 补全和聊天（有限）
-- 支持本地处理
-- 免费层上下文高度受限
-- 性能降低以节省资源
-- 支持 600+ 编程语言
+> **Tabnine 当前付费方案**
+- Code Assistant：年付 $39/用户/月；Agentic Platform：年付 $59/用户/月
+- 当前定价页未宣传免费层
+- 自有 LLM 的本地/云端使用由 Tabnine 不限量；Tabnine LLM 另收提供商价格加 5% 手续费
 
-**** [定价](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -591,9 +533,11 @@
 ## 比较说明
 
 - **目标**：按专业模型访问与免费额度比较 AI 编程工具。
-- **专业模型标准**：SWE-bench Verified ≥60%。当前：Claude Opus 4.5 (80.9%)，GPT-5.1-Codex-Max (77.9%)，Claude Sonnet 4.5 (77.2%)，Gemini 3 Pro (76.2%)，GPT-5 (74.9%)，Claude Opus 4.1 (74.5%)，Claude Sonnet 4 (72.7%)，GPT-5 mini (71.0%)，Qwen3-Coder-480B (69.6%)，Gemini 2.5 Pro (63.2%)。
 - **限额类型各异**：请求、令牌、积分、聊天等，难以直接对比，请查看文档。
 - **实际使用**：受编码风格、任务复杂度和工具实现影响巨大。
+- 可访问的官方页面没有稳定的配额或价格表
+- 可访问的官方页面没有稳定的配额或价格表
+- **可比性：** SWE-bench 结果来自不同测试条件；并行、交互和单次运行不可直接比较。积分、令牌、请求、聊天和任务不能换算成慷慨程度排名。
 
 ---
 
