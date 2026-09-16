@@ -1,4 +1,4 @@
-Dernière mise à jour: 5 décembre 2025 • PRs/issues bienvenus
+Dernière mise à jour: 15 septembre 2026 • PRs/issues bienvenus
 
 **Langues :** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
 
@@ -7,39 +7,32 @@ Dernière mise à jour: 5 décembre 2025 • PRs/issues bienvenus
 Beaucoup d'outils de codage IA prétendent être « gratuits », mais l'accès aux modèles de niveau professionnel s'épuise généralement rapidement, puis vous êtes rétrogradé. Chaque outil utilise différentes limites (crédits, tokens, requêtes), donc la comparaison est difficile. Cette liste les met côte à côte pour montrer ce que vous obtenez réellement gratuitement.
 
 ## TL;DR — Niveaux Gratuits pour le Codage IA de Niveau Professionnel
-(outils avec des limites plus élevées listés en premier)
+_(les unités de quota diffèrent ; l’ordre sert uniquement de repère et ne classe pas des capacités équivalentes)_
 
 | Outil | Modèles de niveau professionnel | Limite du niveau gratuit | Carte de crédit |
 |------|------------------|------------------|-------------|
-| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen3-Coder-480B | 2 000 requêtes/jour | Non |
-| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | Claude Sonnet 4 | 5M tokens/jour (beta) | Non |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini 3 Pro, Gemini 2.5 Pro | Gemini 3 Pro (liste d’attente/payant), 100 req/jour Gemini 2.5 Pro | Non |
-| [Cursor](https://cursor.com/) | GPT-5.1-Codex-Max | Gratuit jusqu'au 11 déc. 2025 (77,9% SWE-bench) | Non |
-| [Kilo Code](https://kilocode.ai/) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | Jusqu'à $25 de crédits d'inscription (unique) | Oui |
-| [Warp](https://warp.dev/) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 crédits/mois (2 premiers mois), puis 75/mois | Non |
-| [Trae](https://trae.ai/) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 rapides + 50 lentes requêtes/mois | Non |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Claude Sonnet 4 | 50 requêtes agentiques/mois | Oui |
-| [GitHub Copilot](https://github.com/features/copilot/plans) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 requêtes de chat + 2 000 complétions/mois | Non |
-| [Windsurf](https://windsurf.com/) | OpenAI, Anthropic, Google, xAI | 25 crédits/mois | Oui |
-| [Jules](https://jules.google/) | Gemini 2.5 Pro | 15 tâches/jour | Non |
-| [AWS Kiro](https://kiro.dev/) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 crédits/mois | Non |
-| [Qoder](https://qoder.com/) | Qwen3-Coder-480B, Claude, GPT, Gemini | Niveau gratuit + essai Pro de 2 semaines (1 000 crédits) | Non |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) | Qwen et autres fournisseurs | Le niveau gratuit Qwen OAuth a été arrêté le 15 avril 2026 ; utilisez Alibaba ModelStudio ou un autre fournisseur | Non |
+| [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface) | Modèle Rovo Dev selon le forfait | 350 crédits/utilisateur/mois/site avec Jira payant | Non |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | L’accès Enterprise/API payant des organisations reste disponible ; les particuliers passent à Antigravity CLI | L’accès individuel gratuit/Google AI a cessé le 18 juin 2026 ; migrez vers Antigravity CLI | Non |
+| [Cursor](https://cursor.com/) | Composer ; Agent limité | Agent limité ; aucune promotion temporaire | Non |
+| [Kilo Code](https://kilocode.ai/) | Non publié | Valeurs actuelles non vérifiées | Non vérifié |
+| [Warp](https://warp.dev/) | Warp Agent ; BYOK | Free : agent cloud limité ; le BYOK des particuliers et entreprises de ≤10 personnes ne consomme pas de crédits Warp | Non vérifié |
+| [Trae](https://trae.ai/) | Non publié | Valeurs actuelles non vérifiées | Non vérifié |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Derniers modèles Claude (AWS) | 50 requêtes agentiques + 1 000 LOC Java/mois | Non |
+| [GitHub Copilot](https://github.com/features/copilot/plans) | Haiku 4.5, GPT-5 mini et autres | 2 000 complétions + 50 chats/mois ; agents/CLI limités | Non |
+| [Windsurf](https://windsurf.com/) | Non publié | Valeurs actuelles non vérifiées | Non vérifié |
+| [Jules](https://jules.google/) | Gemini 2.5 Pro | 15 tâches sur 24 h glissantes ; 3 simultanées | Non |
+| [AWS Kiro](https://kiro.dev/) | Claude Sonnet 4.5 et open weight | 50 crédits/mois | Non |
+| [Qoder](https://qoder.com/) | Non publié | Valeurs actuelles non vérifiées | Non vérifié |
 
 ### Modèles de Niveau Professionnel Qualifiés
-Seuls les modèles atteignant >60% sur SWE-bench Verified se qualifient pour des tâches de codage réelles. Voici la liste actuelle
+Valeurs historiques sélectionnées avec des liens vers les sources primaires. Les conditions de test diffèrent et il ne s’agit pas d’un classement exhaustif actuel.
 
 | Modèle | SWE-bench Verified | Fournisseur |
 |-------|-------------------|----------|
-| Claude Opus 4.5 | 80,9% | Anthropic |
-| GPT-5.1-Codex-Max | 77,9% | OpenAI |
-| Claude Sonnet 4.5 | 77,2% (82,0% avec parallèle) | Anthropic |
-| Gemini 3 Pro | 76,2% | Google |
-| GPT-5 | 74,9% | OpenAI |
-| Claude Opus 4.1 | 74,5% | Anthropic |
-| Claude Sonnet 4 | 72,7% (80,2% avec parallèle) | Anthropic |
-| GPT-5 mini | 71,0% | OpenAI |
-| Qwen3-Coder-480B | 69,6% (interactif) / 67,0% (single) | Alibaba |
-| Gemini 2.5 Pro | 63,2% | Google |
+| [Claude Opus 4.5](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) | 80,9% | Anthropic |
+| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) | 77,2% | Anthropic |
+| [Qwen3-Coder-480B](https://qwenlm.github.io/blog/qwen3-coder/) | 69,6% | Alibaba |
 
 ### Contribuer
 
@@ -60,29 +53,26 @@ Aucune affiliation avec un fournisseur. Toutes les marques appartiennent à leur
 - [Ressources Liées](#ressources-liees)
 
 ## 1. Outils de Codage IA avec Accès Gratuit à des Modèles de Niveau Professionnel
-_(classés du plus généreux au moins généreux)_
+_(les unités de quota diffèrent ; l’ordre est indicatif et ne compare pas des capacités équivalentes)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **Accès Qwen3-Coder-480B**
-- Niveau gratuit de 2 000 requêtes/jour via Qwen OAuth
-- Limite de 60 requêtes/minute
-- Outil de flux de travail IA en ligne de commande (adapté de Gemini CLI)
-- Authentification navigateur en un clic
-- Carte de crédit non requise
+> **Le niveau gratuit Qwen OAuth a été arrêté le 15 avril 2026 ; utilisez Alibaba ModelStudio ou un autre fournisseur**
+- Le niveau gratuit Qwen OAuth a été arrêté le 15 avril 2026 ; utilisez Alibaba ModelStudio ou un autre fournisseur
+- Prend en charge Qwen et d’autres fournisseurs via l’authentification
+- Agent de codage open source pour terminal, IDE, bureau et web
 
-**** [GitHub](https://github.com/QwenLM/qwen-code) | [Documentation](https://github.com/QwenLM/qwen-code#readme)
+**** [GitHub](https://github.com/QwenLM/qwen-code) | [Authentication](https://github.com/QwenLM/qwen-code/blob/main/docs/users/configuration/auth.md)
 
 ---
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Accès Claude Sonnet 4 pendant la beta**
-- Niveau gratuit 5M tokens/jour (20M uniquement le premier jour)
-- Modèle Claude Sonnet 4 (confirmé par tests)
-- Pas de carte de crédit requise pendant la beta
-- Réinitialisation des limites à minuit UTC
-- Note : passer à Jira Standard/Premium/Enterprise pour 20M tokens/jour
+> **Rovo Dev Free**
+- Gratuit avec les forfaits Jira payants : 350 crédits Rovo Dev/utilisateur/mois/site
+- Le service s’arrête lorsque le quota mensuel est atteint
+- La page de facturation actuelle ne fixe pas le modèle du CLI
+- Aucune carte n’est requise pour le complément gratuit
 
 **** [Documentation](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Limites de Tokens](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/)
 
@@ -90,27 +80,22 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **Accès Gemini 3 Pro et Gemini 2.5 Pro**
-- Gemini 3 Pro disponible (4 déc 2025) pour abonnés Google AI Ultra et API payants
-- Gemini 3 Pro : 76,2% SWE-bench Verified — meilleur modèle de codage Google
-- Limite 100 requêtes/jour pour Gemini 2.5 Pro (fallback gratuit)
-- Limite 250 requêtes/jour pour Gemini 2.5 Flash
-- Pas de carte de crédit requise pour le niveau gratuit
-- Liste d'attente pour Gemini 3 Pro pour Google AI Pro, Gemini Code Assist standard et utilisateurs gratuits
-- Activer via `/settings` → Preview features → true
+> **Gemini CLI passe à Antigravity CLI pour les particuliers**
+- Le 18 juin 2026, Gemini CLI a cessé de servir les particuliers et Google AI Pro/Ultra
+- Antigravity CLI est disponible pour tous et constitue le parcours de migration
+- L’accès Standard/Enterprise reste inchangé ; les clés API Gemini payantes restent disponibles
+- L’ancienne limite individuelle de 1 000/jour et 60/minute est terminée
 
-**** [Limites de Débit](https://ai.google.dev/gemini-api/docs/rate-limits) | [Tarifs](https://ai.google.dev/gemini-api/docs/pricing) | [Annonce Gemini 3 Pro](https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/)
+**** [Transition announcement](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) | [Documentation](https://ai.google.dev/gemini-api/docs/rate-limits)
 
 ---
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **Accès Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1**
-- Jusqu'à $25 crédits d'inscription (bonus unique)
-- Extension VS Code open source
-- Paiement à l'usage sans marge sur les prix des modèles
-- Carte de crédit requise pour réclamer le bonus complet
-- Support des clés API personnelles
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [GitHub](https://github.com/Kilo-Org/kilocode) | [Documentation](https://kilocode.ai/docs/) | [Tarifs](https://kilocode.ai/pricing)
 
@@ -118,11 +103,11 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Warp](https://warp.dev/)
 
-> **Accès GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro**
-- 150 crédits IA/mois (2 premiers mois), puis 75 crédits/mois
-- Multiples fournisseurs (OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro)
-- Pas de carte de crédit requise pour l'inscription de base
-- Nouvelle tarification annoncée 30 oct 2025 : plan Build unique ($20/mois) avec 1 500 crédits
+> **Warp Agent et BYOK**
+- Forfait Free : accès limité aux agents cloud ; l’IA s’arrête à la limite
+- Build à partir de 20 $/mois avec 1 500 crédits (20 $ d’usage agent inclus)
+- Pour les particuliers et entreprises de 10 personnes ou moins, le BYOK/inférence personnalisée ne consomme pas de crédits Warp
+- La consommation dépend du modèle, du contexte et de la tâche
 
 **** [Tarifs](https://www.warp.dev/pricing)
 
@@ -130,12 +115,11 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Accès Claude Sonnet 4**
-- Limite 50 requêtes agentiques/mois (conversations multi-tours)
-- Derniers modèles Claude (hébergés AWS)
-- Carte de crédit requise
-- Mise à niveau Pro nécessaire pour un accès continu
-- Niveau gratuit perpétuel
+> **Amazon Q Developer Free**
+- Niveau gratuit permanent : 50 requêtes agentiques/mois et 1 000 LOC Java/mois
+- Les limites IDE sont disponibles avec Builder ID ; IAM est limité au compte
+- Aucune carte pour le parcours Builder ID gratuit ; Pro nécessite la facturation AWS
+- Pro coûte 19 $/utilisateur/mois avec des limites supérieures
 
 **** [Tarifs](https://aws.amazon.com/q/developer/pricing/)
 
@@ -143,12 +127,11 @@ _(classés du plus généreux au moins généreux)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Mode Agent avec GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1**
-- 50 requêtes de chat + 2 000 complétions/mois
-- Mode Agent avec codage autonome multi-étapes
-- Multiples fournisseurs (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
-- Pas de carte de crédit requise
-- Fonctionnalités basiques après quota
+> **GitHub Copilot Free**
+- 2 000 complétions et 50 requêtes de chat par mois
+- Copilot CLI et agents limités ; la sélection de modèles est restreinte en Free
+- La page actuelle cite Haiku 4.5, GPT-5 mini et d’autres modèles
+- Aucune carte bancaire requise
 
 **** [Détails des Plans](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Mode Agent](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 
@@ -156,14 +139,10 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Trae](https://trae.ai/)
 
-> **Accès Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro**
-- 10 requêtes rapides + 50 requêtes lentes/mois pour modèles premium
-- 1 000 requêtes lentes/mois pour modèles avancés
-- 5 000 auto-complétions/mois
-- IDE basé VS Code avec intégration IA
-- Multiples modèles premium dont Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1
-- Pas de carte de crédit requise pour le niveau gratuit
-- Plan Pro : $10/mois (600 rapides + lentes illimitées)
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
 
@@ -171,11 +150,10 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Windsurf](https://windsurf.com/)
 
-> **Accès modèles OpenAI, Anthropic, Google, xAI**
-- Limite de 25 crédits de prompt/mois
-- Multiples fournisseurs (OpenAI, Claude, Gemini, xAI)
-- Carte de crédit requise
-- Crédits additionnels disponibles
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://windsurf.com/pricing)
 
@@ -184,7 +162,7 @@ _(classés du plus généreux au moins généreux)_
 ### [Jules](https://jules.google/)
 
 > **Accès Gemini 2.5 Pro**
-- 15 tâches/jour niveau gratuit
+- Gratuit : 15 tâches sur une fenêtre glissante de 24 heures et 3 simultanées
 - 3 tâches concurrentes
 - Modèle Gemini 2.5 Pro
 - Compte Gmail requis (18+)
@@ -198,12 +176,11 @@ _(classés du plus généreux au moins généreux)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Accès Claude 4 Sonnet, Claude 3.7 Sonnet**
-- 50 crédits/mois (niveau gratuit)
-- Modèles Claude 4 Sonnet et Claude 3.7 Sonnet (hébergés AWS)
-- Pas de carte de crédit requise
-- Bonus de bienvenue 14 jours : 500 crédits
-- Niveaux payants : Pro ($20/mois - 1 000 crédits), Pro+ ($40/mois - 2 000 crédits), Power ($200/mois - 10 000 crédits)
+> **AWS Kiro Free**
+- Niveau gratuit permanent : 50 crédits/mois
+- Claude Sonnet 4.5 et modèles open weight avec connexion sociale ou Builder ID, sous limites
+- Pro 20 $/mois : 1 000 crédits ; Pro+ 40 $ : 2 000 ; Pro Max 100 $ : 5 000 ; Power 200 $ : 10 000
+- Les forfaits payants nécessitent une carte
 
 **** [Tarifs](https://kiro.dev/pricing/) | [Blog d'Introduction](https://kiro.dev/blog/introducing-kiro/)
 
@@ -211,15 +188,10 @@ _(classés du plus généreux au moins généreux)_
 
 ### [Qoder](https://qoder.com/)
 
-> **Modèles Qwen3-Coder-480B, Claude, GPT, Gemini**
-- Niveau gratuit : complétions/éditions illimitées + chat/agent limités + essai Pro 2 semaines (1 000 crédits)
-- IDE IA d'Alibaba
-- Disponible pour Windows et macOS
-- Utilise principalement Qwen3-Coder-480B (modèle phare Alibaba)
-- Supporte aussi Claude, GPT-4, Gemini
-- Mode Agent et Mode Quest pour codage autonome
-- Pas de carte de crédit requise (niveau gratuit)
-- Niveaux payants : Pro ($20/mois - 2 000 crédits), Pro+ ($60/mois - 6 000 crédits)
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Site](https://qoder.com/) | [Tarifs](https://qoder.com/pricing)
 
@@ -248,14 +220,10 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Cerebras](https://cloud.cerebras.ai/)
 
-> **Accès Qwen3-235B et Llama 3.1**
-- Niveau gratuit : 1M tokens/jour
-- Pas de carte de crédit requise
-- Limite 30 requêtes/minute, contexte 8 192 tokens
-- Modèles : Qwen3-235B, Llama 3.1 70B (Note : Qwen3-Coder-480B déprécié 5 nov 2025)
-- API compatible OpenAI (fonctionne avec Cursor, Continue.dev, Cline, RooCode, etc.)
-- Inférence ultra-rapide : 2 000 tokens/seconde (40x plus rapide que typique)
-- **Niveaux payants :** Developer ($10+ self-serve), Enterprise (personnalisé)
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://www.cerebras.ai/pricing) | [Docs API](https://inference-docs.cerebras.ai/) | [Guides d’Intégration](https://inference-docs.cerebras.ai/integrations/)
 
@@ -266,12 +234,12 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Jira Standard ($7.53/utilisateur/mois) :** 20M tokens/jour
-- **Jira Premium ($15.25/utilisateur/mois) :** 20M tokens/jour
-- **Jira Enterprise (custom) :** 20M tokens/jour
-- Augmentation x4 vs gratuit (5M → 20M tokens/jour)
-- Même modèle Claude que le niveau gratuit
-- Réinitialisation à minuit UTC
+> **Rovo Dev Free**
+- Gratuit avec les forfaits Jira payants : 350 crédits Rovo Dev/utilisateur/mois/site
+- Le service s’arrête lorsque le quota mensuel est atteint
+- La page de facturation actuelle ne fixe pas le modèle du CLI
+- Aucune carte n’est requise pour le complément gratuit
+- Standard : 20 $/utilisateur/mois avec 2 000 crédits/utilisateur/mois
 
 **** [Documentation](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Limites de Tokens](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/) | [Tarifs Jira](https://www.atlassian.com/software/jira/pricing)
 
@@ -294,8 +262,11 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Pro ($19/mois) :** Limites augmentées pour requêtes agentiques
-- Usage ajusté selon région et modèle d'utilisation
+> **Amazon Q Developer Free**
+- Niveau gratuit permanent : 50 requêtes agentiques/mois et 1 000 LOC Java/mois
+- Les limites IDE sont disponibles avec Builder ID ; IAM est limité au compte
+- Aucune carte pour le parcours Builder ID gratuit ; Pro nécessite la facturation AWS
+- Pro coûte 19 $/utilisateur/mois avec des limites supérieures
 
 **** [Tarifs](https://aws.amazon.com/q/developer/pricing/)
 
@@ -303,12 +274,11 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Warp](https://warp.dev/)
 
-> **Build ($20/mois) :** 1 500 crédits IA/mois
-- Crédits rechargeables (jusqu'à 50% moins chers, cumul 12 mois)
-- Option BYOK (clé API perso)
-- Nouvelle tarification effective pour nouveaux clients (30 oct 2025)
-- Transition des abonnés mensuels à partir du 1 déc 2025
-- Niveau Enterprise : prix personnalisés
+> **Warp Agent et BYOK**
+- Forfait Free : accès limité aux agents cloud ; l’IA s’arrête à la limite
+- Build à partir de 20 $/mois avec 1 500 crédits (20 $ d’usage agent inclus)
+- Pour les particuliers et entreprises de 10 personnes ou moins, le BYOK/inférence personnalisée ne consomme pas de crédits Warp
+- La consommation dépend du modèle, du contexte et de la tâche
 
 **** [Tarifs](https://www.warp.dev/pricing)
 
@@ -316,13 +286,11 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Pro ($10/mois) :** 300 requêtes premium + complétions illimitées/mois
-- **Pro+ ($39/mois) :** 1 500 requêtes premium + complétions illimitées/mois
-- **Business ($19/utilisateur/mois) :** 300 requêtes premium + complétions illimitées/utilisateur/mois
-- **Enterprise ($39/utilisateur/mois) :** 1 000 requêtes premium + complétions illimitées/utilisateur/mois
-- **GPT-5.1-Codex-Max** en preview publique (4 déc 2025) pour Pro, Pro+, Business, Enterprise
-- Accès à plusieurs modèles (GPT-5.1-Codex-Max, GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
-- Facturation des dépassements à $0.04/requête
+> **GitHub Copilot Free**
+- 2 000 complétions et 50 requêtes de chat par mois
+- Copilot CLI et agents limités ; la sélection de modèles est restreinte en Free
+- La page actuelle cite Haiku 4.5, GPT-5 mini et d’autres modèles
+- Aucune carte bancaire requise
 
 **** [Détails des Plans](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Preview GPT-5.1-Codex-Max](https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/)
 
@@ -330,13 +298,10 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Trae](https://trae.ai/)
 
-> **Pro ($10/mois) :** 600 requêtes rapides + requêtes lentes illimitées (modèles premium)
-- Requêtes lentes illimitées pour modèles avancés
-- Pas de limites de débit, accès plus rapide aux modèles premium
-- Packages additionnels : $3-$12 pour plus de requêtes rapides
-- Modèles premium : Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o
-- IDE VS Code avec intégration IA complète
-- Premier mois à $3
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://trae.ai/pricing) | [Documentation](https://docs.trae.ai/ide/billing)
 
@@ -344,9 +309,10 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Windsurf](https://windsurf.com/)
 
-> **Pro ($15/mois) :** 500 crédits de prompt/mois
-- **Teams ($30/utilisateur/mois) :** 500 crédits de prompt/utilisateur/mois
-- **Enterprise ($60+/utilisateur/mois) :** 1 000 crédits de prompt/utilisateur/mois
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://windsurf.com/pricing)
 
@@ -354,37 +320,31 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Lovable](https://lovable.dev/)
 
-> **Pro ($25/mois) :** 150 crédits/mois (5 crédits quotidiens)
-- **Teams ($30/mois) :** Limites plus élevées (non divulguées)
+> **Lovable est désormais basé sur des crédits**
+- Free inclut 5 crédits de build quotidiens (jusqu’à 30/mois), 20 crédits Cloud mensuels et 4 crédits IA mensuels
+- Les crédits et subventions ont des expirations différentes ; consultez la page officielle
 
-**** [Limites de Messages](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [Bolt.new](https://bolt.new/)
 
-> **$20/mois :** 10M tokens/mois
-- **$200/mois :** 120M tokens/mois
+> **Free inclut une limite de 300 000 tokens/jour et 1 million/mois**
+- Pro commence à 25 $/mois avec 10 millions de tokens/mois ; Teams à 30 $/membre/mois
+- Les tokens payants sont reportés d’un mois si l’abonnement reste actif
 
-**** [Documentation Tokens](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Cursor](https://cursor.com/)
 
-> **Hobby (Gratuit) :** Requêtes Agent limitées + Tab limitées + essai Pro 1 semaine
-- **Pro ($20/mois ou $16/mois annuel) :** Limites Agent étendues + Tab illimitées + Agents en arrière-plan + fenêtres de contexte max
-- **Pro+ ($60/mois) :** Usage x3 sur tous les modèles OpenAI, Claude, Gemini
-- **Ultra ($200/mois) :** Usage x20 sur tous les modèles OpenAI, Claude, Gemini + accès prioritaire aux nouveautés
-- **Teams ($40/utilisateur/mois) :** Fonctions Pro + facturation centralisée + analytics d'usage + SAML/OIDC SSO
-- **Enterprise (Custom) :** Tout Teams + usage mutualisé + SCIM + API suivi de code IA + journaux d'audit
-- **GPT-5.1-Codex-Max gratuit pour tous jusqu'au 11 déc 2025** (77,9% SWE-bench Verified)
-- Essai Pro d'une semaine disponible (niveau gratuit)
-- Niveau gratuit suit maintenant l'usage en tokens (pas en requêtes)
-- Modèles gratuits : Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini (limite 500/jour), Grok 3 Mini Beta
-- Niveaux payants : accès aux modèles OpenAI, Claude, Gemini dont GPT-5.1-Codex-Max
-- Note : modèles Claude retirés du niveau gratuit ~juin 2025
-- Éditeur de code IA avec capacités de codage autonome
+> **Cursor Free et forfaits payants**
+- Hobby est gratuit, sans carte, avec Agent limité et accès à Composer
+- Pro 20 $/mois ; Pro+ 60 $ ; Ultra 200 $ ; Teams Standard 40 $/utilisateur/mois
+- La promotion GPT-5.1-Codex-Max jusqu’au 11 décembre 2025 est terminée et supprimée
+- L’usage et les modèles dépendent du forfait
 
 **** [Tarifs](https://cursor.com/en/pricing) | [Annonce GPT-5.1-Codex-Max](https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277)
 
@@ -392,28 +352,21 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [OpenAI Codex CLI](https://github.com/openai/codex)
 
-> **Gratuit avec ChatGPT Plus ($20/mois) :** 30–150 messages/5h pour tâches de codage
-- **ChatGPT Pro ($200/mois) :** 300–1 500 messages/5h — limites les plus élevées
-- **API pay-as-you-go :** GPT-5.1-Codex-Max à $1.25/$10 par million de tokens (entrée/sortie)
-- **Mode OSS gratuit :** Accès aux modèles open source uniquement (flag --oss)
-- **GPT-5.1-Codex-Max** (19 nov 2025) : 77,9% SWE-bench Verified — modèle par défaut
-- Premier modèle avec « compaction » pour sessions multi-million de tokens (tâches 24+ h)
-- 30% moins de tokens de raisonnement que le précédent GPT-5.1-Codex
-- Disponible aussi dans GitHub Copilot (Pro, Pro+, Business, Enterprise)
-- Support Windows inclus
-- Multi-plateforme : macOS 12+, Ubuntu 20.04+, Windows 11 via WSL2
+> **Forfaits Codex et facturation API**
+- Codex est inclus dans Free (0 $), Go (8 $/mois), Plus (20 $/mois), Pro (à partir de 100 $/mois), Business (20 $/utilisateur en annuel ou 25 $ mensuel), Edu et Enterprise
+- Les clés API sont facturées par modèle ; les usages local et cloud partagent les allocations du forfait
+- Les limites varient selon la complexité ; consultez la page officielle
 
-**** [Repo GitHub](https://github.com/openai/codex) | [Annonce GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max/)
+**** [Pricing](https://developers.openai.com/codex/pricing/) | [GitHub](https://github.com/openai/codex)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **Pro ($10/mois) :** Usage illimité avec conscience de contexte avancée
-- Accès Claude 3.5 Sonnet, GPT-4o
-- Fenêtre de contexte améliorée et personnalisation
-- **Teams ($12/utilisateur/mois) :** Fonctions Pro + gestion d'équipe
-- **Enterprise (Custom) :** Déploiement on-prem, modèles personnalisés
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://codeium.com/pricing)
 
@@ -421,14 +374,12 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **Pro ($12/mois) :** Complétions et chat IA améliorés
-- **Enterprise ($39/utilisateur/mois) :** Multiples LLMs, déploiement privé
-- Modèles : Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, modèles propriétaires
-- 600+ langages pris en charge
-- Options on-prem et isolées
-- Apportez vos modèles fine-tunés
+> **Forfaits Tabnine payants actuels**
+- Code Assistant : 39 $/utilisateur/mois en annuel ; Agentic Platform : 59 $/utilisateur/mois en annuel
+- Aucun forfait gratuit n’est annoncé sur la page actuelle
+- Les LLM propres on-prem/cloud sont illimités ; les LLM Tabnine coûtent le prix fournisseur plus 5 % de frais
 
-**** [Tarifs](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -448,7 +399,7 @@ Ces services fournissent une API vers des modèles optimisés pour le codage qui
 ### [Jules](https://jules.google/)
 
 > **Pro ($19.99/mois via Google AI Pro) :** 100 tâches/jour
-- Limites x5 vs gratuit (15 → 100 tâches/jour)
+- Jules Pro via Google AI Pro : 100 tâches sur 24 heures glissantes et 15 simultanées
 - 5x tâches concurrentes (3 → 15)
 - Accès accru aux derniers modèles
 - **Ultra (via Google AI Ultra) :** 300 tâches/jour
@@ -480,47 +431,40 @@ __(modèles non spécifiés/basiques)__
 
 ### [Bolt.new](https://bolt.new/)
 
-> **Modèles non spécifiés**
-- Limite 1M tokens/mois
-- Modèle spécifique non indiqué publiquement
-- Carte de crédit requise
+> **Free inclut une limite de 300 000 tokens/jour et 1 million/mois**
+- Pro commence à 25 $/mois avec 10 millions de tokens/mois ; Teams à 30 $/membre/mois
+- Les tokens payants sont reportés d’un mois si l’abonnement reste actif
 
-**** [Documentation Tokens](https://support.bolt.new/account-and-subscription/tokens)
+**** [Pricing](https://bolt.new/pricing) | [Token documentation](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Lovable](https://lovable.dev/)
 
-> **Modèles non spécifiés**
-- 5 crédits/jour, max 30 par mois (gratuit)
-- Modèles non listés publiquement
-- Carte de crédit requise
+> **Lovable est désormais basé sur des crédits**
+- Free inclut 5 crédits de build quotidiens (jusqu’à 30/mois), 20 crédits Cloud mensuels et 4 crédits IA mensuels
+- Les crédits et subventions ont des expirations différentes ; consultez la page officielle
 
-**** [Limites de Messages](https://docs.lovable.dev/user-guides/messaging-limits)
+**** [Pricing](https://lovable.dev/pricing)
 
 ---
 
 ### [v0.dev](https://v0.dev/)
 
-> **Modèles propriétaires (non frontier)**
-- Accès GPT-5 nécessite v0 Premium
-- $5 de crédits/mois
-- Utilise des modèles propriétaires avec routage variable
-- Carte de crédit requise
+> **Free inclut 5 $ de crédits mensuels et 7 messages/jour**
+- Plus coûte 30 $/utilisateur/mois avec 30 $ de crédits ; Business 100 $/utilisateur/mois
+- L’usage est mesuré en tokens d’entrée/sortie convertis en crédits
 
-**** [Blog Tarifs Mis à Jour](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh)
+**** [Pricing](https://api2.v0.dev/pricing)
 
 ---
 
 ### [Codeium](https://codeium.com/)
 
-> **Usage gratuit illimité de l'assistance IA basique**
-- Plan individuel : gratuit à vie avec complétions, chat IA, commandes illimités
-- Plus de 70 langages supportés
-- Intégrations IDE : VS Code, JetBrains, Vim/Neovim, Jupyter
-- Pas de carte de crédit requise
-- Conscience de contexte limitée (étendue en payant)
-- Modèle de base (Llama 3.1 70B), modèles pro nécessitent un abonnement
+> **Prix et limites actuels non vérifiés**
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- Les anciennes valeurs exactes ne sont pas présentées comme actuelles
+- Vérifiez la page officielle liée avant de vous fier à une limite
 
 **** [Tarifs](https://codeium.com/pricing) | [Documentation](https://codeium.com/docs)
 
@@ -528,14 +472,12 @@ __(modèles non spécifiés/basiques)__
 
 ### [Tabnine](https://www.tabnine.com/)
 
-> **Niveau gratuit avec fonctionnalités limitées**
-- Complétions et chat IA basiques (limités)
-- Traitement local disponible
-- Contexte fortement limité en gratuit
-- Performances réduites pour économiser les ressources
-- 600+ langages supportés
+> **Forfaits Tabnine payants actuels**
+- Code Assistant : 39 $/utilisateur/mois en annuel ; Agentic Platform : 59 $/utilisateur/mois en annuel
+- Aucun forfait gratuit n’est annoncé sur la page actuelle
+- Les LLM propres on-prem/cloud sont illimités ; les LLM Tabnine coûtent le prix fournisseur plus 5 % de frais
 
-**** [Tarifs](https://www.tabnine.com/pricing/)
+**** [Pricing](https://www.tabnine.com/pricing/)
 
 ---
 
@@ -591,9 +533,11 @@ Exécuter des modèles open-weight de pointe en local offre une assistance illim
 ## Notes de Comparaison
 
 - **Objectif** : Comparer les outils IA par accès aux modèles pro et limites gratuites.
-- **Qu'est-ce qui qualifie un modèle « pro » ?** ≥60% sur SWE-bench Verified. Modèles actuels : Claude Opus 4.5 (80,9%), GPT-5.1-Codex-Max (77,9%), Claude Sonnet 4.5 (77,2%), Gemini 3 Pro (76,2%), GPT-5 (74,9%), Claude Opus 4.1 (74,5%), Claude Sonnet 4 (72,7%), GPT-5 mini (71,0%), Qwen3-Coder-480B (69,6%), Gemini 2.5 Pro (63,2%).
 - **Types de limites** : Requêtes, tokens, crédits, chats — comparer directement est difficile. Vérifiez la doc.
 - **Usage réel** : Varie fortement selon style de code, complexité et implémentation.
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- La page officielle accessible ne publie pas de tableau stable des quotas ou prix
+- **Comparabilité :** les résultats SWE-bench utilisent des conditions différentes ; les exécutions parallèles, interactives et uniques ne sont pas directement comparables. Crédits, tokens, requêtes, chats et tâches ne doivent pas être convertis en classement de générosité.
 
 ---
 

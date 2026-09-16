@@ -15,7 +15,7 @@ Models: [Optional - which models it uses]
 - Follow existing format and structure
 - Include official source links
 - Update the summary table if needed
-- Place tools in correct order by free tier generosity
+- Place tools in an order that is useful for orientation. Requests, tokens, credits, chats, completions and tasks are different units; do not present them as an equivalent generosity ranking unless the comparison is explicitly qualified.
 
 ## Updates & Corrections
 

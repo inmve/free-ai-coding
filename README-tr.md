@@ -1,4 +1,4 @@
-Son güncelleme: 17 Kasım 2025 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
+Son güncelleme: 15 Eylül 2026 • PR/issue'lar açık • ⭐ Daha sonra dönmek için yıldızla
 
 **Diller:** [English](README.md) • [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Türkçe](README-tr.md)
 
@@ -7,38 +7,35 @@ Son güncelleme: 17 Kasım 2025 • PR/issue'lar açık • ⭐ Daha sonra dönm
 Birçok AI kodlama aracı "ücretsiz" olduğunu iddia eder, ancak profesyonel sınıf modellere erişim genellikle hızla tükenir ve ardından düşük seviyeye indirilirsiniz. Her araç farklı limitler kullanır (kredi, token, istek), bu yüzden adil karşılaştırma zordur. Bu liste onları yan yana koyar ve **gerçekte ücretsiz olarak neler elde ettiğinizi** gösterir.
 
 ## TL;DR — Profesyonel Sınıf AI Kodlama için Ücretsiz Katmanlar
-_(yüksek limitli araçlar önce listelenir)_
+_(kota birimleri farklıdır; satırlar eşdeğer kapasite sıralaması değildir)_
 
 | Araç | Profesyonel sınıf modeller | Ücretsiz katman limiti | Kredi kartı |
-|------|---------------------------|------------------------|----------------------------------|-------------|
-| [Qwen Code](#qwen-code) | Qwen3-Coder-480B | 2,000 istek/gün | Hayır |
-| [Rovo Dev CLI](#rovo-dev-cli) | Claude Sonnet 4 | 5M token/gün (beta) | Hayır |
-| [Gemini CLI](#gemini-cli) | Gemini 2.5 Pro | 100 istek/gün | Hayır |
-| [Kilo Code](#kilo-code) | Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1 | $25'e kadar kayıt kredisi (tek seferlik) | Evet |
-| [Warp](#warp) | GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro | 150 kredi/ay (ilk 2 ay), sonra 75/ay | Hayır |
-| [Trae](#trae) | Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro | 10 hızlı + 50 yavaş istek/ay | Hayır |
-| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 ajantik istek/ay | Evet |
-| [GitHub Copilot](#github-copilot) | GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1 | 50 sohbet isteği + 2,000 tamamlama/ay | Hayır |
-| [Windsurf](#windsurf) | OpenAI, Anthropic, Google, xAI | 25 kredi/ay | Evet |
-| [Jules](#jules) | Gemini 2.5 Pro | 15 görev/gün | Hayır |
-| [AWS Kiro](#aws-kiro) | Claude 4 Sonnet, Claude 3.7 Sonnet | 50 kredi/ay | Hayır |
-| [Qoder](#qoder) | Qwen3-Coder-480B, Claude, GPT, Gemini | Ücretsiz katman + 2 haftalık Pro deneme (1.000 kredi) | Hayır |
+|------|---------------------------|------------------------|-------------|
+| [Qwen Code](#qwen-code) | Qwen ve diğer sağlayıcılar | Güncel OAuth kotası resmi README'de belirtilmiyor | Hayır |
+| [Rovo Dev CLI](#rovo-dev-cli) | Rovo Dev (plana bağlı) | Ücretli Jira ile kullanıcı/site başına ayda 350 kredi | Hayır |
+| [Gemini CLI](#gemini-cli) | Gemini 3 modelleri | Bireysel ücretsiz/Google AI erişimi 18 Haziran 2026'da sona erdi; Antigravity CLI'ye geçin | Hayır |
+| [Kilo Code](#kilo-code) | Yapılandırılan sağlayıcıya bağlı | Güncel kayıt kredisi doğrulanamadı | Belirsiz |
+| [Warp](#warp) | Warp Agent; BYOK | Free: sınırlı cloud-agent; ≤10 kişilik kişi/şirketlerde BYOK Warp kredisi tüketmez | Belirsiz |
+| [Trae](#trae) | Premium model erişimi resmi fiyat sayfasında belirtilmiyor | Güncel kota resmi sayfada yayınlanmıyor | Belirsiz |
+| [Amazon Q Developer](#amazon-q-developer) | En yeni Claude modelleri (AWS) | 50 ajantik istek + 1.000 Java LOC/ay | Hayır (Builder ID) |
+| [GitHub Copilot](#github-copilot) | Haiku 4.5, GPT-5 mini ve diğerleri | 50 sohbet + 2.000 tamamlama/ay; sınırlı ajan/CLI | Hayır |
+| [Windsurf](#windsurf) | Belirsiz (resmi URL Devin'e yönlendiriyor) | Doğrulanmadı; Devin fiyatları Windsurf'e uygulanamaz | Belirsiz |
+| [Jules](#jules) | Gemini 2.5 Pro | Kayan 24 saatte 15 görev; 3 eşzamanlı | Hayır |
+| [AWS Kiro](#aws-kiro) | Claude Sonnet 4.5 ve open-weight modeller | 50 kredi/ay | Hayır |
+| [Qoder](#qoder) | En yeni modeller (liste belirtilmemiş) | 2 haftalık Pro deneme; sonra Free (kota belirsiz) | Belirsiz |
 
 ## Bunu Daha Doğru Hale Getirmeye Yardımcı Olun
 
 **Gerçek kullanım kodlama stiline, görev karmaşıklığına ve araç uygulamasına göre geniş ölçüde fark gösterir**. Bu kaynağı iyileştirmeye yardımcı olun [gerçek deneyiminizi paylaşarak →](https://free-ai-usage.vercel.app/)
 
 ### Uygun Profesyonel Sınıf Modeller
-Yalnızca SWE-bench Verified'da >%60 başarı gösteren modeller gerçek dünya kodlama görevleri için profesyonel sınıf olarak nitelendirilir. Mevcut liste aşağıdadır
+Birincil kaynak bağlantıları olan seçilmiş tarihsel değerler. Test koşulları farklıdır; bu tablo güncel ve eksiksiz bir sıralama değildir.
 
 | Model | SWE-bench Verified | Sağlayıcı |
 |-------|-------------------|----------|
-| GPT-5 | %74.9 | OpenAI |
-| Claude Opus 4.1 | %74.5 | Anthropic |
-| Claude Sonnet 4 | %72.7 (paralel ile %80.2) | Anthropic |
-| GPT-5 mini | %71.0 | OpenAI |
-| Qwen3-Coder-480B | %69.6 (etkileşimli) / %67.0 (tekil) | Alibaba |
-| Gemini 2.5 Pro | %63.2 | Google |
+| [Claude Opus 4.5](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) | %80.9 | Anthropic |
+| [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) | %77.2 | Anthropic |
+| [Qwen3-Coder-480B](https://qwenlm.github.io/blog/qwen3-coder/) | %69.6 | Alibaba |
 
 ### Katkıda Bulunma
 
@@ -62,16 +59,15 @@ Hiçbir satıcıyla bağlantı yoktur. Tüm ticari markalar sahiplerine aittir. 
 
 
 ## 1. Profesyonel Sınıf Modellere Ücretsiz Erişimi Olan AI-kodlama Araçları
-_(en cömert olandan en az cömerte sıralı)_
+_(kota birimleri farklıdır; sıra yalnızca yönlendiricidir ve eşdeğer kapasite sıralaması değildir)_
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code)
 
-> **Qwen3-Coder-480B erişimi**
-- Qwen OAuth ile günde 2,000 istek ücretsiz katman
-- Dakikada 60 istek hız limiti
-- Komut satırı AI iş akışı aracı (Gemini CLI'dan uyarlanmış)
-- Tek tıkla tarayıcı kimlik doğrulaması
-- Kredi kartı gerekli değil
+> **Qwen modelleri ve sağlayıcı esnekliği**
+- Qwen OAuth ücretsiz katmanı 15 Nisan 2026'da sona erdi; Alibaba ModelStudio Coding Plan, Token Plan, API anahtarı veya başka sağlayıcı kullanın
+- Kimlik doğrulama ayarları üzerinden Qwen ve diğer sağlayıcıları destekler
+- Terminal, IDE, masaüstü ve web arayüzleri olan açık kaynak kodlama ajanı
+- BYOK veya yerel sağlayıcılar için barındırılan kota varsayılmaz
 
 **Bağlantılar:** [GitHub](https://github.com/QwenLM/qwen-code) | [Dokümantasyon](https://github.com/QwenLM/qwen-code#readme)
 
@@ -79,12 +75,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-> **Beta sırasında Claude Sonnet 4 erişimi**
-- Günde 5M token ücretsiz katman (ilk gün sadece 20M)
-- Claude Sonnet 4 modeli (test ile doğrulandı)
-- Beta sırasında kredi kartı gerekli değil
-- Token limitleri gece yarısı UTC'de sıfırlanır
-- Not: Günde 20M token için Jira Standard/Premium/Enterprise'a yükseltme
+> **Rovo Dev Free erişimi**
+- Ücretli Jira planlarıyla ücretsiz: kullanıcı/site başına ayda 350 Rovo Dev kredisi
+- Aylık kredi kotası dolunca kullanım durur
+- Güncel faturalandırma sayfası CLI için sabit bir model belirtmiyor
+- Ücretsiz eklenti için kredi kartı gerekmez; site uygunluğunu Atlassian'da doğrulayın
 
 **Bağlantılar:** [Dokümantasyon](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Token Limitleri](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/)
 
@@ -92,25 +87,23 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
-> **Gemini 2.5 Pro erişimi**
-- Günde 100 istek limiti
-- Yedek: Gemini 2.5 Flash ile ~4.2sa/gün (günde 250 istek)
-- Kredi kartı gerekli değil
-- Sadece Google modelleri
-- Ücretsiz kota sonrası ücretli fiyatlara geçiş
+> **Bireysel kullanıcılar için Gemini CLI'den Antigravity CLI'ye geçiş**
+- 18 Haziran 2026'da Gemini CLI bireysel ve Google AI Pro/Ultra katmanlarına hizmet vermeyi bıraktı
+- Antigravity CLI herkese açık ve geçiş yoludur
+- Standard/Enterprise kuruluş erişimi değişmedi; ücretli Gemini API anahtarları destekleniyor
+- Eski bireysel Google girişinin 1.000/gün ve 60/dakika sınırı tarihsel ve sona ermiştir
 
-**Bağlantılar:** [Hız Limitleri](https://ai.google.dev/gemini-api/docs/rate-limits) | [Fiyatlandırma](https://ai.google.dev/gemini-api/docs/pricing)
+**Bağlantılar:** [Geçiş duyurusu](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) | [Hız Limitleri](https://ai.google.dev/gemini-api/docs/rate-limits)
 
 ---
 
 ### [Kilo Code](https://kilocode.ai/)
 
-> **Claude 4 Sonnet/Opus, Gemini 2.5 Pro, GPT-4.1 erişimi**
-- Kayıtta $25'e kadar ücretsiz kredi (tek seferlik bonus)
-- Açık kaynaklı VS Code uzantısı
-- Model fiyatlandırmasında markup olmayan kullandıkça öde
-- Bonus kredileri almak için kredi kartı gerekli
+> **Kilo Code sağlayıcı/model erişimi**
+- Güncel erişilebilir resmi fiyatlandırma sayfası eski $25 kayıt kredisini belirtmiyor
+- Kullandıkça öde model kullanımı olan açık kaynaklı VS Code uzantısı
 - Kendi API anahtarlarınızı getirmeyi destekler
+- Güncel promosyon ve kart gereksinimini kullanmadan önce doğrulayın
 
 **Bağlantılar:** [GitHub](https://github.com/Kilo-Org/kilocode) | [Dokümantasyon](https://kilocode.ai/docs/)
 
@@ -118,11 +111,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Warp](https://warp.dev/)
 
-> **Claude Sonnet 4, OpenAI GPT-5, Gemini 2.5 Pro erişimi**
-- Ayda 150 istek limiti
-- Çoklu sağlayıcılar (Claude, OpenAI, Gemini)
-- Temel kayıt için kredi kartı gerekli değil
-- Kullandıkça öde aşım mevcut
+> **Warp Agent ve BYOK erişimi**
+- Free planı sınırlı cloud-agent erişimi sunar; sınıra ulaşınca AI durur
+- Build aylık $20'dan başlar ve 1.500 kredi içerir
+- 10 veya daha az kişilik bireyler ve şirketlerde BYOK/custom inference Warp kredisi tüketmez
+- Tüketim model, bağlam, araç çağrıları ve göreve göre değişir
 
 **Bağlantılar:** [Fiyatlandırma](https://www.warp.dev/pricing)
 
@@ -130,12 +123,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
-> **Claude Sonnet 4 erişimi**
-- Ayda 50 aracı sohbet limiti (çok turlu konuşmalar)
-- En son Claude modelleri (AWS barındırımlı)
-- Kredi kartı gerekli
-- Devam eden erişim için Pro'ya yükseltme gerekli
-- Kalıcı ücretsiz katman
+> **Amazon Q Developer Free**
+- Kalıcı ücretsiz katman: ayda 50 ajantik istek ve 1.000 Java LOC
+- IDE sınırları Builder ID kullanıcılarında, IAM sınırları hesap düzeyindedir
+- Builder ID ücretsiz yolunda kart gerekmez; Pro için AWS faturalandırması gerekir
+- Pro kullanıcı başına aylık $19'dur ve daha yüksek sınırlar sunar
 
 **Bağlantılar:** [Fiyatlandırma](https://aws.amazon.com/q/developer/pricing/)
 
@@ -143,12 +135,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [GitHub Copilot](https://github.com/features/copilot/plans)
 
-> **Ajan etkileşimleri (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1) erişimi**
-- Ayda 50 sohbet isteği + 2,000 tamamlama limiti
-- Özerk çok adımlı kodlama ile Ajan Modu
-- Çoklu sağlayıcılar (GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)
-- Kredi kartı gerekli değil
-- Kota sonrası temel özelliklere sınırlı
+> **GitHub Copilot Free**
+- Ayda 2.000 tamamlama ve 50 sohbet isteği
+- Copilot CLI ve sınırlı ajan kullanımı; Free'de model seçimi kısıtlıdır
+- Güncel plan sayfası Haiku 4.5, GPT-5 mini ve diğer modelleri listeler
+- Kredi kartı gerekmez
 
 **Bağlantılar:** [Plan Detayları](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Ajan Modu](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 
@@ -156,11 +147,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [Windsurf](https://windsurf.com/)
 
-> **OpenAI, Anthropic, Google, xAI modelleri erişimi**
-- Ayda 25 prompt kredisi limiti
-- Çoklu sağlayıcılar (OpenAI, Claude, Gemini, xAI)
-- Kredi kartı gerekli
-- Devam etmek için ek krediler satın alınabilir
+> **Windsurf fiyatlandırması doğrulanamadı**
+- Resmi fiyatlandırma URL'si şu anda Devin fiyatlandırmasına yönlendiriyor
+- Devin/Cognition fiyat ve kotaları Windsurf'e uygulanamaz
+- Eski Windsurf kredi miktarları ve kart gereksinimi doğrulanmadı
+- Güncel limite güvenmeden önce resmi Windsurf ürün sayfasını kontrol edin
 
 **Bağlantılar:** [Fiyatlandırma](https://windsurf.com/pricing)
 
@@ -168,12 +159,11 @@ _(en cömert olandan en az cömerte sıralı)_
 
 ### [AWS Kiro](https://kiro.dev/)
 
-> **Claude 4 Sonnet, Claude 3.7 Sonnet erişimi**
-- Ayda 50 kredi (Ücretsiz katman)
-- Claude 4 Sonnet ve Claude 3.7 Sonnet modelleri (AWS barındırımlı)
-- Kredi kartı gerekli değil
-- 14 günlük hoş geldin bonusu: 500 kredi
-- Ücretli katmanlar: Pro (Ayda $20 - 1,000 kredi), Pro+ (Ayda $40 - 2,000 kredi), Power (Ayda $200 - 10,000 kredi)
+> **Claude Sonnet 4.5 ve open-weight model erişimi**
+- Kalıcı Free katmanı: ayda 50 kredi
+- Sosyal giriş veya AWS Builder ID ile Claude Sonnet 4.5 ve open-weight modeller (sınırlı)
+- Pro $20/ay: 1.000; Pro+ $40: 2.000; Pro Max $100: 5.000; Power $200: 10.000 kredi
+- Ücretli abonelikler geçerli kredi kartı gerektirir
 
 **Bağlantılar:** [Fiyatlandırma](https://kiro.dev/pricing/) | [Tanıtım Blog'u](https://kiro.dev/blog/introducing-kiro/)
 
@@ -184,7 +174,7 @@ _(en cömert olandan en az cömerte sıralı)_
 ---
 
 ## 2. AI Kodlama Araçları için API Sağlayıcıları
-_(en cömert olandan en az cömerte sıralı)_
+_(kota birimleri farklıdır; sıra yalnızca yönlendiricidir ve eşdeğer kapasite sıralaması değildir)_
 
 Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama araçları ile entegre olan kodlama için optimize edilmiş modellere API erişimi sağlar. Bağımsız kodlama araçları sunmazlar ancak mevcut araçlar için AI backend'i sağlarlar.
 
@@ -220,12 +210,10 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Rovo Dev CLI](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)
 
-**Jira Standard ($7.53/kullanıcı/ay):** Günde 20M token (~80sa/gün Claude Sonnet kodlama)
-**Jira Premium ($15.25/kullanıcı/ay):** Günde 20M token
-**Jira Enterprise (özel):** Günde 20M token
-- Ücretsiz katmandan 4x artış (5M → 20M token/gün)
-- Ücretsiz katmanla aynı Claude tabanlı model
-- Token limitleri gece yarısı UTC'de sıfırlanır
+**Rovo Dev Standard ($20/kullanıcı/ay):** Kullanıcı başına ayda 2.000 Rovo Dev kredisi
+- Krediler Atlassian kuruluşundaki uygun sitelerde kullanılabilir
+- Kuruluş etkinleştirirse ek kullanım kredi başına $0.01'dır
+- Rovo Dev Free: ücretli Jira ile ücretsiz, kullanıcı/site başına ayda 350 kredi
 
 **Bağlantılar:** [Dokümantasyon](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/) | [Token Limitleri](https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/) | [Jira Fiyatlandırma](https://www.atlassian.com/software/jira/pricing)
 
@@ -234,12 +222,10 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Claude Code](https://www.anthropic.com/claude-code)
 
-**Pro ($17/ay yıllık ile):** Sonnet 4 erişimi
-**Max ($100/ay):** Opus 4.1 + Sonnet 4 erişimi (5x veya 20x daha fazla kullanım)
-**Max ($200/ay):** Daha yüksek Opus 4.1 + Sonnet 4 limitleri
-- Kullanım limitleri haftalık sıfırlanır
-- 5 saatlik dönen pencere limitleri uygulanır
-- Yüksek trafik sırasında öncelikli erişim (Max seviye)
+**Pro ($20/ay veya yıllık faturalandırmayla $17/ay):** Claude Code erişimi
+**Max 5x ($100/ay) ve Max 20x ($200/ay):** Daha yüksek kullanım limitleri
+- Claude Code limitleri modele ve göreve göre değişen dönen pencerelerdir; mesaj tahminleri sabit kota değildir
+- API/konsol kullanımı abonelikten ayrı kullandıkça öde modelidir
 
 **Bağlantılar:** [Fiyatlandırma](https://www.anthropic.com/pricing)
 
@@ -256,11 +242,10 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Warp](https://warp.dev/)
 
-**Pro ($15/ay yıllık, $18/ay aylık):** 2,500 istek/ay
-**Turbo ($40/ay yıllık, $50/ay aylık):** 10,000 istek/ay  
-**Lightspeed ($200/ay yıllık, $225/ay aylık):** 50,000 istek/ay
-- Aşım için kullandıkça öde mevcut
-- Enterprise katmanı: Özel fiyatlandırma
+**Build ($20/ay'dan başlayan):** 1.500 kredi ($20 dahil ajan kullanımı)
+- Yenileme kredileri ve otomatik yenileme mevcut olabilir; ek kullanım koşulları değişebilir
+- Bireyler ve 10 veya daha az kişilik şirketlerde BYOK Warp kredisi tüketmez
+- Enterprise koşulları özel veya kullanıma dayalıdır
 
 **Bağlantılar:** [Fiyatlandırma](https://www.warp.dev/pricing)
 
@@ -281,9 +266,7 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Windsurf](https://windsurf.com/)
 
-**Pro ($15/ay):** 500 prompt kredisi/ay
-**Teams ($30/kullanıcı/ay):** 500 prompt kredisi/kullanıcı/ay
-**Enterprise ($60+/kullanıcı/ay):** 1,000 prompt kredisi/kullanıcı/ay
+**Windsurf ücretli fiyatlandırması doğrulanamadı:** Resmi URL Devin'e yönlendiriyor; Devin planları Windsurf'e uygulanamaz.
 
 **Bağlantılar:** [Fiyatlandırma](https://windsurf.com/pricing)
 
@@ -291,30 +274,28 @@ Bu hizmetler Cursor, Continue.dev, Cline ve diğerleri gibi popüler AI kodlama 
 
 ### [Lovable](https://lovable.dev/)
 
-**Pro ($25/ay):** 150 kredi/ay (günde 5 kredi)
-**Teams ($30/ay):** Daha yüksek limitler (açıklanmamış)
+**Lovable artık kredi tabanlı:** Free planı günlük 5 build kredisi (ayda 30'a kadar), aylık 20 Cloud kredisi ve aylık 4 AI kredisi içerir. Kredilerin sona erme kuralları farklıdır.
 
-**Bağlantılar:** [Mesajlaşma Limitleri](https://docs.lovable.dev/user-guides/messaging-limits)
+**Bağlantılar:** [Fiyatlandırma](https://lovable.dev/pricing)
 
 ---
 
 ### [Bolt.new](https://bolt.new/)
 
-**$20/ay:** 10M token/ay
-**$200/ay:** 120M token/ay
+**Bolt.new Free:** Günlük 300K token ve aylık 1M token limiti. Pro aylık $25'ten (10M token), Teams $30/üye/ay'dan başlar. Ücretli tokenlar aktif abonelikte bir ay devreder.
 
-**Bağlantılar:** [Token Dokümantasyonu](https://support.bolt.new/account-and-subscription/tokens)
+**Bağlantılar:** [Fiyatlandırma](https://bolt.new/pricing) | [Token Dokümantasyonu](https://support.bolt.new/faqs/account-and-subscription/tokens)
 
 ---
 
 ### [Cursor](https://cursor.com/)
 
 **Hobby (Ücretsiz):** Sadece temel modellerle sınırlı ajan istekleri
-**Pro ($20/ay):** Agent üzerinde genişletilmiş limitler, Claude Sonnet 4, OpenAI o3-pro, GPT-4.1, Claude Opus 4 erişimi
-**Ultra ($200/ay):** Tüm OpenAI, Claude, Gemini modellerinde 20x kullanım
-**Teams ($40/kullanıcı/ay):** Pro özellikleri + takım yönetimi
-- İki hafta Pro deneme mevcut
-- Ücretsiz katman için kredi kartı gerekli
+**Pro ($20/ay):** Genişletilmiş Agent erişimi
+**Pro+ ($60/ay) ve Ultra ($200/ay):** Daha yüksek kullanım
+**Teams Standard ($40/kullanıcı/ay):** Takım özellikleri; Premium $120/kullanıcı/ay
+- Hobby ücretsiz, kredi kartı gerektirmez, Agent sınırlıdır ve Composer'a erişir
+- GPT-5.1-Codex-Max'in 11 Aralık 2025'e kadar ücretsiz promosyonu sona ermiştir
 
 **Bağlantılar:** [Fiyatlandırma](https://cursor.com/en/pricing)
 
@@ -393,8 +374,8 @@ __(belirtilmemiş/temel modeller)__
 
 ### [Bolt.new](https://bolt.new/)
 
-**Belirtilmemiş modellerle ~100sa/ay**
-- Ayda 1M token limiti
+**Bolt.new Free**
+- Günlük 300K token ve aylık 1M token limiti
 - Spesifik model herkese açık olarak belirtilmemiş
 - Kredi kartı gerekli
 
@@ -404,8 +385,8 @@ __(belirtilmemiş/temel modeller)__
 
 ### [Lovable](https://lovable.dev/)
 
-**Belirtilmemiş modellerle ~0.5sa/ay**
-- Günde 5 kredi, ayda maksimum 30 (ücretsiz)
+**Lovable Free**
+- Günlük 5 build kredisi (ayda 30'a kadar), aylık 20 Cloud ve 4 AI kredisi
 - Modeller herkese açık olarak numaralandırılmamış
 - Kredi kartı gerekli
 
@@ -415,13 +396,12 @@ __(belirtilmemiş/temel modeller)__
 
 ### [v0.dev](https://v0.dev/)
 
-**Tescilli modellerle değişken süre (frontier değil)**
-- GPT-5 erişimi v0 Premium aboneliği gerektirir
-- Ayda $5 kredi limiti
+**v0 Free**
+- Ayda $5 kredi ve günde 7 mesaj
 - Çeşitli yönlendirme ile tescilli modeller kullanır
 - Kredi kartı gerekli
 
-**Bağlantılar:** [Güncellenmiş Fiyatlandırma Blog'u](https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh)
+**Bağlantılar:** [Fiyatlandırma](https://api2.v0.dev/pricing)
 
 ---
 
@@ -505,7 +485,7 @@ Açık ağırlıklı frontier modelleri yerel olarak çalıştırmak API maliyet
 ## Karşılaştırma Notları
 
 - **Amaç**: AI kodlama araçlarını profesyonel sınıf modellere erişim ve ücretsiz katman sınırlarına göre karşılaştırmak.
-- **Bir modeli "profesyonel sınıf" olarak nitelendiren nedir?** Modeller SWE-bench Verified'da ≥60% başarı göstermeli, gerçek dünya yazılım mühendisliği yeteneğini kanıtlamalı. Şu anda uygun modeller: GPT-5 (%74.9), Claude Opus 4.1 (%74.5), Claude Sonnet 4 (%72.7), GPT-5 mini (%71.0), Qwen3-Coder-480B (%69.6), ve Gemini 2.5 Pro (%63.2).
+- **Benchmark kapsamı**: Tabloda birincil kaynak bağlantıları olan seçilmiş tarihsel değerler bulunur. Farklı harness koşulları nedeniyle değerler doğrudan karşılaştırılamaz ve tablo güncel, eksiksiz bir sıralama değildir.
 - **Farklı tür sınırlar**: Araçlar çeşitli kota sistemleri kullanır - istek, token, kredi, sohbet - doğrudan karşılaştırmayı zorlaştırır. Özellikler için dokümantasyona bakın.
 - **Gerçek dünya kullanımı**: Gerçek tüketim kodlama stiline, görev karmaşıklığına ve araç uygulamasına göre dramatik şekilde değişir.
 

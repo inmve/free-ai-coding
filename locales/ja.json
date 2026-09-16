@@ -1,7 +1,7 @@
 {
   "code": "ja",
   "meta": {
-    "lastUpdated": "2025年12月5日",
+    "lastUpdated": "2026年9月15日",
     "prsWelcome": "PRs/issues 歓迎"
   },
   "labels": {
@@ -15,7 +15,7 @@
   },
   "tldr": {
     "heading": "TL;DR — プロ級AIコーディングの無料枠",
-    "subheading": "（上限が高いツールから）",
+    "subheading": "_(上限の単位は異なるため、順序は目安であり同等容量のランキングではありません)_",
     "headers": {
       "tool": "ツール",
       "models": "プロ級モデル",
@@ -23,40 +23,136 @@
       "creditCard": "クレカ"
     },
     "rows": [
-      { "id": "qwen-code", "name": "Qwen Code", "url": "https://github.com/QwenLM/qwen-code", "models": "Qwen3-Coder-480B", "freeLimit": "1日2,000リクエスト", "creditCard": "不要" },
-      { "id": "rovo-dev-cli", "name": "Rovo Dev CLI", "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface", "models": "Claude Sonnet 4", "freeLimit": "1日5Mトークン（ベータ）", "creditCard": "不要" },
-      { "id": "gemini-cli", "name": "Gemini CLI", "url": "https://github.com/google-gemini/gemini-cli", "models": "Gemini 3 Pro, Gemini 2.5 Pro", "freeLimit": "Gemini 3 Pro（ウェイト/有料）、Gemini 2.5 Pro 100req/日", "creditCard": "不要" },
-      { "id": "cursor", "name": "Cursor", "url": "https://cursor.com/", "models": "GPT-5.1-Codex-Max", "freeLimit": "2025/12/11まで無料（77.9% SWE-bench）", "creditCard": "不要" },
-      { "id": "kilo-code", "name": "Kilo Code", "url": "https://kilocode.ai/", "models": "Claude Opus/Sonnet, Gemini 2.5 Pro, GPT‑4.1", "freeLimit": "登録クレジット最大$25（1回のみ）", "creditCard": "要" },
-      { "id": "warp", "name": "Warp", "url": "https://warp.dev/", "models": "GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro", "freeLimit": "月150クレジット（最初の2か月）、以降75/月", "creditCard": "不要" },
-      { "id": "trae", "name": "Trae", "url": "https://trae.ai/", "models": "Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro", "freeLimit": "月10高速 + 50低速リクエスト", "creditCard": "不要" },
-      { "id": "amazon-q-developer", "name": "Amazon Q Developer", "url": "https://aws.amazon.com/q/developer/", "models": "Claude Sonnet 4", "freeLimit": "月50エージェントリクエスト", "creditCard": "要" },
-      { "id": "github-copilot", "name": "GitHub Copilot", "url": "https://github.com/features/copilot/plans", "models": "GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1", "freeLimit": "月50チャット + 2,000補完", "creditCard": "不要" },
-      { "id": "windsurf", "name": "Windsurf", "url": "https://windsurf.com/", "models": "OpenAI, Anthropic, Google, xAI", "freeLimit": "月25クレジット", "creditCard": "要" },
-      { "id": "jules", "name": "Jules", "url": "https://jules.google/", "models": "Gemini 2.5 Pro", "freeLimit": "1日15タスク", "creditCard": "不要" },
-      { "id": "aws-kiro", "name": "AWS Kiro", "url": "https://kiro.dev/", "models": "Claude 4 Sonnet, Claude 3.7 Sonnet", "freeLimit": "月50クレジット", "creditCard": "不要" },
-      { "id": "qoder", "name": "Qoder", "url": "https://qoder.com/", "models": "Qwen3-Coder-480B, Claude, GPT, Gemini", "freeLimit": "無料 + 2週間のProトライアル（1,000クレジット）", "creditCard": "不要" }
+      {
+        "id": "qwen-code",
+        "name": "Qwen Code",
+        "url": "https://github.com/QwenLM/qwen-code",
+        "models": "Qwen とその他プロバイダ",
+        "freeLimit": "Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用",
+        "creditCard": "不要"
+      },
+      {
+        "id": "rovo-dev-cli",
+        "name": "Rovo Dev CLI",
+        "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
+        "models": "プランにより異なる Rovo Dev モデル",
+        "freeLimit": "有料 Jira と連携してユーザー月350クレジット/サイト",
+        "creditCard": "不要"
+      },
+      {
+        "id": "gemini-cli",
+        "name": "Gemini CLI",
+        "url": "https://github.com/google-gemini/gemini-cli",
+        "models": "Enterprise/有料APIアクセスは継続；個人ユーザーはAntigravity CLIへ移行",
+        "freeLimit": "個人向け無料/Google AI は2026年6月18日に終了；Antigravity CLIへ移行",
+        "creditCard": "不要"
+      },
+      {
+        "id": "cursor",
+        "name": "Cursor",
+        "url": "https://cursor.com/",
+        "models": "Composer、Agent 制限あり",
+        "freeLimit": "Agent 制限、期間限定キャンペーンなし",
+        "creditCard": "不要"
+      },
+      {
+        "id": "kilo-code",
+        "name": "Kilo Code",
+        "url": "https://kilocode.ai/",
+        "models": "未掲載",
+        "freeLimit": "現在値は未検証",
+        "creditCard": "未確認"
+      },
+      {
+        "id": "warp",
+        "name": "Warp",
+        "url": "https://warp.dev/",
+        "models": "Warp Agent、BYOK",
+        "freeLimit": "Free はクラウドAgent限定；10人以下の個人・企業のBYOKはWarpクレジット不要",
+        "creditCard": "未確認"
+      },
+      {
+        "id": "trae",
+        "name": "Trae",
+        "url": "https://trae.ai/",
+        "models": "未掲載",
+        "freeLimit": "現在値は未検証",
+        "creditCard": "未確認"
+      },
+      {
+        "id": "amazon-q-developer",
+        "name": "Amazon Q Developer",
+        "url": "https://aws.amazon.com/q/developer/",
+        "models": "最新 Claude モデル（AWS）",
+        "freeLimit": "月50エージェントリクエスト + Java 1,000 LOC",
+        "creditCard": "不要"
+      },
+      {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot/plans",
+        "models": "Haiku 4.5、GPT-5 mini など",
+        "freeLimit": "月2,000補完 + 50チャット；Agent/CLI限定",
+        "creditCard": "不要"
+      },
+      {
+        "id": "windsurf",
+        "name": "Windsurf",
+        "url": "https://windsurf.com/",
+        "models": "未掲載",
+        "freeLimit": "現在値は未検証",
+        "creditCard": "未確認"
+      },
+      {
+        "id": "jules",
+        "name": "Jules",
+        "url": "https://jules.google/",
+        "models": "Gemini 2.5 Pro",
+        "freeLimit": "直近24時間で15タスク；同時3件",
+        "creditCard": "不要"
+      },
+      {
+        "id": "aws-kiro",
+        "name": "AWS Kiro",
+        "url": "https://kiro.dev/",
+        "models": "Claude Sonnet 4.5 と open weight",
+        "freeLimit": "月50クレジット",
+        "creditCard": "不要"
+      },
+      {
+        "id": "qoder",
+        "name": "Qoder",
+        "url": "https://qoder.com/",
+        "models": "未掲載",
+        "freeLimit": "現在値は未検証",
+        "creditCard": "未確認"
+      }
     ]
   },
   "qualifyingModels": {
-    "title": "プロ級モデル（SWE-bench Verified >60%）",
-    "subtitle": "実務向けと認める基準。現在のリスト：",
+    "title": "プロ級モデル（選択した過去の値）",
+    "subtitle": "一次情報へのリンクを付けた選択済みの過去の値です。テスト条件が異なるため、現在の網羅的なランキングではありません。",
     "headers": {
       "model": "モデル",
       "score": "SWE-bench Verified",
       "provider": "提供"
     },
     "rows": [
-      { "model": "Claude Opus 4.5", "score": "80.9%", "provider": "Anthropic" },
-      { "model": "GPT-5.1-Codex-Max", "score": "77.9%", "provider": "OpenAI" },
-      { "model": "Claude Sonnet 4.5", "score": "77.2%（並列で82.0%）", "provider": "Anthropic" },
-      { "model": "Gemini 3 Pro", "score": "76.2%", "provider": "Google" },
-      { "model": "GPT-5", "score": "74.9%", "provider": "OpenAI" },
-      { "model": "Claude Opus 4.1", "score": "74.5%", "provider": "Anthropic" },
-      { "model": "Claude Sonnet 4", "score": "72.7%（並列で80.2%）", "provider": "Anthropic" },
-      { "model": "GPT-5 mini", "score": "71.0%", "provider": "OpenAI" },
-      { "model": "Qwen3-Coder-480B", "score": "69.6%（対話）/ 67.0%（単発）", "provider": "Alibaba" },
-      { "model": "Gemini 2.5 Pro", "score": "63.2%", "provider": "Google" }
+      {
+        "model": "[Claude Opus 4.5](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf)",
+        "score": "80.9%",
+        "provider": "Anthropic"
+      },
+      {
+        "model": "[Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5)",
+        "score": "77.2%",
+        "provider": "Anthropic"
+      },
+      {
+        "model": "[Qwen3-Coder-480B](https://qwenlm.github.io/blog/qwen3-coder/)",
+        "score": "69.6%",
+        "provider": "Alibaba"
+      }
     ]
   },
   "contributing": {
@@ -70,173 +166,226 @@
   "contents": {
     "title": "目次",
     "items": [
-      { "title": "1. プロ級モデルに無料アクセスできるAIコーディングツール", "anchor": "#1-プロ級モデルに無料アクセスできるaiコーディングツール" },
-      { "title": "2. AIコーディングツール向けAPIプロバイダ", "anchor": "#2-aicodingツール向けapiプロバイダ" },
-      { "title": "3. プロ級モデルの有料プランがあるツール", "anchor": "#3-プロ級モデルの有料プランがあるツール" },
-      { "title": "4. 基本モデルに無料アクセスできるツール", "anchor": "#4-基本モデルに無料アクセスできるツール" },
-      { "title": "5. ローカルモデル", "anchor": "#5-ローカルモデル" },
-      { "title": "比較ノート", "anchor": "#比較ノート" },
-      { "title": "関連リソース", "anchor": "#関連リソース" }
+      {
+        "title": "1. プロ級モデルに無料アクセスできるAIコーディングツール",
+        "anchor": "#1-プロ級モデルに無料アクセスできるaiコーディングツール"
+      },
+      {
+        "title": "2. AIコーディングツール向けAPIプロバイダ",
+        "anchor": "#2-aicodingツール向けapiプロバイダ"
+      },
+      {
+        "title": "3. プロ級モデルの有料プランがあるツール",
+        "anchor": "#3-プロ級モデルの有料プランがあるツール"
+      },
+      {
+        "title": "4. 基本モデルに無料アクセスできるツール",
+        "anchor": "#4-基本モデルに無料アクセスできるツール"
+      },
+      {
+        "title": "5. ローカルモデル",
+        "anchor": "#5-ローカルモデル"
+      },
+      {
+        "title": "比較ノート",
+        "anchor": "#比較ノート"
+      },
+      {
+        "title": "関連リソース",
+        "anchor": "#関連リソース"
+      }
     ]
   },
   "sections": [
     {
       "id": "free-pro",
       "title": "1. プロ級モデルに無料アクセスできるAIコーディングツール",
-      "note": "（最も太っ腹→控えめの順）",
+      "note": "_(上限の単位は異なるため、順序は目安であり同等容量のランキングではありません)_",
       "tools": [
         {
           "id": "qwen-code",
           "name": "Qwen Code",
           "url": "https://github.com/QwenLM/qwen-code",
-          "description": "**Qwen3-Coder-480B へのアクセス**",
+          "description": "**Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用**",
           "bullets": [
-            "無料枠：1日2,000リクエスト（Qwen OAuth）",
-            "60リクエスト/分のレートリミット",
-            "Gemini CLIベースのCLIワークフローツール",
-            "ワンクリックのブラウザ認証",
-            "クレカ不要"
+            "Qwen OAuthの無料枠は2026年4月15日に終了；Alibaba ModelStudioなど別の方法を利用",
+            "認証設定から Qwen など複数プロバイダを利用できる",
+            "ターミナル、IDE、デスクトップ、Web 対応のオープンソースエージェント"
           ],
           "links": [
-            { "label": "GitHub", "url": "https://github.com/QwenLM/qwen-code" },
-            { "label": "ドキュメント", "url": "https://github.com/QwenLM/qwen-code#readme" }
+            {
+              "label": "GitHub",
+              "url": "https://github.com/QwenLM/qwen-code"
+            },
+            {
+              "label": "Authentication",
+              "url": "https://github.com/QwenLM/qwen-code/blob/main/docs/users/configuration/auth.md"
+            }
           ]
         },
         {
           "id": "rovo-dev-cli",
           "name": "Rovo Dev CLI",
           "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
-          "description": "**ベータ期間の Claude Sonnet 4 アクセス**",
+          "description": "**Rovo Dev Free**",
           "bullets": [
-            "無料枠：5Mトークン/日（初日20M）",
-            "Claude Sonnet 4 モデル（テスト確認）",
-            "ベータ中クレカ不要",
-            "UTC真夜中にリセット",
-            "20Mトークン/日には Jira Standard/Premium/Enterprise へアップグレード"
+            "有料 Jira プランで無料：サイトごとにユーザー月350 Rovo Dev クレジット",
+            "月間クレジットを使い切ると停止",
+            "現在の請求ページは CLI の固定モデルを明記していない",
+            "無料アドオンにクレジットカードは不要"
           ],
           "links": [
-            { "label": "ドキュメント", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
-            { "label": "トークン上限", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" }
+            {
+              "label": "ドキュメント",
+              "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/"
+            },
+            {
+              "label": "トークン上限",
+              "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/"
+            }
           ]
         },
         {
           "id": "gemini-cli",
           "name": "Gemini CLI",
           "url": "https://github.com/google-gemini/gemini-cli",
-          "description": "**Gemini 3 Pro と Gemini 2.5 Pro へのアクセス**",
+          "description": "**個人向けGemini CLIはAntigravity CLIへ移行**",
           "bullets": [
-            "Gemini 3 Pro が 2025/12/4 に提供開始（Google AI Ultra 有料/API 有料）",
-            "Gemini 3 Pro: 76.2% SWE-bench Verified — Google の最上位コーディングモデル",
-            "無料 fallback: Gemini 2.5 Pro 100 req/日",
-            "Gemini 2.5 Flash 250 req/日",
-            "無料枠はクレカ不要",
-            "Gemini 3 Pro は Google AI Pro / Gemini Code Assist Standard / 無料ユーザーはウェイト",
-            "`/settings` → Preview features → true で有効化"
+            "2026年6月18日、Gemini CLIは個人およびGoogle AI Pro/Ultra向けの提供を終了",
+            "Antigravity CLIは全員に提供され、移行先となる",
+            "Standard/Enterprise組織のアクセスは変更なし；有料Gemini APIキーは利用可能",
+            "従来の個人Googleログインの1,000/日・60/分制限は終了"
           ],
           "links": [
-            { "label": "レート制限", "url": "https://ai.google.dev/gemini-api/docs/rate-limits" },
-            { "label": "価格", "url": "https://ai.google.dev/gemini-api/docs/pricing" },
-            { "label": "Gemini 3 Pro 発表", "url": "https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/" }
+            {
+              "label": "Transition announcement",
+              "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+            },
+            {
+              "label": "Documentation",
+              "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+            }
           ]
         },
         {
           "id": "kilo-code",
           "name": "Kilo Code",
           "url": "https://kilocode.ai/",
-          "description": "**Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1 アクセス**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "最大 $25 の登録ボーナス（1回限り）",
-            "オープンソースの VS Code 拡張",
-            "モデル価格に上乗せなしの従量課金",
-            "ボーナス取得にクレカ必要",
-            "自前の API キー持ち込み可"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "GitHub", "url": "https://github.com/Kilo-Org/kilocode" },
-            { "label": "ドキュメント", "url": "https://kilocode.ai/docs/" },
-            { "label": "価格", "url": "https://kilocode.ai/pricing" }
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Kilo-Org/kilocode"
+            },
+            {
+              "label": "ドキュメント",
+              "url": "https://kilocode.ai/docs/"
+            },
+            {
+              "label": "価格",
+              "url": "https://kilocode.ai/pricing"
+            }
           ]
         },
         {
           "id": "warp",
           "name": "Warp",
           "url": "https://warp.dev/",
-          "description": "**GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro アクセス**",
+          "description": "**Warp Agent と BYOK**",
           "bullets": [
-            "月150 AIクレジット（最初の2か月）、以降75/月",
-            "複数プロバイダ（OpenAI GPT‑5, Claude Opus 4.1, Claude Sonnet 4, Gemini 2.5 Pro）",
-            "基本登録はクレカ不要",
-            "2025/10/30 に単一 Build プラン ($20/月, 1,500 クレジット) を発表"
+            "Free：クラウドエージェントは限定利用で、上限到達後は停止",
+            "Build は月$20から、1,500クレジット（$20相当の利用）",
+            "10人以下の個人・企業ではBYOK/カスタム推論にWarpクレジットを使わない",
+            "消費量はモデル、コンテキスト、タスクで変わる"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.warp.dev/pricing" }
+            {
+              "label": "価格",
+              "url": "https://www.warp.dev/pricing"
+            }
           ]
         },
         {
           "id": "amazon-q-developer",
           "name": "Amazon Q Developer",
           "url": "https://aws.amazon.com/q/developer/",
-          "description": "**Claude Sonnet 4 アクセス**",
+          "description": "**Amazon Q Developer Free**",
           "bullets": [
-            "月50件のエージェントリクエスト（マルチターン）",
-            "最新の Claude モデル（AWS ホスト）",
-            "クレカ必須",
-            "継続利用には Pro へアップグレード",
-            "恒久的な無料枠"
+            "恒久無料：月50エージェントリクエスト、月1,000 Java LOC",
+            "IDE の無料枠は Builder ID、IAM はアカウント単位",
+            "Builder ID 無料利用にカード不要；Pro は AWS 請求が必要",
+            "Pro は月$19/ユーザーで上限が増える"
           ],
           "links": [
-            { "label": "価格", "url": "https://aws.amazon.com/q/developer/pricing/" }
+            {
+              "label": "価格",
+              "url": "https://aws.amazon.com/q/developer/pricing/"
+            }
           ]
         },
         {
           "id": "github-copilot",
           "name": "GitHub Copilot",
           "url": "https://github.com/features/copilot/plans",
-          "description": "**エージェントモード（GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）**",
+          "description": "**GitHub Copilot Free**",
           "bullets": [
-            "月50チャット + 2,000補完",
-            "自律的なマルチステップコーディング",
-            "複数プロバイダ（GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）",
-            "クレカ不要",
-            "枠超過後は基本機能のみ"
+            "月2,000補完と月50チャットリクエスト",
+            "Copilot CLI と限定的な Agent；Free のモデル選択は制限される",
+            "現在のプランページは Haiku 4.5、GPT-5 mini などを掲載",
+            "クレジットカード不要"
           ],
           "links": [
-            { "label": "プラン詳細", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
-            { "label": "エージェントモード", "url": "https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode" }
+            {
+              "label": "プラン詳細",
+              "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot"
+            },
+            {
+              "label": "エージェントモード",
+              "url": "https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode"
+            }
           ]
         },
         {
           "id": "trae",
           "name": "Trae",
           "url": "https://trae.ai/",
-          "description": "**Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, GPT‑4.1, GPT‑4o, Gemini 2.5 Pro アクセス**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "プレミアムモデルに高速10 + 低速50/月",
-            "アドバンスドモデルに低速1,000/月",
-            "オートコンプリート5,000/月",
-            "VS CodeベースのIDE + AI",
-            "Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, GPT‑4.1 など複数プレミアムモデル",
-            "無料枠はクレカ不要",
-            "Pro: $10/月（高速600 + 低速無制限）"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://trae.ai/pricing" },
-            { "label": "ドキュメント", "url": "https://docs.trae.ai/ide/billing" }
+            {
+              "label": "価格",
+              "url": "https://trae.ai/pricing"
+            },
+            {
+              "label": "ドキュメント",
+              "url": "https://docs.trae.ai/ide/billing"
+            }
           ]
         },
         {
           "id": "windsurf",
           "name": "Windsurf",
           "url": "https://windsurf.com/",
-          "description": "**OpenAI, Anthropic, Google, xAI モデル**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "月25プロンプトクレジット",
-            "OpenAI/Claude/Gemini/xAI を含む",
-            "クレカ必須",
-            "追加クレジット購入可"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://windsurf.com/pricing" }
+            {
+              "label": "価格",
+              "url": "https://windsurf.com/pricing"
+            }
           ]
         },
         {
@@ -245,7 +394,7 @@
           "url": "https://jules.google/",
           "description": "**Gemini 2.5 Pro アクセス**",
           "bullets": [
-            "無料枠：1日15タスク",
+            "無料：直近24時間で15タスク、同時3タスク",
             "同時3タスク",
             "モデル：Gemini 2.5 Pro",
             "Gmail アカウント必須（18+）",
@@ -254,45 +403,57 @@
             "Pro ($19.99/月): 100タスク/日（5倍）"
           ],
           "links": [
-            { "label": "使用制限", "url": "https://jules.google/docs/usage-limits/" },
-            { "label": "ドキュメント", "url": "https://jules.google/docs/" }
+            {
+              "label": "使用制限",
+              "url": "https://jules.google/docs/usage-limits/"
+            },
+            {
+              "label": "ドキュメント",
+              "url": "https://jules.google/docs/"
+            }
           ]
         },
         {
           "id": "aws-kiro",
           "name": "AWS Kiro",
           "url": "https://kiro.dev/",
-          "description": "**Claude 4 Sonnet, Claude 3.7 Sonnet へのアクセス**",
+          "description": "**AWS Kiro Free**",
           "bullets": [
-            "月50クレジット（無料枠）",
-            "Claude 4 Sonnet / Claude 3.7 Sonnet（AWSホスト）",
-            "クレカ不要",
-            "14日ウェルカムボーナス：500クレジット",
-            "有料: Pro ($20/月 - 1,000), Pro+ ($40/月 - 2,000), Power ($200/月 - 10,000)"
+            "恒久無料：月50クレジット",
+            "ソーシャルログインまたは Builder ID で Claude Sonnet 4.5 と open-weight モデル（制限あり）",
+            "Pro 月$20: 1,000、Pro+ $40: 2,000、Pro Max $100: 5,000、Power $200: 10,000",
+            "有料プランにはカードが必要"
           ],
           "links": [
-            { "label": "価格", "url": "https://kiro.dev/pricing/" },
-            { "label": "紹介ブログ", "url": "https://kiro.dev/blog/introducing-kiro/" }
+            {
+              "label": "価格",
+              "url": "https://kiro.dev/pricing/"
+            },
+            {
+              "label": "紹介ブログ",
+              "url": "https://kiro.dev/blog/introducing-kiro/"
+            }
           ]
         },
         {
           "id": "qoder",
           "name": "Qoder",
           "url": "https://qoder.com/",
-          "description": "**Qwen3-Coder-480B, Claude, GPT, Gemini モデル**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "無料: 無制限コンプ/編集 + 限定チャット/エージェント + 2週間 Pro トライアル (1,000)",
-            "Alibaba の AI IDE",
-            "Windows / macOS 対応",
-            "主に Qwen3-Coder-480B（旗艦コーディングモデル）",
-            "Claude, GPT-4, Gemini もサポート",
-            "Agent モード & Quest モードで自律コーディング",
-            "無料枠クレカ不要",
-            "有料: Pro ($20/月 - 2,000), Pro+ ($60/月 - 6,000)"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "サイト", "url": "https://qoder.com/" },
-            { "label": "価格", "url": "https://qoder.com/pricing" }
+            {
+              "label": "サイト",
+              "url": "https://qoder.com/"
+            },
+            {
+              "label": "価格",
+              "url": "https://qoder.com/pricing"
+            }
           ]
         }
       ],
@@ -318,28 +479,39 @@
             "Continue.dev, Cline, Cursor などで動作"
           ],
           "links": [
-            { "label": "無料モデル", "url": "https://openrouter.ai/models/?q=free" },
-            { "label": "Qwen3-Coder API", "url": "https://openrouter.ai/qwen/qwen3-coder:free/api" }
+            {
+              "label": "無料モデル",
+              "url": "https://openrouter.ai/models/?q=free"
+            },
+            {
+              "label": "Qwen3-Coder API",
+              "url": "https://openrouter.ai/qwen/qwen3-coder:free/api"
+            }
           ]
         },
         {
           "id": "cerebras",
           "name": "Cerebras",
           "url": "https://cloud.cerebras.ai/",
-          "description": "**Qwen3-235B / Llama 3.1 へのアクセス**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "無料: 1M tokens/日",
-            "クレカ不要",
-            "30 req/分, コンテキスト 8,192 トークン",
-            "モデル: Qwen3-235B, Llama 3.1 70B（注: Qwen3-Coder-480B は 2025/11/5 廃止）",
-            "OpenAI 互換（Cursor, Continue.dev, Cline, RooCode などで使用可）",
-            "超高速推論: 2,000 tokens/秒（一般より40倍速）",
-            "**有料:** Developer ($10+ self-serve), Enterprise (カスタム)"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.cerebras.ai/pricing" },
-            { "label": "APIドキュメント", "url": "https://inference-docs.cerebras.ai/" },
-            { "label": "統合ガイド", "url": "https://inference-docs.cerebras.ai/integrations/" }
+            {
+              "label": "価格",
+              "url": "https://www.cerebras.ai/pricing"
+            },
+            {
+              "label": "APIドキュメント",
+              "url": "https://inference-docs.cerebras.ai/"
+            },
+            {
+              "label": "統合ガイド",
+              "url": "https://inference-docs.cerebras.ai/integrations/"
+            }
           ]
         }
       ]
@@ -352,18 +524,27 @@
           "id": "rovo-dev-cli-paid",
           "name": "Rovo Dev CLI",
           "url": "https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface",
-          "description": "**Jira Standard ($7.53/ユーザー/月):** 1日20Mトークン",
+          "description": "**Rovo Dev Free**",
           "bullets": [
-            "**Jira Premium ($15.25/ユーザー/月):** 20M/日",
-            "**Jira Enterprise (カスタム):** 20M/日",
-            "無料枠の4倍（5M→20M/日）",
-            "無料枠と同じClaude系モデル",
-            "UTC真夜中リセット"
+            "有料 Jira プランで無料：サイトごとにユーザー月350 Rovo Dev クレジット",
+            "月間クレジットを使い切ると停止",
+            "現在の請求ページは CLI の固定モデルを明記していない",
+            "無料アドオンにクレジットカードは不要",
+            "Standard：月$20、ユーザー月2,000クレジット"
           ],
           "links": [
-            { "label": "ドキュメント", "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/" },
-            { "label": "トークン上限", "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/" },
-            { "label": "Jira価格", "url": "https://www.atlassian.com/software/jira/pricing" }
+            {
+              "label": "ドキュメント",
+              "url": "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/"
+            },
+            {
+              "label": "トークン上限",
+              "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits/"
+            },
+            {
+              "label": "Jira価格",
+              "url": "https://www.atlassian.com/software/jira/pricing"
+            }
           ]
         },
         {
@@ -381,185 +562,223 @@
             "Opus 4.5, Sonnet 4.5, Haiku 4.5対応"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.anthropic.com/pricing" },
-            { "label": "Claude Codeガイド", "url": "https://docs.anthropic.com/en/docs/claude-code" }
+            {
+              "label": "価格",
+              "url": "https://www.anthropic.com/pricing"
+            },
+            {
+              "label": "Claude Codeガイド",
+              "url": "https://docs.anthropic.com/en/docs/claude-code"
+            }
           ]
         },
         {
           "id": "amazon-q-developer-paid",
           "name": "Amazon Q Developer",
           "url": "https://aws.amazon.com/q/developer/",
-          "description": "**Pro ($19/月):** エージェントリクエストの上限アップ",
+          "description": "**Amazon Q Developer Free**",
           "bullets": [
-            "地域・利用状況に応じ調整の可能性"
+            "恒久無料：月50エージェントリクエスト、月1,000 Java LOC",
+            "IDE の無料枠は Builder ID、IAM はアカウント単位",
+            "Builder ID 無料利用にカード不要；Pro は AWS 請求が必要",
+            "Pro は月$19/ユーザーで上限が増える"
           ],
           "links": [
-            { "label": "価格", "url": "https://aws.amazon.com/q/developer/pricing/" }
+            {
+              "label": "価格",
+              "url": "https://aws.amazon.com/q/developer/pricing/"
+            }
           ]
         },
         {
           "id": "warp-paid",
           "name": "Warp",
           "url": "https://warp.dev/",
-          "description": "**Build ($20/月):** 1,500 AIクレジット/月",
+          "description": "**Warp Agent と BYOK**",
           "bullets": [
-            "リロードクレジット（旧オーバーレートより最大50%安、12ヶ月繰越）",
-            "BYOKオプションあり",
-            "新価格は2025/10/30 新規顧客から有効",
-            "既存月額は2025/12/1以降の更新時に移行",
-            "エンタープライズ：カスタム"
+            "Free：クラウドエージェントは限定利用で、上限到達後は停止",
+            "Build は月$20から、1,500クレジット（$20相当の利用）",
+            "10人以下の個人・企業ではBYOK/カスタム推論にWarpクレジットを使わない",
+            "消費量はモデル、コンテキスト、タスクで変わる"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.warp.dev/pricing" }
+            {
+              "label": "価格",
+              "url": "https://www.warp.dev/pricing"
+            }
           ]
         },
         {
           "id": "github-copilot-paid",
           "name": "GitHub Copilot",
           "url": "https://github.com/features/copilot/plans",
-          "description": "**Pro ($10/月):** 高度リクエスト300 + 無制限補完/月",
+          "description": "**GitHub Copilot Free**",
           "bullets": [
-            "**Pro+ ($39/月):** 高度1,500 + 無制限補完/月",
-            "**Business ($19/ユーザー/月):** 高度300 + 無制限補完/ユーザー/月",
-            "**Enterprise ($39/ユーザー/月):** 高度1,000 + 無制限補完/ユーザー/月",
-            "**GPT-5.1-Codex-Max** 公開プレビュー（2025/12/4）Pro/Pro+/Business/Enterpriseで利用可",
-            "複数モデル（GPT-5.1-Codex-Max, GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1）",
-            "超過は $0.04/リクエスト"
+            "月2,000補完と月50チャットリクエスト",
+            "Copilot CLI と限定的な Agent；Free のモデル選択は制限される",
+            "現在のプランページは Haiku 4.5、GPT-5 mini などを掲載",
+            "クレジットカード不要"
           ],
           "links": [
-            { "label": "プラン詳細", "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot" },
-            { "label": "GPT-5.1-Codex-Maxプレビュー", "url": "https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/" }
+            {
+              "label": "プラン詳細",
+              "url": "https://docs.github.com/en/copilot/get-started/plans-for-github-copilot"
+            },
+            {
+              "label": "GPT-5.1-Codex-Maxプレビュー",
+              "url": "https://github.blog/changelog/2025-12-04-openais-gpt-5-1-codex-max-is-now-in-public-preview-for-github-copilot/"
+            }
           ]
         },
         {
           "id": "trae-paid",
           "name": "Trae",
           "url": "https://trae.ai/",
-          "description": "**Pro ($10/月):** 高速600 + 低速無制限（プレミアムモデル）",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "進階モデルの低速は無制限",
-            "レート制限なしで高速アクセス",
-            "追加パック $3-$12 で高速枠を追加",
-            "プレミアム: Claude 4 Sonnet (Beta), Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.5 Pro, GPT‑4.1, GPT‑4o",
-            "VS Code ベースの IDE、フルAI統合",
-            "初月 $3"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://trae.ai/pricing" },
-            { "label": "ドキュメント", "url": "https://docs.trae.ai/ide/billing" }
+            {
+              "label": "価格",
+              "url": "https://trae.ai/pricing"
+            },
+            {
+              "label": "ドキュメント",
+              "url": "https://docs.trae.ai/ide/billing"
+            }
           ]
         },
         {
           "id": "windsurf-paid",
           "name": "Windsurf",
           "url": "https://windsurf.com/",
-          "description": "**Pro ($15/月):** プロンプト500/月",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "**Teams ($30/ユーザー/月):** 500 プロンプト/ユーザー/月",
-            "**Enterprise ($60+/ユーザー/月):** 1,000 プロンプト/ユーザー/月"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://windsurf.com/pricing" }
+            {
+              "label": "価格",
+              "url": "https://windsurf.com/pricing"
+            }
           ]
         },
         {
           "id": "lovable",
           "name": "Lovable",
           "url": "https://lovable.dev/",
-          "description": "**Pro ($25/月):** 月150クレジット（1日5）",
+          "description": "**Lovableは現在クレジット制**",
           "bullets": [
-            "**Teams ($30/月):** 上限拡大（非公開）"
+            "Freeは毎日5ビルドクレジット（月30まで）、月20 Cloudクレジット、月4 AIクレジットを含む",
+            "クレジットとgrantの有効期限は異なるため公式料金ページを確認"
           ],
           "links": [
-            { "label": "メッセージ上限", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+            {
+              "label": "Pricing",
+              "url": "https://lovable.dev/pricing"
+            }
           ]
         },
         {
           "id": "bolt-new-paid",
           "name": "Bolt.new",
           "url": "https://bolt.new/",
-          "description": "**$20/月:** 月1,000万トークン",
+          "description": "**Freeは1日300K、月1Mトークンまで**",
           "bullets": [
-            "**$200/月:** 月1億2,000万トークン"
+            "Proは月25ドルから10Mトークン/月、Teamsは月30ドル/メンバーから",
+            "有料トークンは契約継続中なら1か月繰り越し"
           ],
           "links": [
-            { "label": "トークンドキュメント", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+            {
+              "label": "Pricing",
+              "url": "https://bolt.new/pricing"
+            },
+            {
+              "label": "Token documentation",
+              "url": "https://support.bolt.new/faqs/account-and-subscription/tokens"
+            }
           ]
         },
         {
           "id": "cursor-paid",
           "name": "Cursor",
           "url": "https://cursor.com/",
-          "description": "**Hobby（無料）:** 限定エージェント + 限定Tab補完 + 1週間Proトライアル",
+          "description": "**Cursor Free と有料プラン**",
           "bullets": [
-            "**Pro ($20/月 または $16/月 年払い):** エージェント上限拡大 + 無制限Tab補完 + バックグラウンドAgent + 最大コンテキスト",
-            "**Pro+ ($60/月):** OpenAI/Claude/Gemini すべて 3倍使用",
-            "**Ultra ($200/月):** すべて20倍 + 新機能優先",
-            "**Teams ($40/ユーザー/月):** Pro機能 + 集中課金 + 利用分析 + SAML/OIDC SSO",
-            "**Enterprise (カスタム):** Teams + 共同プール + SCIM + AIコード追跡API + 監査ログ",
-            "**GPT-5.1-Codex-Max が 2025/12/11 まで全ユーザー無料**（77.9% SWE-bench）",
-            "1週間のProトライアル（無料枠）",
-            "無料枠はリクエスト単位でなくトークン課金へ移行",
-            "無料モデル: Cursor Small, Deepseek v3, Gemini 2.5 Flash, GPT-4o mini (500/日), Grok 3 Mini Beta",
-            "有料枠: OpenAI, Claude, Gemini など GPT-5.1-Codex-Max を含む",
-            "注: 2025年6月頃に無料枠から Claude モデルが除外",
-            "自律型コーディング対応のAIコードエディタ"
+            "Hobby は無料・カード不要、Agent 制限と Composer アクセス",
+            "Pro $20/月、Pro+ $60、Ultra $200、Teams Standard $40/ユーザー/月",
+            "GPT-5.1-Codex-Max の2025年12月11日まで無料のキャンペーンは終了・削除",
+            "使用量とモデルはプランに依存"
           ],
           "links": [
-            { "label": "価格", "url": "https://cursor.com/en/pricing" },
-            { "label": "GPT-5.1-Codex-Max アナウンス", "url": "https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277" }
+            {
+              "label": "価格",
+              "url": "https://cursor.com/en/pricing"
+            },
+            {
+              "label": "GPT-5.1-Codex-Max アナウンス",
+              "url": "https://forum.cursor.com/t/gpt-5-1-codex-max-available-in-cursor/145277"
+            }
           ]
         },
         {
           "id": "openai-codex-cli",
           "name": "OpenAI Codex CLI",
           "url": "https://github.com/openai/codex",
-          "description": "**ChatGPT Plus ($20/月) で無料:** コーディング用 5時間あたり 30–150 メッセージ",
+          "description": "**Codex のプランと API 課金**",
           "bullets": [
-            "**ChatGPT Pro ($200/月):** 5時間あたり 300–1,500 メッセージ — 最高枠",
-            "**従量課金 API:** GPT-5.1-Codex-Max $1.25/$10 per 1M tokens (入/出力)",
-            "**無料 OSS モード:** オープンソースモデルのみ (--oss)",
-            "**GPT-5.1-Codex-Max** (2025/11/19): 77.9% SWE-bench — デフォルトモデル",
-            "マルチミリオン・トークンのセッション向け初の “compaction” 対応",
-            "前世代より思考トークンを30%削減",
-            "GitHub Copilot (Pro/Pro+/Business/Enterprise) でも利用可",
-            "Windows サポートあり",
-            "マルチプラットフォーム：macOS 12+, Ubuntu 20.04+, Windows 11 (WSL2)"
+            "Codex は Free（$0）、Go（月$8）、Plus（月$20）、Pro（月$100から）、Business（年払い月$20/ユーザーまたは月払い$25）、Edu、Enterprise に含まれる",
+            "APIキーはモデル別に課金；ローカルとクラウドはプラン枠を共有する",
+            "上限はタスクの複雑さで変わるため公式料金を確認"
           ],
           "links": [
-            { "label": "GitHub リポジトリ", "url": "https://github.com/openai/codex" },
-            { "label": "GPT-5.1-Codex-Max アナウンス", "url": "https://openai.com/index/gpt-5-1-codex-max/" }
+            {
+              "label": "Pricing",
+              "url": "https://developers.openai.com/codex/pricing/"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/openai/codex"
+            }
           ]
         },
         {
           "id": "codeium-paid",
           "name": "Codeium",
           "url": "https://codeium.com/",
-          "description": "**Pro ($10/月):** 高度なコンテキスト認識で無制限利用",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "Claude 3.5 Sonnet, GPT-4o にアクセス",
-            "拡張コンテキストウィンドウとパーソナライズ",
-            "**Teams ($12/ユーザー/月):** Pro機能 + チーム管理",
-            "**Enterprise (カスタム):** オンプレ展開・カスタムモデル"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://codeium.com/pricing" }
+            {
+              "label": "価格",
+              "url": "https://codeium.com/pricing"
+            }
           ]
         },
         {
           "id": "tabnine-paid",
           "name": "Tabnine",
           "url": "https://www.tabnine.com/",
-          "description": "**Pro ($12/月):** 高度なAI補完とチャット",
+          "description": "**Tabnine の現行有料プラン**",
           "bullets": [
-            "**Enterprise ($39/ユーザー/月):** 複数LLM、プライベート展開",
-            "モデル: Claude 3.5 Sonnet, GPT-4o, Llama 3.3 70B, 自社モデル",
-            "600+言語サポート",
-            "オンプレ/エアギャップ展開オプション",
-            "独自のファインチューニングモデル持ち込み可"
+            "Code Assistant：年払い月$39/ユーザー；Agentic Platform：年払い月$59/ユーザー",
+            "現行料金ページに無料枠の案内はない",
+            "自社 LLM の on-prem/cloud 利用は Tabnine 側では無制限；Tabnine LLM はプロバイダ料金＋5%"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.tabnine.com/pricing/" }
+            {
+              "label": "Pricing",
+              "url": "https://www.tabnine.com/pricing/"
+            }
           ]
         },
         {
@@ -575,7 +794,10 @@
             "Ollama/LM Studio 経由でローカルモデル利用"
           ],
           "links": [
-            { "label": "AI 価格", "url": "https://www.jetbrains.com/ai-ides/buy/" }
+            {
+              "label": "AI 価格",
+              "url": "https://www.jetbrains.com/ai-ides/buy/"
+            }
           ]
         },
         {
@@ -584,7 +806,7 @@
           "url": "https://jules.google/",
           "description": "**Pro ($19.99/月, Google AI Pro):** 1日100タスク",
           "bullets": [
-            "無料枠の5倍（15→100タスク/日）",
+            "Google AI Pro の Jules Pro：直近24時間で100タスク、同時15タスク",
             "同時5倍（3→15）",
             "最新モデルへのアクセス増",
             "**Ultra (Google AI Ultra):** 1日300タスク",
@@ -594,8 +816,14 @@
             "Gmail アカウント必須 (18+)"
           ],
           "links": [
-            { "label": "使用制限", "url": "https://jules.google/docs/usage-limits/" },
-            { "label": "Google AI プラン", "url": "https://one.google.com/about/google-ai-plans/" }
+            {
+              "label": "使用制限",
+              "url": "https://jules.google/docs/usage-limits/"
+            },
+            {
+              "label": "Google AI プラン",
+              "url": "https://one.google.com/about/google-ai-plans/"
+            }
           ]
         },
         {
@@ -610,7 +838,10 @@
             "注: 2024/11 Cursor IDE と統合"
           ],
           "links": [
-            { "label": "価格", "url": "https://supermaven.com/pricing" }
+            {
+              "label": "価格",
+              "url": "https://supermaven.com/pricing"
+            }
           ]
         }
       ],
@@ -625,77 +856,90 @@
           "id": "bolt-new-basic",
           "name": "Bolt.new",
           "url": "https://bolt.new/",
-          "description": "**未特定のモデル**",
+          "description": "**Freeは1日300K、月1Mトークンまで**",
           "bullets": [
-            "月100万トークン上限",
-            "具体的モデルは非公開",
-            "クレカ必須"
+            "Proは月25ドルから10Mトークン/月、Teamsは月30ドル/メンバーから",
+            "有料トークンは契約継続中なら1か月繰り越し"
           ],
           "links": [
-            { "label": "トークンドキュメント", "url": "https://support.bolt.new/account-and-subscription/tokens" }
+            {
+              "label": "Pricing",
+              "url": "https://bolt.new/pricing"
+            },
+            {
+              "label": "Token documentation",
+              "url": "https://support.bolt.new/faqs/account-and-subscription/tokens"
+            }
           ]
         },
         {
           "id": "lovable-basic",
           "name": "Lovable",
           "url": "https://lovable.dev/",
-          "description": "**未特定のモデル**",
+          "description": "**Lovableは現在クレジット制**",
           "bullets": [
-            "1日5クレジット、月最大30（無料）",
-            "モデルの公開リストなし",
-            "クレカ必須"
+            "Freeは毎日5ビルドクレジット（月30まで）、月20 Cloudクレジット、月4 AIクレジットを含む",
+            "クレジットとgrantの有効期限は異なるため公式料金ページを確認"
           ],
           "links": [
-            { "label": "メッセージ上限", "url": "https://docs.lovable.dev/user-guides/messaging-limits" }
+            {
+              "label": "Pricing",
+              "url": "https://lovable.dev/pricing"
+            }
           ]
         },
         {
           "id": "v0",
           "name": "v0.dev",
           "url": "https://v0.dev/",
-          "description": "**プロプライエタリ（非フロンティア）モデル**",
+          "description": "**Freeは月5ドル分のクレジットと1日7メッセージ**",
           "bullets": [
-            "GPT-5 利用は v0 Premium が必要",
-            "$5/月 のクレジット上限",
-            "プロプライエタリモデルでルーティング多様",
-            "クレカ必須"
+            "Plusは月30ドル/ユーザーで30ドル分、Businessは月100ドル/ユーザー",
+            "入出力トークンをクレジットに換算して使用量を計測"
           ],
           "links": [
-            { "label": "価格改定ブログ", "url": "https://vercel.com/blog/improved-v0-pricing-5luSrdRUJsRvf1kXWoYGxh" }
+            {
+              "label": "Pricing",
+              "url": "https://api2.v0.dev/pricing"
+            }
           ]
         },
         {
           "id": "codeium-basic",
           "name": "Codeium",
           "url": "https://codeium.com/",
-          "description": "**基本AIコーディング支援の無料無制限利用**",
+          "description": "**現在の価格・上限は未検証**",
           "bullets": [
-            "個人プラン: コード補完/AIチャット/コマンド無制限で永年無料",
-            "70+ 言語サポート",
-            "IDE: VS Code, JetBrains, Vim/Neovim, Jupyter",
-            "クレカ不要",
-            "コンテキスト理解は限定（有料で拡張）",
-            "ベースモデルのみ（Llama 3.1 70B）、プロ級はサブスク必要"
+            "確認できる公式ページに安定した上限・価格表がない",
+            "過去の正確な数値を現在の情報として掲載しない",
+            "利用前にリンク先の公式ページを確認"
           ],
           "links": [
-            { "label": "価格", "url": "https://codeium.com/pricing" },
-            { "label": "ドキュメント", "url": "https://codeium.com/docs" }
+            {
+              "label": "価格",
+              "url": "https://codeium.com/pricing"
+            },
+            {
+              "label": "ドキュメント",
+              "url": "https://codeium.com/docs"
+            }
           ]
         },
         {
           "id": "tabnine-basic",
           "name": "Tabnine",
           "url": "https://www.tabnine.com/",
-          "description": "**無料層（機能限定）**",
+          "description": "**Tabnine の現行有料プラン**",
           "bullets": [
-            "基本的なAI補完とチャット（制限あり）",
-            "ローカル処理対応",
-            "無料層はコンテキストが大幅制限",
-            "リソース節約のため性能低め",
-            "600+ 言語に対応"
+            "Code Assistant：年払い月$39/ユーザー；Agentic Platform：年払い月$59/ユーザー",
+            "現行料金ページに無料枠の案内はない",
+            "自社 LLM の on-prem/cloud 利用は Tabnine 側では無制限；Tabnine LLM はプロバイダ料金＋5%"
           ],
           "links": [
-            { "label": "価格", "url": "https://www.tabnine.com/pricing/" }
+            {
+              "label": "Pricing",
+              "url": "https://www.tabnine.com/pricing/"
+            }
           ]
         },
         {
@@ -710,7 +954,10 @@
             "ローカルモデルでチャット/コード生成/コミットメッセージ"
           ],
           "links": [
-            { "label": "AI機能", "url": "https://www.jetbrains.com/ai-assistant/" }
+            {
+              "label": "AI機能",
+              "url": "https://www.jetbrains.com/ai-assistant/"
+            }
           ]
         },
         {
@@ -725,7 +972,10 @@
             "1M トークンのコンテキスト（無料としては大きい）"
           ],
           "links": [
-            { "label": "価格", "url": "https://supermaven.com/pricing" }
+            {
+              "label": "価格",
+              "url": "https://supermaven.com/pricing"
+            }
           ]
         },
         {
@@ -742,8 +992,14 @@
             "ローカルモデルに使用制限やロックインなし"
           ],
           "links": [
-            { "label": "GitHub", "url": "https://github.com/continuedev/continue" },
-            { "label": "Model Hub", "url": "https://hub.continue.dev/explore/models" }
+            {
+              "label": "GitHub",
+              "url": "https://github.com/continuedev/continue"
+            },
+            {
+              "label": "Model Hub",
+              "url": "https://hub.continue.dev/explore/models"
+            }
           ]
         }
       ],
@@ -763,16 +1019,26 @@
     "title": "比較ノート",
     "items": [
       "**目的**: プロ級モデルへのアクセスと無料枠でツールを比較。",
-      "**プロ級の基準**: SWE-bench Verified ≥60%。現行: Claude Opus 4.5 (80.9%), GPT-5.1-Codex-Max (77.9%), Claude Sonnet 4.5 (77.2%), Gemini 3 Pro (76.2%), GPT-5 (74.9%), Claude Opus 4.1 (74.5%), Claude Sonnet 4 (72.7%), GPT-5 mini (71.0%), Qwen3-Coder-480B (69.6%), Gemini 2.5 Pro (63.2%)。",
       "**上限タイプの違い**: リクエスト/トークン/クレジット/チャットで異なり直接比較は困難。ドキュメント確認を。",
-      "**実利用**: コーディングスタイル・タスク複雑度・ツール実装で大きく変動。"
+      "**実利用**: コーディングスタイル・タスク複雑度・ツール実装で大きく変動。",
+      "確認できる公式ページに安定した上限・価格表がない",
+      "確認できる公式ページに安定した上限・価格表がない",
+      "**比較可能性:** SWE-bench の値は異なる条件で報告されています。並列・インタラクティブ・単一実行は直接比較できません。クレジット、トークン、リクエスト、チャット、タスクを一つの優劣ランキングに換算しないでください。"
     ]
   },
   "relatedResources": {
     "title": "関連リソース",
     "items": [
-      { "label": "Coding with AI", "url": "https://coding-with-ai.dev/", "description": "LLMでのコーディングに役立つ実践的テクニック" },
-      { "label": "Free LLM API Resources", "url": "https://github.com/cheahjs/free-llm-api-resources", "description": "自作統合向けの無料LLM API集" }
+      {
+        "label": "Coding with AI",
+        "url": "https://coding-with-ai.dev/",
+        "description": "LLMでのコーディングに役立つ実践的テクニック"
+      },
+      {
+        "label": "Free LLM API Resources",
+        "url": "https://github.com/cheahjs/free-llm-api-resources",
+        "description": "自作統合向けの無料LLM API集"
+      }
     ]
   }
 }
