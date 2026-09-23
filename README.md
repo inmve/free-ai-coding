@@ -8,7 +8,7 @@ For reset notifications: **Watch → Custom → Releases**.
 
 ### Codex / OpenAI
 
-Reset expected **2026-09-22** · [announcement](https://x.com/thsottiaux/status/2102254445082116335)
+Banked reset announced **Sep 22** for Plus, Pro and Business users · [announcement](https://x.com/thsottiaux/status/2102463847714247142)
 
 ### Grok Bot / xAI
 
